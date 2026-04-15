@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monte Carlo Cathedral — Architecture</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a0f;
+    color: #e0e0e0;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 48px;
+  }
+  .pipeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  /* Source block (Cala) */
+  .source {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+    padding: 20px 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .source .label { font-size: 18px; font-weight: 700; color: #7c8aff; }
+  .source .desc { font-size: 11px; color: #555; margin-top: 4px; }
+
+  /* Arrow */
+  .arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0;
+    color: #333;
+  }
+  .arrow .line {
+    width: 2px;
+    height: 24px;
+    background: #333;
+  }
+  .arrow .head {
+    font-size: 14px;
+    line-height: 1;
+  }
+  .arrow .tag {
+    font-size: 10px;
+    color: #555;
+    margin-top: 2px;
+  }
+
+  /* Stage */
+  .stage {
+    width: 100%;
+    border: 1px solid #1a1a2a;
+    border-radius: 16px;
+    padding: 28px 32px;
+    position: relative;
+    background: #0d0d14;
+  }
+  .stage-number {
+    position: absolute;
+    top: -12px;
+    left: 24px;
+    background: #0a0a0f;
+    padding: 0 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .stage-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .stage-desc {
+    font-size: 12px;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  /* Agent grid */
+  .agents {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .agent {
+    background: #111122;
+    border: 1px solid #222244;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    text-align: center;
+    min-width: 120px;
+  }
+  .agent .name { color: #8b9cf7; font-weight: 600; }
+  .agent .detail { color: #555; font-size: 10px; margin-top: 3px; }
+
+  /* Hypothesis card */
+  .hypothesis-example {
+    background: #0f0f1a;
+    border: 1px solid #1e1e3a;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #888;
+    margin-top: 12px;
+    max-width: 500px;
+  }
+  .hypothesis-example .key { color: #7c8aff; }
+  .hypothesis-example .val { color: #a8d8a8; }
+  .hypothesis-example .val-neg { color: #f08080; }
+
+  /* DAG visual */
+  .dag-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+  }
+  .dag-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .dag-node {
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .dag-node.root {
+    background: #2a1a1a;
+    border: 1px solid #4a2a2a;
+    color: #f08080;
+  }
+  .dag-node.mid {
+    background: #1a2a1a;
+    border: 1px solid #2a4a2a;
+    color: #a8d8a8;
+  }
+  .dag-node.leaf {
+    background: #1a1a2e;
+    border: 1px solid #2a2a5e;
+    color: #8b9cf7;
+  }
+  .dag-edges {
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 6px;
+  }
+  .dag-label {
+    font-size: 10px;
+    color: #444;
+  }
+
+  /* MC visual */
+  .mc-visual {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 60px;
+    margin-top: 12px;
+    justify-content: center;
+  }
+  .mc-bar {
+    width: 8px;
+    background: linear-gradient(to top, #2a2a5e, #5a5aaf);
+    border-radius: 2px 2px 0 0;
+    opacity: 0.7;
+  }
+
+  /* Output block */
+  .output {
+    background: linear-gradient(135deg, #1a2e1a, #162e16);
+    border: 1px solid #2a4a2a;
+    border-radius: 12px;
+    padding: 20px 32px;
+    text-align: center;
+    width: 320px;
+  }
+  .output .label { font-size: 16px; font-weight: 700; color: #6fcf6f; }
+  .output .desc { font-size: 11px; color: #555; margin-top: 4px; }
+
+  /* Color coding legend */
+  .legend {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    padding: 16px 24px;
+    border: 1px solid #1a1a2a;
+    border-radius: 8px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: #666;
+  }
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  /* Colors per stage */
+  .s1 .stage-number { color: #8b9cf7; }
+  .s1 .stage-title { color: #8b9cf7; }
+  .s1 { border-color: #1a1a3a; }
+
+  .s2 .stage-number { color: #f0c070; }
+  .s2 .stage-title { color: #f0c070; }
+  .s2 { border-color: #2a2a1a; }
+
+  .s3 .stage-number { color: #c07af0; }
+  .s3 .stage-title { color: #c07af0; }
+  .s3 { border-color: #2a1a3a; }
+
+  .s4 .stage-number { color: #6fcf6f; }
+  .s4 .stage-title { color: #6fcf6f; }
+  .s4 { border-color: #1a2a1a; }
+
+  /* Who does what */
+  .who {
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+  .who.llm { background: #1a1a30; color: #8b9cf7; border: 1px solid #2a2a50; }
+  .who.code { background: #1a2a1a; color: #6fcf6f; border: 1px solid #2a4a2a; }
+  .who.math { background: #2a1a2a; color: #c07af0; border: 1px solid #3a2a4a; }
+
+  .io-label {
+    font-size: 10px;
+    color: #444;
+    text-align: center;
+    padding: 2px 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Monte Carlo Cathedral</h1>
+<p class="subtitle">Abrollo &mdash; Cala AI Challenge &mdash; April 2026</p>
+
+<div class="pipeline">
+
+  <!-- SOURCE: CALA -->
+  <div class="source">
+    <div class="label">Cala API</div>
+    <div class="desc">Datos verificados de empresas NASDAQ: estructura, financials, personas, relaciones</div>
+  </div>
+
+  <div class="arrow">
+    <div class="line"></div>
+    <div class="head">&#9660;</div>
+    <div class="tag">entity_search, retrieve_entity, knowledge_search</div>
+  </div>
+
+  <!-- STAGE 1: AGENT SWARM -->
+  <div class="stage s1">
+    <div class="stage-number">Stage 1</div>
+    <div class="stage-title">Agent Swarm</div>
+    <div class="stage-desc">
+      5 agentes LLM en paralelo. Cada uno investiga un sector via Cala y emite ~10 hipotesis causales estructuradas. No hablan entre si. No toman decisiones de inversion.
+    </div>
+    <div class="agents">
+      <div class="agent"><div class="name">Semiconductores</div><div class="detail">NVDA, AMD, INTC, TSMC...</div></div>
+      <div class="agent"><div class="name">Biotech</div><div class="detail">AMGN, GILD, MRNA...</div></div>
+      <div class="agent"><div class="name">Consumer Tech</div><div class="detail">AAPL, AMZN, TSLA...</div></div>
+      <div class="agent"><div class="name">Fintech</div><div class="detail">PYPL, SQ, COIN...</div></div>
+      <div class="agent"><div class="name">Cloud Infra</div><div class="detail">MSFT, GOOG, SNOW...</div></div>
+    </div>
+
+    <div class="hypothesis-example">
+      Ejemplo de hipotesis emitida:<br><br>
+      <span class="key">trigger:</span> "TSMC reduce capacidad N3 en Q3 2025"<br>
+      <span class="key">probabilidad:</span> <span class="val">0.18</span><br>
+      <span class="key">efecto:</span> NVDA <span class="val-neg">-8% margen bruto</span><br>
+      <span class="key">fuentes:</span> <span class="val">uuid-tsmc-capex-2024, uuid-nvda-q4</span><br>
+      <span class="key">fechas:</span> <span class="val">2024-11-12, 2025-02-08</span> (todas &le; 2025-04-15)
+    </div>
+
+    <div style="text-align:center; margin-top: 12px;">
+      <span class="who llm">LLM + Cala</span>
+    </div>
+  </div>
+
+  <div class="arrow">
+    <div class="line"></div>
+    <div class="head">&#9660;</div>
+    <div class="io-label">~50 hipotesis JSON</div>
+  </div>
+
+  <!-- STAGE 2: BAYESIAN DAG -->
+  <div class="stage s2">
+    <div class="stage-number">Stage 2</div>
+    <div class="stage-title">Bayesian DAG</div>
+    <div class="stage-desc">
+      Un script Python (sin LLMs) toma las 50 hipotesis y monta un grafo de causa-efecto unificado.
+      Las correlaciones entre sectores quedan explicitas en la estructura.
+    </div>
+
+    <div class="dag-visual">
+      <div class="dag-label">Eventos raiz (causas)</div>
+      <div class="dag-row">
+        <div class="dag-node root">TSMC outage</div>
+        <div class="dag-node root">Fed rate hike</div>
+        <div class="dag-node root">FDA ruling</div>
+        <div class="dag-node root">AI regulation EU</div>
+        <div class="dag-node root">China export ban</div>
+      </div>
+      <div class="dag-edges">\ | / \ | /</div>
+      <div class="dag-label">Efectos intermedios</div>
+      <div class="dag-row">
+        <div class="dag-node mid">Chip supply -15%</div>
+        <div class="dag-node mid">Credit tightening</div>
+        <div class="dag-node mid">Biotech sentiment shift</div>
+      </div>
+      <div class="dag-edges">\ | / \ | /</div>
+      <div class="dag-label">Empresas (hojas del grafo)</div>
+      <div class="dag-row">
+        <div class="dag-node leaf">NVDA</div>
+        <div class="dag-node leaf">AAPL</div>
+        <div class="dag-node leaf">AMGN</div>
+        <div class="dag-node leaf">PYPL</div>
+        <div class="dag-node leaf">MSFT</div>
+        <div class="dag-node leaf">TSLA</div>
+        <div class="dag-node leaf">...</div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top: 12px;">
+      <span class="who code">Python puro (pgmpy/numpy)</span>
+    </div>
+  </div>
+
+  <div class="arrow">
+    <div class="line"></div>
+    <div class="head">&#9660;</div>
+    <div class="io-label">Grafo con probabilidades condicionales</div>
+  </div>
+
+  <!-- STAGE 3: MONTE CARLO -->
+  <div class="stage s3">
+    <div class="stage-number">Stage 3</div>
+    <div class="stage-title">Monte Carlo Simulation</div>
+    <div class="stage-desc">
+      Simula 1,000 "años posibles del mundo". En cada iteracion tira los dados para cada evento raiz,
+      propaga consecuencias por el grafo, y obtiene el retorno de cada empresa.
+      Resultado: una matriz de 1,000 filas x 100 columnas (escenarios x empresas).
+    </div>
+
+    <div class="mc-visual">
+      <div class="mc-bar" style="height: 8px"></div>
+      <div class="mc-bar" style="height: 12px"></div>
+      <div class="mc-bar" style="height: 20px"></div>
+      <div class="mc-bar" style="height: 32px"></div>
+      <div class="mc-bar" style="height: 45px"></div>
+      <div class="mc-bar" style="height: 55px"></div>
+      <div class="mc-bar" style="height: 60px"></div>
+      <div class="mc-bar" style="height: 55px"></div>
+      <div class="mc-bar" style="height: 48px"></div>
+      <div class="mc-bar" style="height: 38px"></div>
+      <div class="mc-bar" style="height: 28px"></div>
+      <div class="mc-bar" style="height: 18px"></div>
+      <div class="mc-bar" style="height: 14px"></div>
+      <div class="mc-bar" style="height: 10px"></div>
+      <div class="mc-bar" style="height: 6px"></div>
+      <div class="mc-bar" style="height: 4px"></div>
+    </div>
+    <div class="io-label" style="margin-top: 6px;">Distribucion de retornos del portfolio (1,000 futuros simulados)</div>
+
+    <div style="text-align:center; margin-top: 12px;">
+      <span class="who math">Numpy (zero LLMs)</span>
+    </div>
+  </div>
+
+  <div class="arrow">
+    <div class="line"></div>
+    <div class="head">&#9660;</div>
+    <div class="io-label">Matriz (1000 x 100) de retornos</div>
+  </div>
+
+  <!-- STAGE 4: OPTIMIZER -->
+  <div class="stage s4">
+    <div class="stage-number">Stage 4</div>
+    <div class="stage-title">CVaR Portfolio Optimization</div>
+    <div class="stage-desc">
+      Optimizador matematico (cvxpy) busca el reparto de $1M que maximiza retorno esperado
+      y minimiza perdidas en los peores escenarios (CVaR 5%).<br><br>
+      Restricciones: &ge;50 tickers, min $5,000 cada uno, total = $1,000,000 exacto.
+    </div>
+
+    <div style="text-align:center; margin-top: 12px;">
+      <span class="who math">CVXPY (zero LLMs)</span>
+    </div>
+  </div>
+
+  <div class="arrow">
+    <div class="line"></div>
+    <div class="head">&#9660;</div>
+    <div class="io-label">50+ tickers con pesos optimizados</div>
+  </div>
+
+  <!-- OUTPUT -->
+  <div class="output">
+    <div class="label">Portfolio Submission</div>
+    <div class="desc">POST al leaderboard &mdash; resubmit ilimitado</div>
+  </div>
+
+</div>
+
+<!-- LEGEND -->
+<div class="legend">
+  <div class="legend-item">
+    <div class="legend-dot" style="background: #8b9cf7;"></div>
+    LLM + Cala (solo Stage 1)
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background: #6fcf6f;"></div>
+    Python clasico
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background: #c07af0;"></div>
+    Matematicas puras
+  </div>
+</div>
+
+</body>
+</html>
