@@ -16,6 +16,9 @@ dependencies = [
     "tenacity>=8.3",
     "beautifulsoup4>=4.12",
     "lxml>=5.0",
+    "networkx>=3.2",
+    "scikit-learn>=1.5",
+    "clarabel>=0.9",
 ]
 
 [build-system]

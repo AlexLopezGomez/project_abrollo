@@ -105,9 +105,20 @@ class CalaClient:
         return self._request("GET", f"/v1/entities/{entity_id}/introspection")
 
     def retrieve_entity(
-        self, entity_id: str, properties: list[str] | None = None
+        self,
+        entity_id: str,
+        *,
+        properties: list[str] | None = None,
+        relationships: dict[str, Any] | None = None,
+        numerical_observations: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
-        body = {"properties": properties} if properties else {}
+        body: dict[str, Any] = {}
+        if properties:
+            body["properties"] = properties
+        if relationships is not None:
+            body["relationships"] = relationships
+        if numerical_observations is not None:
+            body["numerical_observations"] = numerical_observations
         return self._request("POST", f"/v1/entities/{entity_id}", json_body=body)
 
     def knowledge_query(self, input_str: str) -> dict[str, Any]:

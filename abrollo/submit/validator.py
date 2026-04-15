@@ -1,8 +1,8 @@
 """Submission-rule validator (§3 Step 10 of the plan).
 
-Checks every rule the Convex endpoint enforces, plus one extra: a lookahead audit
-that every hypothesis whose effect_target appears in the portfolio has all
-source_dates <= cutoff.
+Checks every rule the Convex endpoint enforces, plus extra audits:
+- MVP-1: lookahead on hypothesis effect_target
+- MVP-2: placeholder-date rejector + origin-not-ticker check
 """
 from __future__ import annotations
 
@@ -39,22 +39,92 @@ def _hypothesis_lookahead_ok(tickers: set[str]) -> tuple[bool, list[str]]:
     return not failures, failures
 
 
-def validate_submission(weights: dict[str, int]) -> tuple[bool, list[str]]:
+def _mvp2_placeholder_date_check(allowed_dates: set[str] | None = None) -> tuple[bool, list[str]]:
+    """MVP-2 Step 9: reject hypotheses whose source_dates are not in allow-list."""
+    p = data_path("hypotheses", "mvp2.json")
+    if not p.exists():
+        return True, []
+    hyps = json.loads(p.read_text(encoding="utf-8"))
+    if not isinstance(hyps, list):
+        hyps = hyps.get("hypotheses", [])
+
+    if allowed_dates is None:
+        allowed_dates = _collect_allowed_dates()
+
+    failures: list[str] = []
+    for h in hyps:
+        hid = h.get("id", "?")
+        for d in h.get("source_dates", []):
+            if d not in allowed_dates:
+                failures.append(f"hypothesis {hid}: source_date {d} not in allow-list")
+    return not failures, failures
+
+
+def _mvp2_origin_not_ticker_check() -> tuple[bool, list[str]]:
+    """MVP-2 Step 9: origin_entity_uuid must NOT be a ticker UUID."""
+    p = data_path("hypotheses", "mvp2.json")
+    if not p.exists():
+        return True, []
+    hyps = json.loads(p.read_text(encoding="utf-8"))
+    if not isinstance(hyps, list):
+        hyps = hyps.get("hypotheses", [])
+
+    resolved = load_resolutions()
+    ticker_uuids = {h["uuid"] for h in resolved.get("hits", [])}
+
+    failures: list[str] = []
+    for h in hyps:
+        origin = h.get("origin_entity_uuid", "")
+        if origin in ticker_uuids:
+            failures.append(
+                f"hypothesis {h.get('id', '?')}: origin {origin} is a ticker UUID "
+                f"(must be a macro/thematic entity)")
+    return not failures, failures
+
+
+def _collect_allowed_dates() -> set[str]:
+    """Collect all property source dates <= cutoff from entity files."""
+    entities_dir = data_path("cala_entities")
+    allowed: set[str] = set()
+    if not entities_dir.exists():
+        return allowed
+    for fpath in entities_dir.glob("*.json"):
+        if fpath.name.startswith("_"):
+            continue
+        try:
+            entity = json.loads(fpath.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        props = entity.get("properties", {})
+        if not isinstance(props, dict):
+            continue
+        for pbody in props.values():
+            if not isinstance(pbody, dict):
+                continue
+            for src in pbody.get("sources", []):
+                if isinstance(src, dict):
+                    d = src.get("date", "")
+                    if isinstance(d, str) and d[:10] <= CUTOFF_DATE:
+                        allowed.add(d[:10])
+    return allowed
+
+
+def validate_submission(
+    weights: dict[str, int],
+    mvp2: bool = False,
+) -> tuple[bool, list[str]]:
     reasons: list[str] = []
 
     resolved = load_resolutions()
     ndx = {h["ticker"] for h in resolved["hits"]}
 
-    # 1. ≥50 distinct tickers
     if len(weights) < MIN_TICKERS:
         reasons.append(f"only {len(weights)} distinct tickers (need ≥{MIN_TICKERS})")
 
-    # 2/3. ASCII upper-case, no duplicates (dict keys implicitly dedupe)
     for t in weights:
         if t != t.upper() or not t.isascii():
             reasons.append(f"ticker {t!r} not ASCII-upper")
 
-    # 4. each weight ≥ $5000
     for t, w in weights.items():
         if not isinstance(w, int):
             reasons.append(f"{t} weight not int: {w!r}")
@@ -62,20 +132,27 @@ def validate_submission(weights: dict[str, int]) -> tuple[bool, list[str]]:
         if w < MIN_WEIGHT_USD:
             reasons.append(f"{t} weight ${w} < minimum ${MIN_WEIGHT_USD}")
 
-    # 5. sum exactly $1M
     total = sum(weights.values())
     if total != TOTAL_USD:
         reasons.append(f"sum ${total:,} != ${TOTAL_USD:,}")
 
-    # 6. every ticker in known NDX universe
     outside = [t for t in weights if t not in ndx]
     if outside:
         reasons.append(f"tickers not in resolved NDX universe: {outside}")
 
-    # 7. lookahead audit on cited hypotheses
     ok, hyp_reasons = _hypothesis_lookahead_ok(set(weights.keys()))
     if not ok:
         reasons.extend(hyp_reasons)
+
+    # MVP-2 extra checks
+    if mvp2:
+        ok2, r2 = _mvp2_placeholder_date_check()
+        if not ok2:
+            reasons.extend(r2)
+
+        ok3, r3 = _mvp2_origin_not_ticker_check()
+        if not ok3:
+            reasons.extend(r3)
 
     return not reasons, reasons
 

@@ -80,7 +80,7 @@ def _solve_cvar(
 
 
 def _best_solve(prob: cp.Problem) -> str:
-    for solver in ("ECOS", "SCS", "CLARABEL"):
+    for solver in ("CLARABEL", "ECOS", "SCS"):
         try:
             prob.solve(solver=solver, verbose=False)
         except Exception as e:  # pragma: no cover
