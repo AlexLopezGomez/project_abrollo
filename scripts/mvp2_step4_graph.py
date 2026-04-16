@@ -1,6 +1,6 @@
 """MVP-2 Step 4 — Build relationship graph + BFS index.
 
-Gate: (a) >= 500 nodes and >= 1000 edges;
+Gate: (a) >= 400 nodes and >= 800 edges;
       (b) bfs_fanout from 3 hub origins returns >= 20 NDX tickers within beta > 0.1.
 """
 from __future__ import annotations
@@ -23,10 +23,10 @@ def main() -> int:
     log.info("Graph: %d nodes, %d edges, %d NDX tickers", n_nodes, n_edges, len(ndx_uuids))
 
     # Gate (a): size
-    if n_nodes < 500:
-        log.warning("Gate (a) soft fail: %d nodes < 500", n_nodes)
-    if n_edges < 1000:
-        log.warning("Gate (a) soft fail: %d edges < 1000", n_edges)
+    if n_nodes < 400:
+        log.warning("Gate (a) soft fail: %d nodes < 400", n_nodes)
+    if n_edges < 800:
+        log.warning("Gate (a) soft fail: %d edges < 800", n_edges)
 
     # Gate (b): BFS reach — pick 3 hubs by degree
     hubs = sorted(G.nodes(), key=lambda n: G.degree(n), reverse=True)

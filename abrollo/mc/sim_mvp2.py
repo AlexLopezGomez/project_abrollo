@@ -22,7 +22,7 @@ from abrollo.config import data_path
 
 log = logging.getLogger(__name__)
 
-N_SIMS = 1000
+N_SIMS = 5000
 MU_BASE_DEFAULT = 0.0  # zero drift — let hypotheses drive signal
 
 

@@ -38,6 +38,66 @@ def _filter_sources(sources: list, cutoff: date) -> list:
     return [s for s in sources if isinstance(s, dict) and _is_source_ok(s, cutoff)]
 
 
+def _is_relationship_ok(rel: dict, cutoff: date) -> bool:
+    """A relationship passes if it has at least one source dated <= cutoff.
+
+    - properties.sources must contain at least one entry with date <= cutoff.
+    - valid_since (if present) must be <= cutoff.
+    - valid_until is NOT used as rejection criterion (expired relations still existed).
+    - If properties or sources are missing → reject (conservative).
+    """
+    props = rel.get("properties")
+    if not isinstance(props, dict):
+        return False
+
+    # Check valid_since if present
+    valid_since = _parse(props.get("valid_since"))
+    if valid_since is not None and valid_since > cutoff:
+        return False
+
+    sources = props.get("sources")
+    if not isinstance(sources, list) or not sources:
+        return False
+
+    return any(_is_source_ok(s, cutoff) for s in sources if isinstance(s, dict))
+
+
+def filter_relationships(
+    rels: dict[str, Any], cutoff_date: str = CUTOFF_DATE
+) -> tuple[dict[str, Any], int, int]:
+    """Filter outgoing/incoming relationships by cutoff date.
+
+    Returns (filtered_rels, total_count, kept_count).
+    """
+    cutoff = date.fromisoformat(cutoff_date)
+    out: dict[str, Any] = {}
+    total = 0
+    kept = 0
+
+    for direction in ("outgoing", "incoming"):
+        dir_data = rels.get(direction, {})
+        if not isinstance(dir_data, dict):
+            continue
+        filtered_dir: dict[str, list] = {}
+        for rel_type, targets in dir_data.items():
+            if not isinstance(targets, list):
+                continue
+            filtered_targets = []
+            for target in targets:
+                total += 1
+                if not isinstance(target, dict):
+                    continue
+                if _is_relationship_ok(target, cutoff):
+                    filtered_targets.append(target)
+                    kept += 1
+            if filtered_targets:
+                filtered_dir[rel_type] = filtered_targets
+        if filtered_dir:
+            out[direction] = filtered_dir
+
+    return out, total, kept
+
+
 def filter_entity_by_cutoff(
     entity: dict[str, Any], cutoff_date: str = CUTOFF_DATE
 ) -> dict[str, Any]:
@@ -47,7 +107,7 @@ def filter_entity_by_cutoff(
     - A property whose *all* sources fall after cutoff (i.e. empty after filter) is removed.
     - numerical_observations entries that carry a `date` field get the same treatment; those
       that don't carry dates are kept as-is (catalog metadata).
-    - relationships are kept as-is (no per-edge date surfaced by the REST API today).
+    - relationships are filtered via filter_relationships() using source dates and valid_since.
     """
     cutoff = date.fromisoformat(cutoff_date)
     out = copy.deepcopy(entity)
@@ -83,6 +143,11 @@ def filter_entity_by_cutoff(
             if d is not None and d <= cutoff:
                 cleaned.append(obs)
         out["numerical_observations"] = cleaned
+
+    rels = out.get("relationships")
+    if isinstance(rels, dict):
+        filtered_rels, _total, _kept = filter_relationships(rels, cutoff_date)
+        out["relationships"] = filtered_rels
 
     return out
 
