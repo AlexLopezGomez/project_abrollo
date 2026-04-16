@@ -79,16 +79,40 @@ def _solve_cvar(
     return w, prob
 
 
+SOLVER_OPTS: dict[str, dict] = {
+    "CLARABEL": {},
+    "ECOS": {},
+    "SCS": {"max_iters": 50_000},
+}
+
+
 def _best_solve(prob: cp.Problem) -> str:
     for solver in ("CLARABEL", "ECOS", "SCS"):
         try:
-            prob.solve(solver=solver, verbose=False)
+            prob.solve(solver=solver, verbose=False, **SOLVER_OPTS.get(solver, {}))
         except Exception as e:  # pragma: no cover
             log.warning("%s failed: %s", solver, e)
             continue
         if prob.status in ("optimal", "optimal_inaccurate"):
             return solver
     return "failed"
+
+
+def _project_to_feasible(w: np.ndarray, support: np.ndarray) -> np.ndarray:
+    """Project a solver result onto the feasible set when status is optimal_inaccurate."""
+    w[~support] = 0.0
+    w = np.maximum(w, 0.0)
+    on_idx = np.where(support)[0]
+    for i in on_idx:
+        if w[i] < MIN_WEIGHT:
+            w[i] = MIN_WEIGHT
+    excess = w.sum() - BUDGET
+    if abs(excess) > 1.0:
+        above_floor = on_idx[w[on_idx] > MIN_WEIGHT + 1.0]
+        if above_floor.size > 0:
+            props = w[above_floor] / w[above_floor].sum()
+            w[above_floor] -= excess * props
+    return w
 
 
 def optimize(returns_df: pd.DataFrame) -> CVaROutcome:
@@ -117,6 +141,9 @@ def optimize(returns_df: pd.DataFrame) -> CVaROutcome:
             log.info("Phase 2 (k=%d, %s): status=%s, obj=%.6f",
                      k, solver2, prob2.status, prob2.value)
             w_final = np.array(w2.value).flatten()
+            if prob2.status == "optimal_inaccurate":
+                log.warning("Phase 2 optimal_inaccurate — applying feasibility projection")
+                w_final = _project_to_feasible(w_final, support)
             return _assemble(tickers, R, w_final, prob2.status, solver2)
         log.warning("Phase 2 k=%d infeasible/failed", k)
 

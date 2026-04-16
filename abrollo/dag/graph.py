@@ -15,6 +15,7 @@ from typing import Any
 
 import networkx as nx
 
+from abrollo.cala.cutoff import filter_relationships
 from abrollo.config import data_path
 
 log = logging.getLogger(__name__)
@@ -48,7 +49,10 @@ def build_graph(entities_dir: Path = ENTITIES_DIR) -> tuple[nx.DiGraph, dict[str
         # Add the ticker node
         G.add_node(entity_id, name=entity_name, ticker=ticker, is_ndx=True)
 
-        rels = entity.get("relationships", {})
+        raw_rels = entity.get("relationships", {})
+        rels, rel_total, rel_kept = filter_relationships(raw_rels)
+        if rel_total > 0:
+            log.info("%s: relationships %d/%d pass cutoff", ticker, rel_kept, rel_total)
 
         # Outgoing relationships
         for rel_type, targets in rels.get("outgoing", {}).items():

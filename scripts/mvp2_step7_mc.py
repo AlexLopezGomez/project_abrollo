@@ -1,6 +1,6 @@
 """MVP-2 Step 7 — Correlated Monte Carlo.
 
-Gate: (a) shape (1000, N); (b) no NaN/inf; (c) per-ticker std > 0;
+Gate: (a) shape (5000, N); (b) no NaN/inf; (c) per-ticker std > 0;
       (d) empirical corr matches Σ within 0.1 on median off-diagonal;
       (e) CVaR5 on equal-weight portfolio between -8% and -1%.
 """

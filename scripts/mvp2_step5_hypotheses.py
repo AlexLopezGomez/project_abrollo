@@ -1,8 +1,8 @@
-"""MVP-2 Step 5 — Generate hypotheses with HypothesisV2 schema.
+"""MVP-2 Step 5 — Generate hypotheses with HypothesisV2 schema (2 rounds of 10).
 
-Gate: (a) 10 hypotheses returned; (b) 10/10 schema-valid; (c) 10/10 origin
-      UUIDs in allow-list; (d) 10/10 source_dates match allow-list verbatim;
-      (e) >= 8 distinct origins.
+Gate: (a) >= 16 valid hypotheses; (b) schema-valid; (c) origin UUIDs in
+      allow-list; (d) source_dates match allow-list verbatim;
+      (e) >= 16 distinct origins.
 """
 from __future__ import annotations
 
@@ -93,12 +93,12 @@ def main() -> int:
 
     log.info("Hypotheses: %d valid, %d distinct origins", n, distinct_origins)
 
-    if n < 8:
-        log.error("GATE FAIL: only %d valid hypotheses (need >= 8)", n)
+    if n < 16:
+        log.error("GATE FAIL: only %d valid hypotheses (need >= 16)", n)
         return 1
 
-    if distinct_origins < 8:
-        log.warning("Only %d distinct origins (target: 10)", distinct_origins)
+    if distinct_origins < 16:
+        log.warning("Only %d distinct origins (target: 16)", distinct_origins)
 
     # Save
     out_path = data_path("hypotheses") / "mvp2.json"

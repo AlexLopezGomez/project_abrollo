@@ -49,7 +49,7 @@ def main() -> int:
         CONVEX_URL,
         json=body,
         headers={"Content-Type": "application/json", "User-Agent": "abrollo-mvp2/0.0.2"},
-        timeout=60,
+        timeout=180,
     )
 
     try:

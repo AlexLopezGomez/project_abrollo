@@ -120,10 +120,19 @@ TOOL_SCHEMA = {
 def build_system_prompt(
     origin_entries: list[dict[str, str]],
     allowed_dates: list[str],
+    exclude_origins: set[str] | None = None,
 ) -> str:
-    """Build system prompt with allow-lists."""
+    """Build system prompt with allow-lists.
+
+    Args:
+        exclude_origins: UUIDs to filter out of the ALLOWED ORIGINS block
+            (used in round 2+ so the LLM picks different entities).
+    """
+    filtered = origin_entries
+    if exclude_origins:
+        filtered = [e for e in origin_entries if e["uuid"] not in exclude_origins]
     origins_block = "\n".join(
-        f"  - {e['uuid']}  ({e['name']})" for e in origin_entries[:50]
+        f"  - {e['uuid']}  ({e['name']})" for e in filtered[:50]
     )
     dates_block = json.dumps(sorted(allowed_dates)[:200])
 
@@ -148,18 +157,18 @@ Focus on macro events, regulatory changes, supply chain disruptions, and competi
 Each hypothesis should identify a causal chain from the origin entity to affected companies."""
 
 
-def call_sonnet_hypotheses(
+def _call_single_round(
+    client: anthropic.Anthropic,
     origin_entries: list[dict[str, str]],
     allowed_dates: list[str],
     allowed_origin_uuids: set[str],
-    cutoff_date: str = CUTOFF_DATE,
+    cutoff: date,
+    allowed_dates_set: set[str],
+    exclude_origins: set[str] | None = None,
     max_retries: int = 2,
 ) -> list[HypothesisV2]:
-    """Call Sonnet 4.6 with forced tool-use to emit 10 hypotheses."""
-    client = anthropic.Anthropic(api_key=require_anthropic_key())
-    system = build_system_prompt(origin_entries, allowed_dates)
-    cutoff = date.fromisoformat(cutoff_date)
-    allowed_dates_set = set(allowed_dates)
+    """Run a single round of 10 hypotheses with its own retries."""
+    system = build_system_prompt(origin_entries, allowed_dates, exclude_origins=exclude_origins)
 
     for attempt in range(max_retries + 1):
         log.info("Sonnet call attempt %d/%d", attempt + 1, max_retries + 1)
@@ -181,7 +190,6 @@ def call_sonnet_hypotheses(
         log.info("Sonnet response: %d input tokens, %d output tokens",
                  resp.usage.input_tokens, resp.usage.output_tokens)
 
-        # Extract tool use
         tool_block = None
         for block in resp.content:
             if block.type == "tool_use" and block.name == "emit_hypotheses":
@@ -208,13 +216,61 @@ def call_sonnet_hypotheses(
             else:
                 all_reasons.extend(reasons)
 
-        log.info("Validated %d / %d hypotheses", len(validated), len(raw_hypotheses))
+        log.info("Round validated %d / %d hypotheses", len(validated), len(raw_hypotheses))
         if all_reasons:
             log.warning("Validation issues: %s", all_reasons[:10])
 
         if len(validated) >= 8:
             return validated
 
-        log.warning("Only %d valid hypotheses — retrying", len(validated))
+        log.warning("Only %d valid hypotheses — retrying round", len(validated))
 
-    raise RuntimeError(f"Failed to get >= 8 valid hypotheses after {max_retries + 1} attempts")
+    raise RuntimeError(f"Failed to get >= 8 valid hypotheses in round after {max_retries + 1} attempts")
+
+
+def call_sonnet_hypotheses(
+    origin_entries: list[dict[str, str]],
+    allowed_dates: list[str],
+    allowed_origin_uuids: set[str],
+    cutoff_date: str = CUTOFF_DATE,
+    max_retries: int = 2,
+    n_rounds: int = 2,
+) -> list[HypothesisV2]:
+    """Call Sonnet 4.6 with forced tool-use to emit hypotheses across multiple rounds.
+
+    Each round generates 10 hypotheses. Round 2+ excludes origin UUIDs already
+    used by validated hypotheses from previous rounds, forcing diversity.
+    """
+    client = anthropic.Anthropic(api_key=require_anthropic_key())
+    cutoff = date.fromisoformat(cutoff_date)
+    allowed_dates_set = set(allowed_dates)
+
+    all_validated: list[HypothesisV2] = []
+
+    for rnd in range(n_rounds):
+        exclude_origins: set[str] | None = None
+        if rnd > 0:
+            exclude_origins = {h.origin_entity_uuid for h in all_validated}
+            log.info("Round %d: excluding %d origins from previous rounds", rnd + 1, len(exclude_origins))
+
+        round_hyps = _call_single_round(
+            client=client,
+            origin_entries=origin_entries,
+            allowed_dates=allowed_dates,
+            allowed_origin_uuids=allowed_origin_uuids,
+            cutoff=cutoff,
+            allowed_dates_set=allowed_dates_set,
+            exclude_origins=exclude_origins,
+            max_retries=max_retries,
+        )
+        all_validated.extend(round_hyps)
+        log.info("After round %d: %d total validated hypotheses", rnd + 1, len(all_validated))
+
+    min_required = 8 * n_rounds
+    if len(all_validated) < min_required:
+        raise RuntimeError(
+            f"Only {len(all_validated)} valid hypotheses across {n_rounds} rounds "
+            f"(need >= {min_required})"
+        )
+
+    return all_validated
