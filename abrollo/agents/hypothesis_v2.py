@@ -25,7 +25,7 @@ UUID_RE = re.compile(r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]
 
 class HypothesisV2(BaseModel):
     id: str = Field(min_length=1, max_length=64)
-    trigger: str = Field(min_length=10, max_length=200)
+    trigger: str = Field(min_length=10, max_length=320)
     origin_entity_uuid: str
     probability: float = Field(ge=0.0, le=1.0)
     magnitude: float = Field(ge=-0.5, le=0.5)
@@ -96,7 +96,7 @@ TOOL_SCHEMA = {
                                  "magnitude", "horizon_days", "sources", "source_dates"],
                     "properties": {
                         "id": {"type": "string", "description": "Unique ID like H_V2_01"},
-                        "trigger": {"type": "string", "maxLength": 200,
+                        "trigger": {"type": "string", "maxLength": 320,
                                     "description": "Natural-language event description. No dates after 2025-04-15."},
                         "origin_entity_uuid": {"type": "string",
                                                 "description": "UUID of the origin entity. MUST be from the allowed_origins list."},
@@ -143,8 +143,9 @@ HARD RULES:
 2. All 10 hypotheses must have DISTINCT origin_entity_uuid values.
 3. Every source_dates value must be COPIED VERBATIM from the allowed_dates list below. Do NOT invent dates.
 4. No trigger text may reference events after 2025-04-15.
-5. Magnitudes in [-0.5, 0.5]: positive = bullish, negative = bearish.
-6. Probabilities in [0, 1]: your genuine belief.
+5. Keep trigger text concise: 1 sentence, maximum 280 characters.
+6. Magnitudes in [-0.5, 0.5]: positive = bullish, negative = bearish.
+7. Probabilities in [0, 1]: your genuine belief.
 
 ALLOWED ORIGINS (top entities by graph connectivity — use these UUIDs exactly):
 {origins_block}

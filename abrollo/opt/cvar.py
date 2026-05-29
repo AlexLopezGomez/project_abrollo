@@ -103,15 +103,25 @@ def _project_to_feasible(w: np.ndarray, support: np.ndarray) -> np.ndarray:
     w[~support] = 0.0
     w = np.maximum(w, 0.0)
     on_idx = np.where(support)[0]
-    for i in on_idx:
-        if w[i] < MIN_WEIGHT:
-            w[i] = MIN_WEIGHT
+    if on_idx.size == 0:
+        return w
+
+    w[on_idx] = np.maximum(w[on_idx], MIN_WEIGHT)
     excess = w.sum() - BUDGET
-    if abs(excess) > 1.0:
-        above_floor = on_idx[w[on_idx] > MIN_WEIGHT + 1.0]
-        if above_floor.size > 0:
-            props = w[above_floor] / w[above_floor].sum()
-            w[above_floor] -= excess * props
+    if excess > 1.0:
+        adjustable = on_idx[w[on_idx] > MIN_WEIGHT + 1.0]
+        while excess > 1.0 and adjustable.size > 0:
+            surplus = w[adjustable] - MIN_WEIGHT
+            total_surplus = surplus.sum()
+            if total_surplus <= 0:
+                break
+            reduction = np.minimum(excess * surplus / total_surplus, surplus)
+            w[adjustable] -= reduction
+            excess -= reduction.sum()
+            adjustable = adjustable[w[adjustable] > MIN_WEIGHT + 1.0]
+    elif excess < -1.0:
+        top = on_idx[np.argmax(w[on_idx])]
+        w[top] += -excess
     return w
 
 
@@ -143,7 +153,7 @@ def optimize(returns_df: pd.DataFrame) -> CVaROutcome:
             w_final = np.array(w2.value).flatten()
             if prob2.status == "optimal_inaccurate":
                 log.warning("Phase 2 optimal_inaccurate — applying feasibility projection")
-                w_final = _project_to_feasible(w_final, support)
+            w_final = _project_to_feasible(w_final, support)
             return _assemble(tickers, R, w_final, prob2.status, solver2)
         log.warning("Phase 2 k=%d infeasible/failed", k)
 
