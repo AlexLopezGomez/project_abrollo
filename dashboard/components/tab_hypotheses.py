@@ -4,6 +4,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from .ui import CYAN, GREEN, apply_plotly_theme, section_header
+
 
 def render_hypotheses_tab(
     hypotheses: list[dict],
@@ -18,10 +20,11 @@ def render_hypotheses_tab(
     bearish = sum(1 for h in hypotheses if h.get("magnitude", 0) < 0)
     avg_prob = sum(h.get("probability", 0) for h in hypotheses) / max(len(hypotheses), 1)
 
+    section_header("Claude evidence", "Hipótesis, fuentes y propagación a tickers")
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Total hipótesis", len(hypotheses))
-    c2.metric("Bullish 📈", bullish)
-    c3.metric("Bearish 📉", bearish)
+    c2.metric("Bullish", bullish)
+    c3.metric("Bearish", bearish)
     c4.metric("Prob. media", f"{avg_prob:.0%}")
 
     st.divider()
@@ -70,12 +73,16 @@ def render_hypotheses_tab(
             with col_meta:
                 st.markdown(f"**Trigger:** {h.get('trigger', '—')}")
                 st.markdown(f"**Origin:** {origin_name}")
+                st.caption(f"Origin UUID: `{h.get('origin_entity_uuid', '—')}`")
                 st.markdown(f"**Probabilidad:** {h.get('probability', 0):.0%}")
                 st.markdown(f"**Magnitud:** {mag:+.0%}")
                 st.markdown(f"**Horizonte:** {h.get('horizon_days', '—')} días")
                 st.markdown(f"**Tickers afectados:** {dag_entry.get('n_affected', len(affected))}")
                 if h.get("source_dates"):
                     st.markdown(f"**Fechas fuente:** {', '.join(h['source_dates'][:3])}")
+                if h.get("sources"):
+                    st.markdown("**Source UUIDs:**")
+                    st.code("\n".join(str(source) for source in h["sources"]), language="text")
 
             with col_tickers:
                 if affected:
@@ -89,20 +96,17 @@ def render_hypotheses_tab(
                         x="ticker",
                         y="shift",
                         color="en_portfolio",
-                        color_discrete_map={True: "#4ecdc4", False: "#95a5a6"},
+                        color_discrete_map={True: GREEN, False: CYAN},
                         labels={"shift": "Shift esperado", "en_portfolio": "En portfolio"},
                         hover_data=["name"] if "name" in df_t.columns else None,
                         title=f"Tickers afectados — {h_id}",
                     )
                     fig.update_layout(
-                        height=260,
                         margin=dict(t=35, b=10, l=10, r=10),
-                        plot_bgcolor="#0e1117",
-                        paper_bgcolor="#0e1117",
-                        font_color="white",
                         showlegend=True,
                         xaxis=dict(tickangle=-45),
                     )
+                    apply_plotly_theme(fig, height=280)
                     st.plotly_chart(fig, use_container_width=True, key=f"hyp_{h_id}")
                 else:
                     st.info("Sin tickers afectados en el DAG para esta hipótesis.")

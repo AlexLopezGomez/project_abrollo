@@ -4,6 +4,8 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
+from .ui import GREEN, RED, apply_plotly_theme, kpi_grid, section_header
+
 
 def render_returns_tab(submission: dict, portfolio: dict) -> None:
     resp = submission.get("response") or {}
@@ -26,12 +28,13 @@ def render_returns_tab(submission: dict, portfolio: dict) -> None:
     pct_return = (total_value / total_invested - 1) * 100 if total_invested else 0.0
     pnl_total = total_value - total_invested
 
-    # --- Métricas hero ---
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total Return", f"{pct_return:+.2f}%", delta=f"${pnl_total:,.0f}")
-    c2.metric("Valor de cartera", f"${total_value:,.2f}")
-    c3.metric("Capital invertido", f"${total_invested:,.0f}")
-    c4.metric("Tickers en portfolio", str(n_tickers))
+    section_header("Portfolio performance", "Returns and position-level P&L")
+    kpi_grid([
+        ("Total Return", f"{pct_return:+.2f}%", f"P&L ${pnl_total:,.0f}"),
+        ("Valor de cartera", f"${total_value / 1_000_000:.2f}M", f"${total_value:,.2f} exacto"),
+        ("Capital invertido", f"${total_invested:,.0f}", "Submission rule"),
+        ("Tickers en portfolio", str(n_tickers), "Posiciones no-cero"),
+    ])
 
     st.divider()
 
@@ -69,7 +72,7 @@ def render_returns_tab(submission: dict, portfolio: dict) -> None:
     if df_chart.empty:
         st.info("No hay precios suficientes para calcular retorno por ticker.")
     else:
-        colors = ["#4ecdc4" if r >= 0 else "#ff6b6b" for r in df_chart["Retorno %"]]
+        colors = [GREEN if r >= 0 else RED for r in df_chart["Retorno %"]]
         fig = go.Figure(go.Bar(
             x=df_chart["Ticker"],
             y=df_chart["Retorno %"],
@@ -89,17 +92,14 @@ def render_returns_tab(submission: dict, portfolio: dict) -> None:
             title="Retorno por ticker (precio hoy vs precio Apr15)",
             xaxis_title="Ticker",
             yaxis_title="Retorno %",
-            height=400,
-            plot_bgcolor="#0e1117",
-            paper_bgcolor="#0e1117",
-            font_color="white",
             xaxis=dict(tickangle=-45),
         )
-        fig.add_hline(y=0, line_color="white", line_width=0.5, opacity=0.4)
+        fig.add_hline(y=0, line_color="rgba(244, 241, 232, 0.55)", line_width=0.7, opacity=0.7)
+        apply_plotly_theme(fig, height=430)
         st.plotly_chart(fig, use_container_width=True)
 
     # --- Tabla detallada ---
-    st.subheader("Posiciones detalladas")
+    section_header("Holdings", "Posiciones detalladas")
     df_display = df.copy()
     df_display["Invertido ($)"] = df_display["Invertido ($)"].map("${:,.0f}".format)
     df_display["Precio Apr15"] = df_display["Precio Apr15"].map(lambda v: f"${v:.2f}" if v else "—")

@@ -5,6 +5,8 @@ import plotly.graph_objects as go
 import streamlit as st
 from plotly.subplots import make_subplots
 
+from .ui import AMBER, GREEN, apply_plotly_theme, section_header
+
 
 def render_history_tab(history: list[dict], selected_filename: str) -> None:
     if not history:
@@ -28,6 +30,7 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
     best_return = df["return_pct"].max()
     best_value = df["total_value"].max()
 
+    section_header("Run history", "Comparativa de submissions y snapshots")
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Lanzamientos", str(len(df)))
     c2.metric("Mejor retorno", _format_pct(best_return))
@@ -50,7 +53,7 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
             y=df_chart["total_value"],
             name="Valor final",
             mode="lines+markers",
-            line=dict(color="#4ecdc4", width=3),
+            line=dict(color=GREEN, width=3),
         ),
         secondary_y=False,
     )
@@ -60,24 +63,17 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
             y=df_chart["return_pct"],
             name="Retorno %",
             mode="lines+markers",
-            line=dict(color="#ffb86b", width=3),
+            line=dict(color=AMBER, width=3),
         ),
         secondary_y=True,
     )
-    fig.update_layout(
-        title="Evolución por lanzamiento",
-        height=380,
-        plot_bgcolor="#0e1117",
-        paper_bgcolor="#0e1117",
-        font_color="white",
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        margin=dict(t=65, b=20, l=20, r=20),
-    )
+    fig.update_layout(title="Evolución por lanzamiento")
     fig.update_yaxes(title_text="Valor final ($)", secondary_y=False)
     fig.update_yaxes(title_text="Retorno (%)", secondary_y=True)
+    apply_plotly_theme(fig, height=410)
     st.plotly_chart(fig, use_container_width=True)
 
-    st.subheader("Lanzamientos detectados")
+    section_header("Detected runs", "Lanzamientos detectados")
     df_table = df.sort_values("timestamp", ascending=False).copy()
     df_table["Activo"] = df_table["filename"] == selected_filename
     df_table["Snapshot"] = df_table["snapshot_status"].map({

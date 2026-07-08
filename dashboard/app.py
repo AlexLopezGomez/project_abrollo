@@ -18,12 +18,24 @@ from components.tab_graph import render_graph_tab
 from components.tab_history import render_history_tab
 from components.tab_hypotheses import render_hypotheses_tab
 from components.tab_returns import render_returns_tab
+from components.ui import chip, install_theme, render_hero
 
 
 def _format_money(value: object) -> str:
     if value is None:
         return "—"
     return f"${float(value):,.2f}"
+
+
+def _format_money_compact(value: object) -> str:
+    if value is None:
+        return "—"
+    number = float(value)
+    if abs(number) >= 1_000_000:
+        return f"${number / 1_000_000:.2f}M"
+    if abs(number) >= 1_000:
+        return f"${number / 1_000:.1f}K"
+    return f"${number:,.0f}"
 
 
 def _format_pct(value: object) -> str:
@@ -41,10 +53,11 @@ def _format_run_option(row: dict) -> str:
 
 st.set_page_config(
     page_title="Abrollo — Portfolio Dashboard",
-    page_icon="📈",
+    page_icon="AB",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+install_theme()
 
 history = get_submission_history()
 if not history:
@@ -60,7 +73,9 @@ filename_by_run_label = {
     label: filename
     for filename, label in run_labels_by_filename.items()
 }
-selected_option = st.sidebar.selectbox(
+
+st.sidebar.markdown('<div class="ab-sidebar-title">Run selector</div>', unsafe_allow_html=True)
+selected_option = st.sidebar.radio(
     "Lanzamiento",
     [row["filename"] for row in history],
     index=0,
@@ -76,27 +91,45 @@ dag = get_dag(artifact_key, hypotheses)
 portfolio = get_portfolio(artifact_key)
 
 sid = (submission_data.get("response") or {}).get("submission_id", "—")
+snapshot_status = selected_run.get("snapshot_status", "legacy")
+pipeline = selected_run.get("pipeline", "—")
+run_label = _format_run_option(selected_run)
+
+st.sidebar.divider()
+st.sidebar.markdown('<div class="ab-sidebar-title">Selected run</div>', unsafe_allow_html=True)
 st.sidebar.caption(f"Archivo: `{submission_file}`")
 st.sidebar.caption(f"Submission ID: `{sid}`")
 st.sidebar.caption(f"Artefactos: `{artifact_label}`")
-st.sidebar.caption(f"Snapshot: `{selected_run.get('snapshot_status', 'legacy')}`")
-st.sidebar.metric("Valor final", _format_money(selected_run.get("total_value")))
+st.sidebar.caption(f"Snapshot: `{snapshot_status}`")
+st.sidebar.metric("Valor final", _format_money_compact(selected_run.get("total_value")))
 st.sidebar.metric("Retorno", _format_pct(selected_run.get("return_pct")))
 st.sidebar.metric("Transacciones", str(selected_run.get("n_transactions", "—")))
+st.sidebar.divider()
+st.sidebar.markdown('<div class="ab-sidebar-title">Artifact health</div>', unsafe_allow_html=True)
+st.sidebar.caption(f"Hipótesis: `{len(hypotheses)}`")
+st.sidebar.caption(f"Solver: `{portfolio.get('solver', '—')}`")
+st.sidebar.caption(f"Tickers: `{portfolio.get('n_nonzero_tickers', '—')}`")
 
-st.title("Abrollo — Monte Carlo Cathedral 📈")
-st.caption(
-    f"submission_id: `{sid}`  |  "
-    f"archivo: `{submission_file}`  |  "
-    f"artefactos: `{artifact_label}`  |  "
-    f"snapshot: `{selected_run.get('snapshot_status', 'legacy')}`  |  "
-    f"retorno: {_format_pct(selected_run.get('return_pct'))}  |  "
-    f"solver: `{portfolio.get('solver', '—')}`  |  "
-    f"hipótesis: {len(hypotheses)}  |  "
-    f"tickers: {portfolio.get('n_nonzero_tickers', '—')}"
+render_hero(
+    title="Monte Carlo Cathedral",
+    subtitle=(
+        "Selector histórico, submissions, hipótesis Claude, Knowledge Graph y cartera final "
+        "sobre los artefactos reales del pipeline Abrollo."
+    ),
+    run_label=run_label,
+    total_value=_format_money(selected_run.get("total_value")),
+    return_pct=_format_pct(selected_run.get("return_pct")),
+    chips=[
+        chip(str(pipeline)),
+        chip(str(snapshot_status), "good" if snapshot_status == "snapshotted" else "warn"),
+        chip(f"submission {sid[:12]}…" if sid and sid != "—" else "sin submission id"),
+        chip(f"{len(hypotheses)} hipótesis"),
+        chip(f"{portfolio.get('n_nonzero_tickers', '—')} tickers"),
+        chip(f"solver {portfolio.get('solver', '—')}"),
+    ],
 )
 
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Returns", "📜 Historial", "🌐 Knowledge Graph", "🧠 Hipótesis de Claude"])
+tab1, tab2, tab3, tab4 = st.tabs(["Returns", "Historial", "Knowledge Graph", "Hipótesis de Claude"])
 
 with tab1:
     render_returns_tab(submission_data, portfolio)
