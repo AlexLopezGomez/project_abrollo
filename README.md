@@ -1,64 +1,108 @@
 # Abrollo — Monte Carlo Cathedral
 
-Proyecto del equipo Abrollo para el Cala AI Challenge (Project Barcelona, abril de 2026).
+Agente de construcción de carteras para el **Cala AI Challenge** (Project Barcelona, abril 2026).
+Equipo Abrollo: Alex, Nico, Carlos.
 
-Este README está actualizado contra el código actual de `main` a fecha **2026-04-16** y separa:
+> **No elegimos acciones. Elegimos una forma de incertidumbre con la que estar cómodos 12 meses.**
 
-- hechos verificables en el repo;
-- resultados históricos documentados en retros.
+## Resultados
 
-## 1) Qué hay en `main` (verificado)
+$1M de capital virtual, compra a cierre del 15-abr-2025, evaluado a precios del 15-abr-2026. Benchmark a batir: SPY buy-and-hold.
 
-El repo contiene dos pipelines ejecutables:
+| Versión | Valor final | Retorno | Cartera | Submission ID |
+|--------|-------------|---------|---------|---------------|
+| **MVP-2** | **$1,551,515.14** | **+55.2%** | 60 tickers | `jx704evqag7xry244jxqwcg5qh84x0p4` |
+| MVP-1 | $1,473,435.33 | +47.3% | 60 tickers | `jx7czbecp7106ezabxq50f79b984w0kb` |
 
-- **MVP-1** (scripts `step1` a `step11`): flujo inicial end-to-end.
-- **MVP-2** (scripts `mvp2_step1` a `mvp2_step10` + `mvp2_run_all.py`): versión con grafo de entidades, propagación y Monte Carlo correlacionado.
+Ambos envíos aceptados por el endpoint (HTTP 200). Números verificados en `docs/architecture/02-mvp-retro.md` y `04-mvp-2-retro.md`.
 
-Código principal:
+## La idea en 60 segundos
 
-- `abrollo/cala`: cliente Cala + resolución de NDX + cutoff temporal.
-- `abrollo/agents`: generación/validación de hipótesis (`hypothesis.py`, `hypothesis_v2.py`).
-- `abrollo/dag`: construcción de grafo y propagación causal.
-- `abrollo/mc`: covarianza y simulación Monte Carlo.
-- `abrollo/opt`: optimización CVaR.
-- `abrollo/submit`: validación y envío al endpoint Convex.
+El enfoque naíf (que hará ~80% de los equipos): un enjambre de LLMs debate cada acción y un LLM "juez" reparte capital. Eso colapsa en scoring por intuición. Los LLMs son malos jueces de mercado, no modelan correlaciones y no producen distribuciones de incertidumbre.
 
-Documentación de arquitectura:
+**Nuestra inversión:** que cada herramienta haga lo que sabe hacer.
 
-- `docs/architecture/00-cto-design.md`
-- `docs/architecture/01-mvp-plan.md`
-- `docs/architecture/02-mvp-retro.md`
-- `docs/architecture/03-mvp-2-plan.md`
-- `docs/architecture/04-mvp-2-retro.md`
+- **Los LLMs** leen texto de Cala y emiten **hipótesis causales estructuradas con citas** (nada de opiniones, solo afirmaciones con fuente).
+- **Las matemáticas** propagan probabilidades por un grafo causal, simulan miles de futuros y optimizan la cartera bajo incertidumbre.
+- Las **correlaciones** son explícitas en el grafo, no implícitas en la "cabeza" del modelo.
+- La salida es una **distribución de resultados**, no una predicción puntual.
 
-## 2) Requisitos (verificado en código)
+No predecimos qué acciones ganarán: enumeramos futuros a 12 meses plausibles y elegimos la cartera que sobrevive bien en toda la distribución, sobre todo en la cola (war-gaming estilo RAND aplicado a asignación de capital).
 
-- Python: `>=3.11` (`pyproject.toml`)
-- Variables de entorno (`abrollo/config.py`):
-  - `CALA_API_KEY`
-  - `ANTHROPIC_API_KEY`
-- `data/`, `.env`, `.venv/` están en `.gitignore` (los artefactos se generan localmente).
+### El pipeline (4 etapas)
 
-## 3) Instalación
-
-```bash
-git clone https://github.com/AlexLopezGomez/project_abrollo.git
-cd project_abrollo
-
-python -m venv .venv
-.venv/Scripts/pip install -e .
+```
+  ┌─────────────────────┐   ┌──────────────────┐   ┌──────────────────┐   ┌────────────────────┐
+  │ 1. Agentes (Claude) │──▶│ 2. Grafo causal  │──▶│ 3. Monte Carlo   │──▶│ 4. Optimización    │
+  │                     │   │    (DAG)         │   │                  │   │    CVaR (cvxpy)    │
+  │ Leen Cala y emiten  │   │ Hipótesis → nodos│   │ N escenarios ×   │   │                    │
+  │ hipótesis con citas │   │ y aristas con    │   │ M tickers.       │   │ max E[r] − λ·CVaR  │
+  │ (UUID + fecha).     │   │ probabilidades.  │   │ Cada fila = un   │   │ → 50+ pesos = la   │
+  │ Firewall: toda      │   │ Propagación      │   │ año simulado del │   │ cartera final.    │
+  │ fuente ≤ 2025-04-15 │   │ causal.          │   │ mundo entero.    │   │                    │
+  └─────────────────────┘   └──────────────────┘   └──────────────────┘   └────────────────────┘
+        sin lookahead              networkx / pgmpy        numpy                  cvxpy / SCS
 ```
 
-Crea un `.env` en la raíz:
+**Cala** es un grafo de entidades verificadas (empresas, personas, leyes, papers…), cada hecho con UUID y timestamp. No es un buscador ni un proveedor de datos de bolsa: es un sustrato de hechos citables que el agente consulta como herramienta. El *firewall anti-lookahead* es mecánico: toda hipótesis debe citar fuentes con fecha ≤ 15-abr-2025.
+
+El brief completo del concepto está en **[`IDEA.md`](IDEA.md)**.
+
+## Ver la data — Dashboard Streamlit
+
+La forma más rápida de entender qué hicimos es **levantar el dashboard**. Los artefactos reales del pipeline (submissions, grafos, hipótesis, carteras) están versionados en `data/`, así que funciona sin ejecutar el pipeline.
+
+```bash
+python -m venv .venv
+.venv/bin/pip install -e .                       # en Windows: .venv\Scripts\pip
+.venv/bin/pip install -r dashboard/requirements.txt
+
+.venv/bin/streamlit run dashboard/app.py --server.port 8501
+```
+
+Abre http://localhost:8501. Selecciona cualquier run histórico en la barra lateral y explora las pestañas:
+
+- **Returns** — cartera final, valor y retorno del run seleccionado.
+- **Historial** — todos los envíos y su evolución.
+- **Knowledge Graph** — el DAG causal navegable (nodos evento → mecanismos → tickers).
+- **Hipótesis de Claude** — las hipótesis generadas con sus citas a Cala (UUID + fecha).
+
+![Dashboard Abrollo](dashboard_home.png)
+
+## Mapa del repo
+
+```
+abrollo/            Código del pipeline (paquete instalable)
+├── cala/           Cliente Cala, resolución del NASDAQ-100, cutoff temporal
+├── agents/         Generación y validación de hipótesis (Claude)
+├── dag/            Construcción del grafo causal y propagación
+├── mc/             Covarianza y simulación Monte Carlo
+├── opt/            Optimización CVaR
+└── submit/         Validación y envío al endpoint Convex
+
+scripts/            Pipelines ejecutables paso a paso
+├── step1..step11             MVP-1 (flujo inicial end-to-end)
+└── mvp2_step1..mvp2_step10   MVP-2 (grafo de entidades + MC correlacionado)
+    + mvp2_run_all.py         corre MVP-2 completo de una vez
+
+dashboard/          App Streamlit para visualizar los artefactos
+data/               Artefactos versionados (submissions, grafos, hipótesis…)
+docs/architecture/  Diseño, planes y retros (ver "Por dónde seguir")
+IDEA.md             Brief completo del concepto
+```
+
+## Ejecutar el pipeline (opcional)
+
+El dashboard ya trae la data. Solo necesitas esto si quieres **regenerar** los artefactos.
+
+Requisitos: Python `>=3.11` y un `.env` en la raíz:
 
 ```env
 CALA_API_KEY=tu_api_key
 ANTHROPIC_API_KEY=tu_api_key
 ```
 
-## 4) Ejecutar MVP-1
-
-Orden recomendado (primera ejecución):
+**MVP-1** (primera ejecución, en orden):
 
 ```bash
 python -m scripts.step1_smoke_test
@@ -74,62 +118,20 @@ python -m scripts.step10_validate
 python -m scripts.step11_submit --dry-run
 ```
 
-Modos de envío MVP-1 (`scripts/step11_submit.py`):
+Modos de envío (`step11_submit.py`): `--dry-run` (imprime, no hace POST) · `--safe` (POST equal-weight 50×$20k) · `--real` (POST con `data/portfolios/mvp.json`).
 
-- `--dry-run`: imprime body y no hace POST.
-- `--safe`: POST real con cartera equal-weight 50x$20k.
-- `--real`: POST real con `data/portfolios/mvp.json`.
-
-## 5) Ejecutar MVP-2
-
-Opciones:
+**MVP-2** (necesita `data/nasdaq100_uuids.json` con 99 hits del `step2` previo):
 
 ```bash
-python scripts/mvp2_run_all.py
+python scripts/mvp2_run_all.py          # todo de una vez
+# o paso a paso: mvp2_step1_preflight.py … mvp2_step10_submit.py
 ```
 
-o por pasos:
+## Por dónde seguir leyendo
 
-```bash
-python scripts/mvp2_step1_preflight.py
-python scripts/mvp2_step2_bulk_retrieve.py
-python scripts/mvp2_step3_covariance.py
-python scripts/mvp2_step4_graph.py
-python scripts/mvp2_step5_hypotheses.py
-python scripts/mvp2_step6_propagation.py
-python scripts/mvp2_step7_mc.py
-python scripts/mvp2_step8_optimize.py
-python scripts/mvp2_step9_validate.py
-python scripts/mvp2_step10_submit.py
-```
+En orden, para entender el proyecto en profundidad:
 
-Nota importante: el preflight de MVP-2 exige `data/nasdaq100_uuids.json` con 99 hits, por lo que necesitas haber corrido antes `scripts.step2_resolve_ndx`.
-
-## 6) Artefactos generados en `data/`
-
-Rutas relevantes que escribe el código actual:
-
-- `data/openapi.pinned.json`
-- `data/nasdaq100_uuids.json`
-- `data/introspection_samples.json`
-- `data/semi_profiles/*.json`
-- `data/cala_entities/*.json`
-- `data/hypotheses/{semi.json,mvp2.json}`
-- `data/graph/{mvp2.gpickle,mvp2_summary.json}`
-- `data/dag/{mvp.pkl,mvp.json,mvp2.pkl,mvp2.json}`
-- `data/cov/mvp2.npz`
-- `data/scenarios/{mvp.parquet,mvp_meta.json,mvp2.parquet,mvp2_meta.json}`
-- `data/portfolios/{mvp.json,mvp2.json}`
-- `data/submissions/{mvp_run_*.json,mvp2_run_*.json}`
-
-## 7) Resultados históricos (documentados)
-
-Estos datos vienen de retros versionadas en el repo:
-
-- **MVP-1**: `docs/architecture/02-mvp-retro.md` (run date `2026-04-15`), con `submission_id` documentado `jx7czbecp7106ezabxq50f79b984w0kb`.
-- **MVP-2**: `docs/architecture/04-mvp-2-retro.md` (run date `2026-04-15`), con `submission_id` documentado `jx704evqag7xry244jxqwcg5qh84x0p4`.
-
-Se consideran resultados históricos del proyecto; no son una verificación en tiempo real desde este README.
-
-
-streamlit run dashboard/app.py --server.port 8501 
+1. **[`IDEA.md`](IDEA.md)** — el brief y la tesis contraria.
+2. **[`docs/architecture/00-cto-design.md`](docs/architecture/00-cto-design.md)** — diseño técnico.
+3. **[`docs/architecture/01-mvp-plan.md`](docs/architecture/01-mvp-plan.md)** y **[`02-mvp-retro.md`](docs/architecture/02-mvp-retro.md)** — plan y retro de MVP-1.
+4. **[`docs/architecture/03-mvp-2-plan.md`](docs/architecture/03-mvp-2-plan.md)** y **[`04-mvp-2-retro.md`](docs/architecture/04-mvp-2-retro.md)** — plan y retro de MVP-2 (incluye limitaciones conocidas y próximos pasos).
