@@ -1,0 +1,38 @@
+{
+  "id": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+  "name": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "aliases": {
+      "value": [
+        "Barclays Global Investors Japan Trust & Banking Co., Ltd."
+      ],
+      "sources": []
+    },
+    "id": {
+      "value": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+      "sources": []
+    },
+    "name": {
+      "value": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": "https://www.sec.gov/Archives/edgar/data/1045810/000091341407002010/nvidia123106.txt",
+          "date": "2007-01-23"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+    "properties_count_requested": 3,
+    "numobs_categories_requested": 0
+  }
+}

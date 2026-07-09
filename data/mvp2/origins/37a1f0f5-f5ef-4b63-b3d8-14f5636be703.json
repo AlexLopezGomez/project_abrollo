@@ -1,0 +1,157 @@
+{
+  "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+  "name": "United States",
+  "entity_type": "Country",
+  "description": "Country of 340 million people using USD currency, abbreviated US",
+  "properties": {
+    "gdp": {
+      "value": 29184.89,
+      "sources": [
+        {
+          "name": "https://tradingeconomics.com/united-states/gdp#:~:text=GDP%20in%20the%20United%20States,542.39%20USD%20Billion%20in%201960.",
+          "document": "https://tradingeconomics.com/united-states/gdp#:~:text=GDP%20in%20the%20United%20States,542.39%20USD%20Billion%20in%201960.",
+          "date": "2026-03-25"
+        },
+        {
+          "name": "http://www.tradingeconomics.com/united-states/gdp",
+          "document": "http://www.tradingeconomics.com/united-states/gdp",
+          "date": "2026-03-25"
+        },
+        {
+          "name": "https://tradingeconomics.com/united-states/gdp#historical",
+          "document": "https://tradingeconomics.com/united-states/gdp#historical",
+          "date": "2026-03-25"
+        }
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "sources": [
+        {
+          "name": "Compare International Money Transfers 2026 | MyCurrencyTransfer",
+          "document": "https://www.mycurrencytransfer.com/exchange-rates/usd-united-states-dollar",
+          "date": "2026-03-25"
+        },
+        {
+          "name": "AffairsCloud.com",
+          "document": "https://affairscloud.com/australia-continent-countries-capitals-currency-code",
+          "date": "2020-07-10"
+        },
+        {
+          "name": "Currency Exchange Rates",
+          "document": "https://www.exchangerate.com/currency-iso/us-dollar-USD.html",
+          "date": "1998-01-01"
+        },
+        {
+          "name": "https://www.360pay.ch/the-language-of-payments/iso-currency-codes",
+          "document": "https://www.360pay.ch/the-language-of-payments/iso-currency-codes",
+          "date": "2026-03-16"
+        },
+        {
+          "name": "https://moneyconvert.net/currency-codes",
+          "document": "https://moneyconvert.net/currency-codes",
+          "date": "2026-03-16"
+        },
+        {
+          "name": "Currency Exchange Rates",
+          "document": "http://www.exchangerate.com/currency-iso/us-dollar-USD.html",
+          "date": "2026-03-16"
+        },
+        {
+          "name": "https://postalzipcode.co/united-states",
+          "document": "https://postalzipcode.co/united-states",
+          "date": "2026-03-16"
+        },
+        {
+          "name": "Local Times - Find current local time for country or city",
+          "document": "https://localtimes.co/united-states/arkansas",
+          "date": "2025-03-02"
+        },
+        {
+          "name": "Local Times - Find current local time for country or city",
+          "document": "https://localtimes.co/united-states/idaho",
+          "date": "2025-03-02"
+        },
+        {
+          "name": "Local Times - Find current local time for country or city",
+          "document": "https://localtimes.co/united-states/arizona",
+          "date": "2025-03-02"
+        }
+      ]
+    },
+    "id": {
+      "value": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "sources": []
+    },
+    "population": {
+      "value": 348056891,
+      "sources": [
+        {
+          "name": "World Population (2026)",
+          "document": "https://populationtoday.com/us-united-states/",
+          "date": "2026-03-16"
+        }
+      ]
+    },
+    "name": {
+      "value": "United States",
+      "sources": [
+        {
+          "name": "pycountry",
+          "document": "",
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "description": {
+      "value": "Country of 340 million people using USD currency, abbreviated US",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-03"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "US",
+        "Estados Unidos",
+        "\u00c9tats-Unis",
+        "Vereinigte Staaten",
+        "U.S.",
+        "USA",
+        "Etats-Unis",
+        "United States",
+        "United States of America (USA)",
+        "the United States",
+        "United States of America",
+        "EE.UU.",
+        "EE.UU",
+        "US market",
+        "U.S"
+      ],
+      "sources": []
+    },
+    "iso_alpha_2": {
+      "value": "US",
+      "sources": [
+        {
+          "name": "pycountry",
+          "document": "",
+          "date": "2026-02-26"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+    "properties_count_requested": 8,
+    "numobs_categories_requested": 0
+  }
+}

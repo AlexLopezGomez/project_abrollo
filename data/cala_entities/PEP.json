@@ -1,0 +1,3800 @@
+{
+  "id": "28d5ef45-3923-4113-85cc-542007a99065",
+  "name": "PEPSICO INC",
+  "entity_type": "Company",
+  "description": "Multinational company headquartered in Harrison, NY, founded in 1986, with subsidiaries including PepsiCo France and SodaStream International",
+  "properties": {
+    "description": {
+      "value": "Multinational company headquartered in Harrison, NY, founded in 1986, with subsidiaries including PepsiCo France and SodaStream International",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "PepsiCo\u2019s ESG policy is embodied in its \u2018PepsiCo Positive (pep+)\u2019 framework, which defines its environmental, social and governance commitments\u2014including net\u2011zero emissions by 2040, regenerative agriculture and water stewardship, human\u2011rights and farmer\u2011livelihood initiatives, and a robust sustainability governance structure managed by the Global Sustainability Office\u2019s Reporting and Governance team and overseen by the board.",
+      "sources": [
+        {
+          "name": "ESG Topics A\u2013Z | PepsiCo",
+          "document": "https://www.pepsico.com/esg-topics",
+          "date": "2000-01-01"
+        },
+        {
+          "name": "About our reporting",
+          "document": "https://www.pepsico.com/esg-topics/about-our-reporting",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0000077476",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CT Corporation System, 160 Mine Lake Ct Ste 200, Raleigh, US-NC, 27615-6417, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PEPSICO+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "cad4a0073513a16e1fbd5ffafb483c572d65be206c2ecf34a27e3080a6f044b8"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/FJSUNZKFNQ5YPJ5OT455",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1986-11-13",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/FJSUNZKFNQ5YPJ5OT455",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "PEPSICO INC",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "lei": {
+      "value": "FJSUNZKFNQ5YPJ5OT455",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PEPSICO+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "cad4a0073513a16e1fbd5ffafb483c572d65be206c2ecf34a27e3080a6f044b8"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/FJSUNZKFNQ5YPJ5OT455",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "700 Anderson Hill Road, Harrison, US-NY, 10577, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PEPSICO+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "cad4a0073513a16e1fbd5ffafb483c572d65be206c2ecf34a27e3080a6f044b8"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/FJSUNZKFNQ5YPJ5OT455",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "28d5ef45-3923-4113-85cc-542007a99065",
+      "sources": []
+    },
+    "aliases": {
+      "value": [
+        "PepsiCo",
+        "PEP",
+        "PepsiCo, Inc.",
+        "PepsiCo Inc.",
+        "Pepsi"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 318000,
+      "sources": [
+        {
+          "name": "en.wikipedia.org",
+          "document": "https://en.wikipedia.org/wiki/PepsiCo",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "PepsiCo, Inc.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PEPSICO+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "cad4a0073513a16e1fbd5ffafb483c572d65be206c2ecf34a27e3080a6f044b8"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/FJSUNZKFNQ5YPJ5OT455",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/top-nasdaq-100-companies-market-cap",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "ec133757-ecc9-5c5e-8286-bc2b9ac7d99b"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "0189a8f5-70c9-4b80-9a76-ee2dd7512551",
+          "name": "PEPSICO GLOBAL BUSINESS SERVICES INDIA LLP",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493002BCKYSHIBLYW23",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "db53fa61-c95c-5a63-af09-452e0d0b9a12",
+            "valid_since": "2019-03-28"
+          }
+        },
+        {
+          "id": "0470d464-27dc-4aeb-a64c-5b9511775179",
+          "name": "CB MANUFACTURING COMPANY, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300I568EC6OP0DX21",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "cf87822f-8747-530e-9764-f33dcde12d6d",
+            "valid_since": "2021-05-11"
+          }
+        },
+        {
+          "id": "049745d5-1cca-4355-922a-3b5857f2b28d",
+          "name": "PEPSICO CANADA ULC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300NJTG0JDUFR4468",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "c2d545fa-69f6-515e-a53e-e9b9b444156d",
+            "valid_since": "2011-08-02"
+          }
+        },
+        {
+          "id": "0618fc3b-6164-4c57-b159-bb2f7a959609",
+          "name": "SodaStream (Switzerland) GmbH",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493002D1SWW31A8AE09",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "7031bebf-9679-5f21-95c4-ef9641e1b7fe",
+            "valid_since": "2023-10-01"
+          }
+        },
+        {
+          "id": "0640ee56-e60e-4fed-8127-775a3e3dca1d",
+          "name": "THE PEPSI BOTTLING GROUP (CANADA), ULC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493001PSV39JO0RMR75",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "cef059d5-5c1b-5bc7-81b3-56c544aed64e",
+            "valid_since": "2023-07-26"
+          }
+        },
+        {
+          "id": "0998372e-bcf9-4f04-9a4f-354c9abe0f68",
+          "name": "FRUKO ME\u015eRUBAT SANAYI LIMITED \u015eIRKETI",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300B42DMSFO2BDN73",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "4c5cf79b-3c82-56a9-88e1-18672f177669",
+            "valid_since": "1955-11-29"
+          }
+        },
+        {
+          "id": "0b359ff4-9a27-4fff-b845-5a6ac1dbabcf",
+          "name": "\u05e1\u05d5\u05d3\u05d4\u05e1\u05d8\u05e8\u05d9\u05dd \u05ea\u05e2\u05e9\u05d9\u05d5\u05ea \u05d1\u05e2\"\u05de",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300V4U8G5UZ7Q4G87",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "14397c83-e908-585b-a8ec-f024677e9177",
+            "valid_since": "2019-04-17"
+          }
+        },
+        {
+          "id": "133f5721-288a-44fb-8607-a24eb6fd61d7",
+          "name": "SABRITAS S DE RL DE CV",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930032Q3HTPO4T7I90",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "08b5b1db-3b77-57ef-bb14-10bbb6ab42f5",
+            "valid_since": "1965-11-23"
+          }
+        },
+        {
+          "id": "13b104ca-025d-496f-9ce6-63c802d2d71a",
+          "name": "Pepsi-Cola International Holdings Ltd.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300ZOWOES3HSHZU95",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ad5ce299-264a-553b-bd4e-45292040eba2",
+            "valid_since": "1957-02-05"
+          }
+        },
+        {
+          "id": "13e1b0f3-05c8-47fc-b224-179780a0a413",
+          "name": "Pioneer Foods Groceries Proprietary Limited",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/378952K0CPF3WUF12G73",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "586efcc0-dc63-5c41-9525-463293ba58e9",
+            "valid_since": "2020-03-06"
+          }
+        },
+        {
+          "id": "1b667526-0bea-4127-948a-ef2722cab185",
+          "name": "PORTFOLIO CONCENTRATE SOLUTIONS UNLIMITED COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300B880T3MW1YB519",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "91de49d6-b103-5a2a-896c-2de884a97df7",
+            "valid_since": "2017-08-09"
+          }
+        },
+        {
+          "id": "3357f3cf-3606-4960-80f5-269d2a6333ba",
+          "name": "Frito-Lay Trading Company (Europe) GmbH",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/PWC31S4B80T0G46KYK03",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "1fdc5615-9a90-5a1c-854e-a2d50b0be9ea",
+            "valid_since": "1998-07-02"
+          }
+        },
+        {
+          "id": "3864079c-f858-45cb-b889-b901d7763aa0",
+          "name": "CONCENTRATE MANUFACTURING (SINGAPORE) PTE. LTD.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300G54UGNOZV5ZX29",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "e6f17b53-9d7c-56d3-9177-a11b114c190b",
+            "valid_since": "2017-05-27"
+          }
+        },
+        {
+          "id": "3ba9f541-dadc-44a0-affb-2db59ce3ef26",
+          "name": "Pioneer Voedsel (Proprietary) Limited",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/3789FBJL0WTB71J8D253",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "5a9b1fbb-e86f-5ef8-89ab-30f32711a3cb",
+            "valid_since": "2020-03-06"
+          }
+        },
+        {
+          "id": "3ccf1356-375e-4065-b2aa-3e320ee2bde6",
+          "name": "PEPSICO GROUP FINANCE INTERNATIONAL B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300D5E18MJB93GS76",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "5cb75585-02b0-5b09-9897-70524d1dd634",
+            "valid_since": "2023-07-25"
+          }
+        },
+        {
+          "id": "3df328ac-3de8-41c8-b27f-d97601c409a4",
+          "name": "PEPSICO INDIA SALES PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/9845005E9CB46B591050",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "fb0fbf88-1585-5c4d-aee7-fb1223618a4a",
+            "valid_since": "2003-09-18"
+          }
+        },
+        {
+          "id": "3ebbd710-d1a0-42f8-a395-9c7fe400e3e6",
+          "name": "QUADRANT - AMROQ BEVERAGES SRL",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300G999XT7JPOG839",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b75c64c6-c398-53d2-8a41-cdb29a4f13a4",
+            "valid_since": "2012-12-01"
+          }
+        },
+        {
+          "id": "425abddd-3ed9-433b-ab03-cc066f86194b",
+          "name": "HILLGROVE, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300K4DKT4NM0Q4R83",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "2dc0ef1c-1f79-58a1-b4c8-7972c38eeb90",
+            "valid_since": "2019-08-26"
+          }
+        },
+        {
+          "id": "429294fc-cb50-463a-8d37-94b22e4c9f0f",
+          "name": "PEPSI-COLA INTERNATIONAL, CORK",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300FR5B2WDW7IW365",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3c7f902c-6ba0-57a1-9883-a4983258e80d",
+            "valid_since": "2017-12-15"
+          }
+        },
+        {
+          "id": "528a6027-46a2-4e9e-bf72-81757c44e950",
+          "name": "SVC MANUFACTURING, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493004VQULPKNF7YJ44",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "54c9dbb7-514d-5304-98a6-2b1e53fa3ec2",
+            "valid_since": "2018-04-19"
+          }
+        },
+        {
+          "id": "553b562c-18bd-4b77-9de2-bf8d8465be7f",
+          "name": "ERIDANUS INVESTMENTS S.\u00e0 r.l.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300QCSC76UOGRIF29",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "e6ac7225-1d68-5d2b-8d74-ce5bf55f3765",
+            "valid_since": "2017-12-13"
+          }
+        },
+        {
+          "id": "56306300-61c6-4683-89b4-75cee591310f",
+          "name": "FOVAROSI ASVANYVIZ ES UDITOIPARI ZARTKORUEN MUKODO RESZVENYTARSASAG",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300GGPJ4NFF2FP502",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "44d7e273-307f-5dda-8cf0-7a96d6edd34e",
+            "valid_since": "2018-08-14"
+          }
+        },
+        {
+          "id": "57ff5031-89de-41ed-b1f3-17e72f67e945",
+          "name": "PEPSICO FINANCE AMERICAS COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493002KN9HTGFC4IB18",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b2c630dd-70e4-58b3-9258-57995a9c88fe",
+            "valid_since": "2023-03-27"
+          }
+        },
+        {
+          "id": "5b812225-00f1-4bee-bddc-e6c5e5a35741",
+          "name": "PEPSICO BEVERAGES ITALIA SOCIETA' A RESPONSABILITA' LIMITATA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300KPCHRBJ7RRP995",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "5db36490-5999-5b6d-8f43-85f23dcccea1",
+            "valid_since": "2018-01-29"
+          }
+        },
+        {
+          "id": "5bcda685-f10f-4e70-a333-c51b0cc76624",
+          "name": "PEPSICO ALIMENTOS COLOMBIA LTDA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300NF3HD6B2ZLSE30",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "80fac3ae-928f-5920-a59c-21af5afc67ae",
+            "valid_since": "2001-09-04"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+          "name": "United States",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "Global Companies by Market Capitalization",
+                "document": "https://marketcap.company/stock-exchanges/nasdaq-nasdaq-exchange-market-capitalization/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "64cbfde8-d214-5b00-95a1-a17586781f9d"
+          }
+        },
+        {
+          "id": "ad669129-9067-40ee-975e-119e9e61548f",
+          "name": "North Carolina",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PEPSICO+INC&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "cad4a0073513a16e1fbd5ffafb483c572d65be206c2ecf34a27e3080a6f044b8"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "00bc7095-17ef-4698-b0b0-62102a2f7538"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+          "name": "United States",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "Global Companies by Market Capitalization",
+                "document": "https://marketcap.company/stock-exchanges/nasdaq-nasdaq-exchange-market-capitalization/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "e9360559-9ec9-5147-b522-83a692d4aedb"
+          }
+        },
+        {
+          "id": "ebacd46e-8975-471d-972f-8d877ea12287",
+          "name": "New York",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PEPSICO+INC&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "cad4a0073513a16e1fbd5ffafb483c572d65be206c2ecf34a27e3080a6f044b8"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "95e7895b-72b9-4ca5-a839-b90f993d4aac"
+          }
+        }
+      ],
+      "IS_DIRECT_OWNER_OF": [
+        {
+          "id": "d0101ee1-f4b2-4e9a-a709-1fb28d3d607f",
+          "name": "SodaStream International B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b4a0fa7c-635c-56f0-bfa2-e7cf54d26122"
+          }
+        },
+        {
+          "id": "ecc2ce51-82b6-452a-8607-a5eee9983037",
+          "name": "PEPSICO FRANCE",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "82d0c623-ac6c-53fa-acb6-eac131843111"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "3df6180f-8cd4-4df8-94e9-47ca42055b91",
+          "name": "Consumer Staples",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockalertspro.com",
+                "document": "https://stockalertspro.com/nasdaq-100-companies-list-2025/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "3633a4f4-b250-54e3-bf62-2ee650ffd7b4"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "0470d464-27dc-4aeb-a64c-5b9511775179",
+          "name": "CB MANUFACTURING COMPANY, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300I568EC6OP0DX21",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "231bd360-5a56-5cee-86fb-ba820950452f",
+            "valid_since": "2021-05-11"
+          }
+        },
+        {
+          "id": "0618fc3b-6164-4c57-b159-bb2f7a959609",
+          "name": "SodaStream (Switzerland) GmbH",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493002D1SWW31A8AE09",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8f0aeec7-c7e8-5d8c-a93d-b9d10f1ab4bd",
+            "valid_since": "2023-10-01"
+          }
+        },
+        {
+          "id": "0640ee56-e60e-4fed-8127-775a3e3dca1d",
+          "name": "THE PEPSI BOTTLING GROUP (CANADA), ULC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493001PSV39JO0RMR75",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "33b7b4ca-d199-59d1-a50a-09d0f3f1d09e",
+            "valid_since": "2023-07-26"
+          }
+        },
+        {
+          "id": "0b359ff4-9a27-4fff-b845-5a6ac1dbabcf",
+          "name": "\u05e1\u05d5\u05d3\u05d4\u05e1\u05d8\u05e8\u05d9\u05dd \u05ea\u05e2\u05e9\u05d9\u05d5\u05ea \u05d1\u05e2\"\u05de",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300V4U8G5UZ7Q4G87",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "aefaad5d-c945-5b2b-8871-606a24f06ea3",
+            "valid_since": "2019-04-17"
+          }
+        },
+        {
+          "id": "3ccf1356-375e-4065-b2aa-3e320ee2bde6",
+          "name": "PEPSICO GROUP FINANCE INTERNATIONAL B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300D5E18MJB93GS76",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d910e172-a2df-56f7-8666-f1680c212f9e",
+            "valid_since": "2023-07-25"
+          }
+        },
+        {
+          "id": "3df328ac-3de8-41c8-b27f-d97601c409a4",
+          "name": "PEPSICO INDIA SALES PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/9845005E9CB46B591050",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "7174a996-6b77-5b65-9c96-b6edebcc207a",
+            "valid_since": "2003-09-18"
+          }
+        },
+        {
+          "id": "425abddd-3ed9-433b-ab03-cc066f86194b",
+          "name": "HILLGROVE, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300K4DKT4NM0Q4R83",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8060e6a8-14ca-551d-bf5e-88561140e642",
+            "valid_since": "2019-08-26"
+          }
+        },
+        {
+          "id": "429294fc-cb50-463a-8d37-94b22e4c9f0f",
+          "name": "PEPSI-COLA INTERNATIONAL, CORK",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300FR5B2WDW7IW365",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "24ff6e4a-76a1-5b5e-8db7-1e42b6bfbf50",
+            "valid_since": "2017-12-15"
+          }
+        },
+        {
+          "id": "528a6027-46a2-4e9e-bf72-81757c44e950",
+          "name": "SVC MANUFACTURING, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493004VQULPKNF7YJ44",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "43af2588-ff8a-5e55-b4af-1f41d66bdb4e",
+            "valid_since": "2018-04-19"
+          }
+        },
+        {
+          "id": "553b562c-18bd-4b77-9de2-bf8d8465be7f",
+          "name": "ERIDANUS INVESTMENTS S.\u00e0 r.l.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300QCSC76UOGRIF29",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ba7b3cfd-fa04-5322-8764-d71e007d3509",
+            "valid_since": "2017-12-13"
+          }
+        },
+        {
+          "id": "56306300-61c6-4683-89b4-75cee591310f",
+          "name": "FOVAROSI ASVANYVIZ ES UDITOIPARI ZARTKORUEN MUKODO RESZVENYTARSASAG",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300GGPJ4NFF2FP502",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "0656447e-cc7e-5b6f-a6ed-41cd7406504f",
+            "valid_since": "2018-08-14"
+          }
+        },
+        {
+          "id": "57ff5031-89de-41ed-b1f3-17e72f67e945",
+          "name": "PEPSICO FINANCE AMERICAS COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493002KN9HTGFC4IB18",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "316ea932-4b60-53be-90e6-b1247d047099",
+            "valid_since": "2023-03-27"
+          }
+        },
+        {
+          "id": "5b812225-00f1-4bee-bddc-e6c5e5a35741",
+          "name": "PEPSICO BEVERAGES ITALIA SOCIETA' A RESPONSABILITA' LIMITATA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300KPCHRBJ7RRP995",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "c65fa209-bf80-5c52-9900-e9ee27d47794",
+            "valid_since": "2018-01-29"
+          }
+        },
+        {
+          "id": "64902931-d4f5-4295-8cf8-e963a2db4d0c",
+          "name": "BOTTLING GROUP, LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/9HTTYZ8L8DV3WIH2G261",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "c551a29d-0135-5d64-8276-d9750496373d",
+            "valid_since": "2018-04-19"
+          }
+        },
+        {
+          "id": "7ef342f8-1070-4547-8bd0-b9348fcb9c21",
+          "name": "PepsiCo Light",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300HBWL2D661DQ564",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "57af0382-ee09-513c-b5dc-debeda65ba0f",
+            "valid_since": "2021-07-06"
+          }
+        },
+        {
+          "id": "95ba25eb-0236-436c-a231-9c322dd29677",
+          "name": "PEPSICO UK PENSION PLAN TRUSTEE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300FW50E8YXSGGV91",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "e0e5ff5b-4a9f-5667-a8a7-168631e60277",
+            "valid_since": "2024-12-13"
+          }
+        },
+        {
+          "id": "95d68d8b-fdfb-4502-ba46-77572b430842",
+          "name": "FRITO-LAY DOMINICANA, S.A",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493000C50HWZWQMIL72",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a4313cf3-25ce-5033-b4c3-f217f67a9b3e",
+            "valid_since": "2023-04-03"
+          }
+        },
+        {
+          "id": "97d0746c-169b-4222-b598-278e94fb4fbe",
+          "name": "QUAKER SALES & DISTRIBUTION, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300Q7LUWFQRVMAT38",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "609b03a5-1824-54ee-8861-d11231418d2c",
+            "valid_since": "2018-04-19"
+          }
+        },
+        {
+          "id": "9b444a10-5ae5-40d3-805d-f2f4143f759c",
+          "name": "Papas Chips S.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493000IGHH3JGB77352",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "209691f5-ff06-50d7-91bd-1cddeeead86d",
+            "valid_since": "2017-12-15"
+          }
+        },
+        {
+          "id": "a9612b26-f2a9-45a8-8b3f-9653f1aed24b",
+          "name": "ROLLING FRITO-LAY SALES, LP",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300ZUAM7OFVH6ZB49",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d68773e6-dd81-5033-97ca-98224971785c",
+            "valid_since": "2018-04-19"
+          }
+        },
+        {
+          "id": "af86eb4a-876f-475a-a1f5-00100093b06b",
+          "name": "Naked Juice LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300Y5TU1XQ1KVLJ64",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "034ed3f5-5f16-500e-a058-0090c8fbd73b",
+            "valid_since": "2022-01-05"
+          }
+        },
+        {
+          "id": "b0330252-44b9-4c76-90a0-0fb61fcfabac",
+          "name": "PEPSICO AUSTRALIA FINANCING PARTNER 1 LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300O0XPWRQOOCCJ60",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8dfb599e-052b-5596-985f-3d6e656d5668",
+            "valid_since": "2021-12-19"
+          }
+        },
+        {
+          "id": "b5b0dc04-2bf8-4275-aa95-b48157f99d38",
+          "name": "PEPSI COLA EGYPT S.A.E.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300KHQVZA2O6ZGC48",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "9f99bb35-15eb-5c6a-a210-286c45db18d9",
+            "valid_since": "2018-01-30"
+          }
+        },
+        {
+          "id": "b7f010ef-df81-4c56-9bd8-f9cfe733e9d8",
+          "name": "PEPSICO INDIA HOLDINGS PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800YYID7I7J65ZT56",
+                "date": "2026-04-11"
+              }
+            ],
+            "id": "1ddc3fc6-ce2b-5eba-aa57-6fe9e06f77fc",
+            "valid_since": "1994-01-27"
+          }
+        },
+        {
+          "id": "c57e54ab-8f7c-4900-b506-67108b1ee65a",
+          "name": "PBG Midwest Holdings S.\u00e0 r.l.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493003OPKIUITIJ0138",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "61965044-c205-5e0c-b0c8-8a0987932b44",
+            "valid_since": "2017-12-15"
+          }
+        }
+      ],
+      "LISTED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a450c454-7df0-5ce5-a914-f65957804864"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "MANUFACTURED_BY": [
+        {
+          "id": "06758256-f72a-4af6-abdd-055b1dcba3b5",
+          "name": "Lay's",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Lay%27s",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "pepsi.fandom.com",
+                "document": "https://pepsi.fandom.com/wiki/Lays",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d5461b54-460f-58de-b96a-5b508cf0c719",
+            "valid_since": "1965-06-08"
+          }
+        },
+        {
+          "id": "4bd3e521-0735-4abb-ad5a-d3a81762bdd4",
+          "name": "Gatorade",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "About Us",
+                "document": "https://contact.pepsico.com/gatorade/about-us",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "www.sec.gov",
+                "document": "https://www.sec.gov/Archives/edgar/data/77476/000007747601500073/qkrclose.htm",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "bf9c9bbf-152a-5f35-b747-dd67cbd7c245",
+            "valid_since": "2001-01-01"
+          }
+        },
+        {
+          "id": "5f99c83c-62b8-4c43-88db-8e2dafaec4e1",
+          "name": "Pepsi",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "simple.wikipedia.org",
+                "document": "https://simple.wikipedia.org/wiki/Pepsi",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/PepsiCo",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a102613b-9a6b-5955-b338-411c932938cd",
+            "valid_since": "1965-01-01"
+          }
+        }
+      ],
+      "IS_MEMBER_OF": [
+        {
+          "id": "f8fa2aed-1cee-4994-8ddd-c1f0abe86544",
+          "name": "Dina Dublon",
+          "entity_type": "Person",
+          "properties": {
+            "role": "board member / director",
+            "sources": [
+              {
+                "name": "Dina Dublon",
+                "document": "https://www.troweprice.com/en/us/bios/dina-dublon",
+                "date": "2025-12-09"
+              },
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Dina_Dublon",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "80af6bb5-94d8-51cc-8100-0290280d39c4",
+            "valid_since": "2005-01-01"
+          }
+        }
+      ],
+      "IS_DIRECT_OWNER_OF": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/top-nasdaq-100-companies-market-cap/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "eac50942-2ef6-55ca-a277-6cddeec119a3"
+          }
+        }
+      ],
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+          "name": "BlackRock Institutional Trust Company, N.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341403000383/f13-033103.txt",
+                "date": "2003-05-14"
+              }
+            ],
+            "id": "80b97844-0ab9-51c6-bee8-c72e201e27c1",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 39037793.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636417000008/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 38442527.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002329/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 38369549.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000103455116000007/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 38394081.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002288/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-03-31T00:00:00Z",
+                "value": 80512431.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000091341403000383/f13-033103.txt",
+                  "source": "SEC",
+                  "published_time": "2003-05-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020102/tv0110-pepsicoinc.htm",
+                "date": "2024-02-13"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 9.55,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020102/tv0110-pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-02-09T00:00:00Z",
+                "value": 8.08,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118004133/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2018-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-02-10T00:00:00Z",
+                "value": 7.39,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247117002206/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-11T00:00:00Z",
+                "value": 6.49,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116012069/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-11T00:00:00Z",
+                "value": 6.22,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115005217/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-11T00:00:00Z",
+                "value": 5.66,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114003450/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 5.05,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004375/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "a5014e42-5bfd-5645-8f9b-6b118b323cbb",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 138483870.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 136871218.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 136936037.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 135174252.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 133371504.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 131995371.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 131437823.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 131144573.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 131317162.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+          "name": "VANGUARD FIDUCIARY TRUST COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247118004133/pepsicoinc.htm",
+                "date": "2018-02-09"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2018-02-09T00:00:00Z",
+                "value": 0.11,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118004133/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2018-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-02-10T00:00:00Z",
+                "value": 0.12,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247117002206/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-11T00:00:00Z",
+                "value": 0.15,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116012069/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-11T00:00:00Z",
+                "value": 0.13,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115005217/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-11T00:00:00Z",
+                "value": 0.12,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114003450/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 0.14,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004375/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "81ac12e6-77f9-5db0-bf0f-a1b798db5df3"
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787126000150/primary_doc.xml",
+                "date": "2026-02-13"
+              }
+            ],
+            "id": "7679967d-dba7-5790-b90d-85a18f711368",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 3976.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787126000150/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 16067.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125001016/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 7425.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000140/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 12514.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123001078/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 20167.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000583/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 6603.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000162/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 6603.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 2796.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122001169/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 3516.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000896/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 3513.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000572/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 23587.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000946/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 23587.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000938/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 10894.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000870/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 21987.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000683/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 65839.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000497/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 65839.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000474/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 4277.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000113/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 56516.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000820/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 65260.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000595/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 31360.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787118000902/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-12-31T00:00:00Z",
+                "value": 1799181.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787110000111/ss84218_13fhr.txt",
+                  "source": "SEC",
+                  "published_time": "2010-02-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-09-30T00:00:00Z",
+                "value": 2383707.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000738/ss77716_13fhr.txt",
+                  "source": "SEC",
+                  "published_time": "2009-11-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-06-30T00:00:00Z",
+                "value": 3709858.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000532/ss69778_13fhr.txt",
+                  "source": "SEC",
+                  "published_time": "2009-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-03-31T00:00:00Z",
+                "value": 1827470.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000389/ss63766_13fhr.txt",
+                  "source": "SEC",
+                  "published_time": "2009-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-06-30T00:00:00Z",
+                "value": 2590000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000095013402010297/d99258e13fvhr.txt",
+                  "source": "SEC",
+                  "published_time": "2002-08-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2000-12-31T00:00:00Z",
+                "value": 2250000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094130201500054/mav13f.txt",
+                  "source": "SEC",
+                  "published_time": "2001-02-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "4fd864ac-cd3c-5834-aef0-9192013b7f9d",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 29725602.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 31821195.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 31821195.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 32168754.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 35601666.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 30999936.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 25231914.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 25194277.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 20885682.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 21081168.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 21721368.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 21702116.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 21622174.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000190/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 21797599.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000669/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 18930364.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000542/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 18776633.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000462/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 16500631.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000321/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 17148844.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000378/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 16390166.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 16117013.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000516/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 16189972.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000424/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 13653815.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 15485700.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000233/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 15485700.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000267/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 15011366.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000478/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 15053468.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000379/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 14702564.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 14327345.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 14327345.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 13814817.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 13814817.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000473/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 13727058.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000375/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 13352492.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000301/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 13222591.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 11736526.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000258/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 12090318.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000129/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-03-31T00:00:00Z",
+                "value": 11252254.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000069/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-05-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-12-31T00:00:00Z",
+                "value": 14936322.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000014/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 20544371.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000246/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 20544371.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000208/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-06-30T00:00:00Z",
+                "value": 22869873.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000153/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-03-31T00:00:00Z",
+                "value": 20071793.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000094/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-12-31T00:00:00Z",
+                "value": 20946322.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000013/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-09-30T00:00:00Z",
+                "value": 19881765.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000554/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-06-30T00:00:00Z",
+                "value": 21917409.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000496/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-03-31T00:00:00Z",
+                "value": 21743890.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000376/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 20852980.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000305/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 20347375.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001154/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-04T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 19232683.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001108/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 19492804.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716000968/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-12-31T00:00:00Z",
+                "value": 17668853.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716000857/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-09-30T00:00:00Z",
+                "value": 16027229.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-06-30T00:00:00Z",
+                "value": 15972606.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000373/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-03-31T00:00:00Z",
+                "value": 14328984.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000327/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-12-31T00:00:00Z",
+                "value": 7965297.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000249/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-09-30T00:00:00Z",
+                "value": 7967970.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-12-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-09-30T00:00:00Z",
+                "value": 7967970.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000465/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-06-30T00:00:00Z",
+                "value": 7786690.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000425/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-06-30T00:00:00Z",
+                "value": 7786690.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000437/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-09-03T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-03-31T00:00:00Z",
+                "value": 9624106.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000357/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-12-31T00:00:00Z",
+                "value": 14644984.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000264/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-12-31T00:00:00Z",
+                "value": 14644984.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000292/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-02-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-09-30T00:00:00Z",
+                "value": 15581874.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000398/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2013-10-31T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-06-30T00:00:00Z",
+                "value": 16013442.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000358/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2013-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-03-31T00:00:00Z",
+                "value": 15592869.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000276/jpmc13f20130331.txt",
+                  "source": "SEC",
+                  "published_time": "2013-04-25T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-12-31T00:00:00Z",
+                "value": 17152560.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000198/jpmc13f20121231.TXT",
+                  "source": "SEC",
+                  "published_time": "2013-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-09-30T00:00:00Z",
+                "value": 17687096.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000323/jpmc13f20120928.TXT",
+                  "source": "SEC",
+                  "published_time": "2012-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 10033804.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000292/jpmc13f20120629.TXT",
+                  "source": "SEC",
+                  "published_time": "2012-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-03-31T00:00:00Z",
+                "value": 9733497.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000229/jpmc13f20120330.txt",
+                  "source": "SEC",
+                  "published_time": "2012-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-12-31T00:00:00Z",
+                "value": 10100641.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000147/jpmc13f20111230.txt",
+                  "source": "SEC",
+                  "published_time": "2012-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-09-30T00:00:00Z",
+                "value": 9579202.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000270/jpmc13f0930v2.txt",
+                  "source": "SEC",
+                  "published_time": "2011-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-06-30T00:00:00Z",
+                "value": 16940484.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000222/jpmc13f063011.txt",
+                  "source": "SEC",
+                  "published_time": "2011-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-03-31T00:00:00Z",
+                "value": 14399725.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000190/jpmc13f033111v2.txt",
+                  "source": "SEC",
+                  "published_time": "2011-05-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-12-31T00:00:00Z",
+                "value": 14876796.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000144/jpmc13f20101231v2.txt",
+                  "source": "SEC",
+                  "published_time": "2011-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-09-30T00:00:00Z",
+                "value": 10031105.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000324/jpmc13f093010.txt",
+                  "source": "SEC",
+                  "published_time": "2010-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-06-30T00:00:00Z",
+                "value": 8018474.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000293/jpmc13f063010.txt",
+                  "source": "SEC",
+                  "published_time": "2010-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-03-31T00:00:00Z",
+                "value": 8201268.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000208/jpmc13f033110.txt",
+                  "source": "SEC",
+                  "published_time": "2010-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-12-31T00:00:00Z",
+                "value": 10760122.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000128/jpmc13f.txt",
+                  "source": "SEC",
+                  "published_time": "2010-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-09-30T00:00:00Z",
+                "value": 10879988.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961709001226/jpmc09302009.txt",
+                  "source": "SEC",
+                  "published_time": "2009-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-06-30T00:00:00Z",
+                "value": 10931530.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961709001183/jpm0630.txt",
+                  "source": "SEC",
+                  "published_time": "2009-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-03-31T00:00:00Z",
+                "value": 13778868.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961709000784/jpmc0331.txt",
+                  "source": "SEC",
+                  "published_time": "2009-05-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-12-31T00:00:00Z",
+                "value": 15417384.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961709000497/jp13f.txt",
+                  "source": "SEC",
+                  "published_time": "2009-03-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-12-31T00:00:00Z",
+                "value": 15371241.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961709000289/jpm1231.txt",
+                  "source": "SEC",
+                  "published_time": "2009-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-09-30T00:00:00Z",
+                "value": 10273496.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000542/jpm0930.txt",
+                  "source": "SEC",
+                  "published_time": "2008-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-06-30T00:00:00Z",
+                "value": 9953695.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000347/jpmc06300813f.txt",
+                  "source": "SEC",
+                  "published_time": "2008-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-03-31T00:00:00Z",
+                "value": 9027380.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000293/jpmc03312008ffff.txt",
+                  "source": "SEC",
+                  "published_time": "2008-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-12-31T00:00:00Z",
+                "value": 8399373.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000229/jpm80214.txt",
+                  "source": "SEC",
+                  "published_time": "2008-02-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-09-29T00:00:00Z",
+                "value": 9739705.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000765/jpm9282007.txt",
+                  "source": "SEC",
+                  "published_time": "2007-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-06-29T00:00:00Z",
+                "value": 9563059.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000604/jpmc13f70809.txt",
+                  "source": "SEC",
+                  "published_time": "2007-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-03-30T00:00:00Z",
+                "value": 11272210.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000452/jpm70510a.txt",
+                  "source": "SEC",
+                  "published_time": "2007-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-12-29T00:00:00Z",
+                "value": 14479825.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000245/jpmcc020707.txt",
+                  "source": "SEC",
+                  "published_time": "2007-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-09-29T00:00:00Z",
+                "value": 15338876.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000569/jpmc1113a.txt",
+                  "source": "SEC",
+                  "published_time": "2006-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-06-30T00:00:00Z",
+                "value": 15604813.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000452/f13jpm0814.txt",
+                  "source": "SEC",
+                  "published_time": "2006-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-03-31T00:00:00Z",
+                "value": 15861409.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000351/jpmc.txt",
+                  "source": "SEC",
+                  "published_time": "2006-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-12-30T00:00:00Z",
+                "value": 16212953.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000277/jpmc.txt",
+                  "source": "SEC",
+                  "published_time": "2006-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-09-30T00:00:00Z",
+                "value": 19031604.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000589/lates13fll.txt",
+                  "source": "SEC",
+                  "published_time": "2005-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-06-30T00:00:00Z",
+                "value": 18927529.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000482/f130630l.txt",
+                  "source": "SEC",
+                  "published_time": "2005-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-03-29T00:00:00Z",
+                "value": 21876520.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000374/jpmc13f.txt",
+                  "source": "SEC",
+                  "published_time": "2005-05-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-12-31T00:00:00Z",
+                "value": 22450263.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000170/yearend13f.txt",
+                  "source": "SEC",
+                  "published_time": "2005-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-09-30T00:00:00Z",
+                "value": 22534969.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000394/prodsept04.txt",
+                  "source": "SEC",
+                  "published_time": "2004-11-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-06-30T00:00:00Z",
+                "value": 17780778.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000323/juneprod.txt",
+                  "source": "SEC",
+                  "published_time": "2004-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-03-31T00:00:00Z",
+                "value": 15838582.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000224/mayprod.txt",
+                  "source": "SEC",
+                  "published_time": "2004-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-12-31T00:00:00Z",
+                "value": 15807135.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000161/decprod.txt",
+                  "source": "SEC",
+                  "published_time": "2004-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-09-30T00:00:00Z",
+                "value": 16300799.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000484/f13930.txt",
+                  "source": "SEC",
+                  "published_time": "2003-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-06-30T00:00:00Z",
+                "value": 16825997.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000422/jun13f.txt",
+                  "source": "SEC",
+                  "published_time": "2003-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-03-31T00:00:00Z",
+                "value": 16909007.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000316/f13march31.txt",
+                  "source": "SEC",
+                  "published_time": "2003-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-12-31T00:00:00Z",
+                "value": 14854118.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000268/dec13f.txt",
+                  "source": "SEC",
+                  "published_time": "2003-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-09-30T00:00:00Z",
+                "value": 17496314.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000413/sep13f.txt",
+                  "source": "SEC",
+                  "published_time": "2002-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-06-28T00:00:00Z",
+                "value": 16753628.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000368/june13f.txt",
+                  "source": "SEC",
+                  "published_time": "2002-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-03-31T00:00:00Z",
+                "value": 20874801.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000303/sec13fmar28.txt",
+                  "source": "SEC",
+                  "published_time": "2002-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-12-31T00:00:00Z",
+                "value": 24411500.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000241/sec13fdec.txt",
+                  "source": "SEC",
+                  "published_time": "2002-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-09-28T00:00:00Z",
+                "value": 22470240.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701500124/f13sept.txt",
+                  "source": "SEC",
+                  "published_time": "2001-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-06-29T00:00:00Z",
+                "value": 18134168.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701500111/f13jun.txt",
+                  "source": "SEC",
+                  "published_time": "2001-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-03-30T00:00:00Z",
+                "value": 16856814.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701500044/f13sec.txt",
+                  "source": "SEC",
+                  "published_time": "2001-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2000-12-31T00:00:00Z",
+                "value": 17416620.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701000176/0001.txt",
+                  "source": "SEC",
+                  "published_time": "2001-02-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+          "name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247118004133/pepsicoinc.htm",
+                "date": "2018-02-09"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2018-02-09T00:00:00Z",
+                "value": 0.08,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118004133/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2018-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-02-10T00:00:00Z",
+                "value": 0.07,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247117002206/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-11T00:00:00Z",
+                "value": 0.07,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116012069/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-11T00:00:00Z",
+                "value": 0.06,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115005217/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-11T00:00:00Z",
+                "value": 0.06,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114003450/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 0.07,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004375/pepsicoinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "1065a7b8-b9fe-5cee-9210-1fc415f84e6f"
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                "date": "2026-02-12"
+              }
+            ],
+            "id": "21410c23-d402-584b-918c-a6556d74c391",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 115568103.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 116429625.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 116271874.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 113302013.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 112509287.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 110256997.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "eee1c65e-5681-44b5-8309-852d1969f94b",
+          "name": "BLACKROCK ADVISORS LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/1086364/000108636417000003/primary_doc.xml",
+                "date": "2017-02-10"
+              }
+            ],
+            "id": "d43153bc-a2cb-534d-8ca7-8b22cd945cb7",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 1611491.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636417000003/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 1490235.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002324/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 3081848.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000103455116000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 2983819.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002308/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 2983819.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002313/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-12-31T00:00:00Z",
+                "value": 2254184.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002272/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-09-30T00:00:00Z",
+                "value": 1774815.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636415002207/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-06-30T00:00:00Z",
+                "value": 740071.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636415002168/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-03-31T00:00:00Z",
+                "value": 1410148.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636415002123/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-05-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-12-31T00:00:00Z",
+                "value": 606101.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636415002000/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-09-30T00:00:00Z",
+                "value": 619340.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636414002620/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-10-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-06-30T00:00:00Z",
+                "value": 627865.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636414002501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-08-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-03-31T00:00:00Z",
+                "value": 583894.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636414002315/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-12-31T00:00:00Z",
+                "value": 588885.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636414002228/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-09-30T00:00:00Z",
+                "value": 3341533.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636413004302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2013-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-06-30T00:00:00Z",
+                "value": 3286330.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636413004115/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2013-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-03-31T00:00:00Z",
+                "value": 3596184.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636413003672/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2013-04-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-12-31T00:00:00Z",
+                "value": 5609166.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636413003592/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2013-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-09-30T00:00:00Z",
+                "value": 3738039.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412003080/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 3251533.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002882/blkadvisorsllcamend.txt",
+                  "source": "SEC",
+                  "published_time": "2012-09-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 3120783.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412003010/blkadvisorsllcamend.txt",
+                  "source": "SEC",
+                  "published_time": "2012-10-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 2995133.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002826/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-03-31T00:00:00Z",
+                "value": 2288352.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002415/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-12-31T00:00:00Z",
+                "value": 2795653.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002210/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-09-30T00:00:00Z",
+                "value": 3124859.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411006172/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-11-03T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-06-30T00:00:00Z",
+                "value": 1062105.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411004979/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-07-27T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-03-31T00:00:00Z",
+                "value": 1244650.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411004630/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-04-21T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-12-31T00:00:00Z",
+                "value": 1241978.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411004278/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-09-30T00:00:00Z",
+                "value": 704020.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410009985/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-11-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-06-30T00:00:00Z",
+                "value": 710147.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410009666/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-03-31T00:00:00Z",
+                "value": 722361.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410009317/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-12-31T00:00:00Z",
+                "value": 676489.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410008917/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-09-30T00:00:00Z",
+                "value": 1506272.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000382/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-10-22T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-06-30T00:00:00Z",
+                "value": 1523922.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000343/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-08-05T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-03-31T00:00:00Z",
+                "value": 1300362.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000247/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-05-01T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-12-31T00:00:00Z",
+                "value": 1136692.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000149/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-09-30T00:00:00Z",
+                "value": 1817118.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636408000300/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2008-10-30T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-06-30T00:00:00Z",
+                "value": 537518.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636408000246/blkadvisorsllcamend.txt",
+                  "source": "SEC",
+                  "published_time": "2008-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-06-30T00:00:00Z",
+                "value": 537518.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636408000241/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2008-08-04T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-03-31T00:00:00Z",
+                "value": 2141418.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636408000178/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2008-04-23T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-12-31T00:00:00Z",
+                "value": 2338318.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636408000145/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2008-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-09-28T00:00:00Z",
+                "value": 2003155.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636407000084/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2007-10-23T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-12-31T00:00:00Z",
+                "value": 1488159.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000006510307000065/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2007-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-06-29T00:00:00Z",
+                "value": 1683335.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636407000049/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2007-07-25T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-03-30T00:00:00Z",
+                "value": 2038305.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636407000028/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2007-05-10T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "06758256-f72a-4af6-abdd-055b1dcba3b5",
+          "name": "Lay's",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "88c35b04-0dac-5c76-a486-76d5a0021c02"
+          }
+        },
+        {
+          "id": "4bd3e521-0735-4abb-ad5a-d3a81762bdd4",
+          "name": "Gatorade",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "6cc6418d-8196-5c66-bf48-071034c42710"
+          }
+        },
+        {
+          "id": "5f99c83c-62b8-4c43-88db-8e2dafaec4e1",
+          "name": "Pepsi",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "e54b47e2-4061-5472-9592-f9e53b49c8bb"
+          }
+        },
+        {
+          "id": "985df1a7-c368-4257-a9df-cc8901993dea",
+          "name": "SodaStream",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq100pro.com",
+                "document": "https://nasdaq100pro.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "1afda7cd-63e4-5437-aa83-5c5496b8afcb"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "b5985277-714e-414a-8505-c677e4adac18",
+          "name": "Anupama Priyadarshini",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Oversaw capital investments within the Indian beverages market",
+            "sources": [
+              {
+                "name": "ONDC appoints Anupama Priyadarshini as Senior Vice President - Corporate Governance, Risk & Compliance and Investor Relations",
+                "document": "https://www.indiaretailing.com/2023/11/03/ondc-appoints-anupama-priyadarshini-as-senior-vice-president-corporate-governance-risk-compliance-and-investor-relations",
+                "date": "2023-11-03"
+              }
+            ],
+            "id": "c355d657-049a-5347-831f-797badf17069"
+          }
+        },
+        {
+          "id": "f8fa2aed-1cee-4994-8ddd-c1f0abe86544",
+          "name": "Dina Dublon",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Board member",
+            "sources": [
+              {
+                "name": "Dina Dublon | Board of Directors | T. Rowe Price Group, Inc.",
+                "document": "https://investors.troweprice.com/board-directors-back-row-bod/dina-dublon",
+                "date": "2026-01-01"
+              }
+            ],
+            "id": "424d1f0f-f0f9-5476-9072-f0bb1677f82c",
+            "valid_since": "2005-01-01"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "PEP",
+    "uuid": "28d5ef45-3923-4113-85cc-542007a99065",
+    "match_name": "PEPSICO INC",
+    "retrieved_at": "2026-04-15T22:35:18Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 12,
+      "relationship_types_outgoing": 8,
+      "relationship_types_incoming": 6,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 12,
+      "relationship_types": 14,
+      "relationship_edges": 78,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

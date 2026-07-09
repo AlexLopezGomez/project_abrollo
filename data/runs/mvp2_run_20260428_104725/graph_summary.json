@@ -1,0 +1,91 @@
+{
+  "nodes": 1135,
+  "edges": 1731,
+  "ndx_nodes": 98,
+  "non_ndx_nodes": 1037,
+  "avg_out_degree": 1.53,
+  "avg_in_degree": 1.53,
+  "weakly_connected_components": 17,
+  "top_hubs_by_degree": [
+    [
+      "MICROSOFT CORP",
+      135
+    ],
+    [
+      "NVIDIA CORP",
+      110
+    ],
+    [
+      "META PLATFORMS, INC.",
+      104
+    ],
+    [
+      "APPLE INC",
+      103
+    ],
+    [
+      "ALPHABET INC.",
+      94
+    ],
+    [
+      "WALMART INC.",
+      86
+    ],
+    [
+      "MICRON TECHNOLOGY INC",
+      85
+    ],
+    [
+      "Broadcom Ltd",
+      81
+    ],
+    [
+      "NETFLIX INC",
+      80
+    ],
+    [
+      "TESLA MTRS INC",
+      79
+    ],
+    [
+      "VANGUARD GROUP INC",
+      71
+    ],
+    [
+      "BlackRock Institutional Trust Company, N.A.",
+      62
+    ],
+    [
+      "VANGUARD FIDUCIARY TRUST COMPANY",
+      57
+    ],
+    [
+      "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      57
+    ],
+    [
+      "BLACKROCK ADVISORS LLC",
+      56
+    ],
+    [
+      "MAVERICK CAPITAL LTD",
+      49
+    ],
+    [
+      "INTEL CORP",
+      49
+    ],
+    [
+      "ADOBE INC.",
+      34
+    ],
+    [
+      "REGENERON PHARMACEUTICALS, INC.",
+      27
+    ],
+    [
+      "Kraft Heinz Co",
+      25
+    ]
+  ]
+}

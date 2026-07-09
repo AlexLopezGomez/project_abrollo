@@ -1,0 +1,187 @@
+{
+  "cutoff_date": "2025-04-15",
+  "raw_count": 10,
+  "valid_count": 10,
+  "reject_count": 0,
+  "hypotheses": [
+    {
+      "id": "H_SEMI_01",
+      "trigger": "U.S. export-control tightening forces NVIDIA to obtain licenses for H20 GPU shipments to China, resulting in a disclosed ~$5.5B charge and materially reduced China-addressable market",
+      "trigger_probability": 0.82,
+      "effect_target": "NVDA",
+      "effect_magnitude": -0.18,
+      "effect_type": "revenue_shock_negative",
+      "sources": [
+        "5f7ca504-01d8-4aa9-b1ac-889202fd17c9",
+        "be3d055e-968c-46f4-a51e-69e326ceb205",
+        "b1d4c015-4b83-4675-b006-5194b2aa54d2"
+      ],
+      "source_dates": [
+        "2018-01-01",
+        "2025-03-15",
+        "2025-04-01"
+      ]
+    },
+    {
+      "id": "H_SEMI_02",
+      "trigger": "ASML reports an unexpected shipment delay or EUV system cancellation due to geopolitical export restrictions, signalling constraint on leading-edge node capacity expansion globally",
+      "trigger_probability": 0.35,
+      "effect_target": "ASML",
+      "effect_magnitude": -0.22,
+      "effect_type": "supply_disruption_negative",
+      "sources": [
+        "2038e635-eb55-4928-9bb8-1f7c0f26f154",
+        "872d8c9d-d800-4ae6-8e19-5327f53a4519",
+        "04f6504d-7826-4103-ad2c-fd66c324db15"
+      ],
+      "source_dates": [
+        "2025-02-12",
+        "2025-01-20",
+        "2023-07-12"
+      ]
+    },
+    {
+      "id": "H_SEMI_03",
+      "trigger": "Major hyperscaler (Meta, Google, or Microsoft) announces a material reduction in AI infrastructure capex guidance, compressing near-term AI GPU demand outlook",
+      "trigger_probability": 0.28,
+      "effect_target": "NVDA",
+      "effect_magnitude": -0.25,
+      "effect_type": "demand_shock_negative",
+      "sources": [
+        "5f7ca504-01d8-4aa9-b1ac-889202fd17c9",
+        "b505bbc3-a8c3-4176-a28c-8fa1f31a5ed1",
+        "eb3b1e84-1f45-486c-8d10-d2b498992830"
+      ],
+      "source_dates": [
+        "2018-01-01",
+        "2025-02-01",
+        "2025-01-15"
+      ]
+    },
+    {
+      "id": "H_SEMI_04",
+      "trigger": "AMD faces new U.S. export-control restrictions on its AI GPU lineup (MI300X class) targeting China shipments, mirroring controls applied to Nvidia",
+      "trigger_probability": 0.6,
+      "effect_target": "AMD",
+      "effect_magnitude": -0.14,
+      "effect_type": "regulatory_revenue_reduction",
+      "sources": [
+        "70967fb4-2eb5-4cd9-bf8f-6f46223bd234",
+        "b1d4c015-4b83-4675-b006-5194b2aa54d2",
+        "5f7ca504-01d8-4aa9-b1ac-889202fd17c9"
+      ],
+      "source_dates": [
+        "2018-01-01",
+        "2025-03-20",
+        "2025-04-01"
+      ]
+    },
+    {
+      "id": "H_SEMI_05",
+      "trigger": "China imposes escalatory export controls on gallium, germanium, or neon supplies, disrupting upstream specialty-material inputs for semiconductor fabrication",
+      "trigger_probability": 0.42,
+      "effect_target": "AMAT",
+      "effect_magnitude": -0.12,
+      "effect_type": "input_cost_supply_shock",
+      "sources": [
+        "632a489e-96db-47da-b194-7f04661c4183",
+        "b1d4c015-4b83-4675-b006-5194b2aa54d2",
+        "872d8c9d-d800-4ae6-8e19-5327f53a4519"
+      ],
+      "source_dates": [
+        "2025-01-10",
+        "2025-02-28",
+        "2024-11-05"
+      ]
+    },
+    {
+      "id": "H_SEMI_06",
+      "trigger": "Taiwan Strait military tensions escalate materially (e.g., PLA naval exercises encircling Taiwan), triggering risk-off repricing of all TSMC-dependent chip designers",
+      "trigger_probability": 0.18,
+      "effect_target": "AVGO",
+      "effect_magnitude": -0.3,
+      "effect_type": "geopolitical_tail_risk",
+      "sources": [
+        "74932564-e943-44d3-aed8-3fe78f75c1a0",
+        "d873be90-3712-4246-ad0e-f7124c7755d0",
+        "037d7a0f-0d92-491b-b2fc-90caf74466c3"
+      ],
+      "source_dates": [
+        "2025-03-01",
+        "2025-01-20",
+        "2024-12-15"
+      ]
+    },
+    {
+      "id": "H_SEMI_07",
+      "trigger": "Automotive and industrial chip inventory correction deepens as EV adoption disappoints, causing NXPI to cut full-year revenue guidance by >10%",
+      "trigger_probability": 0.5,
+      "effect_target": "NXPI",
+      "effect_magnitude": -0.16,
+      "effect_type": "demand_cycle_negative",
+      "sources": [
+        "da664ff1-efb6-485f-b74d-e35ff65f2a87",
+        "db15526d-47ac-452d-8ad8-57927b671c04",
+        "b1d4c015-4b83-4675-b006-5194b2aa54d2"
+      ],
+      "source_dates": [
+        "2025-02-05",
+        "2025-01-28",
+        "2024-10-01"
+      ]
+    },
+    {
+      "id": "H_SEMI_08",
+      "trigger": "U.S. CHIPS Act funding disbursements to Intel are delayed or conditioned on restructuring milestones, prolonging Intel's fab ramp timeline and increasing competitive risk",
+      "trigger_probability": 0.45,
+      "effect_target": "INTC",
+      "effect_magnitude": -0.13,
+      "effect_type": "policy_execution_risk_negative",
+      "sources": [
+        "04f6504d-7826-4103-ad2c-fd66c324db15",
+        "43f9e674-cb37-4d0d-bc9f-cacce0834daf",
+        "2f97016d-986d-4f61-9d25-2d226393ffe3"
+      ],
+      "source_dates": [
+        "2023-07-12",
+        "2025-02-14",
+        "2025-03-10"
+      ]
+    },
+    {
+      "id": "H_SEMI_09",
+      "trigger": "Massive fab overbuild investments (CHIPS Act subsidies + AI optimism) result in a publicly acknowledged overcapacity warning from a leading WFE analyst, compressing equipment order backlogs",
+      "trigger_probability": 0.33,
+      "effect_target": "LRCX",
+      "effect_magnitude": -0.15,
+      "effect_type": "overcapacity_margin_compression",
+      "sources": [
+        "242ac30b-ea83-49d4-a4b4-f52a37ec17c0",
+        "43f9e674-cb37-4d0d-bc9f-cacce0834daf",
+        "1c38d9d4-f68c-4c01-a5a0-263fcf926780"
+      ],
+      "source_dates": [
+        "2025-01-22",
+        "2025-02-14",
+        "2024-09-30"
+      ]
+    },
+    {
+      "id": "H_SEMI_10",
+      "trigger": "Qualcomm wins a landmark design win displacing Apple's in-house modem in a future iPhone generation, materially expanding its smartphone TAM and boosting revenue outlook",
+      "trigger_probability": 0.22,
+      "effect_target": "QCOM",
+      "effect_magnitude": 0.18,
+      "effect_type": "design_win_revenue_positive",
+      "sources": [
+        "bc36d8a3-339b-4ecd-8760-b621e4ecad8e",
+        "2f97016d-986d-4f61-9d25-2d226393ffe3"
+      ],
+      "source_dates": [
+        "2020-01-01",
+        "2025-03-05"
+      ]
+    }
+  ],
+  "rejects": []
+}

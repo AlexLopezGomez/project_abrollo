@@ -1,0 +1,163 @@
+{
+  "id": "a9fabde2-9f74-4e89-96e9-e68c9297bcec",
+  "name": "GE HEALTHCARE",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "founding_date": {
+      "value": "1920-07-07",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "Kouterveldstraat 20, Machelen (Brab.), BE-VBR, 1831, BE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "GE HEALTHCARE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "RNRDJSPCJR6HUAZ5Y148",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "GE HEALTHCARE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "GE HealthCare has established a stand\u2011alone ESG practice and infrastructure, conducted an ESG materiality assessment to define focus areas, and set an ESG strategy with long\u2011term objectives. The company appointed an ESG Program Lead, aligns its goals with the UN Sustainable Development Goals, reports under expanded reporting standards, and is a signatory to the UN Global Compact, committing to sustainable and socially responsible policies.",
+      "sources": [
+        {
+          "name": "GE HealthCare Shares Key Focus Areas and Future Goals in its Inaugural Sustainability Report | GE HealthCare",
+          "document": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-shares-key-focus-areas-and-future-goals-its/",
+          "date": "2023-09-20"
+        },
+        {
+          "name": "www.gehealthcare.com",
+          "document": "https://www.gehealthcare.com/about/sustainability?srsltid=AfmBOoqePEwkP2_1Cd8TSwDlIDh6QjbGOvh0YL7BVRxiIEJPvsTbshbR",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 53000,
+      "sources": [
+        {
+          "name": "tradingeconomics.com",
+          "document": "https://tradingeconomics.com/gehc:us:employees",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "GE Medical Holding Belgium BVBA"
+      ],
+      "sources": []
+    },
+    "id": {
+      "value": "a9fabde2-9f74-4e89-96e9-e68c9297bcec",
+      "sources": []
+    },
+    "registered_address": {
+      "value": "Kouterveldstraat 20, Machelen (Brab.), BE-VBR, 1831, BE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "bb03a2e9-4a15-4c54-86ce-b4bc10f3a798",
+          "name": "Vlaams-Brabant",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "70a4ad45-22db-54a1-9f58-60c0ab91a0f3"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "bb03a2e9-4a15-4c54-86ce-b4bc10f3a798",
+          "name": "Vlaams-Brabant",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/RNRDJSPCJR6HUAZ5Y148",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a38eab57-bba8-5331-9cde-ea2206d9cb2f"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "GEHC",
+    "uuid": "a9fabde2-9f74-4e89-96e9-e68c9297bcec",
+    "match_name": "GE HEALTHCARE",
+    "retrieved_at": "2026-04-15T22:29:23Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 10,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 10,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

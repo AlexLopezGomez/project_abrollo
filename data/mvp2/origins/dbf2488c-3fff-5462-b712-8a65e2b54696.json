@@ -1,0 +1,116 @@
+{
+  "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+  "name": "NASDAQ",
+  "entity_type": "Organization",
+  "description": null,
+  "properties": {
+    "founding_date": {
+      "value": "1971-02-08",
+      "sources": [
+        {
+          "name": "en.wikipedia.org",
+          "document": "https://en.wikipedia.org/wiki/Nasdaq,_Inc.",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "www.laits.utexas.edu",
+          "document": "https://www.laits.utexas.edu/~anorman/long.extra/Projects.F97/Stock_Tech/nasdaq.html",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "winthropwealth.com",
+          "document": "https://winthropwealth.com/glossary/national-association-of-securities-dealers-automated-quotations-nasdaq/",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "mic": {
+      "value": "XNAS",
+      "sources": [
+        {
+          "name": "Nasdaq",
+          "document": "https://www.nasdaq.com/",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "NASDAQ",
+        "Nasdaq stock exchange",
+        "Nasdaq Stock Market",
+        "NasdaqGM",
+        "Nasdaq Capital Market",
+        "NASDAQ (Global Market)",
+        "NasdaqGS",
+        "NASDAQ Global Market",
+        "The Nasdaq Capital Market",
+        "The Nasdaq Stock Market LLC",
+        "NASDAQ exchange",
+        "NMS",
+        "NasdaqCM",
+        "NASDAQ CM"
+      ],
+      "sources": []
+    },
+    "id": {
+      "value": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "sources": []
+    },
+    "employee_count": {
+      "value": 9525,
+      "sources": [
+        {
+          "name": "Nasdaq (NDAQ) Number of Employees 2001-2025",
+          "document": "https://stockanalysis.com/stocks/ndaq/employees/",
+          "date": "2026-03-30"
+        }
+      ]
+    },
+    "name": {
+      "value": "NASDAQ",
+      "sources": [
+        {
+          "name": "Nasdaq",
+          "document": "https://www.nasdaq.com/",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "The Nasdaq Stock Market LLC",
+      "sources": [
+        {
+          "name": "Investor Relations | Nasdaq, Inc.",
+          "document": "https://ir.nasdaq.com/news-releases/news-release-details/33-chinese-companies-listed-nasdaq-2009-more-any-other-us",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "One Liberty Plaza, New York, NY 10006",
+      "sources": [
+        {
+          "name": "ir.nasdaq.com",
+          "document": "https://ir.nasdaq.com/static-files/6d2b431e-b1a2-4d67-80fa-4acb62905a59",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "www.sec.gov",
+          "document": "https://www.sec.gov/Archives/edgar/data/1120193/000119312515314459/d48431d8k.htm",
+          "date": "2026-04-15"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+    "properties_count_requested": 8,
+    "numobs_categories_requested": 0
+  }
+}

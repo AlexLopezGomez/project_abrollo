@@ -1,0 +1,433 @@
+{
+  "id": "632a489e-96db-47da-b194-7f04661c4183",
+  "name": "APPLIED MATERIALS, INC.",
+  "entity_type": "Company",
+  "description": "Founded in 1987, Applied Materials employs 36,500 and heads subsidiaries in India, Korea, and Europe from Wilmington, Delaware.",
+  "properties": {
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Applied Materials",
+        "AMAT",
+        "Applied Materials Inc.",
+        "Applied Materials (AMAT)"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 36500,
+      "sources": [
+        {
+          "name": "Applied Materials Number of Employees 2016-2025 | Bullfincher",
+          "document": "http://bullfincher.io/companies/applied-materials/number-of-employees",
+          "date": "2017-01-01"
+        },
+        {
+          "name": "Applied Materials (AMAT) Number of Employees 1990-2025",
+          "document": "https://stockanalysis.com/stocks/amat/employees/",
+          "date": "2026-03-10"
+        }
+      ]
+    },
+    "permid": {
+      "value": "<UNKNOWN>",
+      "sources": [
+        {
+          "name": "Make informed decisions with trusted market intelligence",
+          "document": "https://www.blackridgeresearch.com/blog/top-new-largest-semiconductor-companies-in-usa-united-states-america?srsltid=AfmBOooWgNE9VW9tN8TqAnsKmpXky0GWsl9vRbwSVgR1ZYZjjrQCG6x_",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "id": {
+      "value": "632a489e-96db-47da-b194-7f04661c4183",
+      "sources": []
+    },
+    "cik": {
+      "value": "<UNKNOWN>",
+      "sources": [
+        {
+          "name": "Make informed decisions with trusted market intelligence",
+          "document": "https://www.blackridgeresearch.com/blog/top-new-largest-semiconductor-companies-in-usa-united-states-america?srsltid=AfmBOooWgNE9VW9tN8TqAnsKmpXky0GWsl9vRbwSVgR1ZYZjjrQCG6x_",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "Applied Materials\u2019 ESG policies are overseen by its Corporate Governance and Nominating Committee and encompass a sustainability and climate\u2011related strategy, environmental stewardship, social responsibility, and governance practices as outlined in its corporate responsibility reports.",
+      "sources": [
+        {
+          "name": "www.appliedmaterials.com",
+          "document": "https://www.appliedmaterials.com/content/dam/site/company/csr/doc/2022_Sustainability_Annex_F.pdf.coredownload.inline.pdf",
+          "date": "2026-04-14"
+        },
+        {
+          "name": "www.appliedmaterials.com",
+          "document": "https://www.appliedmaterials.com/us/en/corporate-responsibility/reports-and-policies.html",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "name": {
+      "value": "APPLIED MATERIALS, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "Founded in 1987, Applied Materials employs 36,500 and heads subsidiaries in India, Korea, and Europe from Wilmington, Delaware.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "lei": {
+      "value": "41BNNE1AFPNAZELZ6K07",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "Corporation Trust Center, 1209 Orange Street, Wilmington, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "rssd_id": {
+      "value": "<UNKNOWN>",
+      "sources": [
+        {
+          "name": "Make informed decisions with trusted market intelligence",
+          "document": "https://www.blackridgeresearch.com/blog/top-new-largest-semiconductor-companies-in-usa-united-states-america?srsltid=AfmBOooWgNE9VW9tN8TqAnsKmpXky0GWsl9vRbwSVgR1ZYZjjrQCG6x_",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "APPLIED MATERIALS, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1987-03-18",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "bics": {
+      "value": [
+        "<UNKNOWN>"
+      ],
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "30948288-bede-5d15-952f-0c540c1d1f3f"
+          }
+        },
+        {
+          "id": "aa4baf42-aaee-4ae9-a314-c50f7249942a",
+          "name": "Wilmington",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [],
+            "id": "b247ece8-870a-5e74-944c-8cc3390b2675"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "6937755a-6e6f-425e-8d3a-93dc3ebfdff1",
+          "name": "APPLIED MATERIALS EUROPE B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493008NQI0PLLB8W355",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "9eab809d-369a-5fb6-b97b-5cf6f7eba1b0",
+            "valid_since": "2020-11-12"
+          }
+        },
+        {
+          "id": "ec89d21f-b2ef-4655-96b0-47e3007ed87f",
+          "name": "APPLIED MATERIALS INDIA PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800IMVS169GLQ2E25",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8ff4c497-4ac7-5bd7-81fa-f8f6c8769c8c",
+            "valid_since": "2003-07-10"
+          }
+        },
+        {
+          "id": "fb486f19-cf35-4d62-af82-b7fe62c91ba0",
+          "name": "\uc5b4\ud50c\ub77c\uc774\ub4dc \uba38\ud2f0\uc5b4\ub9ac\uc5bc\uc988 \ucf54\ub9ac\uc544 \u321c",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/254900U3FZRVE2VCOL56",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "73b3d35e-9f45-5c01-91b3-ad57a8678f28",
+            "valid_since": "1993-06-14"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "30127b12-472c-42e5-bf67-f9941972a068",
+          "name": "Semiconductor Equipment Manufacturing",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "feisal.substack.com",
+                "document": "https://feisal.substack.com/p/oligopolies-and-semiconductor-equipment",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "c130ca8e-058c-5653-9c60-e903831d5053"
+          }
+        },
+        {
+          "id": "413c251c-5224-4b80-910b-922e4a19e953",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b8b874f4-12cd-5d06-a78c-e32b2812a380"
+          }
+        },
+        {
+          "id": "92a43f21-1ad4-4bd0-975d-a351eafc1311",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "aa824d1e-5040-5b9d-9ea3-c2dad053b014"
+          }
+        },
+        {
+          "id": "ca66192b-5f0d-4326-8d83-ef8608ded9aa",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/3-big-opportunities-in-ai-chips-and-semiconductor-etfs-2019-09-11",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "0f80f091-b479-5501-8d6d-e912a73dc601"
+          }
+        },
+        {
+          "id": "dcaf3d8d-c030-4ece-b187-41e0312c793a",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/7-top-rated-semiconductor-stocks-your-july-buy-list",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d48566ec-1d1c-5f72-8102-28bfdbef5b7c"
+          }
+        },
+        {
+          "id": "e488b69c-9c3c-4977-a8c2-87f3cc0c420c",
+          "name": "Semiconductor Manufacturing",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Make informed decisions with trusted market intelligence",
+                "document": "https://www.blackridgeresearch.com/blog/top-new-largest-semiconductor-companies-in-usa-united-states-america?srsltid=AfmBOopVv_yr-WWI-WOuShQeA5hFU_SCbjsPaaE0k1kPNmmtbowKpw1G",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "e2bb150b-9699-571a-bee0-5eea20e84c34"
+          }
+        },
+        {
+          "id": "f236826d-0f7d-4340-8409-b77cc95e7657",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "5e2db367-6d66-54b6-9799-7908b8c68710"
+          }
+        },
+        {
+          "id": "fbc06f50-dc01-4871-b64b-c89f2d0d1ba0",
+          "name": "Semiconductor",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/the-chip-packaging-play%3A-7-stocks-to-profit-from-the-semiconductor-boom",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "ac85b8d1-ebe9-5b55-936a-f3caa6619db5"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "ec89d21f-b2ef-4655-96b0-47e3007ed87f",
+          "name": "APPLIED MATERIALS INDIA PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800IMVS169GLQ2E25",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "16632675-0417-5380-94a2-c3cb12740f63",
+            "valid_since": "2003-07-10"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#technology",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "491e7981-4eaf-58ba-92e3-a1c991029390"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/41BNNE1AFPNAZELZ6K07",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "87b9afb9-f339-5467-877f-52eb8fa4b032"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "AMAT",
+    "uuid": "632a489e-96db-47da-b194-7f04661c4183",
+    "match_name": "APPLIED MATERIALS, INC.",
+    "retrieved_at": "2026-04-15T22:25:07Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 15,
+      "relationship_types_outgoing": 6,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 15,
+      "relationship_types": 6,
+      "relationship_edges": 16,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "properties": [
+    "esg_policy",
+    "headquarters_address",
+    "registered_address",
+    "legal_name",
+    "aliases",
+    "description",
+    "founding_date",
+    "id",
+    "name",
+    "lei",
+    "employee_count",
+    "cik"
+  ],
+  "relationships": {
+    "outgoing": [
+      "LISTED_ON",
+      "PARTICIPATES_IN_CORPORATE_EVENT",
+      "IS_ULTIMATE_PARENT_OF",
+      "TRADED_ON",
+      "IS_REGISTERED_IN",
+      "IS_INDIRECT_OWNER_OF",
+      "HAS_HEADQUARTERS_IN",
+      "IS_BENEFICIARY_OWNER_OF",
+      "OPERATES_IN_INDUSTRY",
+      "IS_DIRECT_PARENT_OF"
+    ],
+    "incoming": [
+      "IS_BENEFICIARY_OWNER_OF",
+      "CREATED_BY",
+      "OPERATED_BY",
+      "IS_SUBSIDIARY_OF",
+      "IS_DIRECT_OWNER_OF",
+      "DESIGNED_BY",
+      "MANUFACTURED_BY"
+    ]
+  },
+  "numerical_observations": {}
+}

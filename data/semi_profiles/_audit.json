@@ -1,0 +1,78 @@
+{
+  "per_ticker": [
+    {
+      "ticker": "NVDA",
+      "property_count": 15,
+      "properties_with_dated_source": 12,
+      "total_sources": 166,
+      "parseable_dates": 166,
+      "pre_cutoff_le_2025_04_15": 2,
+      "post_cutoff_gt_2025_04_15": 164,
+      "null_dates": 0,
+      "relationship_edges": 217,
+      "numerical_observation_metrics": 8,
+      "numerical_observation_points": 1069
+    },
+    {
+      "ticker": "AMD",
+      "property_count": 12,
+      "properties_with_dated_source": 10,
+      "total_sources": 16,
+      "parseable_dates": 16,
+      "pre_cutoff_le_2025_04_15": 1,
+      "post_cutoff_gt_2025_04_15": 15,
+      "null_dates": 0,
+      "relationship_edges": 56,
+      "numerical_observation_metrics": 0,
+      "numerical_observation_points": 0
+    },
+    {
+      "ticker": "INTC",
+      "property_count": 12,
+      "properties_with_dated_source": 10,
+      "total_sources": 28,
+      "parseable_dates": 28,
+      "pre_cutoff_le_2025_04_15": 3,
+      "post_cutoff_gt_2025_04_15": 25,
+      "null_dates": 0,
+      "relationship_edges": 115,
+      "numerical_observation_metrics": 0,
+      "numerical_observation_points": 0
+    },
+    {
+      "ticker": "QCOM",
+      "property_count": 11,
+      "properties_with_dated_source": 9,
+      "total_sources": 14,
+      "parseable_dates": 14,
+      "pre_cutoff_le_2025_04_15": 1,
+      "post_cutoff_gt_2025_04_15": 13,
+      "null_dates": 0,
+      "relationship_edges": 42,
+      "numerical_observation_metrics": 0,
+      "numerical_observation_points": 0
+    },
+    {
+      "ticker": "AVGO",
+      "property_count": 12,
+      "properties_with_dated_source": 10,
+      "total_sources": 36,
+      "parseable_dates": 36,
+      "pre_cutoff_le_2025_04_15": 0,
+      "post_cutoff_gt_2025_04_15": 36,
+      "null_dates": 0,
+      "relationship_edges": 149,
+      "numerical_observation_metrics": 8,
+      "numerical_observation_points": 420
+    }
+  ],
+  "aggregate": {
+    "pre_cutoff": 7,
+    "post_cutoff": 253,
+    "parseable": 260,
+    "total_sources": 260,
+    "relationship_edges": 579,
+    "numobs_metrics": 16,
+    "numobs_points": 1489
+  }
+}

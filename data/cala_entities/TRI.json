@@ -1,0 +1,1180 @@
+{
+  "id": "4e8ab206-76c5-4354-a59b-1a7267e25410",
+  "name": "THOMSON REUTERS CORPORATION",
+  "entity_type": "Company",
+  "description": "A Toronto\u2011based corporation registered and headquartered at 19 Duncan Street, Toronto, Ontario, Canada.",
+  "properties": {
+    "aliases": {
+      "value": [
+        "TRI",
+        "Thomson Reuters",
+        "Reuters Group PLC",
+        "Reuters",
+        "Thomson Reuters Corp."
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "THOMSON REUTERS CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300561UZND4C7B569",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "4e8ab206-76c5-4354-a59b-1a7267e25410",
+      "sources": []
+    },
+    "founding_date": {
+      "value": "2010-03-10",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300561UZND4C7B569",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300561UZND4C7B569",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "f03427643f271e877c0251e1d0ebffb4471fe196e5fa2bcb2314004d303c411b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300561UZND4C7B569",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "19 DUNCAN STREET, TORONTO, CA-ON, M5H 3H1, CA",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "f03427643f271e877c0251e1d0ebffb4471fe196e5fa2bcb2314004d303c411b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300561UZND4C7B569",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "19 DUNCAN STREET, TORONTO, CA-ON, M5H 3H1, CA",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "f03427643f271e877c0251e1d0ebffb4471fe196e5fa2bcb2314004d303c411b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300561UZND4C7B569",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A Toronto\u2011based corporation registered and headquartered at 19 Duncan Street, Toronto, Ontario, Canada.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "THOMSON REUTERS CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+            "params": {},
+            "response_hash": "f03427643f271e877c0251e1d0ebffb4471fe196e5fa2bcb2314004d303c411b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300561UZND4C7B569",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "267daa83-93c5-4a11-b6d1-f814d4d3bd89",
+          "name": "Ontario",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+                  "params": {},
+                  "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "93eb74fa-ee87-40ae-87ed-242a149359c5"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "0d7aed22-fde9-48e1-aefc-c87d5e4de325",
+          "name": "THOMSON REUTERS CANADA LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930009KC7P1XTORR50",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "bbc92034-4e4a-5fe7-b240-8c131663fc9c",
+            "valid_since": "2017-12-31"
+          }
+        },
+        {
+          "id": "544035b3-e12f-4256-bd2b-b9d3df92f6f2",
+          "name": "THOMSON REUTERS FINANCE S.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300773DWEC3ZDVO65",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a8cddc31-8e98-56ec-98f6-ab046060b08e",
+            "valid_since": "2017-10-02"
+          }
+        },
+        {
+          "id": "598a39d3-f9e8-4545-b893-9194ea3bb4f2",
+          "name": "THOMSON REUTERS (PROFESSIONAL) UK LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/9845006E2CCH8B83C907",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "717f566c-f40a-5b3f-9743-7ab848285f44",
+            "valid_since": "1982-11-17"
+          }
+        },
+        {
+          "id": "b0b019dc-14c5-4688-b297-17d1adca701f",
+          "name": "THOMSON REUTERS CORPORATION PTE. LTD.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300097M425K151363",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8a83834d-5b96-5d7b-bdee-c49b2cac9cb5",
+            "valid_since": "2023-07-14"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "04f64db3-3d6c-4db5-be87-aab42c1d5d00",
+          "name": "CAPITAL CONFIRMATION INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/254900WQ36WPHZUA2S07",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "78b4ff06-20ab-5a97-99b1-e3f3580282da",
+            "valid_since": "2019-07-19"
+          }
+        },
+        {
+          "id": "0d7aed22-fde9-48e1-aefc-c87d5e4de325",
+          "name": "THOMSON REUTERS CANADA LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930009KC7P1XTORR50",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "1769a297-5820-5461-bb4d-ee5cadf47fd7",
+            "valid_since": "2017-12-31"
+          }
+        },
+        {
+          "id": "544035b3-e12f-4256-bd2b-b9d3df92f6f2",
+          "name": "THOMSON REUTERS FINANCE S.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300773DWEC3ZDVO65",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "618adff9-edaf-5dea-8176-398c35eae08c",
+            "valid_since": "2017-10-02"
+          }
+        },
+        {
+          "id": "55d6dedb-cd12-42ba-84a2-598470bd735c",
+          "name": "FINANCIAL & RISK REST OF WORLD HOLDINGS LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/213800CY1JL5CLSYC711",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ea12486d-3339-59cd-9190-a50fc5d5ebc1",
+            "valid_since": "2018-07-19"
+          }
+        },
+        {
+          "id": "598a39d3-f9e8-4545-b893-9194ea3bb4f2",
+          "name": "THOMSON REUTERS (PROFESSIONAL) UK LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/9845006E2CCH8B83C907",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3a9e7c3e-fcae-573a-8c0e-7461f98b0578",
+            "valid_since": "1982-11-17"
+          }
+        },
+        {
+          "id": "ad1a1652-27d9-4950-a06c-f1d7ba18c771",
+          "name": "TR FINANCE LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/254900OWSTRTOV8P5W25",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "94b2635e-dd32-5a2a-bcf7-1acf8f147b75",
+            "valid_since": "2019-11-15"
+          }
+        },
+        {
+          "id": "b0b019dc-14c5-4688-b297-17d1adca701f",
+          "name": "THOMSON REUTERS CORPORATION PTE. LTD.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300097M425K151363",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d9930272-ec80-54af-a8c1-835fc7d4adda",
+            "valid_since": "2023-07-14"
+          }
+        },
+        {
+          "id": "c6a07c92-e2ec-46f7-b9ba-4e912f415965",
+          "name": "THOMSON REUTERS SPECIAL SERVICES LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2549003AJOI9AS7SQM86",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "691f4994-89fd-525a-a508-1950ae0c2bc5",
+            "valid_since": "2008-12-31"
+          }
+        },
+        {
+          "id": "f0451a6d-2b39-4cf1-8f69-5141e041ad93",
+          "name": "THOMSON REUTERS U.S. LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300FOBWXV10TAOG25",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3d40da76-d4cd-5472-be8f-30efb677fe88",
+            "valid_since": "2000-03-23"
+          }
+        },
+        {
+          "id": "fc05ddfe-60d4-46f1-975b-ab509797609f",
+          "name": "THOMSON REUTERS ENTERPRISE CENTRE GMBH",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493006YOIVPWFH8F135",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "6cf51f7b-0125-5427-b90a-b6718ffa40a9",
+            "valid_since": "2019-11-28"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "267daa83-93c5-4a11-b6d1-f814d4d3bd89",
+          "name": "Ontario",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/549300561UZND4C7B569",
+                  "params": {},
+                  "response_hash": "91fa4d56bc9d35d2131fe17e487ab6b733a4c957e68c5cc25a45f62c7b85699f"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "5e474968-0a79-43d5-b4f6-b835a50fec35"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+          "name": "BlackRock Institutional Trust Company, N.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341403000383/f13-033103.txt",
+                "date": "2003-05-14"
+              }
+            ],
+            "id": "8096c67e-8fa8-5d21-9979-4a475b59fc1e",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 2308460.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636417000008/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 2221225.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002329/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 2194535.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000103455116000007/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 2403296.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002288/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-03-31T00:00:00Z",
+                "value": 2821521.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000091341403000383/f13-033103.txt",
+                  "source": "SEC",
+                  "published_time": "2003-05-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                "date": "2026-01-29"
+              }
+            ],
+            "id": "8e70e644-9cb2-5b01-9885-cbf1532480cd",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 5776640.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 5690956.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 5617231.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 5476600.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 5381842.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 5305460.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 5232923.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 5739858.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 5698178.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000862/primary_doc.xml",
+                "date": "2023-08-14"
+              }
+            ],
+            "id": "0af36037-bae6-5485-aa60-81498a7fdade",
+            "number_shares": [
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 5597.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000862/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "92ee7e1d-2235-5de8-809f-d250e07df208",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 761992.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 1264235.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 1264235.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 860077.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 741491.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 690226.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 634182.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 634182.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 1460003.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 1460003.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 1436748.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 1436748.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 1377432.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000190/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 1377432.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000669/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 886419.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000542/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 976275.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000462/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 891791.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000378/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 891791.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000321/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 690398.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 642615.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000516/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 721873.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000424/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 700034.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 633257.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000233/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 633257.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000267/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 834900.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000478/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 871407.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000379/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 827610.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 768945.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 768945.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 621493.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000473/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 621493.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 645571.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000375/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 625636.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000301/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 863954.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 989612.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000258/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 742092.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000129/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-03-31T00:00:00Z",
+                "value": 585242.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000069/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-05-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-12-31T00:00:00Z",
+                "value": 579909.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000014/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 1392505.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000246/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 1392505.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000208/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-06-30T00:00:00Z",
+                "value": 122386.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000347/jpmc06300813f.txt",
+                  "source": "SEC",
+                  "published_time": "2008-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-12-31T00:00:00Z",
+                "value": 280833.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000268/dec13f.txt",
+                  "source": "SEC",
+                  "published_time": "2003-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-06-28T00:00:00Z",
+                "value": 183200.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000368/june13f.txt",
+                  "source": "SEC",
+                  "published_time": "2002-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-03-31T00:00:00Z",
+                "value": 211015.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000303/sec13fmar28.txt",
+                  "source": "SEC",
+                  "published_time": "2002-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-12-31T00:00:00Z",
+                "value": 226232.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000241/sec13fdec.txt",
+                  "source": "SEC",
+                  "published_time": "2002-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-09-28T00:00:00Z",
+                "value": 238747.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701500124/f13sept.txt",
+                  "source": "SEC",
+                  "published_time": "2001-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-06-29T00:00:00Z",
+                "value": 231573.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701500111/f13jun.txt",
+                  "source": "SEC",
+                  "published_time": "2001-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2001-03-30T00:00:00Z",
+                "value": 230658.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701500044/f13sec.txt",
+                  "source": "SEC",
+                  "published_time": "2001-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2000-12-31T00:00:00Z",
+                "value": 253551.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961701000176/0001.txt",
+                  "source": "SEC",
+                  "published_time": "2001-02-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "TRI",
+    "uuid": "4e8ab206-76c5-4354-a59b-1a7267e25410",
+    "match_name": "THOMSON REUTERS CORPORATION",
+    "retrieved_at": "2026-04-15T22:37:02Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 9,
+      "relationship_types_outgoing": 4,
+      "relationship_types_incoming": 1,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 9,
+      "relationship_types": 5,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

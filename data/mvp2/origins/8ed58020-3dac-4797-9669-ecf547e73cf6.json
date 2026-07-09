@@ -1,0 +1,149 @@
+{
+  "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+  "name": "MAVERICK CAPITAL LTD",
+  "entity_type": "Company",
+  "description": "A Dallas, Texas asset\u2011management company, subsidiary of Maverick Capital Management, LLC, and parent of Maverick Fund USA, Ltd., Maverick Long Enhanced Fund, Ltd., Maverick Fund\u202fII, Ltd., and Maverick Long Fund, Ltd.",
+  "properties": {
+    "bics": {
+      "value": [
+        "MAVEUS41XXX"
+      ],
+      "sources": []
+    },
+    "headquarters_address": {
+      "value": "1900 N PEARL ST, STE 2000, DALLAS, US-TX, 75201, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/H8IL47RD6E7GDGW3GE61",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O SUZANNE GUTHRIE, 1900 N. PEARL STREET, 20TH FLOOR, DALLAS, US-TX, 75201, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=MAVERICK+CAPITAL+LTD&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "4045adf2a86356f4bbe8f4b83d8142d50f52f90e3aaeb7cf9f1d893e7d58ad38"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/H8IL47RD6E7GDGW3GE61",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "MAVERICK CAPITAL, LTD.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=MAVERICK+CAPITAL+LTD&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "4045adf2a86356f4bbe8f4b83d8142d50f52f90e3aaeb7cf9f1d893e7d58ad38"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/H8IL47RD6E7GDGW3GE61",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Maverick Capital Ltd."
+      ],
+      "sources": []
+    },
+    "description": {
+      "value": "A Dallas, Texas asset\u2011management company, subsidiary of Maverick Capital Management, LLC, and parent of Maverick Fund USA, Ltd., Maverick Long Enhanced Fund, Ltd., Maverick Fund\u202fII, Ltd., and Maverick Long Fund, Ltd.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1993-05-13",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/H8IL47RD6E7GDGW3GE61",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "sources": []
+    },
+    "name": {
+      "value": "MAVERICK CAPITAL LTD",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22MAVERICK+CAPITAL+LTD%22",
+            "params": {},
+            "response_hash": "338e3285a790582ed908ffe212a07e12a88bf61fca0a2734d6322f5235a3f032"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "lei": {
+      "value": "H8IL47RD6E7GDGW3GE61",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=MAVERICK+CAPITAL+LTD&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "4045adf2a86356f4bbe8f4b83d8142d50f52f90e3aaeb7cf9f1d893e7d58ad38"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/H8IL47RD6E7GDGW3GE61",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0000934639",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22MAVERICK+CAPITAL+LTD%22",
+            "params": {},
+            "response_hash": "338e3285a790582ed908ffe212a07e12a88bf61fca0a2734d6322f5235a3f032"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+    "properties_count_requested": 11,
+    "numobs_categories_requested": 0
+  }
+}

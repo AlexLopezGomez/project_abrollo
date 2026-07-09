@@ -1,0 +1,3003 @@
+{
+  "id": "70967fb4-2eb5-4cd9-bf8f-6f46223bd234",
+  "name": "ADVANCED MICRO DEVICES INC",
+  "entity_type": "Company",
+  "description": "U.S. company headquartered at the Corporation Trust Center, 1209 Orange St, Wilmington, Delaware, 19801.",
+  "properties": {
+    "registered_address": {
+      "value": "C/O THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209 ORANGE ST, WILMINGTON, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ADVANCED+MICRO+DEVICES+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "f0c8b09f8f6086912a909cb4609765ecdfa7f497584e6231bc1ad48e29c8b30d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/R2I72C950HOYXII45366",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "AMD",
+        "Advanced Micro Devices (AMD)",
+        "Advanced Micro Devices",
+        "Advanced Micro Devices Inc.",
+        "AMD (Advanced Micro Devices)",
+        "Advanced Micro Devices / AMD",
+        "Advanced Micro Devices, Inc.",
+        "Advanced Micro Devices / AMD (AMD)"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 31000,
+      "sources": [
+        {
+          "name": "Stock Analysis - Free Online Stock Information for Investors",
+          "document": "https://stockanalysis.com/stocks/amd/employees",
+          "date": "2026-03-13"
+        },
+        {
+          "name": "Business Intelligence, Data and Research Platform | Bullfincher",
+          "document": "https://bullfincher.io/companies/advanced-micro-devices/number-of-employees",
+          "date": "2018-01-01"
+        },
+        {
+          "name": "https://www.financecharts.com/stocks/AMD/summary/employees",
+          "document": "https://www.financecharts.com/stocks/AMD/summary/employees",
+          "date": "2026-03-16"
+        }
+      ]
+    },
+    "id": {
+      "value": "70967fb4-2eb5-4cd9-bf8f-6f46223bd234",
+      "sources": []
+    },
+    "cik": {
+      "value": "0000002488",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "Anti-Bribery and Anti-Corruption Policy; Climate Change Policy; Code of Ethics; Responsible Mineral Sourcing Policy",
+      "sources": [
+        {
+          "name": "www.amd.com",
+          "document": "https://www.amd.com/en/corporate/corporate-responsibility/esg-disclosures.html",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "name": {
+      "value": "ADVANCED MICRO DEVICES INC",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "description": {
+      "value": "U.S. company headquartered at the Corporation Trust Center, 1209 Orange St, Wilmington, Delaware, 19801.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "lei": {
+      "value": "R2I72C950HOYXII45366",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ADVANCED+MICRO+DEVICES+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "f0c8b09f8f6086912a909cb4609765ecdfa7f497584e6231bc1ad48e29c8b30d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/R2I72C950HOYXII45366",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "CORPORATION TRUST CENTER, 1209 ORANGE ST, WILMINGTON, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ADVANCED+MICRO+DEVICES+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "f0c8b09f8f6086912a909cb4609765ecdfa7f497584e6231bc1ad48e29c8b30d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/R2I72C950HOYXII45366",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "ADVANCED MICRO DEVICES, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ADVANCED+MICRO+DEVICES+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "f0c8b09f8f6086912a909cb4609765ecdfa7f497584e6231bc1ad48e29c8b30d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/R2I72C950HOYXII45366",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1969-05-01",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/R2I72C950HOYXII45366",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+          "name": "United States",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "http://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "5205f9b0-185f-52cd-889f-e15398d9452e"
+          }
+        },
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ADVANCED+MICRO+DEVICES+INC&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "f0c8b09f8f6086912a909cb4609765ecdfa7f497584e6231bc1ad48e29c8b30d"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "6dc7d140-b07e-4e39-80a4-4d3b83517db9"
+          }
+        },
+        {
+          "id": "aa4baf42-aaee-4ae9-a314-c50f7249942a",
+          "name": "Wilmington",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "f209363a-5575-571a-86d0-5eba70ca2e71"
+          }
+        },
+        {
+          "id": "e1660454-c5aa-4cf8-a0f7-240b110925fe",
+          "name": "Wilmington, Delaware",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "business.nasdaq.com",
+                "document": "http://business.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "3cbb33da-210f-57d4-86dc-fc97bfeed0f9"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "80415021-3302-4855-91f6-42f6f596115f",
+          "name": "XILINX SINGAPORE HOLDING PTE. LTD.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300GCTTG4ZJ1SKJ31",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b19113e2-bd51-5dd7-b13a-dcd4ab6495eb",
+            "valid_since": "2022-05-20"
+          }
+        },
+        {
+          "id": "a0257371-5e69-4906-b85b-54ddccc00c22",
+          "name": "XILINX HOLDING THREE LTD.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300W826EUCN3Z2K21",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "20441f20-d7cd-580d-b3fb-6bcdf18cbc7b",
+            "valid_since": "2022-05-20"
+          }
+        },
+        {
+          "id": "cec81b47-6dea-43e2-9069-ad5acf8bef90",
+          "name": "AMD INDIA PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800P89VC3EYZ79C42",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "e5582873-a1b1-5ef8-be5e-d92e0a0d7df7",
+            "valid_since": "2017-06-25"
+          }
+        }
+      ],
+      "LISTED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/nasdaq-100/companies?tblci=GiB_OVdeTXBLeN6XRvnKpdZHOauNin8bW0dD6_VhsBLWpyDwzEYoptmehOKHyql-",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "311ecc22-fa32-5b37-a769-138ef630eebe"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "12b3b50d-8bad-4860-a160-d70c821ae4a6",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d52912ef-f8fc-5d01-8ae8-2ebac3cc2026"
+          }
+        },
+        {
+          "id": "15ea8cc2-51b7-4b30-97ed-95d84688be39",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "business.nasdaq.com",
+                "document": "http://business.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b200c693-2774-53f3-a741-4d9b6fb309fe"
+          }
+        },
+        {
+          "id": "1bb9d1ff-fc8f-46e2-9c20-ee3737584445",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Stock Screener, Interactive Charts, & Up-To-Date Financial Data",
+                "document": "https://wallstreetnumbers.com/screeners/nasdaq-composite-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "6c3ebcc3-7ca7-5df9-82ef-89b0f3ce167b"
+          }
+        },
+        {
+          "id": "2bf55ecf-b591-4f72-abf0-112c739d64d9",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "granitefirm.com",
+                "document": "https://www.granitefirm.com/blog/us/2024/04/06/artificial-intelligence-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "3c3af9bc-8787-5fe2-ab0c-bb77df3136f0"
+          }
+        },
+        {
+          "id": "2e92b7f5-690a-4d0e-9660-b53bc68c4d20",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/nasdaq-100/companies?tblci=GiB_OVdeTXBLeN6XRvnKpdZHOauNin8bW0dD6_VhsBLWpyDwzEYoptmehOKHyql-",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "44118250-9a90-5f49-9d70-0178e03be2ba"
+          }
+        },
+        {
+          "id": "34e1fd21-a88f-4f3c-b0b6-45138185f708",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/story/news/23324027/3-best-tech-sector-etfs-to-own-for-2024",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "71d27342-0f3b-524a-9e4c-8c3fb2c54766"
+          }
+        },
+        {
+          "id": "38c7b699-47d6-4785-b5d8-3b7493df467f",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "85a66f04-7119-54cd-b43b-5d57bdf5e861"
+          }
+        },
+        {
+          "id": "3c11ba64-df0e-43ba-989c-a95f3c0883a4",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "1532796a-f4a4-5c5f-99db-01bfe96e5905"
+          }
+        },
+        {
+          "id": "3e691095-b435-4f25-8864-dcb9df1227fc",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "0fde3ace-cbee-563a-bd50-b21f11b07182"
+          }
+        },
+        {
+          "id": "4d48f69e-b79e-4724-aa0d-4f16f6149eff",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "business.nasdaq.com",
+                "document": "http://business.nasdaq.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "36dfef35-019c-5954-b9d4-bdd97df9c1ee"
+          }
+        },
+        {
+          "id": "5dfb7a38-1061-49e3-a18a-5df2d005e084",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "cf4ac154-f2f9-5175-83b2-32217ac8c7d7"
+          }
+        },
+        {
+          "id": "6150da14-5ef0-4c82-ae50-b470a57dd3e2",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/nasdaq-100/companies?tblci=GiB_OVdeTXBLeN6XRvnKpdZHOauNin8bW0dD6_VhsBLWpyDwzEYoptmehOKHyql-",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "4d7fb2c8-d230-58bf-a6c4-cf57a4a0b9da"
+          }
+        },
+        {
+          "id": "70619eed-0e2c-47ef-a1e7-93db3f9d2001",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/news/meet-low-cost-vanguard-etf-093600568.html",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "75830488-e11a-5426-8f1b-11946b3b26dd"
+          }
+        },
+        {
+          "id": "7659d146-131a-4d71-8a5c-2b3f92cd274b",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "16366607-369b-5ede-8b75-367c9b584cfe"
+          }
+        },
+        {
+          "id": "81a24873-eec9-4445-a752-ab98de35c449",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "65f604aa-41ce-52cd-8438-f4f756b86560"
+          }
+        },
+        {
+          "id": "87f4a6d8-e24c-4185-9229-2b3ae6158bb3",
+          "name": "Artificial Intelligence Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "granitefirm.com",
+                "document": "https://www.granitefirm.com/blog/us/2024/04/06/artificial-intelligence-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "55bf9d3b-cf31-5e3f-923a-007cdf5a9480"
+          }
+        },
+        {
+          "id": "930a0bf7-e2d9-4363-8967-8ee1c5b5e9a2",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "investopedia.com",
+                "document": "https://www.investopedia.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "c0033a1b-f840-5b6d-816e-74b4fa063ba3"
+          }
+        },
+        {
+          "id": "aac2cab8-46e4-45ee-a993-2bcc7db0bb25",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "business.nasdaq.com",
+                "document": "http://business.nasdaq.com/solutions/global-indexes/nasdaq-100/companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "7be07892-440a-5449-9bfd-9a12e8ab22d5"
+          }
+        },
+        {
+          "id": "b36a370e-db40-424c-b31a-0f1d823c701f",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d82e12ad-4490-5c60-9241-b402226fe508"
+          }
+        },
+        {
+          "id": "dcaf3d8d-c030-4ece-b187-41e0312c793a",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9cb7370e-5142-5273-a9dc-77dd2b5bc7ab"
+          }
+        },
+        {
+          "id": "e488b69c-9c3c-4977-a8c2-87f3cc0c420c",
+          "name": "Semiconductor Manufacturing",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "granitefirm.com",
+                "document": "https://www.granitefirm.com/blog/us/2024/04/06/artificial-intelligence-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b8ca2b59-76af-5269-9f99-0c86abbbf547"
+          }
+        },
+        {
+          "id": "e733c256-1630-4323-a5c0-8dd6765635c7",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "dd24681d-c22f-564a-acb9-7be223b70328"
+          }
+        },
+        {
+          "id": "f35c62f0-72d0-4085-a913-3bf0ea3cd78d",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "835107ae-4434-5910-8b5a-27e943a1c1f8"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "cec81b47-6dea-43e2-9069-ad5acf8bef90",
+          "name": "AMD INDIA PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800P89VC3EYZ79C42",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "0a8cf1a9-2a3a-5d32-8c27-3a3030e5309c",
+            "valid_since": "2017-06-25"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#technology",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "74606cf9-9dd7-5c46-a14c-4ad6b16fa8a3"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ADVANCED+MICRO+DEVICES+INC&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "f0c8b09f8f6086912a909cb4609765ecdfa7f497584e6231bc1ad48e29c8b30d"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "b3389e31-75ec-4dd7-8b37-f4c9bd5e79fb"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "DESIGNED_BY": [
+        {
+          "id": "ebd5971f-b0a5-4c1c-83e0-5a38892440a1",
+          "name": "MI300X",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.amd.com",
+                "document": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/AMD_Instinct",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "www.opencompute.org",
+                "document": "https://www.opencompute.org/products/591/amd-instinct-mi300x-accelerator",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "c7356136-34fb-510f-a1a5-ce8b97a1eece"
+          }
+        }
+      ],
+      "IS_CEO_OF": [
+        {
+          "id": "39cdc01c-4236-49ad-a4c5-07fae2318b54",
+          "name": "Lisa Su",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cyber News Centre",
+                "document": "https://www.cybernewscentre.com/amd-q1-2025-results-ai-chip-market-competition",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "4f60abb3-c5bf-5288-a563-3386324a0e7b"
+          }
+        }
+      ],
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+          "name": "BlackRock Institutional Trust Company, N.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341403000383/f13-033103.txt",
+                "date": "2003-05-14"
+              }
+            ],
+            "id": "e68a17f9-4bd7-560c-9ec5-ed172bba7689",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 25017087.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636417000008/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 21541918.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002329/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 19338040.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000103455116000007/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-03-31T00:00:00Z",
+                "value": 11812041.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000091341403000383/f13-033103.txt",
+                  "source": "SEC",
+                  "published_time": "2003-05-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020184/tv0191-advancedmicrodevicesi.htm",
+                "date": "2024-02-13"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 8.82,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020184/tv0191-advancedmicrodevicesi.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-01-10T00:00:00Z",
+                "value": 10.57,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118000021/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2018-01-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-02-09T00:00:00Z",
+                "value": 7.72,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247117000619/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2017-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-10T00:00:00Z",
+                "value": 8.08,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116010721/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-10T00:00:00Z",
+                "value": 6.58,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115004115/advancedmicrodevices.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-10T00:00:00Z",
+                "value": 5.25,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114002793/advancedmicrodevices.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-22T00:00:00Z",
+                "value": 5.76,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113005361/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-22T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 5.37,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004374/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "21709398-a9e2-559e-a4d9-498bed7e7061",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 158522860.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 155997751.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 154648859.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 152367351.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 150210152.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 148768526.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 147324314.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 144794666.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 142445378.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+          "name": "VANGUARD FIDUCIARY TRUST COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247118000021/advancedmicrodevicesinc.htm",
+                "date": "2018-01-10"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2018-01-10T00:00:00Z",
+                "value": 0.09,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118000021/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2018-01-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-02-09T00:00:00Z",
+                "value": 0.12,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247117000619/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2017-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-10T00:00:00Z",
+                "value": 0.13,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116010721/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-10T00:00:00Z",
+                "value": 0.04,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115004115/advancedmicrodevices.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-10T00:00:00Z",
+                "value": 0.04,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114002793/advancedmicrodevices.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-22T00:00:00Z",
+                "value": 0.12,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113005361/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-22T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 0.12,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004374/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "adb6f278-6a69-5ea1-9163-ba94e1795d2c"
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000096/ss56888_sc13ga.txt",
+                "date": "2009-02-17"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2009-02-17T00:00:00Z",
+                "value": 0.0,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000096/ss56888_sc13ga.txt",
+                  "source": "SEC",
+                  "published_time": "2009-02-17T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-02-14T00:00:00Z",
+                "value": 5.6,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787108000146/sc13g_30305-advancedmicro.txt",
+                  "source": "SEC",
+                  "published_time": "2008-02-14T00:00:00Z"
+                }
+              }
+            ],
+            "id": "e2951fba-9bd2-5f80-bb4d-c27d0680a142",
+            "number_shares": [
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 933011.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125001016/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 1172044.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125000775/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 19651.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125000533/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 20493.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125000159/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 949785.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000903/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 456022.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000690/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 290269.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000481/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 5659.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000140/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 17818.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123001078/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 27465.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000862/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 24696.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000938/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 24696.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000946/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 11040.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000569/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-17T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 23114.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000870/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 55538.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000683/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 228764.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000497/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 228764.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000474/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 167519.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000113/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 274578.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000820/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-12-31T00:00:00Z",
+                "value": 33779082.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787108000159/f13fhr_30648-maverick.txt",
+                  "source": "SEC",
+                  "published_time": "2008-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-09-30T00:00:00Z",
+                "value": 22937587.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787107001402/f13fhr_110907-maverick.txt",
+                  "source": "SEC",
+                  "published_time": "2007-11-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "7b03c604-ad8f-5559-bdf7-a157e9cdf781",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 23618789.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 15613772.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 15613772.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 15254122.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 15037582.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 14595736.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 24120055.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 24120055.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 42099121.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 42099121.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 41274188.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 41124738.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 40893580.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000669/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 40652245.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000190/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 39253567.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000542/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 34479144.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000462/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 38637501.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000378/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 37878641.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000321/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 44544618.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 41143801.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000516/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 38350555.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000424/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 41088227.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 43056857.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000233/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 43056857.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000267/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 40093033.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000478/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 42873039.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000379/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 41674295.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 34641688.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 34641688.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 38074690.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000473/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 38074690.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 36635076.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000375/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 50465158.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000301/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 45916279.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 45086738.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000258/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 31914940.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000129/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-03-31T00:00:00Z",
+                "value": 23398281.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000069/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-05-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-12-31T00:00:00Z",
+                "value": 15157041.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000014/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 13256109.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000246/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 13256109.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000208/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-06-30T00:00:00Z",
+                "value": 13034347.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000153/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-03-31T00:00:00Z",
+                "value": 7645801.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000094/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-12-31T00:00:00Z",
+                "value": 11129238.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000013/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-09-30T00:00:00Z",
+                "value": 9138037.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000554/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-06-30T00:00:00Z",
+                "value": 9848250.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000496/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-03-31T00:00:00Z",
+                "value": 10317866.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000376/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 2785770.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000305/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-06-30T00:00:00Z",
+                "value": 6060442.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000358/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2013-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-12-31T00:00:00Z",
+                "value": 23918000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000198/jpmc13f20121231.TXT",
+                  "source": "SEC",
+                  "published_time": "2013-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-09-30T00:00:00Z",
+                "value": 22790000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000323/jpmc13f20120928.TXT",
+                  "source": "SEC",
+                  "published_time": "2012-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-03-31T00:00:00Z",
+                "value": 31030000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000229/jpmc13f20120330.txt",
+                  "source": "SEC",
+                  "published_time": "2012-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-12-31T00:00:00Z",
+                "value": 39063000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000147/jpmc13f20111230.txt",
+                  "source": "SEC",
+                  "published_time": "2012-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-09-30T00:00:00Z",
+                "value": 52688000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000270/jpmc13f0930v2.txt",
+                  "source": "SEC",
+                  "published_time": "2011-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-06-30T00:00:00Z",
+                "value": 56593000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000222/jpmc13f063011.txt",
+                  "source": "SEC",
+                  "published_time": "2011-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-03-31T00:00:00Z",
+                "value": 44495000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000190/jpmc13f033111v2.txt",
+                  "source": "SEC",
+                  "published_time": "2011-05-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-12-31T00:00:00Z",
+                "value": 53702564.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961711000144/jpmc13f20101231v2.txt",
+                  "source": "SEC",
+                  "published_time": "2011-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-09-30T00:00:00Z",
+                "value": 42199000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000324/jpmc13f093010.txt",
+                  "source": "SEC",
+                  "published_time": "2010-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-06-30T00:00:00Z",
+                "value": 29000151.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000293/jpmc13f063010.txt",
+                  "source": "SEC",
+                  "published_time": "2010-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-12-31T00:00:00Z",
+                "value": 2796035.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961710000128/jpmc13f.txt",
+                  "source": "SEC",
+                  "published_time": "2010-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-09-30T00:00:00Z",
+                "value": 18000000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961709001226/jpmc09302009.txt",
+                  "source": "SEC",
+                  "published_time": "2009-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-09-30T00:00:00Z",
+                "value": 70924800.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000542/jpm0930.txt",
+                  "source": "SEC",
+                  "published_time": "2008-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-06-30T00:00:00Z",
+                "value": 7991495.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000347/jpmc06300813f.txt",
+                  "source": "SEC",
+                  "published_time": "2008-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-03-31T00:00:00Z",
+                "value": 6685341.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000293/jpmc03312008ffff.txt",
+                  "source": "SEC",
+                  "published_time": "2008-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-12-31T00:00:00Z",
+                "value": 4928707.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961708000229/jpm80214.txt",
+                  "source": "SEC",
+                  "published_time": "2008-02-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-09-29T00:00:00Z",
+                "value": 34827094.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000765/jpm9282007.txt",
+                  "source": "SEC",
+                  "published_time": "2007-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-06-29T00:00:00Z",
+                "value": 6272831.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000604/jpmc13f70809.txt",
+                  "source": "SEC",
+                  "published_time": "2007-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2007-03-30T00:00:00Z",
+                "value": 4751051.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000452/jpm70510a.txt",
+                  "source": "SEC",
+                  "published_time": "2007-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-12-29T00:00:00Z",
+                "value": 7378406.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961707000245/jpmcc020707.txt",
+                  "source": "SEC",
+                  "published_time": "2007-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-09-29T00:00:00Z",
+                "value": 3129304.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000569/jpmc1113a.txt",
+                  "source": "SEC",
+                  "published_time": "2006-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-06-30T00:00:00Z",
+                "value": 4122349.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000452/f13jpm0814.txt",
+                  "source": "SEC",
+                  "published_time": "2006-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-03-31T00:00:00Z",
+                "value": 2072400.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000351/jpmc.txt",
+                  "source": "SEC",
+                  "published_time": "2006-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-12-30T00:00:00Z",
+                "value": 546933.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961706000277/jpmc.txt",
+                  "source": "SEC",
+                  "published_time": "2006-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-09-30T00:00:00Z",
+                "value": 16019000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000589/lates13fll.txt",
+                  "source": "SEC",
+                  "published_time": "2005-11-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-06-30T00:00:00Z",
+                "value": 20552000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000482/f130630l.txt",
+                  "source": "SEC",
+                  "published_time": "2005-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2005-03-29T00:00:00Z",
+                "value": 15423000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000374/jpmc13f.txt",
+                  "source": "SEC",
+                  "published_time": "2005-05-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-12-31T00:00:00Z",
+                "value": 1237055.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961705000170/yearend13f.txt",
+                  "source": "SEC",
+                  "published_time": "2005-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-09-30T00:00:00Z",
+                "value": 57981039.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000394/prodsept04.txt",
+                  "source": "SEC",
+                  "published_time": "2004-11-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-06-30T00:00:00Z",
+                "value": 25322383.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000323/juneprod.txt",
+                  "source": "SEC",
+                  "published_time": "2004-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2004-03-31T00:00:00Z",
+                "value": 3834380.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000224/mayprod.txt",
+                  "source": "SEC",
+                  "published_time": "2004-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-12-31T00:00:00Z",
+                "value": 4036018.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961704000161/decprod.txt",
+                  "source": "SEC",
+                  "published_time": "2004-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-09-30T00:00:00Z",
+                "value": 5692100.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000484/f13930.txt",
+                  "source": "SEC",
+                  "published_time": "2003-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-06-30T00:00:00Z",
+                "value": 6172847.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000422/jun13f.txt",
+                  "source": "SEC",
+                  "published_time": "2003-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2003-03-31T00:00:00Z",
+                "value": 9722384.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000316/f13march31.txt",
+                  "source": "SEC",
+                  "published_time": "2003-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-12-31T00:00:00Z",
+                "value": 12153395.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961703000268/dec13f.txt",
+                  "source": "SEC",
+                  "published_time": "2003-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-09-30T00:00:00Z",
+                "value": 8660618.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000413/sep13f.txt",
+                  "source": "SEC",
+                  "published_time": "2002-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-06-28T00:00:00Z",
+                "value": 651818.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000368/june13f.txt",
+                  "source": "SEC",
+                  "published_time": "2002-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2002-03-31T00:00:00Z",
+                "value": 1031641.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961702000303/sec13fmar28.txt",
+                  "source": "SEC",
+                  "published_time": "2002-05-15T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+          "name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247118000021/advancedmicrodevicesinc.htm",
+                "date": "2018-01-10"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2018-01-10T00:00:00Z",
+                "value": 0.06,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118000021/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2018-01-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-02-09T00:00:00Z",
+                "value": 0.01,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247117000619/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2017-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-10T00:00:00Z",
+                "value": 0.01,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116010721/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-10T00:00:00Z",
+                "value": 0.0,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115004115/advancedmicrodevices.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-10T00:00:00Z",
+                "value": 0.0,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114002793/advancedmicrodevices.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-22T00:00:00Z",
+                "value": 0.0,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113005361/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-22T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 0.0,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004374/advancedmicrodevicesinc.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "fc856cf5-7ebf-5a17-8d3b-94d6fa260fc5"
+          }
+        },
+        {
+          "id": "acb76581-d0d9-4cd1-a809-1fc66317b726",
+          "name": "AMAZON COM INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925074202/primary_doc.xml",
+                "date": "2025-08-05"
+              }
+            ],
+            "id": "022873b0-61bd-5a2a-aff0-824b2a6792b0",
+            "number_shares": [
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 822234.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925074202/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-05T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 822234.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925045097/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-06T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                "date": "2026-02-12"
+              }
+            ],
+            "id": "f8bbcd1c-8edf-59d0-be1e-db2750067c95",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 147528808.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 136390486.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 137884808.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 134546962.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 131295120.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 129515829.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e575ad90-3b1b-4feb-8226-e1a06ccb1daa",
+          "name": "Maverick Capital Management, LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000096/ss56888_sc13ga.txt",
+                "date": "2009-02-17"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2009-02-17T00:00:00Z",
+                "value": 0.0,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787109000096/ss56888_sc13ga.txt",
+                  "source": "SEC",
+                  "published_time": "2009-02-17T00:00:00Z"
+                }
+              }
+            ],
+            "id": "307f5cbb-7729-5f03-9c1e-578a435ee0e0"
+          }
+        },
+        {
+          "id": "eee1c65e-5681-44b5-8309-852d1969f94b",
+          "name": "BLACKROCK ADVISORS LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/1086364/000108636417000003/primary_doc.xml",
+                "date": "2017-02-10"
+              }
+            ],
+            "id": "42381a05-be00-5c03-8b55-bb39a9d126c7",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 2809269.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636417000003/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 3036636.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002324/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-03-31T00:00:00Z",
+                "value": 3126083.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002415/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-12-31T00:00:00Z",
+                "value": 45448000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002210/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-09-30T00:00:00Z",
+                "value": 87932000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411006172/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-11-03T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-06-30T00:00:00Z",
+                "value": 128174813.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411004979/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-07-27T00:00:00Z"
+                }
+              },
+              {
+                "time": "2011-03-31T00:00:00Z",
+                "value": 142237012.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411004630/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-04-21T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-12-31T00:00:00Z",
+                "value": 144412680.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636411004278/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2011-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-09-30T00:00:00Z",
+                "value": 161701704.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410009985/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-11-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-06-30T00:00:00Z",
+                "value": 380834572.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410009666/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2010-03-31T00:00:00Z",
+                "value": 384885572.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410009317/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-05-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-12-31T00:00:00Z",
+                "value": 379929000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636410008917/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2010-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-09-30T00:00:00Z",
+                "value": 379245000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000382/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-10-22T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-06-30T00:00:00Z",
+                "value": 379245000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000343/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-08-05T00:00:00Z"
+                }
+              },
+              {
+                "time": "2009-03-31T00:00:00Z",
+                "value": 369480000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000247/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-05-01T00:00:00Z"
+                }
+              },
+              {
+                "time": "2008-12-31T00:00:00Z",
+                "value": 36479000.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636409000149/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2009-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2006-03-30T00:00:00Z",
+                "value": 779845.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636407000028/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2007-05-10T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "a80e8d92-534f-40f0-96c5-92e0e5a80bc8",
+          "name": "MI300 series",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.amd.com",
+                "document": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "2808e299-2d02-5358-95dc-d04f0bcea7de"
+          }
+        },
+        {
+          "id": "b83c1592-bd46-45d0-9210-9ee921446767",
+          "name": "Helios rack system",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.amd.com",
+                "document": "https://www.amd.com/en/blogs/2025/amd-helios-ai-rack-built-on-metas-2025-ocp-design.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "523c7261-8f7f-5e7b-a2ed-76e5021a426b"
+          }
+        }
+      ],
+      "CREATED_BY": [
+        {
+          "id": "b83c1592-bd46-45d0-9210-9ee921446767",
+          "name": "Helios rack system",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AMD taking AI fight to Nvidia with Helios rack-scale system",
+                "document": "https://www.theregister.com/2025/11/05/amd_pins_its_hopes_on/",
+                "date": "2025-11-05"
+              },
+              {
+                "name": "www.amd.com",
+                "document": "https://www.amd.com/en/blogs/2025/amd-helios-ai-rack-built-on-metas-2025-ocp-design.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b9dccbab-3ee9-5d73-be7e-ab8b98912c97",
+            "valid_since": "2025-11-05"
+          }
+        },
+        {
+          "id": "ce2451aa-9c67-4858-b772-be6f00c867ef",
+          "name": "data center GPUs",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.amd.com",
+                "document": "https://www.amd.com/en/newsroom/press-releases/2020-11-16-amd-epyc-processors-and-new-amd-instinct-mi100-a.html",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/AMD_Instinct",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "4a6d61a0-1852-5a07-8206-0f8486321ba8",
+            "valid_since": "2020-11-16"
+          }
+        },
+        {
+          "id": "ebd5971f-b0a5-4c1c-83e0-5a38892440a1",
+          "name": "MI300X",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.cnbc.com",
+                "document": "https://www.cnbc.com/2023/06/13/amd-reveals-new-ai-chip-to-challenge-nvidias-dominance.html",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "www.amd.com",
+                "document": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d82ecd1a-9582-59be-8668-ccb395cb6f31",
+            "valid_since": "2023-06-13"
+          }
+        }
+      ],
+      "IS_DIRECT_OWNER_OF": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Global Companies by Market Capitalization",
+                "document": "https://marketcap.company/stock-exchanges/nasdaq-nasdaq-exchange-market-capitalization/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a37a7fe6-9ac4-5841-8f9e-f2a816b65e78"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "a80e8d92-534f-40f0-96c5-92e0e5a80bc8",
+          "name": "MI300 series",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/amd-vs-arista-networks-which-artificial-intelligence-ai-stock-better-buy-right-now",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9069c7ee-1a8c-51d6-8fb2-6aa9e9aa959e"
+          }
+        },
+        {
+          "id": "ce2451aa-9c67-4858-b772-be6f00c867ef",
+          "name": "data center GPUs",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "The Globe and Mail: Canadian, World, Politics and Business News & Analysis",
+                "document": "https://www.theglobeandmail.com/investing/markets/stocks/AMD/pressreleases/36465488/beyond-nvidia-5-semiconductor-stocks-set-to-dominate-2026",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d3a094c4-df62-5343-b337-8daa50f64f27"
+          }
+        },
+        {
+          "id": "e84950b1-311b-48be-8143-dde4b24f66dd",
+          "name": "EPYC server CPUs",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/amd-vs-arista-networks-which-artificial-intelligence-ai-stock-better-buy-right-now",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "02609353-87cd-5c6c-a157-263d6056c740"
+          }
+        },
+        {
+          "id": "ebd5971f-b0a5-4c1c-83e0-5a38892440a1",
+          "name": "MI300X",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "barchart.com",
+                "document": "https://www.barchart.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "dc141a18-4c76-5289-af51-d9bf564b3783"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": []
+}

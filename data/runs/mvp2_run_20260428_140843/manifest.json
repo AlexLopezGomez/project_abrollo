@@ -1,0 +1,26 @@
+{
+  "agent": "monte-carlo-cathedral-mvp2",
+  "artifacts": {
+    "dag": "dag.json",
+    "graph": "graph.gpickle",
+    "graph_summary": "graph_summary.json",
+    "hypotheses": "hypotheses.json",
+    "portfolio": "portfolio.json",
+    "submission": "submission.json"
+  },
+  "created_at_utc": "2026-04-28T14:08:43Z",
+  "graph_edges": 1731,
+  "graph_nodes": 1135,
+  "hypotheses_count": 10,
+  "missing_artifacts": [],
+  "n_transactions": 60,
+  "pipeline": "mvp2",
+  "return_pct": 38.55305200000001,
+  "run_id": "mvp2_run_20260428_140843",
+  "status": 200,
+  "submission_file": "C:\\Users\\nicof\\OneDrive\\Escritorio\\abrollo\\project_abrollo\\data\\submissions\\mvp2_run_20260428_140843.json",
+  "submission_id": "jx79rw0fbr4k22nkv8b2hajp9h85ps6d",
+  "total_invested": 1000000,
+  "total_value": 1385530.52,
+  "version": "0.0.2"
+}

@@ -130,3 +130,6 @@ Estos datos vienen de retros versionadas en el repo:
 - **MVP-2**: `docs/architecture/04-mvp-2-retro.md` (run date `2026-04-15`), con `submission_id` documentado `jx704evqag7xry244jxqwcg5qh84x0p4`.
 
 Se consideran resultados históricos del proyecto; no son una verificación en tiempo real desde este README.
+
+
+streamlit run dashboard/app.py --server.port 8501 

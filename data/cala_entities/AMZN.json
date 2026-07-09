@@ -1,0 +1,2812 @@
+{
+  "id": "d4245a8e-6996-4663-b238-9c3e8d3742d7",
+  "name": "AMAZON WEB SERVICES, INC.",
+  "entity_type": "Company",
+  "description": "A major organization with around 40000 employees, also called AWS",
+  "properties": {
+    "headquarters_address": {
+      "value": "410 Terry Ave North, Seattle, US-WA, 98109, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2549000I2PRQGGIGCA75",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2549000I2PRQGGIGCA75",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "AMAZON WEB SERVICES, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2549000I2PRQGGIGCA75",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Amazon Web Services",
+        "AWS",
+        "Amazon AWS",
+        "Amazon",
+        "Amazon (AWS)",
+        "Amazon Web Services (AWS)",
+        "Amazon/AWS",
+        "AMZN"
+      ],
+      "sources": []
+    },
+    "description": {
+      "value": "A major organization with around 40000 employees, also called AWS",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-01"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2006-05-03",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2549000I2PRQGGIGCA75",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "d4245a8e-6996-4663-b238-9c3e8d3742d7",
+      "sources": []
+    },
+    "name": {
+      "value": "AMAZON WEB SERVICES, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2549000I2PRQGGIGCA75",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "2549000I2PRQGGIGCA75",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2549000I2PRQGGIGCA75",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 40000,
+      "sources": [
+        {
+          "name": "My TechDecisions",
+          "document": "https://mytechdecisions.com/it-infrastructure/inside-amazon-web-services-aws-by-the-numbers",
+          "date": "2019-07-25"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "businesstats.com",
+                "document": "https://businesstats.com/nasdaq-stock-market",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a791d1d0-12d3-5b4e-adc9-633797cf9cda"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+                },
+                "date": "2026-02-27"
+              }
+            ],
+            "id": "bd7ac843-eb8a-4335-97bb-360732ae0eb9"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "eff2cb11-98dd-4f52-a607-9b80392c63cb",
+          "name": "Washington",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon+Web+Services,+Inc.&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "d315984feee5922a50eff4d45aa68af7f2c6ae6ffb1d89a362b1921d78aba8a0"
+                },
+                "date": "2026-02-27"
+              }
+            ],
+            "id": "38f5f486-cf89-4a18-8fc4-a9146c742d07"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "5596443c-0b3c-4f22-beb6-9e7ce46f6048",
+          "name": "Machine Learning",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/ai-jackpot:-7-machine-learning-stocks-to-double-down-on",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "f55601d1-da96-5e25-8838-2e34dd8f9a1d"
+          }
+        },
+        {
+          "id": "662b0b47-ba30-43bd-afde-f1f5dcf5544b",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/3-artificial-intelligence-ai-stocks-could-soar-second-half-2025?ref=ai.biz",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b88a643e-a06a-5776-ab88-d6a55dc1c6cb"
+          }
+        },
+        {
+          "id": "6acd161b-1300-4017-b026-5921247633a7",
+          "name": "Cloud Computing",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/3-artificial-intelligence-ai-stocks-could-soar-second-half-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "4facea9d-bfb7-59e8-a1d4-bbc8c5878832"
+          }
+        },
+        {
+          "id": "7a2ee092-be20-4a67-96f2-27a1ce0e76f4",
+          "name": "Data Center Infrastructure",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Independent Equity Research Reports & Analysis | Kalkine",
+                "document": "https://kalkine.com/news/general-news/nvidia-ai-infrastructure-leadership-how-2026-ai-capex-by-amazon-google-microsoft-and-meta-drives-gpu-demand",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b24d193d-1ec7-5117-9a6f-8c68862ed651"
+          }
+        },
+        {
+          "id": "9e9ea330-f712-4acc-8ee2-e4566a6ef938",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Independent Equity Research Reports & Analysis | Kalkine",
+                "document": "https://kalkine.com/news/general-news/nvidia-ai-infrastructure-leadership-how-2026-ai-capex-by-amazon-google-microsoft-and-meta-drives-gpu-demand",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "5c1f57c7-599a-550b-8db0-ba0c3614595f"
+          }
+        },
+        {
+          "id": "dfed6d19-a9f2-448e-b440-79393ea9ddc8",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Latest World & National News & Headlines",
+                "document": "https://www.usatoday.com/story/money/investing/2025/01/10/nasdaq-artificial-intelligence-stocks-2025/77373600007",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d44684c0-efb5-5fe3-9dbe-4ce92c8971a1"
+          }
+        },
+        {
+          "id": "fcc283e9-ffcf-4aa2-a1fe-460796af1c9f",
+          "name": "Cloud Services",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/microsoft-alphabet-amazon-and-meta-platforms-just-announced-fantastic-news-nvidia",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "29f50d6f-9214-56f9-8d04-7b0fe2bc630f"
+          }
+        }
+      ],
+      "IS_AFFILIATE_OF": [
+        {
+          "id": "e20160d1-236c-417b-abe2-956215aec88d",
+          "name": "UBER TECHNOLOGIES, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Technology News for IT Channel Partners and Solution Providers | CRN",
+                "document": "https://www.crn.com/slide-shows/cloud/uber-s-1-reveals-millions-paid-for-google-maps-its-multi-cloud-bet/3",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d1f2c0c5-6c3c-5a93-ba78-e3b80f026fa9"
+          }
+        }
+      ],
+      "IS_SUBSIDIARY_OF": [
+        {
+          "id": "acb76581-d0d9-4cd1-a809-1fc66317b726",
+          "name": "AMAZON COM INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231xex211.htm",
+                "date": "2026-02-06"
+              }
+            ],
+            "id": "3fe0bb3c-5fba-4951-85d7-771159f16b57"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "d4245a8e-6996-4663-b238-9c3e8d3742d7",
+          "name": "AMAZON WEB SERVICES, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "yonderanalytics.co.ke",
+                "document": "https://yonderanalytics.co.ke/artificial-intelligence-ai-companies-and-stock-listing-status",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b977fd84-5289-5c2a-8766-d95548e4958e"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "CREATED_BY": [
+        {
+          "id": "2c9d70e9-8698-4c02-aaef-887890c31dd7",
+          "name": "AWS Certified AI Practitioner",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner",
+                "date": "2026-03-11"
+              }
+            ],
+            "id": "6e488181-bb5f-4473-9a67-88275a1b6c74"
+          }
+        },
+        {
+          "id": "3320fbcb-1376-4671-a743-40be0619fca7",
+          "name": "AWS Skills Center",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/new-aws-skills-center-in-arlington-virginia-to-provide-free-cloud-computing-training",
+                "date": "2022-10-12"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/training/skills-centers/cape-town-skills-center",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/south-africa-aws-skills-center",
+                "date": "2023-08-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/training/skills-centers/arlington-skills-center/",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "67eb5e11-8d88-43ef-8a98-34260e2da498"
+          }
+        },
+        {
+          "id": "67329435-d080-43fb-972f-15d2e7b8c695",
+          "name": "AWS Skill Builder",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS Builder Center",
+                "document": "https://builder.aws.com/content/2ibx6qqQMbUsoi8Ao3zs0i2v5Os/aws-101-with-aws-skill-builder",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "AWS Builder Center",
+                "document": "https://builder.aws.com/learn/topics/aws-skill-builder?tab=article",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/aws/new-aws-skill-builder-subscriptions",
+                "date": "2022-08-02"
+              }
+            ],
+            "id": "9ae9218a-877b-4273-aaae-504df292aa4f"
+          }
+        },
+        {
+          "id": "89c6313f-ddb1-4881-b268-06908c635ef3",
+          "name": "AWS Bedrock AgentCore",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-bedrock-agentcore-preview/",
+                "date": "2025-07-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/bedrock/agentcore/",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "b8d818bd-ea6c-4410-8c2a-0c64c7c22294",
+            "valid_since": "2025-07-16"
+          }
+        },
+        {
+          "id": "8d64fed8-f4f1-4e32-bc63-a299746c2323",
+          "name": "SageMaker",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [],
+            "id": "c31edee3-023e-48e7-bbcc-8bd8fc778d59"
+          }
+        },
+        {
+          "id": "9dbf0aa4-0826-4841-9684-cfcd0758ecc1",
+          "name": "AWS Entity Resolution",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.com/entity-resolution",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/features",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/customers/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/partners/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/faqs",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/industries/aws-entity-resolution-for-health-data/",
+                "date": "2024-02-26"
+              }
+            ],
+            "id": "923a95b1-a52f-422e-b446-cf256618dd94"
+          }
+        },
+        {
+          "id": "a47b57a1-cf79-4909-8106-187b58b43fdb",
+          "name": "AWS Neptune",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/th/neptune/faqs",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "TechCrunch | Startup and Technology News",
+                "document": "https://techcrunch.com/2022/10/27/aws-makes-neptune-its-graph-database-service-serverless",
+                "date": "2022-10-27"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.com/neptune",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/neptune?c=db&sec=srv",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "SD Times",
+                "document": "https://sdtimes.com/data/aws-releases-graph-database-service-amazon-neptune",
+                "date": "2018-05-31"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/neptune?nc2=type_a",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/ru/neptune/faqs",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/aws/amazon-neptune-a-fully-managed-graph-database-service/",
+                "date": "2017-11-29"
+              },
+              {
+                "name": "Educative: AI-Powered Interactive Courses for Developers",
+                "document": "https://educative.io/courses/aws-certified-ai-practitioner-aif-c01/amazon-neptune",
+                "date": "2024-08-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/neptune?p=ft&c=db&z=3",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/neptune/features",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "17c92883-92d7-475e-ab6d-3a88637baf09",
+            "valid_since": "2017-11-29"
+          }
+        },
+        {
+          "id": "ae830155-9145-428f-a31a-c678217be296",
+          "name": "AWS Solutions Architect Associate",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://www.e-careers.com/courses/cloud-computing/aws-certification/aws-certified-solutions-architect-associate",
+                "document": "https://www.e-careers.com/courses/cloud-computing/aws-certification/aws-certified-solutions-architect-associate",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Coursera | Courses, Professional Certificates, and Degrees Online",
+                "document": "https://www.coursera.org/specializations/aws-certified-solutions-architect-associate-course",
+                "date": "2024-06-26"
+              }
+            ],
+            "id": "73b28fd6-d8fe-4067-b20f-8d8c4d26bdc2"
+          }
+        },
+        {
+          "id": "b6802ceb-fd11-4244-9c82-cf90d719575a",
+          "name": "AWS Inferentia",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS Inferentia",
+                "document": "https://aws.amazon.com/ai/machine-learning/inferentia/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "www.cnbc.com",
+                "document": "https://www.cnbc.com/2018/11/28/aws-launches-inferentia-ai-chip.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a2f5a787-741f-5316-b9c0-db31c939fdb4",
+            "valid_since": "2018-11-28"
+          }
+        },
+        {
+          "id": "c15aa262-e01b-4368-95d1-f2198d6982a5",
+          "name": "AWS Solutions Architect Professional",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/blog/aws-solutions-architect-professional-exam",
+                "date": "2019-11-18"
+              },
+              {
+                "name": "A Cloud Guru - Get Cloud Certified",
+                "document": "https://acloudguru.com/blog/engineering/aws-certified-solutions-architect-professional-certification-updates",
+                "date": "2023-06-08"
+              },
+              {
+                "name": "Online Tech Courses, Learning Paths & Certifications",
+                "document": "https://www.pluralsight.com/resources/blog/cloud/aws-certified-solutions-architect-professional-certification-updates",
+                "date": "2023-06-08"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/aws-certified-solutions-architect---professional/local/certification/vendor%20neutral%20-%20technical/omaha-ne/us",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional?sv1=affiliate&sv_campaign_id=2074185&sscid=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e&sscid=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e&awc=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Credly by Pearson",
+                "document": "https://www.credly.com/org/grupo-bancolombia/badge/aws-solutions-architect-professional-certification",
+                "date": "2020-06-25"
+              },
+              {
+                "name": "Online Tech Courses, Learning Paths & Certifications",
+                "document": "https://pluralsight.com/courses/aws-certified-solutions-architect-professional-sap-c02-certification-essentials",
+                "date": "2025-03-28"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "InfosecTrain",
+                "document": "https://www.infosectrain.com/courses/aws-solutions-architect-professional-certification-training",
+                "date": "2024-03-12"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional?sv1=affiliate&sv_campaign_id=2074185&sscid=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc&sscid=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc&awc=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-solutions-architect---professional",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "freeCodeCamp.org",
+                "document": "https://www.freecodecamp.org/news/aws-solutions-architect-professional-sap-c02-certification-course",
+                "date": "2024-12-19"
+              }
+            ],
+            "id": "006fb0c0-5c14-4754-9af6-a80f93536356"
+          }
+        },
+        {
+          "id": "c7c5766a-508b-4f8f-bad9-231c0614533c",
+          "name": "AWS Certified Cloud Practitioner",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "freeCodeCamp.org",
+                "document": "https://www.freecodecamp.org/news/aws-cloud-practitioner-salary-2023-amazon-certification-guide",
+                "date": "2023-05-03"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-cloud-practitioner",
+                "date": "2023-12-08"
+              },
+              {
+                "name": "https://www.datacamp.com/certification/aws-cloud-practitioner",
+                "document": "https://www.datacamp.com/certification/aws-cloud-practitioner",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Elite education for all.",
+                "document": "https://campus.edu/blog/cloud-administration/aws-cloud-practitioner-certification",
+                "date": "2021-05-21"
+              },
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/aws-cloud-practitioner-certification-course/",
+                "date": "2026-02-12"
+              },
+              {
+                "name": "Health and Safety Training Institute in Saudi Arabia",
+                "document": "https://cptc.edu.sa/aws-certified-cloud-practitioner-certification",
+                "date": "2024-09-27"
+              }
+            ],
+            "id": "f13c139e-52e5-48c2-a279-aa5fe0abea1a"
+          }
+        },
+        {
+          "id": "cd01c27c-eaf4-4867-b429-247d9d2685da",
+          "name": "Amazon Bedrock Agents",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/publicsector/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/amazon-bedrock-agents/feed",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html",
+                "document": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/aws/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/amazon-bedrock-agents/feed",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "CX Today | CX News | Customer Experience News, Technology & Industry Insights",
+                "document": "https://www.cxtoday.com/customer-data-platform/aws-introduces-agents-for-amazon-bedrock",
+                "date": "2023-07-31"
+              }
+            ],
+            "id": "23521d3d-f0c8-4b00-87b0-5d7c995a1aa7"
+          }
+        },
+        {
+          "id": "cd83c03a-9a10-4d34-bfd2-3798d134e23a",
+          "name": "AWS Certified Data Engineer",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=tile&tile=getstarted",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=sec&d=1&sec=rmg",
+                "date": "2026-03-11"
+              }
+            ],
+            "id": "436973c9-37f7-4b41-960f-91f338cdcaf6"
+          }
+        },
+        {
+          "id": "ce119cf0-0a2f-46fc-bca7-3b19aeaaf039",
+          "name": "AWS Bedrock",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AI Red Teaming & LLM Security Platform | Giskard",
+                "document": "https://www.giskard.ai/glossary/aws-bedrock",
+                "date": "2026-02-03"
+              }
+            ],
+            "id": "5fe87f2a-4787-40e7-8ed7-d0ede67b8ba2"
+          }
+        },
+        {
+          "id": "dd5809c6-9d2a-49ef-88bb-b54193d2ba18",
+          "name": "AWS re/Start",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "ESG News",
+                "document": "https://esgnews.com/aws-re-start-launches-in-three-new-cities-across-the-u-s/",
+                "date": "2022-05-02"
+              },
+              {
+                "name": "FEATURED NEWS",
+                "document": "https://cloud-computing.tmcnet.com/breaking-news/articles/450720-aws-introduces-new-resources-free-cloud-computing-training.htm",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Mediabrief.com \u2013 Media, Marketing & Advertising News",
+                "document": "https://mediabrief.com/aws-re-start-india-cloud-careers",
+                "date": "2021-10-06"
+              },
+              {
+                "name": "Skill Development Updates and Stories | National Skills Network",
+                "document": "https://nationalskillsnetwork.in/aws-launches-re-start-program-in-india-to-prepares-local-talent-for-cloud-careers/",
+                "date": "2021-10-14"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/aws/upskilling-program-aws-re-start-doubles-its-global-presence",
+                "date": "2021-08-31"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/tag/aws-re-start/page/2",
+                "date": "2020-03-18"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/aws-re-start-program-provides-cloud-education-to-refugees",
+                "date": "2022-06-20"
+              },
+              {
+                "name": "https://migracode.org/aws-re-start-cloud-course",
+                "document": "https://migracode.org/aws-re-start-cloud-course",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/press-lounge/aws-re-start-free-cloud-skills-training-program-expands-to-mena",
+                "date": "2021-09-16"
+              },
+              {
+                "name": "CIO Africa",
+                "document": "https://cioafrica.co/aws-re-start-ajira-digital-getinnotized-launch-free-cloud-skills-training-program-in-kenya",
+                "date": "2021-05-10"
+              },
+              {
+                "name": "Amazon News: Breaking news about Amazon and latest company updates",
+                "document": "https://www.aboutamazon.com/news/aws/new-free-aws-training-programs",
+                "date": "2022-10-12"
+              }
+            ],
+            "id": "989a3408-094e-461f-acac-38647b85f391"
+          }
+        },
+        {
+          "id": "deb2199c-41b6-4310-8d06-ea7fbb7f82b8",
+          "name": "AWS Certified Machine Learning \u2013 Specialty",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?tcblog_51=",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?sc_channel=ps&s_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&s_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&ef_id=Cj0KCQiA4uCcBhDdARIsAH5jyUlHrvBoqWa6BU0tgzsVcABde2Cos6XrXnGZ2-_x28kRlDaYw4-MFKYaArRQEALw_wcB%3AG%3As",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?ch=sec&sec=rmg&d=1",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?amp%3Bsc_channel=ps&amp%3Bs_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&amp%3Bs_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&amp%3Bef_id=Cj0KCQiA4uCcBhDdARIsAH5jyUlHrvBoqWa6BU0tgzsVcABde2Cos6XrXnGZ2-_x28kRlDaYw4-MFKYaArRQEALw_wcB%3AG%3As",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/th/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "e4cbda61-e7cf-4b00-a295-964a796cb340"
+          }
+        },
+        {
+          "id": "ff04ef21-f467-42c9-8a14-c7798a3769fe",
+          "name": "Trainium",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "How AWS Trainium chips optimize AI workloads at microscopic scale | Matt Garman posted on the topic | LinkedIn",
+                "document": "https://www.linkedin.com/posts/mattgarman_the-magic-of-custom-silicon-happens-at-microscopic-activity-7371190647736733698-W78E",
+                "date": "2025-09-09"
+              },
+              {
+                "name": "AWS Trainium",
+                "document": "https://aws.amazon.com/ai/machine-learning/trainium/",
+                "date": "2026-04-09"
+              }
+            ],
+            "id": "c6a35e85-9cb5-5008-9c03-8fb635bbf38a"
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "078fe35c-8624-43cb-ad59-97e6b3fbd0dc",
+          "name": "GPUs",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS and NVIDIA",
+                "document": "https://aws.amazon.com/nvidia/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "NVIDIA GPU-Accelerated Amazon Web Services",
+                "document": "https://www.nvidia.com/en-us/data-center/gpu-cloud-computing/amazon-web-services/",
+                "date": "2026-03-13"
+              }
+            ],
+            "id": "ed58ad6e-f76a-50bf-a942-542f3d3d1d2f"
+          }
+        },
+        {
+          "id": "54645ae7-42c6-4b47-96a8-533d682d3e90",
+          "name": "Deep learning",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Deep Learning Virtual Machine - AWS Deep Learning AMIs - AWS",
+                "document": "https://aws.amazon.com/ai/machine-learning/amis/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "What is AWS Deep Learning AMIs?",
+                "document": "https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "cdb6e777-148b-5362-b286-5691ea6c8df5"
+          }
+        },
+        {
+          "id": "60430aa1-724c-4a54-b4e5-4e8389c5fbda",
+          "name": "AWS Marketplace",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://www.mediapost.com/publications/article/407343/will-aws-lauch-its-ai-agentic-marketplace.html?edition=139163",
+                "document": "https://www.mediapost.com/publications/article/407343/will-aws-lauch-its-ai-agentic-marketplace.html?edition=139163",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "TechIntelPro: B2B Technology News, Interviews & Insights",
+                "document": "https://techintelpro.com/news/glean-now-available-in-aws-marketplace-ai-agents-category",
+                "date": "2025-07-17"
+              }
+            ],
+            "id": "78d64b7b-f02d-4ad6-81f2-2ef52296796a"
+          }
+        },
+        {
+          "id": "7f5768ba-a129-473c-ab07-058e1ff4769b",
+          "name": "410 Terry Avenue North",
+          "entity_type": "Facility",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://opengovus.com/sam-entity/NQEWN6C1LSU5",
+                "document": "https://opengovus.com/sam-entity/NQEWN6C1LSU5",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "091f59e1-10b0-4769-9f06-3677a399b75a",
+            "valid_since": "2006-05-31"
+          }
+        },
+        {
+          "id": "89c6313f-ddb1-4881-b268-06908c635ef3",
+          "name": "AWS Bedrock AgentCore",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/bedrock/agentcore?refid=79cafe8e-780b-4e8c-b292-30b20f6cfc75",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.com/bedrock/agentcore",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "http://aws.amazon.com/bedrock/agentcore",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "55b05aad-7da3-4870-9015-3f0cfba1504c"
+          }
+        },
+        {
+          "id": "8d64fed8-f4f1-4e32-bc63-a299746c2323",
+          "name": "SageMaker",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/machine-learning/elastic-inference",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/machine-learning/elastic-inference?nc2=h_ql_prod_ml_ei",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Welcome to Data Science Insights",
+                "document": "https://datascience.basalt.cc/blog/comparing-model-deployment-tools-tensorflow-serving-aws-sagemaker-azure-machine-learning-216",
+                "date": "2025-05-08"
+              }
+            ],
+            "id": "7c9a5bcd-724c-4037-853d-52bb26124a26"
+          }
+        },
+        {
+          "id": "a47b57a1-cf79-4909-8106-187b58b43fdb",
+          "name": "AWS Neptune",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Analytics Vidhya | The ultimate place for Generative AI, Data Science and Data Engineering",
+                "document": "https://www.analyticsvidhya.com/blog/2024/08/neo4j-vs-amazon-neptune/",
+                "date": "2024-08-04"
+              },
+              {
+                "name": "Buying Intelligence and Reviews for Enterprise Technology",
+                "document": "https://www.peerspot.com/products/comparisons/amazon-neptune_vs_neo4j-auradb",
+                "date": "2025-03-03"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/change-data-capture-from-neo4j-to-amazon-neptune-using-amazon-managed-streaming-for-apache-kafka",
+                "date": "2020-06-22"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/migrating-a-neo4j-graph-database-to-amazon-neptune-with-a-fully-automated-utility",
+                "date": "2020-04-13"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/category/database/amazon-neptune/page/12",
+                "date": "2020-06-25"
+              }
+            ],
+            "id": "37fc2888-f219-4870-9236-d56e7a7ad141"
+          }
+        },
+        {
+          "id": "ae830155-9145-428f-a31a-c678217be296",
+          "name": "AWS Solutions Architect Associate",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Credly by Pearson",
+                "document": "https://www.credly.com/org/grupo-bancolombia/badge/aws-solutions-architect-associate-certification",
+                "date": "2020-06-25"
+              },
+              {
+                "name": "Home",
+                "document": "https://internet2.edu/cloud/cloud-learning-and-skills-sessions/aws-solutions-architect-associate-certification-training-2/",
+                "date": "2025-07-21"
+              },
+              {
+                "name": "Ascendient Learning: Top IT Training Courses and Certifications",
+                "document": "https://ascendientlearning.com/certification/aws/95/aws-certified-solutions-architect-associate",
+                "date": "2026-01-01"
+              }
+            ],
+            "id": "20ebe73b-c78a-4217-8c2e-d7e00c289438"
+          }
+        },
+        {
+          "id": "b6802ceb-fd11-4244-9c82-cf90d719575a",
+          "name": "AWS Inferentia",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS Inferentia",
+                "document": "https://aws.amazon.com/ai/machine-learning/inferentia/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "Announcing AWS Inferentia: Machine Learning Inference Chip - AWS",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-inferentia-machine-learning-inference-microchip/",
+                "date": "2019-10-06"
+              },
+              {
+                "name": "www.cnbc.com",
+                "document": "https://www.cnbc.com/2018/11/28/aws-launches-inferentia-ai-chip.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "11c5ef9a-61b6-5a8e-9dc0-641b939359a8",
+            "valid_since": "2018-11-28"
+          }
+        },
+        {
+          "id": "c15aa262-e01b-4368-95d1-f2198d6982a5",
+          "name": "AWS Solutions Architect Professional",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional?sv1=affiliate&sv_campaign_id=2074185&sscid=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e&sscid=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e&awc=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-solutions-architect---professional",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "Credly by Pearson",
+                "document": "https://www.credly.com/org/grupo-bancolombia/badge/aws-solutions-architect-professional-certification",
+                "date": "2020-06-25"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional?sv1=affiliate&sv_campaign_id=2074185&sscid=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc&sscid=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc&awc=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/aws-certified-solutions-architect---professional/local/certification/vendor%20neutral%20-%20technical/omaha-ne/us",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "Ascendient Learning: Top IT Training Courses and Certifications",
+                "document": "https://ascendientlearning.com/certification/aws/62/aws-certified-solutions-architect-professional",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "InfosecTrain",
+                "document": "https://www.infosectrain.com/courses/aws-solutions-architect-professional-certification-training",
+                "date": "2024-03-12"
+              },
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/blog/aws-solutions-architect-professional-exam",
+                "date": "2019-11-18"
+              },
+              {
+                "name": "freeCodeCamp.org",
+                "document": "https://www.freecodecamp.org/news/aws-solutions-architect-professional-sap-c02-certification-course",
+                "date": "2024-12-19"
+              }
+            ],
+            "id": "02702dc3-74d4-4bfe-bd7a-27abd71a1652"
+          }
+        },
+        {
+          "id": "cd01c27c-eaf4-4867-b429-247d9d2685da",
+          "name": "Amazon Bedrock Agents",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/mt/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/amazon-bedrock-agents",
+                "date": "2024-12-31"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/marketplace/latest/buyerguide/ai-agent-bedrock-agentcore-integration.html",
+                "document": "https://docs.aws.amazon.com/marketplace/latest/buyerguide/ai-agent-bedrock-agentcore-integration.html",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/awsmarketplace/transform-enterprise-search-knowledge-discovery-glean-amazon-bedrock",
+                "date": "2023-11-17"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html",
+                "document": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html",
+                "date": "2025-01-01"
+              }
+            ],
+            "id": "1137c3b4-9a98-4470-99ba-af7ad209ab1e"
+          }
+        },
+        {
+          "id": "cd83c03a-9a10-4d34-bfd2-3798d134e23a",
+          "name": "AWS Certified Data Engineer",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=sec&d=1&sec=rmg",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=tile&tile=getstarted",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/de/certification/certified-data-engineer-associate/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate",
+                "date": "2026-03-11"
+              }
+            ],
+            "id": "fa476d96-41a5-4ed9-9739-74de647effc5"
+          }
+        },
+        {
+          "id": "ce2451aa-9c67-4858-b772-be6f00c867ef",
+          "name": "data center GPUs",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "NVIDIA GPU-Accelerated Amazon Web Services",
+                "document": "https://www.nvidia.com/en-us/data-center/gpu-cloud-computing/amazon-web-services/",
+                "date": "2026-03-13"
+              }
+            ],
+            "id": "2a99c4e9-e361-5a59-bb8a-f4465628dead"
+          }
+        },
+        {
+          "id": "dd5809c6-9d2a-49ef-88bb-b54193d2ba18",
+          "name": "AWS re/Start",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "CIO Africa",
+                "document": "https://cioafrica.co/aws-re-start-ajira-digital-getinnotized-launch-free-cloud-skills-training-program-in-kenya",
+                "date": "2021-05-10"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/reskilling-initiative-helps-individuals-in-boston-and-washington-d-c-launch-careers-in-the-cloud",
+                "date": "2020-05-28"
+              },
+              {
+                "name": "Amazon News: Breaking news about Amazon and latest company updates",
+                "document": "https://www.aboutamazon.com/news/aws/new-free-aws-training-programs",
+                "date": "2022-10-12"
+              },
+              {
+                "name": "News Releases",
+                "document": "https://newsroom.bmo.com/2022-01-28-BMO-Promotes-Education,-Empowerment-and-Tech-Talent-Ground-breaking-Cloud-Computing-Reskilling-Program-for-Indigenous-Students-Kicks-Off",
+                "date": "2022-01-28"
+              }
+            ],
+            "id": "5a4c93c0-fdbb-45ca-a73e-cd5b8cc8e0b7"
+          }
+        },
+        {
+          "id": "deb2199c-41b6-4310-8d06-ea7fbb7f82b8",
+          "name": "AWS Certified Machine Learning \u2013 Specialty",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/th/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/it/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-machine-learning---specialty",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-certified-machine-learning-specialty/",
+                "date": "2025-12-24"
+              }
+            ],
+            "id": "5d4eb94b-9f00-4580-8ff4-6eae5837431d"
+          }
+        },
+        {
+          "id": "e8bbd049-a6a9-4d91-b030-26a21c678ada",
+          "name": "deep learning",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Deep Learning Virtual Machine - AWS Deep Learning AMIs - AWS",
+                "document": "https://aws.amazon.com/ai/machine-learning/amis/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "What is AWS Deep Learning AMIs?",
+                "document": "https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "5547e978-97b1-5907-8b04-3060d2aa801c"
+          }
+        },
+        {
+          "id": "ff04ef21-f467-42c9-8a14-c7798a3769fe",
+          "name": "Trainium",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS Trainium",
+                "document": "https://aws.amazon.com/ai/machine-learning/trainium/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "AWS launches Trainium, its new custom ML training chip | TechCrunch",
+                "document": "https://techcrunch.com/2020/12/01/aws-launches-trainium-its-new-custom-ml-training-chip/",
+                "date": "2020-12-01"
+              },
+              {
+                "name": "AWS' custom chip family expands, launches Trainium for machine learning models",
+                "document": "https://www.zdnet.com/article/aws-custom-chip-family-expands-launches-trainium-for-machine-learning-models/",
+                "date": "2020-12-01"
+              }
+            ],
+            "id": "3f3a24d8-7c70-5667-9fbc-503f1e55a9ae",
+            "valid_since": "2020-12-01"
+          }
+        }
+      ],
+      "DESIGNED_BY": [
+        {
+          "id": "2c9d70e9-8698-4c02-aaef-887890c31dd7",
+          "name": "AWS Certified AI Practitioner",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner?ch=sec&sec=rmg&d=1",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner?amp%3Bsc_channel=ps&amp%3Bef_id=CjwKCAjw89jGBhB0EiwA2o1OnxuGaCKH4JZsIDkXpWKWeO0pOndyC1vVUpNWEzcuplrXTd7HcTaKtBoCcdwQAvD_BwE%3AG%3As&amp%3Bs_kwcid=AL%214422%213%21709139181786%21p%21%21g%21%21ai+training%2121582273245%21166844423460&amp%3Bgad_campaignid=21582273245&amp%3Bgadid=0AAAAADjHtp_RIfxo0y3nqLvkFKoiOvsWX",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner?sc_channel=ps&ef_id=Cj0KCQiAsaS7BhDPARIsAAX5cSAFULGDrB1UJp44zOARdtTbmxxSJ17V_BVTCB5RNOtTgyhTwjeEWecaAlErEALw_wcB%3AG%3As&s_kwcid=AL%214422%213%21709243903586%21e%21%21g%21%21machine+learning+speciality+certification%2121582273023%21166844412420",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/th/certification/certified-ai-practitioner",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner?amp%3Btrk=b4e4c7ca-d7f0-414f-9573-32aaab115677&amp%3Bsc_channel=ps&amp%3Bef_id=CjwKCAiA9IC6BhA3EiwAsbltOEM25R5uYrQ617_31W_dcaX_POSZXj56YSvXkS0aJpcGoTl9QbFh_xoCc8AQAvD_BwE%3AG%3As&amp%3Bs_kwcid=AL%214422%213%21709243719017%21p%21%21g%21%21amazon+web+services+ai+training%2121582272855%21166844407620",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner/?nc1=h_ls",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner?ch=sec&sec=rmg&d=1%3Fref%3Dmentorcruise",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner?ef_id=CjwKCAiA9IC6BhA3EiwAsbltOEM25R5uYrQ617_31W_dcaX_POSZXj56YSvXkS0aJpcGoTl9QbFh_xoCc8AQAvD_BwE%3AG%3As&s_kwcid=AL%214422%213%21709243719017%21p%21%21g%21%21amazon+web+services+ai+training%2121582272855%21166844407620&sc_channel=ps",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "http://aws.amazon.com/certification/certified-ai-practitioner",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/aws-certified-ai-practitioner/local/certification/amazon%20web%20services/columbus-oh/us",
+                "date": "2025-12-22"
+              },
+              {
+                "name": "MSSQLTips.com",
+                "document": "https://www.mssqltips.com/sqlservertip/11520/aws-certified-ai-practitioner-certification-study-guide/",
+                "date": "2025-10-10"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/aws-certified-ai-practitioner/local/certification/amazon%20web%20services/minneapolis-mn/us",
+                "date": "2025-12-22"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-ai-practitioner",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Ascendient Learning: Top IT Training Courses and Certifications",
+                "document": "https://ascendientlearning.com/certification/aws/313/aws-certified-ai-practitioner",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-certified-ai-practitioner",
+                "date": "2025-12-17"
+              }
+            ],
+            "id": "946e1967-a55a-465d-96f2-ae0c88f4cdf0"
+          }
+        },
+        {
+          "id": "2e5e7dc7-7fb0-41f8-8428-02bc7cc3cda5",
+          "name": "AWS Cloud Institute",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/launch-your-cloud-career-with-aci/",
+                "date": "2023-11-08"
+              },
+              {
+                "name": "Access AWS Expert Solutions & Authoritative Knowledge - AWS re:Post",
+                "document": "https://repost.aws/questions/QUHOTNizU5TM-upTaA-oQWAQ/advice-on-upskilling-into-aws-developmeny",
+                "date": "2025-01-12"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.com/training/aws-cloud-institute/resource-hub",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "9447452c-c7bb-41b0-94a9-d25a7798a1e6"
+          }
+        },
+        {
+          "id": "54171f26-219e-4143-bf48-5daed7209177",
+          "name": "AWS CDK",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html",
+                "document": "https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html",
+                "date": "2022-06-01"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/en_us/cdk/v2/guide/bootstrapping.html",
+                "document": "https://docs.aws.amazon.com/en_us/cdk/v2/guide/bootstrapping.html",
+                "date": "2022-06-01"
+              }
+            ],
+            "id": "cb47210d-1149-4b0b-b673-2a4d95d77f53"
+          }
+        },
+        {
+          "id": "60430aa1-724c-4a54-b4e5-4e8389c5fbda",
+          "name": "AWS Marketplace",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "App Developer Magazine \u2013 App Business and Startup News",
+                "document": "https://appdevelopermagazine.com/AWS-AI-Agent-Marketplace/",
+                "date": "2025-07-19"
+              },
+              {
+                "name": "Home | AiNews.com",
+                "document": "https://www.ainews.com/p/aws-to-launch-ai-agent-marketplace-with-anthropic-as-founding-partner",
+                "date": "2025-07-11"
+              },
+              {
+                "name": "Home",
+                "document": "https://marketbusinessnews.com/aws-to-launch-new-ai-agent-marketplace/439614?share=print",
+                "date": "2025-07-11"
+              }
+            ],
+            "id": "b7b9ab2b-54d8-4899-8c26-2a9a970dd16e"
+          }
+        },
+        {
+          "id": "67329435-d080-43fb-972f-15d2e7b8c695",
+          "name": "AWS Skill Builder",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/training/course-descriptions",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/training/sb-free-trial-terms/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/training/digital?sc_channel=el",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cyber Daily",
+                "document": "https://www.cyberdaily.au/security/7367-aws-launches-skill-builder-platform-to-accelerate-digital-learning-worldwide",
+                "date": "2021-11-24"
+              }
+            ],
+            "id": "68dddc83-500e-4ac0-a710-b8d15796ab55"
+          }
+        },
+        {
+          "id": "82216826-5c6a-45be-adba-43e6a00959fa",
+          "name": "Amazon EBS",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/ebs",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/storage_ebs.html",
+                "document": "https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/storage_ebs.html",
+                "date": "2026-03-18"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/storage/tag/amazon-elastic-block-store-amazon-ebs/page/2",
+                "date": "2023-10-13"
+              }
+            ],
+            "id": "09dad062-2b4e-4a4b-82d3-f05b0d4be2a8"
+          }
+        },
+        {
+          "id": "89c6313f-ddb1-4881-b268-06908c635ef3",
+          "name": "AWS Bedrock AgentCore",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Access AWS Expert Solutions & Authoritative Knowledge - AWS re:Post",
+                "document": "https://repost.aws/es/questions/QUjkf4WbikQ6WrpuH9sppjnw/bedrock-agents-vs-bedrock-agentcore",
+                "date": "2025-08-20"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/security-iam-awsmanpol.html",
+                "document": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/security-iam-awsmanpol.html",
+                "date": "2024-10-01"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/bedrock/agentcore?sc_channel=el",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.com/bedrock/agentcore",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "http://aws.amazon.com/bedrock/agentcore",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "7ae25948-f866-4e7a-b8b0-9cf41df4f298"
+          }
+        },
+        {
+          "id": "8d64fed8-f4f1-4e32-bc63-a299746c2323",
+          "name": "SageMaker",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Amazon_SageMaker",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Introducing Amazon SageMaker - AWS",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-sagemaker/",
+                "date": "2019-10-06"
+              },
+              {
+                "name": "The center for all your data, analytics, and AI \u2013 Amazon SageMaker \u2013 AWS",
+                "document": "https://aws.amazon.com/sagemaker/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "AWS releases SageMaker to make it easier to build and deploy machine learning models | TechCrunch",
+                "document": "https://techcrunch.com/2017/11/29/aws-releases-sagemaker-to-make-it-easier-to-build-and-deploy-machine-learning-models/",
+                "date": "2017-11-29"
+              }
+            ],
+            "id": "cf67ad24-d8cb-5840-9510-42ff760cb59f",
+            "valid_since": "2017-11-29"
+          }
+        },
+        {
+          "id": "9dbf0aa4-0826-4841-9684-cfcd0758ecc1",
+          "name": "AWS Entity Resolution",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/features",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/pricing",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/entityresolution/latest/userguide/what-is-service.html",
+                "document": "https://docs.aws.amazon.com/entityresolution/latest/userguide/what-is-service.html",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "a9cb5328-ec05-4a28-b7e1-02b85783b571"
+          }
+        },
+        {
+          "id": "a47b57a1-cf79-4909-8106-187b58b43fdb",
+          "name": "AWS Neptune",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Analytics Vidhya | The ultimate place for Generative AI, Data Science and Data Engineering",
+                "document": "https://www.analyticsvidhya.com/blog/2024/08/neo4j-vs-amazon-neptune/",
+                "date": "2024-08-04"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/category/database/amazon-neptune/page/12",
+                "date": "2020-06-25"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/migrating-a-neo4j-graph-database-to-amazon-neptune-with-a-fully-automated-utility",
+                "date": "2020-04-13"
+              },
+              {
+                "name": "Buying Intelligence and Reviews for Enterprise Technology",
+                "document": "https://www.peerspot.com/products/comparisons/amazon-neptune_vs_neo4j-auradb",
+                "date": "2025-03-03"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/change-data-capture-from-neo4j-to-amazon-neptune-using-amazon-managed-streaming-for-apache-kafka",
+                "date": "2020-06-22"
+              }
+            ],
+            "id": "aa0d50fb-e02f-4959-8159-553d0fd6a16b"
+          }
+        },
+        {
+          "id": "ae830155-9145-428f-a31a-c678217be296",
+          "name": "AWS Solutions Architect Associate",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://www.e-careers.com/courses/cloud-computing/aws-certification/aws-certified-solutions-architect-associate",
+                "document": "https://www.e-careers.com/courses/cloud-computing/aws-certification/aws-certified-solutions-architect-associate",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Home",
+                "document": "https://internet2.edu/cloud/cloud-learning-and-skills-sessions/aws-solutions-architect-associate-certification-training-2/",
+                "date": "2025-07-21"
+              }
+            ],
+            "id": "a77eeb50-adcd-4dd8-a33b-791def082c49"
+          }
+        },
+        {
+          "id": "b6802ceb-fd11-4244-9c82-cf90d719575a",
+          "name": "AWS Inferentia",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "The AWS Inferentia Chip With DLAMI",
+                "document": "https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-inferentia.html",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Announcing AWS Inferentia: Machine Learning Inference Chip - AWS",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-inferentia-machine-learning-inference-microchip/",
+                "date": "2019-10-06"
+              }
+            ],
+            "id": "ca82a860-f4d0-5275-b3ce-8209b2a37729"
+          }
+        },
+        {
+          "id": "c15aa262-e01b-4368-95d1-f2198d6982a5",
+          "name": "AWS Solutions Architect Professional",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "A Cloud Guru - Get Cloud Certified",
+                "document": "https://acloudguru.com/blog/engineering/aws-certified-solutions-architect-professional-certification-updates",
+                "date": "2023-06-08"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/blog/aws-solutions-architect-professional-exam",
+                "date": "2019-11-18"
+              },
+              {
+                "name": "InfosecTrain",
+                "document": "https://www.infosectrain.com/courses/aws-solutions-architect-professional-certification-training",
+                "date": "2024-03-12"
+              },
+              {
+                "name": "freeCodeCamp.org",
+                "document": "https://www.freecodecamp.org/news/aws-solutions-architect-professional-sap-c02-certification-course",
+                "date": "2024-12-19"
+              }
+            ],
+            "id": "fa551030-7008-48c1-b17c-6880877d2793"
+          }
+        },
+        {
+          "id": "c7c5766a-508b-4f8f-bad9-231c0614533c",
+          "name": "AWS Certified Cloud Practitioner",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Health and Safety Training Institute in Saudi Arabia",
+                "document": "https://cptc.edu.sa/aws-certified-cloud-practitioner-certification",
+                "date": "2024-09-27"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-cloud-practitioner",
+                "date": "2023-12-08"
+              }
+            ],
+            "id": "4a08eb2a-4bed-4662-aa3b-65b735f7e679"
+          }
+        },
+        {
+          "id": "cd83c03a-9a10-4d34-bfd2-3798d134e23a",
+          "name": "AWS Certified Data Engineer",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/de/certification/certified-data-engineer-associate/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=tile&tile=getstarted",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=sec&d=1&sec=rmg",
+                "date": "2026-03-11"
+              }
+            ],
+            "id": "69754841-bf53-4c84-b92f-90aabb845c84"
+          }
+        },
+        {
+          "id": "dd5809c6-9d2a-49ef-88bb-b54193d2ba18",
+          "name": "AWS re/Start",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/aws/upskilling-program-aws-re-start-doubles-its-global-presence",
+                "date": "2021-08-31"
+              },
+              {
+                "name": "News Releases",
+                "document": "https://newsroom.bmo.com/2022-01-28-BMO-Promotes-Education,-Empowerment-and-Tech-Talent-Ground-breaking-Cloud-Computing-Reskilling-Program-for-Indigenous-Students-Kicks-Off",
+                "date": "2022-01-28"
+              },
+              {
+                "name": "ESG News",
+                "document": "https://esgnews.com/aws-re-start-launches-in-three-new-cities-across-the-u-s/",
+                "date": "2022-05-02"
+              },
+              {
+                "name": "Home",
+                "document": "https://mobilesyrup.com/2022/01/31/bmo-plato-cloud-reskilling-program-indigenous-students",
+                "date": "2022-01-31"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/reskilling-initiative-helps-individuals-in-boston-and-washington-d-c-launch-careers-in-the-cloud",
+                "date": "2020-05-28"
+              },
+              {
+                "name": "Latest Jobs in Ghana Today, Job Vacancies in Ghana - MyJobMag",
+                "document": "https://www.myjobmagghana.com/job/amalitech-aws-re-start-program-amalitech",
+                "date": "2024-05-07"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/aws-re-start-program-provides-cloud-education-to-refugees",
+                "date": "2022-06-20"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/press-lounge/aws-re-start-cloud-skills-training-program-launches-in-ireland",
+                "date": "2020-11-25"
+              },
+              {
+                "name": "Amazon News: Breaking news about Amazon and latest company updates",
+                "document": "https://www.aboutamazon.com/news/aws/new-free-aws-training-programs",
+                "date": "2022-10-12"
+              },
+              {
+                "name": "FEATURED NEWS",
+                "document": "https://cloud-computing.tmcnet.com/breaking-news/articles/450720-aws-introduces-new-resources-free-cloud-computing-training.htm",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/press-lounge/aws-re-start-free-cloud-skills-training-program-expands-to-mena",
+                "date": "2021-09-16"
+              },
+              {
+                "name": "CIO Africa",
+                "document": "https://cioafrica.co/aws-re-start-ajira-digital-getinnotized-launch-free-cloud-skills-training-program-in-kenya",
+                "date": "2021-05-10"
+              }
+            ],
+            "id": "4f44ee88-f5ef-4612-96e3-14a537b0372b"
+          }
+        },
+        {
+          "id": "deb2199c-41b6-4310-8d06-ea7fbb7f82b8",
+          "name": "AWS Certified Machine Learning \u2013 Specialty",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?tcblog_51=",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/th/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?sc_channel=ps&s_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&s_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&ef_id=Cj0KCQiA4uCcBhDdARIsAH5jyUlHrvBoqWa6BU0tgzsVcABde2Cos6XrXnGZ2-_x28kRlDaYw4-MFKYaArRQEALw_wcB%3AG%3As",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?ch=sec&sec=rmg&d=1",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty?amp%3Bsc_channel=ps&amp%3Bs_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&amp%3Bs_kwcid=AL%214422%213%21467351734234%21e%21%21g%21%21machine+learning+aws+certification&amp%3Bef_id=Cj0KCQiA4uCcBhDdARIsAH5jyUlHrvBoqWa6BU0tgzsVcABde2Cos6XrXnGZ2-_x28kRlDaYw4-MFKYaArRQEALw_wcB%3AG%3As",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/fr/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "1dc77ba9-2737-4e47-89e2-534cfe6799e1"
+          }
+        },
+        {
+          "id": "ff04ef21-f467-42c9-8a14-c7798a3769fe",
+          "name": "Trainium",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "aws.plainenglish.io",
+                "document": "https://aws.plainenglish.io/how-aws-built-its-own-chips-to-beat-nvidia-at-ai-efficiency-092cc93f71a1",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "aimagazine.com",
+                "document": "https://aimagazine.com/news/aws-custom-ai-chips-the-future-for-telecoms",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9ab4772e-1b5f-50d1-b94e-c6f746bfe967"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "0a348594-3aea-4168-93cb-60ef65e3bbed",
+          "name": "Computaci\u00f3n en la nube",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "BNamericas - Develop your Latin America business",
+                "document": "https://www.bnamericas.com/es/noticias/itau-unibanco-elige-a-aws-como-su-proveedor-estrategico-de-nube-a-largo-plazo-para-acelerar-la-transformacion-digital",
+                "date": "2020-11-30"
+              }
+            ],
+            "id": "01f09ff2-0785-4c9c-a4d3-8d69313d9eac"
+          }
+        },
+        {
+          "id": "3320fbcb-1376-4671-a743-40be0619fca7",
+          "name": "AWS Skills Center",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/training/skills-centers/arlington-skills-center",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Press Center",
+                "document": "https://press.aboutamazon.com/news-releases/news-release-details/aws-expands-access-free-cloud-skills-training-its-mission",
+                "date": "2021-11-18"
+              },
+              {
+                "name": "Amazon's global career site",
+                "document": "https://www.amazon.jobs/en/jobs/3095673/technical-trainer-aws-skills-center",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "a6b88bfa-7415-4bd9-92f1-74636be56f13"
+          }
+        },
+        {
+          "id": "34bb310e-878c-4f25-bcfd-37e474fa07f5",
+          "name": "machine learning",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Machine Learning",
+                "document": "https://aws.amazon.com/ai/machine-learning/",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "What is Amazon Machine Learning?",
+                "document": "https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "6c85c9f3-caa5-5984-b16f-35d5c32db9d3"
+          }
+        },
+        {
+          "id": "54171f26-219e-4143-bf48-5daed7209177",
+          "name": "AWS CDK",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://docs.aws.amazon.com/cdk/v2/guide/best-practices-security.html",
+                "document": "https://docs.aws.amazon.com/cdk/v2/guide/best-practices-security.html",
+                "date": "2012-10-17"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html",
+                "document": "https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html",
+                "date": "2022-06-01"
+              },
+              {
+                "name": "Access AWS Expert Solutions & Authoritative Knowledge - AWS re:Post",
+                "document": "https://repost.aws/topics/TA9fmRfPodSgylDF8ojd9A_w/aws-cloud-development-kit-cdk",
+                "date": "2025-11-26"
+              },
+              {
+                "name": "QA Learning Platform",
+                "document": "https://cloudacademy.com/lab/defining-cloud-infrastructure-with-the-aws-cdk-v2-in-python",
+                "date": "2023-05-08"
+              },
+              {
+                "name": "GeeksforGeeks",
+                "document": "https://www.geeksforgeeks.org/aws-cdk/",
+                "date": "2024-01-24"
+              }
+            ],
+            "id": "bc623d5f-4b8c-4e9a-9001-9a899ace1cfa"
+          }
+        },
+        {
+          "id": "60430aa1-724c-4a54-b4e5-4e8389c5fbda",
+          "name": "AWS Marketplace",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS Marketplace: Digital Software Catalog Introduction - AWS",
+                "document": "https://aws.amazon.com/video/watch/a46f7f32260/",
+                "date": "2024-11-22"
+              },
+              {
+                "name": "What is AWS Marketplace?",
+                "document": "https://docs.aws.amazon.com/marketplace/latest/userguide/what-is-marketplace.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "59fa250f-538b-59f8-9141-5898db7d1d30"
+          }
+        },
+        {
+          "id": "67329435-d080-43fb-972f-15d2e7b8c695",
+          "name": "AWS Skill Builder",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS Builder Center",
+                "document": "https://builder.aws.com/learn/topics/aws-skill-builder?tab=article",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/partners/training/digital-courses/",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/marketplace/pp/prodview-qblajpn3baa5a",
+                "date": "2026-01-08"
+              }
+            ],
+            "id": "9d300dc9-8eb1-4f0b-870e-4b1c72d7870c"
+          }
+        },
+        {
+          "id": "82216826-5c6a-45be-adba-43e6a00959fa",
+          "name": "Amazon EBS",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Buying Intelligence and Reviews for Enterprise Technology",
+                "document": "https://www.peerspot.com/products/amazon-ebs-elastic-block-store-reviews",
+                "date": "2025-04-08"
+              }
+            ],
+            "id": "f18d981c-3b78-449a-8d35-7fcf8f667701"
+          }
+        },
+        {
+          "id": "89c6313f-ddb1-4881-b268-06908c635ef3",
+          "name": "AWS Bedrock AgentCore",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/bedrock/agentcore?trk=79cafe8e-780b-4e8c-b292-30b20f6cfc75&amp;sc_channel=el&amp;refid=e61dee65-4ce8-4738-84db-75305c9cd4fe",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/bedrock/agentcore?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&sc_channel=el",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/bedrock/agentcore?trk=79cafe8e-780b-4e8c-b292-30b20f6cfc75&sc_channel=el&refid=70405219-a2f8-4816-a915-9932f523f1bd",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-bedrock-agentcore-preview/",
+                "date": "2025-07-16"
+              }
+            ],
+            "id": "1c0aa4a7-07b8-4342-b7bb-8fe8a7bf8242",
+            "valid_since": "2025-07-16"
+          }
+        },
+        {
+          "id": "8d64fed8-f4f1-4e32-bc63-a299746c2323",
+          "name": "SageMaker",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "AWS SageMaker: Streamline Your Machine Learning Journey",
+                "document": "https://www.netcomlearning.com/blog/amazon-sagemaker",
+                "date": "2025-03-11"
+              },
+              {
+                "name": "AWS Unveils the Next Generation of Amazon SageMaker, Delivering a Unified Platform for Data, Analytics, and AI",
+                "document": "https://press.aboutamazon.com/2024/12/aws-unveils-the-next-generation-of-amazon-sagemaker-delivering-a-unified-platform-for-data-analytics-and-ai",
+                "date": "2024-12-03"
+              }
+            ],
+            "id": "bc054586-a37d-5d70-b2a6-d5ff62eee614",
+            "valid_since": "2017-11-29"
+          }
+        },
+        {
+          "id": "9dbf0aa4-0826-4841-9684-cfcd0758ecc1",
+          "name": "AWS Entity Resolution",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.com/entity-resolution",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/partners/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/customers",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/entity-resolution/pricing",
+                "date": "2026-03-09"
+              }
+            ],
+            "id": "3d195baf-9abf-4f58-8272-e139e524360c"
+          }
+        },
+        {
+          "id": "a47b57a1-cf79-4909-8106-187b58b43fdb",
+          "name": "AWS Neptune",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/neptune/faqs",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/neptune",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/aws/amazon-neptune-a-fully-managed-graph-database-service/",
+                "date": "2017-11-29"
+              }
+            ],
+            "id": "2cdafc50-ef00-4f52-9fcd-40bf7d46d49e"
+          }
+        },
+        {
+          "id": "ae830155-9145-428f-a31a-c678217be296",
+          "name": "AWS Solutions Architect Associate",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Credly by Pearson",
+                "document": "https://www.credly.com/org/grupo-bancolombia/badge/aws-solutions-architect-associate-certification",
+                "date": "2020-06-25"
+              }
+            ],
+            "id": "8543d278-113d-4ad8-af99-be1f71e00e64"
+          }
+        },
+        {
+          "id": "b6802ceb-fd11-4244-9c82-cf90d719575a",
+          "name": "AWS Inferentia",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Announcing AWS Inferentia: Machine Learning Inference Chip - AWS",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-inferentia-machine-learning-inference-microchip/",
+                "date": "2019-10-06"
+              },
+              {
+                "name": "The AWS Inferentia Chip With DLAMI",
+                "document": "https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-inferentia.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "e3b80ba4-bbcf-5d31-b802-f87508fb7b67",
+            "valid_since": "2018-11-28"
+          }
+        },
+        {
+          "id": "c15aa262-e01b-4368-95d1-f2198d6982a5",
+          "name": "AWS Solutions Architect Professional",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional?sv1=affiliate&sv_campaign_id=2074185&sscid=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc&sscid=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc&awc=76012_1767515490_1a46c860102a2a1bf9952d5741c6efdc",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Ascendient Learning: Top IT Training Courses and Certifications",
+                "document": "https://ascendientlearning.com/certification/aws/62/aws-certified-solutions-architect-professional",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "freeCodeCamp.org",
+                "document": "https://www.freecodecamp.org/news/aws-solutions-architect-professional-sap-c02-certification-course",
+                "date": "2024-12-19"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-solutions-architect---professional",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/blog/aws-solutions-architect-professional-exam",
+                "date": "2019-11-18"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional?sv1=affiliate&sv_campaign_id=2074185&sscid=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e&sscid=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e&awc=76012_1767681450_1d6baa0fd3981a96914842ee93d0ee4e",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/aws-certified-solutions-architect---professional/local/certification/vendor%20neutral%20-%20technical/omaha-ne/us",
+                "date": "2024-02-01"
+              },
+              {
+                "name": "Whizlabs | Cloud Certification Training and Practice Tests",
+                "document": "https://www.whizlabs.com/aws-solutions-architect-professional",
+                "date": "2025-12-24"
+              },
+              {
+                "name": "InfosecTrain",
+                "document": "https://www.infosectrain.com/courses/aws-solutions-architect-professional-certification-training",
+                "date": "2024-03-12"
+              }
+            ],
+            "id": "364aac36-1db2-4afc-9bc4-a2b0aeea4b7b"
+          }
+        },
+        {
+          "id": "c7c5766a-508b-4f8f-bad9-231c0614533c",
+          "name": "AWS Certified Cloud Practitioner",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/aws-cloud-practitioner-certification-course/",
+                "date": "2026-02-12"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/aws-certified-cloud-practitioner",
+                "date": "2023-12-08"
+              },
+              {
+                "name": "Health and Safety Training Institute in Saudi Arabia",
+                "document": "https://cptc.edu.sa/aws-certified-cloud-practitioner-certification",
+                "date": "2024-09-27"
+              }
+            ],
+            "id": "33d255a8-0f72-4380-adda-48459e82dcd2"
+          }
+        },
+        {
+          "id": "cbdebf2b-b30f-442f-9c53-83fa50e6aadc",
+          "name": "Amazon SageMaker Ground Truth",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/sagemaker/amazon-sagemaker-ground-truth/page/5",
+                "date": "2021-05-05"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/machine-learning/build-a-custom-data-labeling-workflow-with-amazon-sagemaker-ground-truth",
+                "date": "2019-05-03"
+              },
+              {
+                "name": "TWIML | The Voice of Machine Learning and Artificial Intelligence",
+                "document": "https://twimlai.com/solutions/s/amazon-sagemaker-ground-truth",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "AWS | Contact Us",
+                "document": "https://pages.awscloud.com/GLOBAL-aware-GC-Amazon-SageMaker-Ground-Truth-2021-reg.html",
+                "date": "2021-09-24"
+              },
+              {
+                "name": "https://sourceforge.net/software/product/Amazon-SageMaker-Ground-Truth/",
+                "document": "https://sourceforge.net/software/product/Amazon-SageMaker-Ground-Truth/",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/sagemaker/amazon-sagemaker-ground-truth/page/3/",
+                "date": "2023-03-30"
+              },
+              {
+                "name": "Homepage - SiliconANGLE",
+                "document": "https://siliconangle.com/2019/04/24/amazon-updates-sagemaker-ground-truth-simplify-dataset-labeling",
+                "date": "2019-04-24"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-ground-truth-keeps-simplifying-labeling-workflows/",
+                "date": "2019-04-24"
+              },
+              {
+                "name": "https://venturebeat.com/ai/amazon-launches-aws-sagemaker-ground-truth-an-automated-data-labeling-service",
+                "document": "https://venturebeat.com/ai/amazon-launches-aws-sagemaker-ground-truth-an-automated-data-labeling-service",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/machine-learning/create-a-data-labeling-project-with-amazon-sagemaker-ground-truth-plus",
+                "date": "2024-10-15"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/sagemaker/groundtruth/",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "AI Operating Partner & Expert in Small Language Models | Julien Simon",
+                "document": "https://www.julien.org/blog/aws-posts-and-images/2019-04-24_amazon-sagemaker-ground-truth-keeps-simplifying-labeling-workflows/index.html",
+                "date": "2019-04-24"
+              },
+              {
+                "name": "Online Tech Courses, Learning Paths & Certifications",
+                "document": "https://www.pluralsight.com/courses/introduction-amazon-sagemaker-ground-truth",
+                "date": "2024-12-19"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/sagemaker/latest/dg/gtp.html",
+                "document": "https://docs.aws.amazon.com/sagemaker/latest/dg/gtp.html",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/machine-learning/tag/amazon-sagemaker-ground-truth",
+                "date": "2019-07-23"
+              },
+              {
+                "name": "HKU SPACE AI Hub - HKU SPACE AI Hub",
+                "document": "https://aihub.hkuspace.hku.hk/2024/10/16/create-a-data-labeling-project-with-amazon-sagemaker-ground-truth-plus",
+                "date": "2024-10-16"
+              }
+            ],
+            "id": "b431cb7d-8a31-4a95-b7bf-c8b20fc3ffff"
+          }
+        },
+        {
+          "id": "cd01c27c-eaf4-4867-b429-247d9d2685da",
+          "name": "Amazon Bedrock Agents",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Access AWS Expert Solutions & Authoritative Knowledge - AWS re:Post",
+                "document": "https://repost.aws/es/questions/QUjkf4WbikQ6WrpuH9sppjnw/bedrock-agents-vs-bedrock-agentcore",
+                "date": "2025-08-20"
+              },
+              {
+                "name": "CX Today | CX News | Customer Experience News, Technology & Industry Insights",
+                "document": "https://www.cxtoday.com/customer-analytics-intelligence/aws-introduces-agents-for-amazon-bedrock",
+                "date": "2023-07-31"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/bedrock/latest/userguide/service_code_examples_bedrock-agent.html",
+                "document": "https://docs.aws.amazon.com/bedrock/latest/userguide/service_code_examples_bedrock-agent.html",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/aws/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/amazon-bedrock-agents/feed",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/publicsector/enhance-productivity-with-amazon-bedrock-agents-and-powertools-for-aws-lambda",
+                "date": "2025-01-27"
+              },
+              {
+                "name": "Home - Glean Help Center",
+                "document": "https://docs.glean.com/administration/assistant/features/AmazonBedrockSetup",
+                "date": "2026-01-28"
+              },
+              {
+                "name": "Access AWS Expert Solutions & Authoritative Knowledge - AWS re:Post",
+                "document": "https://repost.aws/questions/QUTjA0L7NoQXG9W59HjO0LlA/amazon-bedrock-agents-rate-limiting",
+                "date": "2025-09-04"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/awsmarketplace/transform-enterprise-search-knowledge-discovery-glean-amazon-bedrock",
+                "date": "2023-11-17"
+              },
+              {
+                "name": "Access AWS Expert Solutions & Authoritative Knowledge - AWS re:Post",
+                "document": "https://repost.aws/fr/questions/QUjkf4WbikQ6WrpuH9sppjnw/bedrock-agents-vs-bedrock-agentcore",
+                "date": "2025-08-20"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/publicsector/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/amazon-bedrock-agents/feed",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "AWS Builder Center",
+                "document": "https://builder.aws.com/content/37EvzdLgTjxEdWVnzsF8BHgdcpL/building-intelligent-ai-agents-with-amazon-bedrock-and-strands-agents",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Home - Glean Help Center",
+                "document": "https://docs.glean.com/administration/assistant/features/amazon-bedrock-setup",
+                "date": "2026-01-28"
+              },
+              {
+                "name": "TechIntelPro: B2B Technology News, Interviews & Insights",
+                "document": "https://techintelpro.com/news/glean-now-available-in-aws-marketplace-ai-agents-category",
+                "date": "2025-07-17"
+              }
+            ],
+            "id": "8d9f2843-66d4-4f71-8ca7-3b84f647e75c"
+          }
+        },
+        {
+          "id": "cd83c03a-9a10-4d34-bfd2-3798d134e23a",
+          "name": "AWS Certified Data Engineer",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=tile&tile=getstarted",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate?ch=sec&d=1&sec=rmg",
+                "date": "2026-03-11"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-data-engineer-associate",
+                "date": "2026-03-11"
+              }
+            ],
+            "id": "e023086f-615b-4967-bdce-71532c9dc7de"
+          }
+        },
+        {
+          "id": "ce119cf0-0a2f-46fc-bca7-3b19aeaaf039",
+          "name": "AWS Bedrock",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://www.gartner.com/reviews/market/cloud-ai-developer-services/vendor/amazon-web-services/product/amazon-bedrock",
+                "document": "https://www.gartner.com/reviews/market/cloud-ai-developer-services/vendor/amazon-web-services/product/amazon-bedrock",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/database/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/",
+                "date": "2025-05-23"
+              },
+              {
+                "name": "Home - Dataforcee Digital",
+                "document": "https://dataforcee.us/2025/07/15/supercharge-generative-ai-workflows-with-nvidia-dgx-cloud-on-aws-and-amazon-bedrock-custom-model-import/",
+                "date": "2025-07-15"
+              },
+              {
+                "name": "AI Red Teaming & LLM Security Platform | Giskard",
+                "document": "https://www.giskard.ai/glossary/aws-bedrock",
+                "date": "2026-02-03"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/agents-custom-orchestration.html",
+                "document": "https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/agents-custom-orchestration.html",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-serverless/pattern-agentic-ai-orchestration.html",
+                "document": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-serverless/pattern-agentic-ai-orchestration.html",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-bedrock-agents-custom-orchestration",
+                "date": "2024-11-27"
+              },
+              {
+                "name": "https://voicebot.ai/2023/07/27/amazon-upgrades-aws-bedrock-generative-ai-service-with-new-model-and-conversational-agents",
+                "document": "https://voicebot.ai/2023/07/27/amazon-upgrades-aws-bedrock-generative-ai-service-with-new-model-and-conversational-agents",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "HKU SPACE AI Hub - HKU SPACE AI Hub",
+                "document": "https://aihub.hkuspace.hku.hk/2025/07/15/supercharge-generative-ai-workflows-with-nvidia-dgx-cloud-on-aws-and-amazon-bedrock-custom-model-import",
+                "date": "2025-07-15"
+              },
+              {
+                "name": "HKU SPACE AI Hub - HKU SPACE AI Hub",
+                "document": "https://aihub.hkuspace.hku.hk/2025/09/03/build-a-serverless-amazon-bedrock-batch-job-orchestration-workflow-using-aws-step-functions",
+                "date": "2025-09-03"
+              }
+            ],
+            "id": "9b61d2e6-0039-44b1-b30f-ff4dfdbe3773"
+          }
+        },
+        {
+          "id": "dd5809c6-9d2a-49ef-88bb-b54193d2ba18",
+          "name": "AWS re/Start",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "CIO Africa",
+                "document": "https://cioafrica.co/aws-re-start-ajira-digital-getinnotized-launch-free-cloud-skills-training-program-in-kenya",
+                "date": "2021-05-10"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/aws/upskilling-program-aws-re-start-doubles-its-global-presence",
+                "date": "2021-08-31"
+              },
+              {
+                "name": "Home",
+                "document": "https://mobilesyrup.com/2022/01/31/bmo-plato-cloud-reskilling-program-indigenous-students",
+                "date": "2022-01-31"
+              },
+              {
+                "name": "FEATURED NEWS",
+                "document": "https://cloud-computing.tmcnet.com/breaking-news/articles/450720-aws-introduces-new-resources-free-cloud-computing-training.htm",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Amazon News: Breaking news about Amazon and latest company updates",
+                "document": "https://www.aboutamazon.com/news/aws/new-free-aws-training-programs",
+                "date": "2022-10-12"
+              },
+              {
+                "name": "https://www.nasdaq.com/press-release/aws-expands-access-to-free-cloud-skills-training-on-its-mission-to-educate-29-million",
+                "document": "https://www.nasdaq.com/press-release/aws-expands-access-to-free-cloud-skills-training-on-its-mission-to-educate-29-million",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "https://www.bizjournals.com/phoenix/inno/stories/news/2022/05/05/aws-cloud-computing-phoenix.html",
+                "document": "https://www.bizjournals.com/phoenix/inno/stories/news/2022/05/05/aws-cloud-computing-phoenix.html",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "News Releases",
+                "document": "https://newsroom.bmo.com/2022-01-28-BMO-Promotes-Education,-Empowerment-and-Tech-Talent-Ground-breaking-Cloud-Computing-Reskilling-Program-for-Indigenous-Students-Kicks-Off",
+                "date": "2022-01-28"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/aws-re-start-program-provides-cloud-education-to-refugees",
+                "date": "2022-06-20"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/training-and-certification/reskilling-initiative-helps-individuals-in-boston-and-washington-d-c-launch-careers-in-the-cloud",
+                "date": "2020-05-28"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/press-lounge/aws-re-start-cloud-skills-training-program-launches-in-spain",
+                "date": "2020-11-25"
+              },
+              {
+                "name": "Latest Jobs in Ghana Today, Job Vacancies in Ghana - MyJobMag",
+                "document": "https://www.myjobmagghana.com/job/amalitech-aws-re-start-program-amalitech",
+                "date": "2024-05-07"
+              },
+              {
+                "name": "About Amazon",
+                "document": "https://www.aboutamazon.eu/news/press-lounge/aws-re-start-cloud-skills-training-program-launches-in-ireland",
+                "date": "2020-11-25"
+              }
+            ],
+            "id": "50de2f17-485e-4160-8d22-89f520c35740"
+          }
+        },
+        {
+          "id": "deb2199c-41b6-4310-8d06-ea7fbb7f82b8",
+          "name": "AWS Certified Machine Learning \u2013 Specialty",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Online Professional Training Courses and Certification - Intellipaat",
+                "document": "https://intellipaat.com/blog/aws-certified-machine-learning-specialty-preparation",
+                "date": "2021-07-08"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/fr/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/th/certification/certified-machine-learning-specialty",
+                "date": "2026-03-09"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/certification/certified-machine-learning-specialty",
+                "date": "2026-03-11"
+              }
+            ],
+            "id": "712a36d9-14cd-422d-98e3-057005747e5e"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "3eea78b8-a782-4ec1-bafd-4f5c896d6ba9",
+          "name": "Maximilian Schellhorn",
+          "entity_type": "Person",
+          "properties": {
+            "role": "AWS Solutions Architect",
+            "sources": [
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/compute/category/developer-tools/amazon-corretto",
+                "date": "2019-10-24"
+              },
+              {
+                "name": "Cloud Computing Services - Amazon Web Services (AWS)",
+                "document": "https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/page/12",
+                "date": "2023-02-06"
+              }
+            ],
+            "id": "1e48a0c1-e7d0-4201-9254-d9fec8dfec0d"
+          }
+        },
+        {
+          "id": "77f4062e-9f5e-41d5-98ba-091a6c8b52af",
+          "name": "Dennis Kieselhorst",
+          "entity_type": "Person",
+          "properties": {
+            "valid_until": "2025-09-01",
+            "role": "Solutions Architect",
+            "sources": [
+              {
+                "name": "Spring I/O \u2022 21-23 \u2022 May \u2022 Barcelona 2025",
+                "document": "https://2025.springio.net/speakers/dennis-kieselhorst/",
+                "date": "2025-05-22"
+              },
+              {
+                "name": "Headlines | WebDisclosure",
+                "document": "https://www.webdisclosure.com/press-release/cts-eventim-ag-etr-evd-cts-eventim-expands-product-tech-leadership-team-iw4VSrSS6LS",
+                "date": "2025-08-15"
+              },
+              {
+                "name": "stadiaworld",
+                "document": "https://stadiaworld.com/news/105343/expansion-of-product-tech-leadership-team",
+                "date": "2025-08-18"
+              }
+            ],
+            "id": "9ff57211-5b84-4a17-b718-188f46f3c02a"
+          }
+        },
+        {
+          "id": "e738e50c-ecdc-4448-9811-4566147a0dca",
+          "name": "Albert Esplugas",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Analyst Relations Lead, Generative AI",
+            "sources": [
+              {
+                "name": "\u25b7 Change2Grow C2G | L\u00edderes en transformaci\u00f3n digital",
+                "document": "https://www.c2gglobal.com/actualidad/albert-esplugas-analyst-relations-lead-generative-ai-en-amazon",
+                "date": "2025-02-09"
+              }
+            ],
+            "id": "43992d34-356d-4900-bb7f-0bd127c918f5"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "AMZN",
+    "uuid": "d4245a8e-6996-4663-b238-9c3e8d3742d7",
+    "match_name": "AMAZON WEB SERVICES, INC.",
+    "retrieved_at": "2026-04-15T22:25:28Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 10,
+      "relationship_types_outgoing": 7,
+      "relationship_types_incoming": 5,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 10,
+      "relationship_types": 12,
+      "relationship_edges": 89,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

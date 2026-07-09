@@ -1,0 +1,166 @@
+2026-04-28 12:48:40,895 INFO Tickers: 98 total, 10 with return series
+2026-04-28 12:48:40,900 INFO Using Ledoit-Wolf on 10 tickers × 176 observations
+2026-04-28 12:48:40,908 WARNING \u03a3 has negative eigenvalue -3.19e-02 — projecting to nearest PSD
+2026-04-28 12:48:40,943 INFO Sigma shape: (98, 98)
+2026-04-28 12:48:40,945 INFO Method: ledoit_wolf_hybrid
+2026-04-28 12:48:40,946 INFO Tickers with data: 10 / 98
+2026-04-28 12:48:40,946 INFO Min eigenvalue: -2.26e-20
+2026-04-28 12:48:40,947 INFO Max off-diag corr: 0.3003
+2026-04-28 12:48:40,947 INFO Median off-diag corr: 0.3003
+2026-04-28 12:48:40,951 INFO Saved \u03a3 (98×98) to C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\cov\mvp2.npz
+2026-04-28 12:48:41,632 INFO AAPL: relationships 146/260 pass cutoff
+2026-04-28 12:48:41,910 INFO ABNB: relationships 3/13 pass cutoff
+2026-04-28 12:48:42,224 INFO ADBE: relationships 43/106 pass cutoff
+2026-04-28 12:48:42,459 INFO ADI: relationships 17/54 pass cutoff
+2026-04-28 12:48:42,481 INFO ADP: relationships 7/26 pass cutoff
+2026-04-28 12:48:42,710 INFO ADSK: relationships 15/36 pass cutoff
+2026-04-28 12:48:42,915 INFO ALNY: relationships 10/20 pass cutoff
+2026-04-28 12:48:42,947 INFO AMAT: relationships 0/16 pass cutoff
+2026-04-28 12:48:42,949 INFO AMD: relationships 7/55 pass cutoff
+2026-04-28 12:48:43,186 INFO AMGN: relationships 25/60 pass cutoff
+2026-04-28 12:48:43,205 INFO AMZN: relationships 46/89 pass cutoff
+2026-04-28 12:48:43,205 INFO APP: relationships 2/13 pass cutoff
+2026-04-28 12:48:43,206 INFO ARM: relationships 2/28 pass cutoff
+2026-04-28 12:48:43,441 INFO ASML: relationships 3/45 pass cutoff
+2026-04-28 12:48:43,704 INFO AVGO: relationships 91/149 pass cutoff
+2026-04-28 12:48:43,854 INFO AXON: relationships 7/13 pass cutoff
+2026-04-28 12:48:44,103 INFO BKNG: relationships 2/35 pass cutoff
+2026-04-28 12:48:44,126 INFO BKR: relationships 18/52 pass cutoff
+2026-04-28 12:48:44,127 INFO CCEP: relationships 0/4 pass cutoff
+2026-04-28 12:48:44,299 INFO CDNS: relationships 13/25 pass cutoff
+2026-04-28 12:48:44,315 INFO CEG: relationships 0/9 pass cutoff
+2026-04-28 12:48:44,504 INFO CMCSA: relationships 22/79 pass cutoff
+2026-04-28 12:48:44,522 INFO COST: relationships 4/9 pass cutoff
+2026-04-28 12:48:44,664 INFO CPRT: relationships 7/14 pass cutoff
+2026-04-28 12:48:44,887 INFO CRWD: relationships 0/13 pass cutoff
+2026-04-28 12:48:44,906 INFO CSCO: relationships 6/14 pass cutoff
+2026-04-28 12:48:45,047 INFO CSGP: relationships 7/17 pass cutoff
+2026-04-28 12:48:45,223 INFO CSX: relationships 6/12 pass cutoff
+2026-04-28 12:48:45,391 INFO CTAS: relationships 6/10 pass cutoff
+2026-04-28 12:48:45,402 INFO CTSH: relationships 0/2 pass cutoff
+2026-04-28 12:48:45,516 INFO DASH: relationships 1/13 pass cutoff
+2026-04-28 12:48:45,525 INFO DDOG: relationships 1/20 pass cutoff
+2026-04-28 12:48:45,681 INFO DXCM: relationships 14/22 pass cutoff
+2026-04-28 12:48:45,882 INFO EA: relationships 13/33 pass cutoff
+2026-04-28 12:48:46,057 INFO EXC: relationships 12/30 pass cutoff
+2026-04-28 12:48:46,227 INFO FANG: relationships 16/23 pass cutoff
+2026-04-28 12:48:46,364 INFO FAST: relationships 6/13 pass cutoff
+2026-04-28 12:48:46,374 INFO FER: relationships 1/41 pass cutoff
+2026-04-28 12:48:46,540 INFO FTNT: relationships 7/28 pass cutoff
+2026-04-28 12:48:46,560 INFO GEHC: relationships 0/2 pass cutoff
+2026-04-28 12:48:46,786 INFO GILD: relationships 23/51 pass cutoff
+2026-04-28 12:48:47,052 INFO GOOG: relationships 98/180 pass cutoff
+2026-04-28 12:48:47,319 INFO GOOGL: relationships 98/180 pass cutoff
+2026-04-28 12:48:47,337 INFO HON: relationships 0/2 pass cutoff
+2026-04-28 12:48:47,422 INFO IDXX: relationships 6/21 pass cutoff
+2026-04-28 12:48:47,536 INFO INSM: relationships 3/11 pass cutoff
+2026-04-28 12:48:47,788 INFO INTC: relationships 51/114 pass cutoff
+2026-04-28 12:48:47,946 INFO INTU: relationships 18/49 pass cutoff
+2026-04-28 12:48:48,119 INFO ISRG: relationships 8/38 pass cutoff
+2026-04-28 12:48:48,246 INFO KDP: relationships 14/57 pass cutoff
+2026-04-28 12:48:48,436 INFO KHC: relationships 25/63 pass cutoff
+2026-04-28 12:48:48,604 INFO KLAC: relationships 12/50 pass cutoff
+2026-04-28 12:48:48,623 INFO LIN: relationships 0/2 pass cutoff
+2026-04-28 12:48:48,798 INFO LRCX: relationships 19/40 pass cutoff
+2026-04-28 12:48:48,812 INFO MAR: relationships 0/20 pass cutoff
+2026-04-28 12:48:48,954 INFO MCHP: relationships 10/23 pass cutoff
+2026-04-28 12:48:49,100 INFO MDLZ: relationships 6/54 pass cutoff
+2026-04-28 12:48:49,112 INFO MELI: relationships 0/2 pass cutoff
+2026-04-28 12:48:49,115 INFO META: relationships 113/193 pass cutoff
+2026-04-28 12:48:49,116 INFO MNST: relationships 6/15 pass cutoff
+2026-04-28 12:48:49,225 INFO MPWR: relationships 6/15 pass cutoff
+2026-04-28 12:48:49,403 INFO MRVL: relationships 2/36 pass cutoff
+2026-04-28 12:48:49,710 INFO MSFT: relationships 161/306 pass cutoff
+2026-04-28 12:48:49,900 INFO MSTR: relationships 10/19 pass cutoff
+2026-04-28 12:48:50,141 INFO MU: relationships 98/160 pass cutoff
+2026-04-28 12:48:50,385 INFO NFLX: relationships 86/114 pass cutoff
+2026-04-28 12:48:50,646 INFO NVDA: relationships 114/216 pass cutoff
+2026-04-28 12:48:50,682 INFO NXPI: relationships 0/2 pass cutoff
+2026-04-28 12:48:50,944 INFO ODFL: relationships 5/12 pass cutoff
+2026-04-28 12:48:50,964 INFO ORLY: relationships 3/6 pass cutoff
+2026-04-28 12:48:51,191 INFO PANW: relationships 11/45 pass cutoff
+2026-04-28 12:48:51,410 INFO PAYX: relationships 6/12 pass cutoff
+2026-04-28 12:48:51,581 INFO PCAR: relationships 16/46 pass cutoff
+2026-04-28 12:48:51,971 INFO PDD: relationships 4/13 pass cutoff
+2026-04-28 12:48:52,014 INFO PEP: relationships 6/78 pass cutoff
+2026-04-28 12:48:52,016 INFO PLTR: relationships 5/53 pass cutoff
+2026-04-28 12:48:52,017 INFO PYPL: relationships 5/13 pass cutoff
+2026-04-28 12:48:52,370 INFO QCOM: relationships 14/42 pass cutoff
+2026-04-28 12:48:52,612 INFO REGN: relationships 29/53 pass cutoff
+2026-04-28 12:48:52,871 INFO ROP: relationships 6/14 pass cutoff
+2026-04-28 12:48:53,080 INFO ROST: relationships 14/21 pass cutoff
+2026-04-28 12:48:53,407 INFO SBUX: relationships 6/25 pass cutoff
+2026-04-28 12:48:53,690 INFO SHOP: relationships 8/21 pass cutoff
+2026-04-28 12:48:53,877 INFO SNPS: relationships 17/39 pass cutoff
+2026-04-28 12:48:53,890 INFO STX: relationships 0/2 pass cutoff
+2026-04-28 12:48:53,891 INFO TEAM: relationships 7/30 pass cutoff
+2026-04-28 12:48:54,072 INFO TMUS: relationships 6/22 pass cutoff
+2026-04-28 12:48:54,087 INFO TRI: relationships 2/20 pass cutoff
+2026-04-28 12:48:54,330 INFO TSLA: relationships 85/125 pass cutoff
+2026-04-28 12:48:54,498 INFO TTWO: relationships 8/34 pass cutoff
+2026-04-28 12:48:54,695 INFO TXN: relationships 19/39 pass cutoff
+2026-04-28 12:48:54,860 INFO VRSK: relationships 7/13 pass cutoff
+2026-04-28 12:48:55,043 INFO VRTX: relationships 25/49 pass cutoff
+2026-04-28 12:48:55,120 INFO WBD: relationships 2/46 pass cutoff
+2026-04-28 12:48:55,330 INFO WDAY: relationships 10/26 pass cutoff
+2026-04-28 12:48:55,346 INFO WDC: relationships 16/46 pass cutoff
+2026-04-28 12:48:55,655 INFO WMT: relationships 90/130 pass cutoff
+2026-04-28 12:48:55,820 INFO XEL: relationships 19/32 pass cutoff
+2026-04-28 12:48:56,022 INFO ZS: relationships 3/37 pass cutoff
+2026-04-28 12:48:56,023 INFO Graph: 1135 nodes, 1731 edges
+2026-04-28 12:48:56,042 INFO Graph: 1135 nodes, 1731 edges, 98 NDX tickers
+2026-04-28 12:48:56,047 INFO BFS from VANGUARD GROUP INC: 200 total, 71 NDX tickers (beta>0.1)
+2026-04-28 12:48:56,050 INFO BFS from BlackRock Institutional Trust Company, N.A.: 200 total, 64 NDX tickers (beta>0.1)
+2026-04-28 12:48:56,052 INFO BFS from VANGUARD FIDUCIARY TRUST COMPANY: 200 total, 59 NDX tickers (beta>0.1)
+2026-04-28 12:48:56,058 INFO Saved graph to C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\graph\mvp2.gpickle (1135 nodes, 1731 edges)
+2026-04-28 12:49:09,760 INFO Allow-list: 50 origin entries, 1135 total graph nodes, 34 dates
+2026-04-28 12:49:10,003 INFO Sonnet call attempt 1/3
+2026-04-28 12:49:41,936 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 12:49:41,952 INFO Sonnet response: 3603 input tokens, 2371 output tokens
+2026-04-28 12:49:41,952 INFO Round validated 10 / 10 hypotheses
+2026-04-28 12:49:41,952 INFO After round 1: 10 total validated hypotheses
+2026-04-28 12:49:41,952 INFO Hypotheses: 10 valid, 10 distinct origins
+2026-04-28 12:49:42,175 INFO Loaded 10 hypotheses
+2026-04-28 12:49:42,175 INFO Hypothesis H_V2_01 (origin=e54f3f3b-1c7): BFS reached 174 nodes, 12 NDX tickers
+2026-04-28 12:49:42,178 INFO Hypothesis H_V2_02 (origin=4a500c87-614): BFS reached 200 nodes, 71 NDX tickers
+2026-04-28 12:49:42,178 INFO Hypothesis H_V2_03 (origin=9d7f9bac-0c6): BFS reached 141 nodes, 16 NDX tickers
+2026-04-28 12:49:42,179 INFO Hypothesis H_V2_04 (origin=9e97e8d3-c60): BFS reached 174 nodes, 11 NDX tickers
+2026-04-28 12:49:42,180 INFO Hypothesis H_V2_05 (origin=8ed58020-3da): BFS reached 200 nodes, 52 NDX tickers
+2026-04-28 12:49:42,180 INFO Hypothesis H_V2_06 (origin=d5f43bbe-2e1): BFS reached 87 nodes, 9 NDX tickers
+2026-04-28 12:49:42,181 INFO Hypothesis H_V2_07 (origin=1467ce2e-78b): BFS reached 200 nodes, 5 NDX tickers
+2026-04-28 12:49:42,182 INFO Hypothesis H_V2_08 (origin=103a3bdc-5b3): BFS reached 200 nodes, 5 NDX tickers
+2026-04-28 12:49:42,182 INFO Hypothesis H_V2_09 (origin=6aef64ba-7f7): BFS reached 193 nodes, 5 NDX tickers
+2026-04-28 12:49:42,183 INFO Hypothesis H_V2_10 (origin=51278620-414): BFS reached 192 nodes, 5 NDX tickers
+2026-04-28 12:49:42,183 INFO Total affected NDX tickers: 79 / 98
+2026-04-28 12:49:42,183 INFO Affected NDX tickers: 79 / 98
+2026-04-28 12:49:42,183 INFO Tickers with overlapping hypotheses: 67
+2026-04-28 12:49:42,185 INFO DAG check_model: True
+2026-04-28 12:49:42,187 INFO Saved DAG to C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\dag\mvp2.pkl and C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\dag\mvp2.json
+2026-04-28 12:49:42,204 INFO Loaded: \u03a3 (98×98), 10 hypotheses, 79 affected tickers
+2026-04-28 12:49:43,616 INFO MC: 500 scenarios × 98 tickers
+2026-04-28 12:49:43,616 INFO Shape: (500, 98)
+2026-04-28 12:49:43,617 INFO Median empirical corr: 0.2853, median |emp - \u03a3| diff: 0.0495
+2026-04-28 12:49:43,618 INFO CVaR5 (equal-weight): -0.3218 (-32.18%)
+2026-04-28 12:49:43,618 WARNING CVaR5 -0.3218 < -8% — tails may be too fat
+2026-04-28 12:49:43,640 INFO Saved scenarios (500 × 98) to C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\scenarios\mvp2.parquet
+2026-04-28 12:49:43,901 INFO Loaded scenarios: (500, 98)
+2026-04-28 12:49:57,512 INFO Scenarios after dedup: (500, 98)
+2026-04-28 12:49:57,513 INFO CVaR optimize on (500 sims, 98 tickers), \u03bb=2.00
+C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\abrollo\opt\cvar.py:92: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=solver, verbose=False, **SOLVER_OPTS.get(solver, {}))
+2026-04-28 12:49:57,590 INFO Phase 1 (CLARABEL): status=optimal_inaccurate, obj=-429.790832
+2026-04-28 12:49:57,746 WARNING CLARABEL failed: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.
+2026-04-28 12:49:57,746 WARNING ECOS failed: The solver ECOS is not installed.
+2026-04-28 12:50:07,570 INFO Phase 2 (k=60, SCS): status=optimal_inaccurate, obj=-101565.176811
+2026-04-28 12:50:07,571 WARNING Phase 2 optimal_inaccurate — applying feasibility projection
+2026-04-28 12:50:07,573 INFO Solver: SCS, status: optimal_inaccurate
+2026-04-28 12:50:07,573 INFO E[r]: -0.0109, CVaR5: 0.2327
+2026-04-28 12:50:07,573 INFO Non-zero tickers: 60
+2026-04-28 12:50:07,573 INFO Total: $1000000
+2026-04-28 12:50:07,574 INFO DAG-affected tickers in portfolio: 44 / 79 total DAG-affected
+2026-04-28 12:50:07,698 INFO Portfolio: 60 tickers, sum=$1000000
+2026-04-28 12:50:23,200 ERROR Validation FAILED:
+2026-04-28 12:50:23,201 ERROR   ARM weight $2472 < minimum $5000
+2026-04-28 12:50:23,201 ERROR   INTC weight $1442 < minimum $5000
+2026-04-28 12:50:23,201 ERROR   MAR weight $3938 < minimum $5000
+2026-04-28 12:50:23,201 ERROR   MDLZ weight $3860 < minimum $5000

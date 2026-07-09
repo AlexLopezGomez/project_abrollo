@@ -1,0 +1,122 @@
+{
+  "id": "da664ff1-efb6-485f-b74d-e35ff65f2a87",
+  "name": "NXP",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "headquarters_address": {
+      "value": "Kruipstraat 13, Grimbergen, 1850, BE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "NXP",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "da664ff1-efb6-485f-b74d-e35ff65f2a87",
+      "sources": []
+    },
+    "name": {
+      "value": "NXP",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "967600MAVS2C6C441V88",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "Kruipstraat 13, Grimbergen, 1850, BE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "9a76882e-8c21-4893-9cb8-6dd4c6742ee1",
+          "name": "Belgium",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "92170caa-77b0-537d-ab2c-1acced33cccb"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "9a76882e-8c21-4893-9cb8-6dd4c6742ee1",
+          "name": "Belgium",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/967600MAVS2C6C441V88",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "4670b13e-bd46-5834-b0ac-3501e3fd57b3"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "NXPI",
+    "uuid": "da664ff1-efb6-485f-b74d-e35ff65f2a87",
+    "match_name": "NXP",
+    "retrieved_at": "2026-04-15T22:34:13Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 6,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 6,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

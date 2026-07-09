@@ -1,0 +1,11 @@
+{
+  "n_sims": 1000,
+  "n_tickers": 98,
+  "n_hypotheses": 10,
+  "matrix_mean": -0.15472552651006435,
+  "matrix_std": 0.27040180172713346,
+  "median_offdiag_corr": 0.4786684969687285,
+  "equal_weight_cvar5": -0.5399640652112219,
+  "best_scenario": 0.29742354161274187,
+  "worst_scenario": -0.7745751189785003
+}

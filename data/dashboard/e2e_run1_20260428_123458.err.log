@@ -1,0 +1,155 @@
+2026-04-28 12:35:15,401 INFO Tickers: 98 total, 10 with return series
+2026-04-28 12:35:15,413 INFO Using Ledoit-Wolf on 10 tickers × 176 observations
+2026-04-28 12:35:15,431 WARNING \u03a3 has negative eigenvalue -3.19e-02 — projecting to nearest PSD
+2026-04-28 12:35:15,452 INFO Sigma shape: (98, 98)
+2026-04-28 12:35:15,453 INFO Method: ledoit_wolf_hybrid
+2026-04-28 12:35:15,454 INFO Tickers with data: 10 / 98
+2026-04-28 12:35:15,454 INFO Min eigenvalue: -2.26e-20
+2026-04-28 12:35:15,455 INFO Max off-diag corr: 0.3003
+2026-04-28 12:35:15,455 INFO Median off-diag corr: 0.3003
+2026-04-28 12:35:15,458 INFO Saved \u03a3 (98×98) to C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\cov\mvp2.npz
+2026-04-28 12:35:15,930 INFO AAPL: relationships 146/260 pass cutoff
+2026-04-28 12:35:16,118 INFO ABNB: relationships 3/13 pass cutoff
+2026-04-28 12:35:16,386 INFO ADBE: relationships 43/106 pass cutoff
+2026-04-28 12:35:16,589 INFO ADI: relationships 17/54 pass cutoff
+2026-04-28 12:35:16,610 INFO ADP: relationships 7/26 pass cutoff
+2026-04-28 12:35:16,802 INFO ADSK: relationships 15/36 pass cutoff
+2026-04-28 12:35:16,986 INFO ALNY: relationships 10/20 pass cutoff
+2026-04-28 12:35:17,008 INFO AMAT: relationships 0/16 pass cutoff
+2026-04-28 12:35:17,010 INFO AMD: relationships 7/55 pass cutoff
+2026-04-28 12:35:17,253 INFO AMGN: relationships 25/60 pass cutoff
+2026-04-28 12:35:17,271 INFO AMZN: relationships 46/89 pass cutoff
+2026-04-28 12:35:17,272 INFO APP: relationships 2/13 pass cutoff
+2026-04-28 12:35:17,273 INFO ARM: relationships 2/28 pass cutoff
+2026-04-28 12:35:17,527 INFO ASML: relationships 3/45 pass cutoff
+2026-04-28 12:35:17,786 INFO AVGO: relationships 91/149 pass cutoff
+2026-04-28 12:35:17,925 INFO AXON: relationships 7/13 pass cutoff
+2026-04-28 12:35:18,123 INFO BKNG: relationships 2/35 pass cutoff
+2026-04-28 12:35:18,145 INFO BKR: relationships 18/52 pass cutoff
+2026-04-28 12:35:18,145 INFO CCEP: relationships 0/4 pass cutoff
+2026-04-28 12:35:18,315 INFO CDNS: relationships 13/25 pass cutoff
+2026-04-28 12:35:18,329 INFO CEG: relationships 0/9 pass cutoff
+2026-04-28 12:35:18,521 INFO CMCSA: relationships 22/79 pass cutoff
+2026-04-28 12:35:18,543 INFO COST: relationships 4/9 pass cutoff
+2026-04-28 12:35:18,700 INFO CPRT: relationships 7/14 pass cutoff
+2026-04-28 12:35:18,914 INFO CRWD: relationships 0/13 pass cutoff
+2026-04-28 12:35:18,941 INFO CSCO: relationships 6/14 pass cutoff
+2026-04-28 12:35:19,079 INFO CSGP: relationships 7/17 pass cutoff
+2026-04-28 12:35:19,269 INFO CSX: relationships 6/12 pass cutoff
+2026-04-28 12:35:19,428 INFO CTAS: relationships 6/10 pass cutoff
+2026-04-28 12:35:19,439 INFO CTSH: relationships 0/2 pass cutoff
+2026-04-28 12:35:19,581 INFO DASH: relationships 1/13 pass cutoff
+2026-04-28 12:35:19,593 INFO DDOG: relationships 1/20 pass cutoff
+2026-04-28 12:35:19,759 INFO DXCM: relationships 14/22 pass cutoff
+2026-04-28 12:35:19,958 INFO EA: relationships 13/33 pass cutoff
+2026-04-28 12:35:20,106 INFO EXC: relationships 12/30 pass cutoff
+2026-04-28 12:35:20,265 INFO FANG: relationships 16/23 pass cutoff
+2026-04-28 12:35:20,404 INFO FAST: relationships 6/13 pass cutoff
+2026-04-28 12:35:20,415 INFO FER: relationships 1/41 pass cutoff
+2026-04-28 12:35:20,581 INFO FTNT: relationships 7/28 pass cutoff
+2026-04-28 12:35:20,595 INFO GEHC: relationships 0/2 pass cutoff
+2026-04-28 12:35:20,777 INFO GILD: relationships 23/51 pass cutoff
+2026-04-28 12:35:21,021 INFO GOOG: relationships 98/180 pass cutoff
+2026-04-28 12:35:21,259 INFO GOOGL: relationships 98/180 pass cutoff
+2026-04-28 12:35:21,277 INFO HON: relationships 0/2 pass cutoff
+2026-04-28 12:35:21,365 INFO IDXX: relationships 6/21 pass cutoff
+2026-04-28 12:35:21,480 INFO INSM: relationships 3/11 pass cutoff
+2026-04-28 12:35:21,756 INFO INTC: relationships 51/114 pass cutoff
+2026-04-28 12:35:21,931 INFO INTU: relationships 18/49 pass cutoff
+2026-04-28 12:35:22,098 INFO ISRG: relationships 8/38 pass cutoff
+2026-04-28 12:35:22,229 INFO KDP: relationships 14/57 pass cutoff
+2026-04-28 12:35:22,420 INFO KHC: relationships 25/63 pass cutoff
+2026-04-28 12:35:22,596 INFO KLAC: relationships 12/50 pass cutoff
+2026-04-28 12:35:22,613 INFO LIN: relationships 0/2 pass cutoff
+2026-04-28 12:35:22,780 INFO LRCX: relationships 19/40 pass cutoff
+2026-04-28 12:35:22,794 INFO MAR: relationships 0/20 pass cutoff
+2026-04-28 12:35:22,935 INFO MCHP: relationships 10/23 pass cutoff
+2026-04-28 12:35:23,083 INFO MDLZ: relationships 6/54 pass cutoff
+2026-04-28 12:35:23,096 INFO MELI: relationships 0/2 pass cutoff
+2026-04-28 12:35:23,099 INFO META: relationships 113/193 pass cutoff
+2026-04-28 12:35:23,100 INFO MNST: relationships 6/15 pass cutoff
+2026-04-28 12:35:23,214 INFO MPWR: relationships 6/15 pass cutoff
+2026-04-28 12:35:23,386 INFO MRVL: relationships 2/36 pass cutoff
+2026-04-28 12:35:23,748 INFO MSFT: relationships 161/306 pass cutoff
+2026-04-28 12:35:23,955 INFO MSTR: relationships 10/19 pass cutoff
+2026-04-28 12:35:24,213 INFO MU: relationships 98/160 pass cutoff
+2026-04-28 12:35:24,466 INFO NFLX: relationships 86/114 pass cutoff
+2026-04-28 12:35:24,836 INFO NVDA: relationships 114/216 pass cutoff
+2026-04-28 12:35:24,873 INFO NXPI: relationships 0/2 pass cutoff
+2026-04-28 12:35:24,988 INFO ODFL: relationships 5/12 pass cutoff
+2026-04-28 12:35:24,999 INFO ORLY: relationships 3/6 pass cutoff
+2026-04-28 12:35:25,148 INFO PANW: relationships 11/45 pass cutoff
+2026-04-28 12:35:25,287 INFO PAYX: relationships 6/12 pass cutoff
+2026-04-28 12:35:25,424 INFO PCAR: relationships 16/46 pass cutoff
+2026-04-28 12:35:25,644 INFO PDD: relationships 4/13 pass cutoff
+2026-04-28 12:35:25,661 INFO PEP: relationships 6/78 pass cutoff
+2026-04-28 12:35:25,662 INFO PLTR: relationships 5/53 pass cutoff
+2026-04-28 12:35:25,662 INFO PYPL: relationships 5/13 pass cutoff
+2026-04-28 12:35:25,864 INFO QCOM: relationships 14/42 pass cutoff
+2026-04-28 12:35:26,025 INFO REGN: relationships 29/53 pass cutoff
+2026-04-28 12:35:26,161 INFO ROP: relationships 6/14 pass cutoff
+2026-04-28 12:35:26,287 INFO ROST: relationships 14/21 pass cutoff
+2026-04-28 12:35:26,563 INFO SBUX: relationships 6/25 pass cutoff
+2026-04-28 12:35:26,894 INFO SHOP: relationships 8/21 pass cutoff
+2026-04-28 12:35:27,053 INFO SNPS: relationships 17/39 pass cutoff
+2026-04-28 12:35:27,066 INFO STX: relationships 0/2 pass cutoff
+2026-04-28 12:35:27,067 INFO TEAM: relationships 7/30 pass cutoff
+2026-04-28 12:35:27,262 INFO TMUS: relationships 6/22 pass cutoff
+2026-04-28 12:35:27,274 INFO TRI: relationships 2/20 pass cutoff
+2026-04-28 12:35:27,502 INFO TSLA: relationships 85/125 pass cutoff
+2026-04-28 12:35:27,675 INFO TTWO: relationships 8/34 pass cutoff
+2026-04-28 12:35:27,883 INFO TXN: relationships 19/39 pass cutoff
+2026-04-28 12:35:28,064 INFO VRSK: relationships 7/13 pass cutoff
+2026-04-28 12:35:28,294 INFO VRTX: relationships 25/49 pass cutoff
+2026-04-28 12:35:28,367 INFO WBD: relationships 2/46 pass cutoff
+2026-04-28 12:35:28,532 INFO WDAY: relationships 10/26 pass cutoff
+2026-04-28 12:35:28,545 INFO WDC: relationships 16/46 pass cutoff
+2026-04-28 12:35:28,788 INFO WMT: relationships 90/130 pass cutoff
+2026-04-28 12:35:28,917 INFO XEL: relationships 19/32 pass cutoff
+2026-04-28 12:35:29,092 INFO ZS: relationships 3/37 pass cutoff
+2026-04-28 12:35:29,093 INFO Graph: 1135 nodes, 1731 edges
+2026-04-28 12:35:29,110 INFO Graph: 1135 nodes, 1731 edges, 98 NDX tickers
+2026-04-28 12:35:29,114 INFO BFS from VANGUARD GROUP INC: 200 total, 71 NDX tickers (beta>0.1)
+2026-04-28 12:35:29,117 INFO BFS from BlackRock Institutional Trust Company, N.A.: 200 total, 64 NDX tickers (beta>0.1)
+2026-04-28 12:35:29,118 INFO BFS from VANGUARD FIDUCIARY TRUST COMPANY: 200 total, 59 NDX tickers (beta>0.1)
+2026-04-28 12:35:29,123 INFO Saved graph to C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\data\graph\mvp2.gpickle (1135 nodes, 1731 edges)
+2026-04-28 12:35:43,171 INFO Allow-list: 50 origin entries, 1135 total graph nodes, 34 dates
+2026-04-28 12:35:43,434 INFO Sonnet call attempt 1/3
+2026-04-28 12:36:19,029 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 12:36:19,046 INFO Sonnet response: 3583 input tokens, 2497 output tokens
+2026-04-28 12:36:19,047 INFO Round validated 4 / 10 hypotheses
+2026-04-28 12:36:19,047 WARNING Validation issues: ['schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value="Vanguard\'s systematic re...-infrastructure stocks.", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long', 'schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value="Barclays Capital\'s struc...e calls for tech bulls.", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long', 'schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value="Fidelity\'s strategic shi...ads in low-float names.", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long', "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='J.P. Morgan Investment M...gh-multiple tech names.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long", 'schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value="Eric Schmidt\'s AI ventur...aS NASDAQ constituents.", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long', "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='BlackRock Advisors accel...SDAQ data-center names.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long"]
+2026-04-28 12:36:19,048 WARNING Only 4 valid hypotheses — retrying round
+2026-04-28 12:36:19,048 INFO Sonnet call attempt 2/3
+2026-04-28 12:36:52,663 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 12:36:52,665 INFO Sonnet response: 3583 input tokens, 2381 output tokens
+2026-04-28 12:36:52,666 INFO Round validated 5 / 10 hypotheses
+2026-04-28 12:36:52,666 WARNING Validation issues: ["schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='JPMorgan Chase tightens ... pressuring valuations.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long", 'schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value="Barclays Global Investor...elevated P/E multiples.", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long', "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='Barclays Bank PLC issues...nd elevated volatility.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long", "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='J.P. Morgan Asset Manage...support for NASDAQ-100.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long", "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='FIL Limited (Fidelity In...x supercycle tailwinds.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long"]
+2026-04-28 12:36:52,666 WARNING Only 5 valid hypotheses — retrying round
+2026-04-28 12:36:52,666 INFO Sonnet call attempt 3/3
+2026-04-28 12:37:28,037 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 12:37:28,038 INFO Sonnet response: 3583 input tokens, 2437 output tokens
+2026-04-28 12:37:28,038 INFO Round validated 7 / 10 hypotheses
+2026-04-28 12:37:28,038 WARNING Validation issues: ["schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='Barclays Capital securit...ning NASDAQ volatility.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long", "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='J.P. Morgan Investment M...lobal asset allocators.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long", "schema: 1 validation error for HypothesisV2\ntrigger\n  String should have at most 200 characters [type=string_too_long, input_value='FIL Limited (Fidelity In...in semiconductor names.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long"]
+2026-04-28 12:37:28,039 WARNING Only 7 valid hypotheses — retrying round
+Traceback (most recent call last):
+  File "C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\scripts\mvp2_run_all.py", line 50, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\scripts\mvp2_run_all.py", line 37, in main
+    rc = mod.main()
+  File "C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\scripts\mvp2_step5_hypotheses.py", line 84, in main
+    hypotheses = call_sonnet_hypotheses(
+        origin_entries=origin_entries,
+    ...<2 lines>...
+        n_rounds=1,
+    )
+  File "C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\abrollo\agents\hypothesis_v2.py", line 256, in call_sonnet_hypotheses
+    round_hyps = _call_single_round(
+        client=client,
+    ...<6 lines>...
+        max_retries=max_retries,
+    )
+  File "C:\Users\nicof\OneDrive\Escritorio\abrollo\project_abrollo\abrollo\agents\hypothesis_v2.py", line 228, in _call_single_round
+    raise RuntimeError(f"Failed to get >= 8 valid hypotheses in round after {max_retries + 1} attempts")
+RuntimeError: Failed to get >= 8 valid hypotheses in round after 3 attempts

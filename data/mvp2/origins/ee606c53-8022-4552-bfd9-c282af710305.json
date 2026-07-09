@@ -1,0 +1,38 @@
+{
+  "id": "ee606c53-8022-4552-bfd9-c282af710305",
+  "name": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "aliases": {
+      "value": [
+        "Barclays Global Investors Holdings Canada Limited"
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341409004332/aeropostale113009.txt",
+          "date": "2009-12-10"
+        }
+      ]
+    },
+    "id": {
+      "value": "ee606c53-8022-4552-bfd9-c282af710305",
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "ee606c53-8022-4552-bfd9-c282af710305",
+    "properties_count_requested": 3,
+    "numobs_categories_requested": 0
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "id": "3f3e5f91-1fe7-4094-88ea-4a25b512a75f",
+  "name": "CISCO SYSTEMS, INC.",
+  "entity_type": "Company",
+  "description": "Founded in 1984, the company based in San Jose, California, provides information technology products and services.",
+  "properties": {
+    "founding_date": {
+      "value": "1984-12-10",
+      "sources": [
+        {
+          "name": "What is Brief History of Cisco Systems Company?",
+          "document": "https://swottemplate.com/blogs/brief-history/cisco-brief-history",
+          "date": "2025-07-09"
+        },
+        {
+          "name": "www.britannica.com",
+          "document": "https://www.britannica.com/money/Cisco-Systems-Inc",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "lei": {
+      "value": "8E6NF1YAL0WT6CWXXV93",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "Cisco\u2019s ESG policy commits the company to environmental sustainability (including a net\u2011zero carbon goal, circular\u2011economy initiatives and an ISO\u201114001 certified Environmental Management System), social responsibility (global human\u2011rights policy, diversity and inclusion programs, community investment) and strong governance (board oversight of purpose, a Code of Business Conduct and adherence to standards such as SASB, TCFD and the UN Sustainable Development Goals).",
+      "sources": [
+        {
+          "name": "www.cisco.com",
+          "document": "https://www.cisco.com/c/dam/m/en_us/about/purpose/reporting-hub/_pdf/corporate-environmental-policy.pdf",
+          "date": "2026-04-14"
+        },
+        {
+          "name": "Policies, Positions & Guides",
+          "document": "https://www.cisco.com/c/m/en_us/about/csr/esg-hub/resources.html",
+          "date": "2018-01-26"
+        },
+        {
+          "name": "Strategy and Governance",
+          "document": "https://www.cisco.com/c/m/en_us/about/purpose/reporting-hub/governance.html",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "170 West Tasman Drive, San Jose, US-CA, 95134, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Cisco Systems",
+        "Cisco",
+        "Cisco Networking Academy",
+        "CSCO",
+        "Cisco Systems Inc."
+      ],
+      "sources": []
+    },
+    "id": {
+      "value": "3f3e5f91-1fe7-4094-88ea-4a25b512a75f",
+      "sources": []
+    },
+    "employee_count": {
+      "value": 86200,
+      "sources": [
+        {
+          "name": "Business Intelligence, Data and Research Platform | Bullfincher",
+          "document": "https://bullfincher.io/companies/cisco-systems/number-of-employees",
+          "date": "2017-01-01"
+        },
+        {
+          "name": "Stock Analysis - Free Online Stock Information for Investors",
+          "document": "https://stockanalysis.com/stocks/csco/employees",
+          "date": "2026-04-02"
+        },
+        {
+          "name": "Macrotrends | The Long Term Perspective on Markets",
+          "document": "https://macrotrends.net/stocks/charts/CSCO/cisco/number-of-employees",
+          "date": "2026-04-02"
+        }
+      ]
+    },
+    "name": {
+      "value": "CISCO SYSTEMS, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "CISCO SYSTEMS, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "Founded in 1984, the company based in San Jose, California, provides information technology products and services.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 2710 GATEWAY OAKS DR 150N, Sacramento, US-CA, 95833, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+          "name": "California",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "04b1b047-9398-5be8-bf35-a4b593dcf2f5"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "42b41b87-c84e-46de-94cc-ab1c0310bcb6",
+          "name": "Information Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/news/meet-low-cost-vanguard-etf-093600568.html",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "b4bd9431-395e-5089-aa44-9e3dc14e031c"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+          "name": "California",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/8E6NF1YAL0WT6CWXXV93",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "f0b14b8d-b7b2-52b7-866c-f87c9c84ecc4"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "CREATED_BY": [
+        {
+          "id": "9448613d-aac9-4391-8dd5-99e925100c3a",
+          "name": "Cisco CCNP",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://en.wikiversity.org/wiki/Cisco_Networking/CCNP",
+                "document": "https://en.wikiversity.org/wiki/Cisco_Networking/CCNP",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "83554cea-4825-4745-855c-134cdf9fcc42"
+          }
+        },
+        {
+          "id": "dd7f0951-9744-4fd7-9b83-45f48f4eea16",
+          "name": "Cisco CCNA",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Essential Information Technology Certifications | CCCure Education",
+                "document": "https://cccure.education/certification/certificate-detail/ccna-icnd2",
+                "date": "2022-05-31"
+              },
+              {
+                "name": "https://en.wikiversity.org/wiki/Cisco_Networking/CCNA",
+                "document": "https://en.wikiversity.org/wiki/Cisco_Networking/CCNA",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Thinking About College?",
+                "document": "https://sunyjefferson.edu/academics/programs/cisco-CCNA-certification-training.php",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/cisco-certified-network-associate-ccna",
+                "date": "2024-02-01"
+              }
+            ],
+            "id": "536ef4c8-882e-496c-969e-753e8645c515"
+          }
+        },
+        {
+          "id": "fe7bad4f-dc82-46d1-867a-096c7aece72b",
+          "name": "AI networking chips",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cisco Launches Silicon One G300 AI Networking Chip",
+                "document": "https://difinitydigital.com/cisco-unveils-ai-networking-chip/",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "88098e9c-270c-5429-b777-92f094526826"
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "89a918f6-a220-48aa-94ac-72651ff78f55",
+          "name": "CCST",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Online IT Training Videos, IT Certification Training | CBT Nuggets",
+                "document": "https://www.cbtnuggets.com/it-training/cisco/ccst-cybersecurity",
+                "date": "2024-11-14"
+              },
+              {
+                "name": "Cisco Blogs",
+                "document": "https://blogs.cisco.com/learning/ccst-entry-level-certs-gaining-ground",
+                "date": "2023-08-02"
+              },
+              {
+                "name": "AI Infrastructure, Secure Networking, and Software Solutions",
+                "document": "https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/ccst-cybersecurity.html",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "Cisco Learning Network",
+                "document": "https://learningnetwork.cisco.com/s/ccst-certifications",
+                "date": "2000-01-01"
+              },
+              {
+                "name": "AI Infrastructure, Secure Networking, and Software Solutions",
+                "document": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/support-technician/faq.html",
+                "date": "2025-01-01"
+              }
+            ],
+            "id": "dd78efdb-08e2-42ae-8588-b50e43d4cf9d"
+          }
+        },
+        {
+          "id": "fe7bad4f-dc82-46d1-867a-096c7aece72b",
+          "name": "AI networking chips",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.reuters.com",
+                "document": "https://www.reuters.com/technology/cisco-launches-new-ai-networking-chips-compete-with-broadcom-marvell-2023-06-20/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "335bf7d9-a7c3-5287-9c09-44e2d799be75",
+            "valid_since": "2023-06-20"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "9448613d-aac9-4391-8dd5-99e925100c3a",
+          "name": "Cisco CCNP",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Network Kings \u2013 Expert IT Training and Certification Courses Online",
+                "document": "https://www.networkkings.org/scope-of-cisco-ccnp-certification",
+                "date": "2026-03-12"
+              }
+            ],
+            "id": "22694caa-2071-46b0-b6a1-6c3b6edd6dea"
+          }
+        },
+        {
+          "id": "dd7f0951-9744-4fd7-9b83-45f48f4eea16",
+          "name": "Cisco CCNA",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Thinking About College?",
+                "document": "https://sunyjefferson.edu/academics/programs/cisco-CCNA-certification-training.php",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/cisco-certified-network-associate-ccna",
+                "date": "2024-02-01"
+              }
+            ],
+            "id": "386118cb-050a-4038-95a3-7d70147a0b1e"
+          }
+        }
+      ],
+      "DESIGNED_BY": [
+        {
+          "id": "89a918f6-a220-48aa-94ac-72651ff78f55",
+          "name": "CCST",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://community.cisco.com/t5/cisco-cafe/entry-level-cisco-certifications-ccst/td-p/4765500",
+                "document": "https://community.cisco.com/t5/cisco-cafe/entry-level-cisco-certifications-ccst/td-p/4765500",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "AI Infrastructure, Secure Networking, and Software Solutions",
+                "document": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/support-technician/faq.html",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "Cisco Learning Network",
+                "document": "https://learningnetwork.cisco.com/s/ccst-certifications",
+                "date": "2000-01-01"
+              },
+              {
+                "name": "AI Infrastructure, Secure Networking, and Software Solutions",
+                "document": "https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/ccst-cybersecurity.html",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "Cisco Blogs",
+                "document": "https://blogs.cisco.com/learning/ccst-entry-level-certs-gaining-ground",
+                "date": "2023-08-02"
+              }
+            ],
+            "id": "3978b94c-55e8-4404-9eb7-b003efd72319"
+          }
+        },
+        {
+          "id": "9448613d-aac9-4391-8dd5-99e925100c3a",
+          "name": "Cisco CCNP",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Online IT Training Videos, IT Certification Training | CBT Nuggets",
+                "document": "https://www.cbtnuggets.com/it-training/cisco/ccnp-data-center-prep-hyperflex",
+                "date": "2024-11-14"
+              },
+              {
+                "name": "Enterprise IT training and certifications for organizations and professionals. Vendor-authorized programs in AI, Cloud, Cybersecurity, Business & Leadership built for workforce upskilling.",
+                "document": "https://www.netcomlearning.com/certifications/ccnp-collaboration",
+                "date": "2024-02-01"
+              }
+            ],
+            "id": "68a8e64d-30c8-40f9-bd53-cacc680ab4a8"
+          }
+        },
+        {
+          "id": "dd7f0951-9744-4fd7-9b83-45f48f4eea16",
+          "name": "Cisco CCNA",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Thinking About College?",
+                "document": "https://sunyjefferson.edu/academics/programs/cisco-CCNA-certification-training.php",
+                "date": "2025-01-01"
+              },
+              {
+                "name": "https://careerforce.mn.gov/training-programs/cisco-ccna-certification-training-program",
+                "document": "https://careerforce.mn.gov/training-programs/cisco-ccna-certification-training-program",
+                "date": "2026-03-16"
+              },
+              {
+                "name": "Chico State | Technology Bootcamps",
+                "document": "https://csuchico.quickstart.com/implementing-and-administering-cisco-solutions-ccna-certification-course-exam-bundle",
+                "date": "2022-01-01"
+              }
+            ],
+            "id": "d4235de0-6de7-4b6b-9f2e-e4cccfa3abaf"
+          }
+        },
+        {
+          "id": "fe7bad4f-dc82-46d1-867a-096c7aece72b",
+          "name": "AI networking chips",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.reuters.com",
+                "document": "https://www.reuters.com/business/media-telecom/cisco-unveils-new-ai-networking-chip-taking-broadcom-and-nvidia-2026-02-10/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "www.reuters.com",
+                "document": "https://www.reuters.com/world/china/cisco-rolls-out-chip-designed-connect-ai-data-centers-over-vast-distances-2025-10-08/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "aa1f8973-2cb0-5257-9582-8ef09760491f",
+            "valid_since": "2026-02-10"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "CSCO",
+    "uuid": "3f3e5f91-1fe7-4094-88ea-4a25b512a75f",
+    "match_name": "CISCO SYSTEMS, INC.",
+    "retrieved_at": "2026-04-15T22:27:30Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 11,
+      "relationship_types_outgoing": 3,
+      "relationship_types_incoming": 4,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 11,
+      "relationship_types": 7,
+      "relationship_edges": 14,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

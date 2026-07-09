@@ -1,0 +1,138 @@
+{
+  "id": "bfdf35b9-7990-4d63-ae6a-fb02b1666010",
+  "name": "Linde O\u00dc",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "headquarters_address": {
+      "value": "Karuse tee 3, Peetrim\u00f5isa, Viljandi, EE-84, 71073, EE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "Linde O\u00dc",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Linde OU"
+      ],
+      "sources": []
+    },
+    "founding_date": {
+      "value": "2014-08-25",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "bfdf35b9-7990-4d63-ae6a-fb02b1666010",
+      "sources": []
+    },
+    "name": {
+      "value": "Linde O\u00dc",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "98450076E8BB5UD9FE40",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "Karuse tee 3, Peetrim\u00f5isa, Viljandi, EE-84, 71073, EE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a40a3137-2244-43a8-b1ae-e75f6f8fdd68",
+          "name": "Viljandimaa",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "23fdea78-889a-54a2-87b6-9414a98f15e2"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "a40a3137-2244-43a8-b1ae-e75f6f8fdd68",
+          "name": "Viljandimaa",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/98450076E8BB5UD9FE40",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "85157912-9195-51d8-88e5-71b8af5165da"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "LIN",
+    "uuid": "bfdf35b9-7990-4d63-ae6a-fb02b1666010",
+    "match_name": "Linde O\u00dc",
+    "retrieved_at": "2026-04-15T22:31:45Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 8,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 8,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

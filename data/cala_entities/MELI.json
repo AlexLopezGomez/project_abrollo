@@ -1,0 +1,132 @@
+{
+  "id": "c2917f50-9ba9-4b87-a17d-b83660a272ac",
+  "name": "MERCADO",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "founding_date": {
+      "value": "1995-12-22",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "6 RUE DES LONES, LE POUZIN, 07250, FR",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "MERCADO",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "969500XQR45QJBHS2796",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "MERCADO",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "c2917f50-9ba9-4b87-a17d-b83660a272ac",
+      "sources": []
+    },
+    "registered_address": {
+      "value": "6 RUE DES LONES, LE POUZIN, 07250, FR",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "b6f57d8b-33dd-409a-9fbb-269947c54e23",
+          "name": "France",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "2432ae5a-3ab0-517a-a35d-976898a9da3a"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "b6f57d8b-33dd-409a-9fbb-269947c54e23",
+          "name": "France",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/969500XQR45QJBHS2796",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "56fb4764-bc2f-5a3a-8f0f-8ece39cc94e1"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "MELI",
+    "uuid": "c2917f50-9ba9-4b87-a17d-b83660a272ac",
+    "match_name": "MERCADO",
+    "retrieved_at": "2026-04-15T22:32:24Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 7,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 7,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

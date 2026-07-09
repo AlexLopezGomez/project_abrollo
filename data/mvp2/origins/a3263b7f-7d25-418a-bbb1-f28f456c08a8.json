@@ -1,0 +1,95 @@
+{
+  "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+  "name": "Delaware",
+  "entity_type": "CountryRegion",
+  "description": "A state situated within the United States.",
+  "properties": {
+    "gdp": {
+      "value": 110972000000.0,
+      "sources": [
+        {
+          "name": "Macrotrends | The Long Term Perspective on Markets",
+          "document": "https://www.macrotrends.net/5486/delaware-gdp",
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "sources": [
+        {
+          "name": "https://www.merrickmint.com/delaware-state-1-bill-genuine-legal-tender-u-s-one-dollar-currency-green.html",
+          "document": "https://www.merrickmint.com/delaware-state-1-bill-genuine-legal-tender-u-s-one-dollar-currency-green.html",
+          "date": "2026-04-13"
+        },
+        {
+          "name": "https://currency.ha.com/us-currency/national-bank-notes-index/delaware.s?id=8",
+          "document": "https://currency.ha.com/us-currency/national-bank-notes-index/delaware.s?id=8",
+          "date": "2026-04-13"
+        }
+      ]
+    },
+    "iso_3166_2_code": {
+      "value": "US-DE",
+      "sources": [
+        {
+          "name": "pycountry",
+          "document": "",
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Delaware, US",
+        "DE",
+        "Delaware, USA"
+      ],
+      "sources": []
+    },
+    "population": {
+      "value": 1030000,
+      "sources": [
+        {
+          "name": "TheTravel - Travel inspiration to the most interesting places on earth. Bucket list ideas and travel guides, all you need for a perfect trip.",
+          "document": "https://www.thetravel.com/state/delaware/population",
+          "date": "2024-09-09"
+        }
+      ]
+    },
+    "id": {
+      "value": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "sources": []
+    },
+    "name": {
+      "value": "Delaware",
+      "sources": [
+        {
+          "name": "pycountry",
+          "document": "",
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "description": {
+      "value": "A state situated within the United States.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+    "properties_count_requested": 8,
+    "numobs_categories_requested": 0
+  }
+}

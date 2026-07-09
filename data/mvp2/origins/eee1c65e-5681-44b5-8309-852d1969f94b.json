@@ -1,0 +1,248 @@
+{
+  "id": "eee1c65e-5681-44b5-8309-852d1969f94b",
+  "name": "BLACKROCK ADVISORS LLC",
+  "entity_type": "Company",
+  "description": "A Delaware-based asset management subsidiary of BlackRock, Inc., employing 148 staff, registered at 251 Little Falls Drive and headquartered at 100 Bellevue Parkway, Wilmington, DE.",
+  "properties": {
+    "description": {
+      "value": "A Delaware-based asset management subsidiary of BlackRock, Inc., employing 148 staff, registered at 251 Little Falls Drive and headquartered at 100 Bellevue Parkway, Wilmington, DE.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "BlackRock Advisors LLC integrates Environmental, Social, and Governance (ESG) factors into its investment processes, managing material risks and opportunities that could impact portfolios. The firm references a 'Firm Wide ESG Integration Statement' outlining this approach, which considers financially material ESG data where available.",
+      "sources": [
+        {
+          "name": "Homepage",
+          "document": "https://www.theaic.co.uk/companydata/blackrock-world-mining/esg",
+          "date": "2024-11-21"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0001086364",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BLACKROCK+ADVISORS+LLC%22",
+            "params": {},
+            "response_hash": "d0fb3d203ac3893fb4d276a9aaf0d28d3ab1dbb2c9af529f0b322265aa78ac02"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "c/o CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BLACKROCK+ADVISORS+LLC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "070d8f0a8acbb31546ca25ba1ed6682af508629db970746e9e6e7f1e2858a40f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6541fe56184f8e0d1b382285c89c4b93b72643054eff8255e814c442fffb678e"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "feca3b5a459ed4fc7a0f6282e0eebcd3e76bf97a2f2fa1c8065d2c682b7ee3fc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001LN9MRM6A35J74",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1994-09-23",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001LN9MRM6A35J74",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "BLACKROCK ADVISORS LLC",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BLACKROCK+ADVISORS+LLC%22",
+            "params": {},
+            "response_hash": "d0fb3d203ac3893fb4d276a9aaf0d28d3ab1dbb2c9af529f0b322265aa78ac02"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "lei": {
+      "value": "5493001LN9MRM6A35J74",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BLACKROCK+ADVISORS+LLC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "070d8f0a8acbb31546ca25ba1ed6682af508629db970746e9e6e7f1e2858a40f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6541fe56184f8e0d1b382285c89c4b93b72643054eff8255e814c442fffb678e"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "feca3b5a459ed4fc7a0f6282e0eebcd3e76bf97a2f2fa1c8065d2c682b7ee3fc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001LN9MRM6A35J74",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "100 Bellevue Parkway, Wilmington, US-DE, 19809, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BLACKROCK+ADVISORS+LLC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "070d8f0a8acbb31546ca25ba1ed6682af508629db970746e9e6e7f1e2858a40f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6541fe56184f8e0d1b382285c89c4b93b72643054eff8255e814c442fffb678e"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "feca3b5a459ed4fc7a0f6282e0eebcd3e76bf97a2f2fa1c8065d2c682b7ee3fc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001LN9MRM6A35J74",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "sources": []
+    },
+    "employee_count": {
+      "value": 148,
+      "sources": [
+        {
+          "name": "AUM 13F",
+          "document": "https://aum13f.com/firm/blackrock-advisors-llc",
+          "date": "2012-07-02"
+        },
+        {
+          "name": "AUM 13F",
+          "document": "https://aum13f.com/firm/blackrock-advisors-llc?view_all=sec345",
+          "date": "2012-07-02"
+        },
+        {
+          "name": "AUM 13F",
+          "document": "https://aum13f.com/firm/blackrock-advisors-llc?view_all=holding",
+          "date": "2012-07-02"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "BLACKROCK ADVISORS, LLC",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BLACKROCK+ADVISORS+LLC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "070d8f0a8acbb31546ca25ba1ed6682af508629db970746e9e6e7f1e2858a40f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6541fe56184f8e0d1b382285c89c4b93b72643054eff8255e814c442fffb678e"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=7&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "feca3b5a459ed4fc7a0f6282e0eebcd3e76bf97a2f2fa1c8065d2c682b7ee3fc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001LN9MRM6A35J74",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "eee1c65e-5681-44b5-8309-852d1969f94b",
+    "properties_count_requested": 11,
+    "numobs_categories_requested": 0
+  }
+}

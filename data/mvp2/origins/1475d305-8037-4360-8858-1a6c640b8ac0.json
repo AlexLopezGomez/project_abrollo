@@ -1,0 +1,4713 @@
+{
+  "id": "1475d305-8037-4360-8858-1a6c640b8ac0",
+  "name": "BLACKROCK FUND ADVISORS",
+  "entity_type": "Company",
+  "description": "A San Francisco company at 400 Howard Street with 126 employees, operating as a subsidiary of BlackRock, Inc.",
+  "properties": {
+    "esg_policy": {
+      "value": "BlackRock Fund Advisors integrates ESG considerations into its investment strategies, including managing funds focused on ESG criteria such as the BlackRock LifePath ESG Index 2070 Fund, adjusting fund names to comply with ESMA guidelines, and supporting the transition to a low-carbon economy through investments in green bonds and renewable energy infrastructure.",
+      "sources": [
+        {
+          "name": "https://www.esgtoday.com/blackrock-calls-texas-decision-to-divest-8-5-billion-over-esg-policies-reckless-urges-state-to-reconsider",
+          "document": "https://www.esgtoday.com/blackrock-calls-texas-decision-to-divest-8-5-billion-over-esg-policies-reckless-urges-state-to-reconsider",
+          "date": "2026-03-19"
+        },
+        {
+          "name": "https://fa-mag.com/news/blackrock-index-to-power-first-fixed-index-esg-product-60599.html?section=304",
+          "document": "https://fa-mag.com/news/blackrock-index-to-power-first-fixed-index-esg-product-60599.html?section=304",
+          "date": "2026-03-19"
+        },
+        {
+          "name": "ESG Post",
+          "document": "https://esgpost.com/blackrock-revamps-135-funds-amid-esmas-esg-naming-guidelines",
+          "date": "2025-03-18"
+        },
+        {
+          "name": "Wealth Management",
+          "document": "https://www.wealthmanagement.com/etfs/blackrock-scores-biggest-ever-etf-launch-with-new-esg-fund",
+          "date": "2021-04-09"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0001006249",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f1c43af6bd4da6390a8d0fc185c141eaa1591b1c50bc63925659c7f827079336"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "48fb559a53ff77188a2ef11410c869452ef9cbc89d5437e4c8002d8406004bb2"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ef289d7c008bfdabcaee830d19e455944664a9be49e46c999fc3b7b0ff1006c1"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "eb4bd596b1d51ddc14b0b2114bfbbfc2eaa78f36b03197f3a59405b2c604f54f"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8ff785edcd7ea4cec0dd0d3ae23a76a335fd75a3933a14011240e0ea697b4a06"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2672c3f394eaea0169c4d0db221cf8d4955232789dc1a308b2db78fd9a9ff852"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6b9f5683ffb812d4fd59f1cd6affb79908b47802e5b7995d999b632fc4aacfbc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9317d6114acce1b4c5b0922548440b5f35e3a9273dd7825396526774b410d520"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d384428e7457dc9c8d33bbeeabce63e22a9b94d9ef48ba7d5263568008b7e535"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "de269b421dd3746341db31433b68908ff7d870de6160de0ed632f0f5cb6eff73"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d28048b2a1102d2a7821bae204f1e8011fba770538e1b2b6edbfb050a98cb219"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f4a03a132b67e00cedbc139ed9001be12e059aa93c198a082056435f637a57c3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f9969c584d80696577ea2a88ad25f9b9255f9c130f9503e82919276e153b67d5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "021f23aca36581c6cefed86b29e048704eb018848fd9971c02094f30f1f11916"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3354c6daceb407f0dcbbe0864fe94562797ea55e9524a2df836ea6fb416d7e35"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "200452ad89393123d9c618fdd543a065e491114126ffdf33cd8398bd5dfec22d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3d4161f824afbc08249e9a5842132fb9f0f9b42cb7948f927e41a670267e52de"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "07a59ed6bb9bb425cf40dcf96b3056a9c7b186eac2383fc5b76d31a25a7fd076"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2864a3ee73c293d5029c2456834e6e1c67fd8c530062a4564c79f1994aeb671e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4e028c2864f20fba0e40951e4f8b0d6cd53bef7eee44a6036dda4b6b02428b62"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "fe95e245304a6e4b8de1f41406db4a04c7d9575cac66a1bcd5b851ed96ce8ebc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6d78aff9aea96c04ef7780661afc259896d5e9224e1abf08f26e5b857bdad1e6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a2d42c56df473c45365cbb76bd05e18da96467eadf863bd254cd8ea1e6241766"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5be03897e8f4ab5241cc0a9473df96c626b748d29f9d6a92e6a5f127a3a8ccea"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "38a4f4d5b8ae72bd93295c40209e167a6e86b42956e34c20600aef34d4b12578"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4ee055c163b1a45b14c0d1115eb4896e7f316fc5b0b893f637e3fb3ced3bb7b3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "15a8c504a9dcf853fdfb9114895cf49ba5e4a055852de8d600c41f6335da4bdc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "21910090d222e3388be97610592467978048e6ca05c4930b8c2166bfb1441ca5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1056b865925c5665de8195d6a5fc9a74bc259e42a99db02ac1b4c8482b8ad40b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9188f29483d9399f943972d82ae973ab38c967a1692b9f8197248884b3673453"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "735d9755b4bae795aa3146c97e8f5b71fe7a540833564987431f018805ae5b9c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "48a39915a4834506c94a62fe60fcfd45cfd6d62888c41d8166ac5e5a854f937b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a44520bd2f0e5bec455e7f488cb08410ef674e7a03437f2d68e759b2a21ff820"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9c6d837364bc2108ccc228c9b01947cb8e79aed0810e0827b7406c029b262b66"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9471d5345a75dfc3039b28bc62536a7813f9d94bfbaae0b69930ac7987f493ce"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4d7d709c3b8552ba6d00bcf2ad127d9d15814373e2f8a0f3293e51a6f3560575"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d4bfc42d115c0c0428d08cfdfa7646e393b7d35938567d0807dd7d3643d6546c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "cc883ea6ec8f9ac68de634e8781559d40ae06e97cf227f9d937f0e8a08e94477"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f1e57eb26afe55a4df8ff28ea098d97f722e84d55e11b96219f94d1bc2aee1a8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ff6c559600da2294bbbdba22130cfb02830e3619493cdcfcd389ff45a639236f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "54f65e833b57cca16f9b5f62f0f66604bd70fd49a60fe870845104ae132dfcca"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "eeba10318247e109a23c78e2214bd784197811909be543251ac889344d8cba9e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "fc281df05923ce50dbf6e0121bc7ac10d732376a02928590389d01cc38810c6a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d5efb9f2af33cbee4d601d8ab7c166d31b5503fd97aeaac5f29cf2439933886c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2716c770efd38d0425de188a8c782bfd9f028d69a6ea80fd744418a86cc6024c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1a661629c5e32e16f2b726da738eb101b51699a33631fb68d548259d3767c315"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "413ab7f1ce0298548b8bd6e55b71d7035082eb46018db66afb01807831e8ee6b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5c216e2ff084cbba9ab48ad016279ca0adbc4940cfda9095f1e1387563a5780d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ce3bf0417c2153d7266839c0415f48295b4657c7ae734fb7af857129e331b19b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "88b9b4d89e3813ff45c67581fa679bfea8f791b111931f8ae37b3db4d614522b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b1b9c05dcf42220f9ff78b4a55b7954b3a9b5b95e6c9378911a25b484bbb3a16"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c9dc6c1937a64fbea7db24213622cc4a02e14d139d0dc8e50227be597985d05d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d6682731cfb47996d03e16de7f84eeaeca3280d08af39f5f81b688091afe4ec0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ee5e170a69183a3e3a2d7aa205dbf3f80b6681755e1ccad338bb81429f20bed8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "cef54376f7466431eb78ef640c65db5561e564159b4805617e7b2c6d6d13b066"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4acec06da9a5283989a8029aa37c4047824b0e16f93d49142bd0724d0bf000c6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9082da8051252cc1746fdcaebccc887adf219d724e8e001a1da1d70d33298caa"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "67ec8611a0f7e1ed14c1ac6dbc02665872e9b297f66c1304a23bcff81295afe1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "82c2d7d97b32f60f3e562e985a882953b39891b19494383d227cab41cdc2f7b0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0ccc7a68eee933c5423a4cedebcb8b5ff81c4d4357fbeca9bce47999dc7e947a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "550ff123490c6735152cde34aa8a3ff4c02bf0c76c5080b0cee1b45e4fa40bbf"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0c859b8789c01a33fbe0630f53f8f5cf42afad45f241cf42756d7b8c72b3861d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "406aa926b17db383f12095a33560bb14be6331ebee2c00ab8b561065037c17f7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b52628b15a24193b7a035434605cb47b47bdcbc34fb274685f52f144ea7f06e3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3d9a1075005c7cf648169140fff30f07b91a69b8cfd4fe3511462fbb0402577f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "064038639fd97c037043a2fa9dc5a29d7cb14110ec67793db726bc57a8184a7b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0e1dfec56b695250499393458a0d2f3886c016eee4d195cbf783648221d08687"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b20651475afa1ede9eb0c486427e0aeec3ee0d4569433610846ac8211000b257"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c94c127317d45331663b0f2c433a99b3f9b29b99713fe7681de7d4566e370d97"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4768cc0ac65ae0bd2d35b840779ad91c48de6e4a0974c0bdeb832b873ea38be8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3cab82f1328493d276f5fc506e2c2072ac966bdb698e3673de41a42ef785ceaa"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d3dc60084c9c0213f72e2296b0ac7d55f5618af49666d4faf1a81422a39184d2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ffde5b4741659aad85cb5a9bff6073b8b534e7d46cce80d8b79f8e63aac57cb0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2de4e6504b62c937586cdbb2fdc523b010144e97441a7a3aadfca22b8af669db"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dc59789eaa781059e958fae9b83e9cec20dc832c2721736ebf117c4ab8f156d9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d323c65f0edd59268bdf7d7ef211fa84b03c0adaf92b500003373ad04ad146e3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "92663a34f6742c234ba47f4a69bff253e6bd1f833b30fe61d6a112ff8b431154"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bacde1f6fe2c2014fdac914811cbbe645d17f2fbdbcecc8bca83d9962e665bfa"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b268133f2a08f5125b5f644ad1527e7921a8b49096c40d147bae458a86a12c7f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "48188251a41477b43a76c81aea9e181d3ff7068ac6213307306f26bc40dd568a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f9ec79154b4697692763068789f0e85ce1ec8c3ee68bf4ba51122ead64a426d0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "fc2d91ec265eae2e4c0d777365e70e51f8e1f52bccac5e1ce9baa0fc226f2ad4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "31f189120f35e8a23fc98c6d770328db39ad399a0d9464f0e8862e72c7a2f458"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e9e8c6e07e7cb088c59eeee603fe76318e7ee3389c6557a905d2a013bd089bd2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "80615ea50ed19c196061ded67d91b88f060c53ce55744a5f1a5d09b32bc1caac"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2829786e728f6112e5d62d30637a3bf11c1f30e70e6c01c873feacc150a5faf3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "01254753827124c90694974a507e98d63dfeac4db6cc4c962d8dc649b22b19e5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "267254b10c9dfb1a94fe9486213a588cfb1fbc151ab3cdaaf24b4b3618b1e3d9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5f17cc1c9974fb164364c1746ceefc93571f0280de9c50b9d440fc730cb62666"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3500695097b9f9be9e0310a18258ea4362aa5053f40c5d039172e7884fb2e4e5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7d017ab2ae0c070918a9e805673dfb0972af8aaaaabd78dc65cffddc9b10b535"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "49932c1ffe46a9eb3161cf799bada8d5c2637dd0d8a5483b73a625c51e48653a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dd50c4ebd3ea526bdd2167f7631389d4c84add6f07212fea01cd9a0b976b7539"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f7a5802c8baddc43c80015eb6075c6fbfbd3c0c5fe04c612d0701a7bd8748a12"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f277e32b4f44f498bb1563afb0f0e339b01f9c81041fc60c5e8c1a2e86437fe6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2ef7998c87011e95babd8f3b36c9ee92822062f37ababf1ef8152a609a1ccaa5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "096593ce520502e3102bcabe56fa1f93edd67a257281b9adaa0375b9d51bedb8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e66bd922e9b18865f9f9476d0363f0923c902b5547861ec96c9b1261044fd4b8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "62786a9c36263a6e771af2725fc9bdaeb2d3b4cb0dfa48bc8ae9c0b7155ba42a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2adfe47c44b025c2b9f0293084767a68aeada4d4ce65340ddb5eb57a51f207f6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a67969d1a36e98649468fe27792d1f7a2fabc15e6c67cb47200aa957b79c1b09"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "633297a27d3df3f8449d693d74a0f95894b6dc1b44e18d21ab047b9a9ceed63b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dcbb4478a08ba2d245ca925887c64c5a41986dc7b2387d815c01c5c06db5faaf"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c583679431ab741f9892a7965d7a3b498b9372b7b7d3c6b4e4a3cc88535c15ce"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "238ed907406eaa78c306fb49dbb74720f9059278175c26e12ae4de49824d2d7f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2a1105824b5d164a7258ec86fe9b568d213f0e78d7ade8b6466f9e458640f7a4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dccc561fc201749bbd4900a4d31784416b408af75f0c4e5987392d23eb6c5990"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9c16e51f625678a14754ebcf4c7d33c0f8ec3e08bd3529e4053faa90c11a05ee"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e76658375b4f239b978a7b898293296e6f8402d6957f7377ddedfe913d84afb6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4c657ca9fe8105d6ceaf1ed5f7ea90600fd21ff113541ed90b11a442a5c0bc4b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ed7990cbdbcb9b51413e828dd38138c850070fbfed3e94e3cf1534cd56d1a2ad"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c24f59b4e59ab96755edb3b9e6a389bfac621a8f8cfeb1473ce4d91e6c29154c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d9098db345f6283b57c1230e8455bd0263ff60f79feca3ff4461bc71bd0f7548"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1d05d863615a70402c273e7d1c7ebfb05ad42b12e8852d93c47f906e81f7fd6e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "85f10b2af1eafb2d6a6afb9e51d3fa5fe2f5a9029beed534b7c2252a296841c9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a70598a5aa1eb2d00ad523f86edd6994965a5cf58e71a4d16d7492baa187353f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1ff46cd3699e1b64876779ff49a4258c5e93c2b21397016f51c064fa697746d5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "63d4a634ce388e090b006c3e34a591ad499ade913d45b7c5866e896283d55e00"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f95bc3b5933e5736e43e07ef3ebdb6249c40982d98df2dfe3fb4ff48e2bcba70"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a2c1955e7d642b96522703dc13aa4e6ca06d182cc3f12d89327c7fe86795ffec"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7e4a1d04bad276147d23cf1cf5bc3c2e9e3aea5bccd8318809e0ec7ed2de0de7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ad3a820e5139a625e3ba52dcbde71aac291123525f75d502a2b19687f3144da7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c97bf2ab3c431ffdde35181f474365e1a299553aafcb2f8574450cd2bbc7981f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e555c703fc8d1324b1bdaae32ec9a706d97e7ef36395b224e3458cae37f1d9b2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6eb27b17224ecbe43823d5dd069691adcff601aa44efa6992e41adc80bce381d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a45dc8e04a778cc05b07ff687fcb237ecf6a0644290ddddb5295be1a4ceeb555"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9d482259378629ceab2d503692b59ab9934a60d90c90427ad9d74c2e1848c022"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b6a915d2ea7a336036e3531025bae1eb2bd0e1e6c296e83223c19e247302e962"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "15336ffe3cacecd283b847467f6249fe017723ef783d3074bb02aaee930920e3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ffec500eb9cc1392f8bf529d90fe581a3c882a1cd3578fab0bc04541d50e1dec"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0f78fb1d5c3f83842d769ede5b1bb62318e0b2edadeaf13f3b7f8d12d069f5f5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bc422de12c0d8f42a24612cbda5df8f75845d312fdb2b41449671de8f3d4d551"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dc4589d8f3aeb60bc2ff67f37ada64edaa1752a60a3129b81babb3c510726bf4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9d8056fa30a1efcc81c65824b151734d65ade94e46c5a2a594789f26f29198ca"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "eff87308e57c15f7ef2df8b1bc2a6f338ee45859f088795119e0b28030abf017"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5bda305b5849e522c4bffbcf384a40d0a7c4c9e67a44497b37e2c6797ed51e88"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ce4a24af2403b3dfea61c6a9b10684c9085a17f87540924b426212aa4e2d328b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "63ef92a12cd158c0cc6157c56e6d1d2eb6e9914320429f8b1affabe481f7882e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "78f3277a1f8818aada39e08afb1be3a2acbea02279c932ef8e07296bad28497d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "582be565e8e62b08944408bf6fc6a34e26e4caaf9593267f0ca93f3fb7fed389"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "85e8a9930370cc9f105676ba9bceba7d639ff473531cda8525a8694aba465864"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0a3d152f44f71e3692d284ea84367db24083a57c454a91245d1f138df133511d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "debdc93448b505216c350121148e8fe7380fd2e05fac5e67e66415bc2d14199b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "82e0a85fee3796fff9ffc5ed2fad26cd9463acbb045629b94b9e0cc28dd79b7e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0d85572358b9e031feb72adbd3dea1b5052850df2c3c6d2275b93c70194a1275"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6971784388c6bdf2c2316076be3d82bd6e004cbdcbd398cd165512afc2562f8c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "835bd289b2b3ff32121537f90174ad73571fce6761a790c79f1a05897173cbef"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "eb2c4e1d23a70ecf79e2bf8ff411d79ecae746e352b4b11eab257a186026b3b8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "15a3d0f869c4ed8ac71714eff372e8b524f67b2d2b23bf1405251560e9db9224"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c042f218f917c70d1190bf1d609b3bed2646b051e44b09b6a0705fbc566409af"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8ee67f604f6ba1be36845720e2e0b7b439ed022794a68f531f3e90dfdbbec157"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e0fe051a4e33bfa50a240a54875b017a8cdc74eab279967d39f83c796f7b9eb9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9798d4703e927320f2716a2c3e6a1296b80eaf371989a7fdb4f8752a754e5c64"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "31c742997871ba5f3420438771476439fd29a6e460a1cd6fe01c2e7f35a27874"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "800fd6a7467788a06542c81384ff7fecc63eee55c5c9de14b0f1ee713875a3ea"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5e43518a250e764743fd36dcf0e5e6ba2823641bd1e76ad1ac772a3c3d85b035"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bcab3c4b05750d04264406b581aae49cc2e28fcb23f688274fe45303c3ccc9ed"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5e2ad123a7915ba6cbf4e985157ec3b3c126f4f83a0e7a025b87c400ff1c9c09"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "06b48c42de9ec966fbdd84c21b344f08003a597a03f4d315c4bda546c106eae9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "14ee3223918637dc68bf0c31b090bbc027e1513545115bebc70af7926fb2b775"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "da5e30881eabcf616c659f87bebdc9fa7c30247c0dc455c27729f12375607e40"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b3489f0d12dc837eb5ba7acf1331c13c75f0f039623c5698f1b984986e69e9fa"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3bf260ecba497c0a6b56fc4be24fe4c7208607523a3c6dae65c3b1ee6aac7916"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8556a29724d1b4519c5f2452b9f80151eab1b4d6654e67525bb0bd81885e0e2a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0146f7db5100c474b01d9af43a90ea3415364baacfca3aecbd00ff9be703fb44"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0bd0f62c6573b91a6521b272a9baa11190840f5f5141d130faa5a83f2afc2f29"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c75c2cccc3e1c32f04b8968c8341d1449883530e2486f23dc9238adba8464572"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "13ed31ab7ce88dbb8001046dab72f38cd5c9c1cc40ff0b19c84d4c6739f10775"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dd8d3262e9bdb2076cd8502f15c4311f836d8e1fd8647ed59a2ace66c98a7f84"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "603e4a8faf8e1d1358fbfc61d920ab48c7b653bc992ba800a380cd72fca0a4d7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0e1f4139609681b7d0aa90ce8cb8a701a2bc2bf1f81dc49583566bffaa04cd69"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e06e82f00b4c0c0e733c9dfc96cd3537439723180d874033b29a4d96bab423f9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "081263ff3029f13b6a97bbee21a1d410b044da53c59bd37d1b75c99ee82866d0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "822e75a48d8c1adf30038453d7923c49cf00945fc755fb9ecefa896081c7a938"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4887dd6d873fc9cbd086d48150ad29cb20ca3086b0f6cea83ff6a0a1ca9f72e4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b70f814ae98e5d5dc43ff22a6441808ad936244b81946e7683f9ac17fbb7caba"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "21153af8ef5fc9b6a85698952066b039e7529658a25dad5f3eb4651aedecec44"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3a82f490ef27bf52a1402e1bdc23baf8a5b6892385edbad41f73ecb61d37e30f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "725fd04f528d11a025628b52673c627d230413a0fa5e5a2012e2d9d9fa36fc36"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "05a557a7ef2719406cfc8de87762c799ac4228fda05beea831e42c1dcc4c014f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2c4aa9cbdc587c05c023661fc1b255bffe967e070e604bcd7b0a5e742bb1a058"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b4c07ae79de6caf2308efc34b736e8f592bbdc0b53d3741464de53170fae26ef"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d6a29a199276777e8b8269f7c9ec594867729f31baabe43f38f0a84afaa71d13"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "44b8f1d4156c440558b71f82b5bce59afb134f0505b2e7c1bbf96c42d8e2cfa2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3efb2f908e1e212b6856e1f6025dbc8bd8ad2702dffe7d0e5ee9e70bcf67a099"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3ededf99fc5a9003478f1e8e435d027b30be971e3dca2faf1805b3b28deb0430"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d9e842fa1996b92ac142c6f1e00c4b321036056db9fe505d9f7f90e9eb5ab228"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7af90804fc62aec3c338e80e3414f7494a318493707c89dc7f30582d566072f0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dce1916bdf55ca21e5b0b8feda8e362232d24f85d12b18de326b8f349a4d88be"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d60a4bbd3e47070c615f7430bb8fe9858f9207e8f7a3f39a4951e606fab1bf67"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0d5128065dbff245b6cb9c831636ddc71f20b13dc13323fb6d774efd05ae56a8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "072c5f110b5ce5fc68ed74b6770736f0ed8672717efd892498a3cfb19f1416b4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "06871d367f9d537c1b0028bbf37280cdc2b490c304ee835280d58e16ab2999b8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4570c16d95db0d85fba7d36184d50aa326d1672daf90b3ca807c0e5e4df5f1c0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8b5f93f0028bc3825daf47b7b962e2493059b13648d670312299d9638db9afee"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c39fbc598c0e74179e389b8cced8ec2a47451c04235bf847c4504fa18b2f5405"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "31bc881a5d25a67ee6ed729b76e9e6ec3ffc886d60de3e9d2f6716a2a1b05502"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "19763d73a6d356d850e8de2ef6d5cd599a83b653707ae2c03796d2c6185f7f9d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "aa9db38b20f9a2d8600ac74ede8571a3cb40261f26f5505518dd669a3d0d364e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2828bc721dfcafe1f9f3174b4229fbb3509aa87e6a5d079e653c247b967c734b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6eb148c92beca0d5dcec95ede373b5aeb8735753837e596e6c301611fd409c6c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7eb73eb0425dd7493dc6866b94871b2e9ba0fd8dc7ebcc23e7afe2fd4354af68"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e061d00a55b92a96836959552a71e4a607417d97eac6ff5281f8c2e7edb2d26c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d1f46d58204201dbca09e3d64b6231b2f88d23f91756356ba0a2f52eb470d8cc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8a0512014971cb4777a9e897d7fc69f744a341da11b17e218a0db903b49ee15a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8c61d40422653334d3c208153d7d299240e3c1b76c98a31977f8009d47eedfe1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5b6dab6d0eaa99ebc916266b062ef9fb730cad3fd7a6c06c69a2949fc753dc04"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dd7a06bcefe0bbe61e415e95052904ba47213812f14d4b112becfe5f4e314ec2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "45f6e75c6041acd753c174db451762e71db48d21083cd6d854f7e4bf191690b0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "053b6d2c1dc11eb1a80087d93ecdafef074e152167a9a71df48d8b3ef9612f1d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d583acf85a53e314bc7cd84a18ea60e2cf8534451ab5424d472f6d0b5f33abf1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "50919f604ac3ab77f7df920de609bd9da1f32ffc2fb5a0889836ad76853b1e5d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "95c24ecf9a5f4ea082f280f8927ea9b5e655800f6307a1b1631649041a2255cb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "07b9dd6fec224637c4248f8b945f2ba1a63fa718bbb5a92a5e60d7abcdf9bc0a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d247f10cadd9d3373d50456e6d5c0f75fd94e5a28d842184b3a95ab5a272ca0b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c0aef5f3de0aa2957ae21c123ad2187f7a89c5907fbc1ce72cbba081c3653565"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7177e4c5d8a281a28718e3fc31df0d1f8e1d0819a99879cc6a96d42622a7e4a8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6576d20fc60abe4f74190a965957234db6f6fa43d83024d1fe145b4a39ad7639"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "622a587075984ec20184e658375f11cc0a71001a715693724a8d5bcf2c5cb1dd"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a021128b5b359f6838dc875191600981f751d7bdd23123716b2a642ead5acca6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8cad857c010cebc189ea35e58efce686355c2548519e63503f3c71733a2b0f70"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "47a7f0722aa2a158b097c29166c4ee9edd4ce4e230ef4b8496ae7135c0916f09"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c6bc799d3c05e320fe3a457e0523a06f5635271230cf5985c0fc4a6d7d09835e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2c1e735dae8324bd857303fe9baf06a96ab32bf9ff7db19c1861ab8e5d8ff604"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "000d6bd944d49a6130243cfa30c342ddb4d39c8a937521861f607bda36871998"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d5f061c4b0214dd24a350c1a46df3a834b2b43f71327ac21c96a5c02f609d55b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "10d48fdcde587bf6fa4086cfdbd48629b834328b78177a100384f0edd81dca4d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "51e3f56dc30ccfbd9fbfc0876c02cf836c73c094e79286cbc24143d84969e396"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e76131ea361cc509ccaa268b22301213aa86b3eb6624304671890a603812432c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "99a37a745bdd7a842072cbd6d8d95bd88736247a417845b3b988c3c16af96661"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "63d0721d6ac966c56dc940e0a9af1b90c98fff3e14495596038d812ab1f72c01"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a36c83ffcbdc0055e887ac5fbb7b2206a4f0568c890b0cc41508678c582e94f8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5ac3b85eade4d36f01eca9e5274c0519483c6f2d84ebb58d9094863cbc335f51"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c5bcf0c7d101da66e98aa20f81ddb6ebeac20c82898f1032ea12ca7e3207f1a0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9b6db3562a88edec9df2c6d3e10fd1b2ec1ef1cd0b29e61015566356ea531088"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dae01f4ba603c4e46cd72f25576f578032628ef1bcc93c336bba401b1811961f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "58cc24aa9a7738a5294d93b1a05d730464ed2e0a8d9e54f6dac0e1e06e68d310"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9fbb5c997248953f280dbefa07872283bbcc5680341004ff3d5b1e00712ef8e0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "59b9d059f059c81585afde64f31f312a03145109af42bd928fdd93817d47630d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dd85df404f6f94ad04535d743f7ce2a9513bd4fcc0a2ccbcdc924c93c9b04cd3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f073f3b0da05814cf5a97f3c3a5aeb99d903027e0fe745fc8eb662f00954f9db"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1306a2055e61d655a7547b5d0a5bdbca9b5a7fecda3e9b214d6b811af0eb33ae"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "71667261faac64a9e1544c2225c579e1b814fb7990316fe88b423dce1e00d4e9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6925ca7034ff6d6c7131168dae523b69d1246eb73a5ba1ccd3b69cbb2e1117ab"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b8c7b8b2fb2d9521a6b3dcbcdb85e844a8429488b62de66a08a6aeac0737de4a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "553ea8362d60f9a868e27828ec252fb428c0668bf48f5f3ac517a2806384534d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a99bacfad5104dde1809c9b9426f99c395ad51c9ea626f3dd5d098cd6d275fed"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "89bbdf043c2abaf5eeb39c1d3d89f643a969c8a25243c08b492245755935e506"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6471a945a8ccb9ca58dbc25a3d6d2ebe0294903786e1efc6af2fba2c2d0b8bb0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4e757fab4bbcc04d78c2d9f65182332f88bf51aa6e5e42126ce9b992fc739416"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9fcf63a8851f8eb9867230aa89036d2193b5bdce63dfdb2b9ce89c46cb32d164"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b18e72f7e5fbb934cf2d4e078ee512f5c21409a9524395ea99437b80667e167b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7040c68c6364a1459f48ba6c65c8c554812060b2fa2b9ec09950658453795a62"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c3bb44cdf4f909d3d153198b1727721f95b3d069eb26807dc35fafbebb738abf"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "da82668f53e026e946b1ef1f96222a6ba4e7a0f660b3117e2748671ee6af82a3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a524a22b516c5952f429f2d5ddd754cbd8cbc3c6b5176b13314c738414c0a2c3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6831aa7605e814d68f480258ff194e24e19af605c8e465827675ac25ff00c5d8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "572045a0033f29fe3a25c12a0f91a16df688297c5a4af391396871e4a32e1daa"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9a68bec92473ae954491c905eee83f7fb08fa47058ca0612b11a32bddfbf0f3a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "caaacefef0576e15d7b5139b5546dbfe7b6535628ae33423bd25e5cb46f64ce8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6056ead18516922913b58e988d3815206cb9154b374a1c870a9e4a697635b9cb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9d2cd898c85dd4deabd5430d51002a4380aa816f25d49032f23d6f2c5024883c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "015acbb6f70d4191ea54c8af9c99f055d3571b12f41fdbd16d7a1182c67e071a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a7efdffe4cbea920262b70ab70a790578d9e78ce70a98dbf7ebc0d28c1104bd8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "aea7f68ec27dc13c90fda839d28ae0f707e1bfb8e6897c7edf4d32653dc84fce"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7728d90442df0d2cc414cd219d2955af65e6124acf281381f5988b7efe778374"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "de97b30d413ec569f14425092c751f340a169446525aea46e5d64918b3a9054d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f08e68103eb254ee5683b5a81a9d75a06e3bb52d51dbb5526680f285e23520ae"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "45f0d6ec0dc5ffd5fae952b4daa5179ef8dcc84dd5762b604f4d3927dd819767"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a6dbccc93a5af09cd20d8d5c1890503f2f9d13b180c287ecc2ea357ebae46427"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b314f619c8b68ecd37a55010ce8130b07415a6b2089cf18f8f867143db8896bd"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b9c156e2e677ce78160cfff32d53830fc6749825fdc9eef0d05c626bd4fd22d9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ac7fc23b8c398d552c1b36473a22f4436c5ba1facdd7ee7a8577bbdbe7aac698"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4b6c5ac9c7af1a738cc998e24c87dc9a0e3ad9a315ff8171972ecc84010066e7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c0fa136eb529369654ac372622a59d976cc6b0a3fc287618f2a46c54419e637c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "301bcfd4e780589268f9feacedc2b2096a2492f4ab97b3b3dc39d3b806554ff1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3ae592b9e66bcd0d5578b88302f167e21c95fce432e5259560629d988b71fabf"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "29a826de11fed72c81c7391825138c5fd642570b642879a3a4fcddb31e6c27cc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5b2457bcf8c9fa4b5f74713c0a7cae6744161592136670aea776fcd29cfba267"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6ad3c44e66912e42ffdf6b1fc6914b0bf8b4e134ff489d2f3210126583802ace"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7ad7e08bd5199b92fa45954a2f7d5f9c7cef5b8265e782d4e80893b10006f829"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d11deeceb1ff71cb369811957bf91086e5efb938a031a467dfb06a9df08e0483"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "90cd2e91b36b3c188c9dcd47b520f965fc9dbe7ade144eb4fa0ee5f307b0188b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "492f176c556891e843f956940409129213c44e38a849aacdc1b497537c36c599"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "80e6eb76d5019e0b51d7549ce55302cc48bf585b502806d13414dc3b86c87e5f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7ceaa334c9ef69277b23a933937a79f15e91f9d405e60f61e4b392f28dcef6e7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bdd84841fce7293f1b1b0922bc19e08f2fd2a140a0b4cb893404d5a244d51bf1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "725e89480f9678bf08c9a6a3e0150c81e8c99575f458559f6fcedaabff1f3e56"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "819f9f7ce7341d438e3bc17425bf88e524c47a826febe35575036e708819074b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6beaf4aabad47ec443755f436c521aabb2cf67aa5defebd0547ba8b5b34385ba"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "65b9e08c1aa4c0d8e1adb37578d16ba945fccf837d6bfd8174a2185e4b1415c0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9b5a8ce166a3e0c6160971d881a68f464740255849b04dde9704873986ca5583"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "37270c14068d2012922392db77b98aa9a47e541f443b8bfc99d3f45c54883fd7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b51aca3dc002db404dad08f0216633b5ebdfd9b160d966a60f07e4f41f2953a2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "35731ce9d775fba3b5f2e309ccbaf59e0b3d2eff4b930fb3f924411a2f43cc6b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6a8d76764a0868f74d2c465d5689398fa9291d2c7732d8e05c3583075856078a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3cede6c870b5c9abf97df2c098170fd45652f90e7ce431d1f3c720563f05c7f9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6981df1f924a2542cc3d558dc8d831d18d0e0b13bf8c4ce58ab3afe70fb81cb3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7e64c9296b1cc7b6f6a0821d9e710eae265022efb5c7783040ea1b0d1c96701d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "73d3086b7c5f508a2cd010eefe19d69376097c2b53351ea1418594af253401b1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dc6c9af71bcd20b1c113d16b5bf7cb11d5134c689452ae9ee8f4b925add15139"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d151bb30724acbcdba493cf206ae016a269914ecb1319ca1a91543aa538fba8e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e3f4f04446706914cf18b0b143adfa05834e7a47a169cbd2e754f4e7768076b9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c47bfd794b557f7572c00e5a7650646d5105cbb848bb1452e64bfde758a245d6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5bdd7ede32534d9c828ba17e872e53cad352ede2f47cf7441d35bb54a9292f9c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "10796e9f6a14798ae4e1c81e3316673d3e499d9864327ebf24b688f8ba4eea49"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a3063eb8aafd32220536c60e161ff188a22a060aae216a50d9ad3d809b71033b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1b8632b580193368b5f9b66c7a5f2dd1899f07a122ad2dd45d986fe685ba6cf6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1b3c24b9b10f24516c46f47702d6a2a9acf79a6703a8907de9644d36517652ab"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "73597900975f05232a0d8364992d6fff7d8f1fda329d1fd7d90503adb114f0ff"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b157e71ee6f2c560f8c0e30473cb4dbfa2b5bf8b67f87c9bedae90d5d19dc483"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5ce66ec18a52395eda05c962db59d1434ae57512c9f793f528c660d49efa224d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a0b4ea0e7aa5f9bbcf19ce5287e9a9ab05eae63fb26ea14cb1c1150923bbfe8f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e1c2795e32987306abfa675404b7578b08a484b0dcbb6871ae30bfdd378f61b2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "023c1629da14c41ab133ad2fb1408a1645ada6e5bfd6d4d38de76416005b563d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "173b9a14121e56f3b81ef0066ee3f9802592ec120996b8503142dd2f68e9a9ec"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b03c5dd9994cc3f84b7790c2b1bd866033c70c0808a53a2f430349383c43162d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "59dd33592b2f9fbf5422379b3b7203500f242892c627b06a0db24bbd6d7a277e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "431f1f00c433d46f5efbd41b842390c3450d93b5c1fd2b2cb16cc7e0e6ef2fb6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b8045d3d563b9504e832d1a3762eda074b298d5d0e3019f15cf09e995206080e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0647bb391dec9701dcd477b21447b0c43df24b3dda6966cfac2eaeee1d676a1d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "85d92e7c73d68afe6952562745c264ba93a7b8b3267b8fd0cdb68fa5d08fdf92"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d37ba88c595ec967914705fe992e8d550e4c7d02e46c557ac69ed585a5d769e2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5ecf1073cd80a55902fdabaeea3160f4361fb9865c82fb47902702c163c1c13e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "58075aaec4cc53b3ac8282a64f946de021b7f7443c43b82b87e17e6c0e4130b6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8f9507d7ca48cf64adb64ba63ce0f0335b9e6004489ebd30a3a91327b7590810"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "12c98a6fbdcf68f418ff927a500ad4e7eea63beeb42dab0de6c4b12c71541ee5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "21753517edfd76eda848dcd2ea993f959d43b7c75f4fb9f445e09e31ce88b1bd"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c2476abf0017c24d1cb1f2d049aa729792e2bccadae7c8c5c37baa15e538484d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c611e257bac39159d7cd9ca6809e3b66831928f798ce139d5d0e3322b8795cba"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c7075191328d98239a61027c856f6721d87f8548678201e9e67a338c3a714903"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f7ec8834d72152e8d05dbd68182dd551395f19e5d4d822ca8d46290bdee44c46"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "06fb43ae11b5925e27ac6bac70c3cb425336946d5a4f3f8c89697ba1f8a2603d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3b9e50984b5170286897ec5ac5b84589833be1f676e0094817ccb0bde7c58ef3"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bd33f6d901e8bc7e70eb99b9aa3b7b76d854c787f4d282a29debba1c443d7f10"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "20e07d140b46f23de7016a263b16c7e05f0751e37bd49eed5c39786397170feb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "53b034375d421c5fa43283442ef00d6380defefa60459be1b8674d26adafc0f4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f4ba1fd446cd49e6be241c4bd09dbe027d655bf16cbc48f1b9c7eff6a9d10314"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "132514e4ecf3f523264ac3bc09eefb8122c0d322dc42d1e46a26f7175b22e781"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7722e4d30214d2391161e9b802ff7fa90902acf1e11b1251bc03f014997cc0de"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f5d55d3672d06536e396cb2d0b9c005a332724298205a25d70b67e79f970ac18"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3ae16f19b89b321497176eff994a9a4a11afb23c824dbe2eaddc933513f2ada8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e2aeca2193d2450f99a19b41c6f099b7dbae3b94ce3111bce548dd15e4fe3eaa"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "eb98a62d9e702f4e2e7037ad02ea7fd8d0f0d832bd5ad51587c621c907857ebc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d2d7bfeb726ced844d1fe71a74ad613d3286e159beba17aaae8f459fd1a8b757"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "44cd76629d532ceb331b9732846608c0a8e6fff74689a3c2a46a7fc39a54a5bc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ad74a3fcc29aa38ce555c895f6c7ddfb71071357dcbcd16e03d9ce018c226bcb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "50947ff38aea2fe8f020ff91c264df81cc899d50ef7f8bdc601069c26e44c0d2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "63acefc028ca4699bcd1d1578c235637cc3fdf63e145a83ccad7611f1eb37bbc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "81b36fa8490b5200fad309cb1e3c85e19617852922268a830b75112213e64578"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7bce71b2f16ec7264fab2798c08a177128bcdaaa8d98c706b5e8cc258e23c4ec"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "247e99fbd182ca3fa756742d55bec87c65c2cd037076e32745e381712b62bf51"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ccf87cbd830e2e138c779f037dd30859dd0c4617736f002dc8a35ed64de0f6e4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7df52dfcbc081a2fcca40055a4b3e479861f4653263893a809ece2ca30485f14"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e690ac247f738f8ef1a06f24d29a64f0e78c2854ad280183d98d5af8ae7f3d95"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bce7fed00a1ad0519b51b798edf87fda37d0b1891d73dc2bab15451131480537"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7a1c4d3fbb4d044451b3fff506b0375b0ea0f6488a8c747d779c7238432e53c1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c09da060413e2655797dd1f49f5dbb884392008834b5a1b10594b46ca7eec4bf"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ab989ca92034b2653850ef1de080505e9d5c70d936ba74b84fc80be508697146"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8957b9282445f36b6e2e6ec05ddb6b45686278e9bdc6519ed4d34a974511af88"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "627eb408e38d7fda1114b82232239206d5ee541467a05e4bc0df01a05d881e9b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "54fe5c7ca4489cebd9b0c72797c8b2aeeb2189b1a2a566bbda035b38a832bc67"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "91ea0f898a72caa4aac24c6bd9d572c1d7c149a9811f29837cdea25d95091c22"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d3fbc265e38f78816294d22446fd9b34883730ff8f14c80c4faab8636384fe4f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "873daa98cf30c9b57cd25031571ef990294f25c7758e787f93a7f811aded8c70"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "29216ba575e3b80ad373be24b21fb6cabf0383757d5fa0b677c5db161434bba0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "6d060e6c53734c82fde17de61036557a346df1e8b3b639ee9d154cb65fe23e36"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f342235259cdcf8f8f5af0ad793380d2ea1cb62071054c8e169b1582266e0d64"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "181ad9fafa2298c61e75a33a0d91c7d4e4ae9323c743e597af962677a3438ff9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f88e3e5d961ed42255cf8ae8befa7690e18c01b1a6c3be00400d2950a7bb4adc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "37cfd50afa0a4e000658257312412a3328d9f86ea3c2b21ed25447e0740ca840"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ac9fc71d8d50d02e2d15260a0ebe1fca89546a0f61a9412e69a07fbe20768c46"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2daca7a0140c61bd0ec7ce86c964b2fce233a6700e4e04317a1090a1e4489153"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7e75e5994bccb800830a40e63705ed5ae8fe7606231bab3ee58d18dd4bf4f1fc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "282b3b8399f80da367a905906ba29f7e72b6e150b6aeea454c5e9c106949c9f8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "972aa5b895470924a3bbc2175f9840ff0d6a094a79b4f20c93b02fabfaa62182"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bb65eb080e0c61980f285a35f85441111d8cb8b1b74ae475dd6f8c55963074d8"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "86214250352466a06ae4cc8caea245a2c628ee55aa95d9219e934b64a6fcfdf2"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2831f382663f576d1ee6056610fd7d053ccc2748fb3871c435848e7f15c26608"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b419512f910b47102efca23ec390cf31fa74de978e89b78f053132af98905243"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "56482e14bd423b479da03dfb9c5a352e7780ba0880e2b98f8d8fea3f284d5555"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "58ee1898de129f3d560ecf7bf472dcf8d9624226fb33fff2ad5383cf0bd9973e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1f7a9561cbd3fe087623f61ca2d1b49970d7e0c8006feca0948eae09dfe0e604"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "38536a38320af060c45af6d62f229b70f0be81eaa65747a7fdc6e5c8f8825cba"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b46864a4e77f546098a65a511c08f31618b23afe81f9a9a055674ec1034036e0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dac93cb5aaef9ecc22aad3348fd862ee5de2d7adf008b81777e0f3a0a540db7e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "367eb2c42457ba5dbfffb053aa599e663c0f2813238a234907c09594ff0bc507"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9819bd791f61664dc0488c730301d3c085aba3c5ec92ca95d07bc47f4c7757e5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d372b199e6821487bc05d4ebad2dacac6a85462791dc0ac641e4880c44b13a8a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "729098ec26f65dcd307c0019a763dc86f430dd1d305828550fdfc19054603b53"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e058ba6214639eaabc33d640a8e31c81c5bf62af1ca213e84906c39a13a0dafc"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d9706f8b619c3117008dc5eb77fc8bcd492f82763c9a0af8b41767b849816919"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "80c91e0800a3b6647ca68ea13f326ef02e9cfcc95a29900b56749b8a9f8a178a"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "52eaf82d26479df464de62e6f238ab4882bc5b3c34b27cdc2cd10b7f242ca01d"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b9ce42b6dca9176feb93301eeba14967343b5054eab3c2ed03f111d0da093211"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "99f67ab662abd4d2d4d6ed9e04d5bbce9d061da996235145ac37ff93e5387d35"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "fe557fa07d51ff226a78190a7203643d9df33f3990c1c50d9177ce2bcbc8b5f0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "cbc5beb11c51ef4b47179710cf3c17e5059fa35c2d202f41eec7bdb76359dc33"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5b8c452d6bba5d91a609dfd4c003ba128a1a0442c0303fbef370f148cbb98ae0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "28e86b158a072d4d6e56ed31393f92228679b13d26e4666e6f1fb9d27dafb7b7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1b3ac0b9be38ed1c48fa4d612dd0b0973b242713e457f594dfea39fe5f7bdb8e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a7ba970a45b0fc9d09fd7171b1eaeef193efb068e7676a6427c855e26ed051ca"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f276cb8735053e5e02435391f9786b4ae56b2444b125190c0066be7ac45e5606"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "cb0ca106ee0be5f4300b3e264709eab8fcadeac0936dace66a19fe864a64282e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5d33f96e33d8879aee5c66b3f848120c977ac05cbb0fa826f2c336de7409d100"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "774a982f09a9e475584830123b29120fa04b02e1e551e244aedc5e1af254302b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "f698b73039b9a6cffd981716487428cda31a3442d6c99a730711b02231b3443f"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0fff5bb4944d4343caf22c7b354aeaba83ee059103c98e4b6c0a9d0975ea7c3b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "113232ff155708933f2f2a8cfae465200259879161f14ea973cc0db1ebc7d7f0"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ba485f7d2048ef662d7b2b7de97397bdbdfd5261fba7a345900a1f8b7666ec20"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a93f78db0573ca1a493bc0531c495a851aee732fbdb9ec85210d8974a940c044"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0cbfee11f5d3f7c21770a84560ab4cad7b43c4bd34ca5afb97b3d6b405244023"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "215a68326219e6640b2755be3299c1b64035c216140a7be18635a1489542cf8c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8e64aec420bb1346f925e1b87bbaa4eaa18c3d0d3d3ac144e15f6e966f1fde40"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b5b674cb88e4179d92cf135ff66c16d8784dce1dda970af15f1d6072f750911b"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "86e9361096b5976ec428a40f9a61da52f6a1667d51656bcbd280bd52450805ef"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "48143c9c36cc652660624f9b0fc2c1341615a0427f080f67c136af3364799d9c"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1061bc28a12b1d9e0fcbd62215afa61aec3877b9079a48738a639c3922e1f951"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "39738731c46b539217cd707f92fb630e846f25173a74ae605d63b43d9f9132a5"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "df5d601a9cc54b048d43d713e41fefcf26c7db36a4b3342110f327a687e45b21"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4bd611f289f368f851afff01146dd6469eb2969cf2d72f5b34494439453e8704"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1a7d0b17a49e18166a45f3add414ab55ef7df1da51ac6832b9f402263c38a0b9"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "dd6828f9b5ed133b98a312304e96be02bc53a262c216944d7050f0571c515d70"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a083d6e1cf27df3427869c503ed1d7296da10d551b2122aa12b9221afeee59bb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2a65d5288b3b888128105aba261788712f776d4ba4ef0a2497ee80da23a49faa"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "0d206e8eceafaeea08f5293c0cb1078f69b1bae24f0b9a9af9e5159d32fd7d93"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "424ea7d95e1b4031dd07554d059ca86da5d2f42317209fb6d77c58ec4d218033"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "36b1907a81071185faf6b842d7ed7f8759acbcb9a174b75b0a02b9a66eba0bb6"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "74919f09f8ac1692329905e0438a61f573571cf3fe8dd7da1d99ee325a7e9818"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "7cc43742bbf5c17e285dd3ab2ce0a261388bb37e1392192850e6899f5893e9f2"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a365a57c74bd37c1e5960ef3a7b009e27f4f576366f9b1cf795892cc4c950d56"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "1fff67ea1ef497ec039a91d6eab73d8aceaeacc190607e9fd3b3beb09b25cf62"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a7abea136b3cffb6f54ec2be3553140ec48b0dfd5a863d2dd3a662ad11b5bad6"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2d767e30fa48d2b10f6f8fa3c20771c61786b26c6bbf2e03e56cb8eca9af26cf"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "bd256d36eb08d5a21c1817d57ff714cc71359f466969f468487682b75044d13c"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "5372e8f316cef741f9abdf166bdf899b75fc205516f2e8e9eae7acb2ccbb4ff4"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "fc6773c9f108886ffeb0e028d98e59116fe908f8750b581d17e7b3da94d1fbf1"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "95e500453fe9b568475aba6935930e6edf6a5f2668b0098376fba7c00ff4b5e7"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8cedc307a7bc1c426c6709210bf5cbbab597ce48dab53ad9058b0661bcdeeb17"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d67c1708a6f3c4d4e88a003b6a475263c4dc19592120c4d738d7b5e13e51702b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "19df400d9b139fbe3e3f6681b27c3b650a783f5ad12d4590088976823e273e8b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "3ce20e7045592070fa219fa469e455358ba813ff4128e52b11dcb1737afe9bdb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "8323efd98974b0ac43a10fdecff10e54ce94917da21db4d15c89aa88ae5a2b9b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "2641e01b55bd3ba77e6b3ec8414166de0a03fe3cb47e42bf7660246e370faf43"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "59649b0c4eb1ff7fec567b3072bc8f2d3854c67395f8550ea5236ef0c630e835"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e040680a9752c36bc4acb0bce382ce3b52810828ab5c6f5b6b460a8349d59e67"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b4a9631a88d4d0cf0c26d03cabb98767bae19590076fd5f01d00d19c81343cda"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "04bbd4a03a64caaca40200a2ea1c6cc889f0233b553973493fbaee6572e5c01f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "836ceaddc4437f7d7d7f6bbbc3a0df74e05b24e51e4b902f94913e7fe4fc0a7f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "15a2cfe6c8b0525dce75fda1ca205f9c48f13d1f5c74eeffaa56accbb84804c8"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "84dbd7d47b5ba651aca753ea025c8a682ecf105c394ae1b9c97eb35f30ad010d"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "22c7c9d6967b432f1f2a4524849578f7366272135850ae7999cb0b096bde744d"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b5dc18ff347e6b67d6474122b8b122ec92e122408f2d2d8690a8168ecd5b24f4"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c4ea6a53d9f2c68e0d2cbb4118266ffb33e350ce0f9e9b476d43ea706e17ca4a"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "216381355df1a45c23094f9bff6b845c766ff024c51d4eaf1b2ebada9b3cebc4"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a15554824f1f7ae47da7b601a40c425fff482a3c0ba5039fc89d724e512810d5"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "cc9996467ac38827223db81e6d3197b6d1fb1c844156d3c3e3f6347a00f0c27d"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "32637715d4acbd072b307ec6f4b7a65a661e5bc8aad8bfe6aa9e0d37bd8a1cac"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a4c870b8223bd12962df2aadae009cba8cca1fe5f39fb27f76fbf45d8afd4da1"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "9eda21dae9fc43aa70bc76fbd8068edc584e26600d7bc3115c566581a4819b0c"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "ac5cca33bce5bd647e48abcdc6ff375c97867ea9b25fe4ef8eae2be8618ac562"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "07b51160ab1d7b4154cc29f9b002dc63a072f4ee763db7f751a273613ba7ba22"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "056668e28f6cde6d038ded79f7f0adc2bcaf00cc7f1a106bed1c345782c69f2b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c72cd0e701d17fead53816c5e72b113fb4702caf9d895ea3b44e876f3e70b627"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "95af324c0dc0be589217768091d350476a29fc6157fd0cad1a01595121a0394f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d13eba6e4eb655c5a7a515812299eb41cfda56fe38672279ab8db590444c07b6"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "d80d29c81f20d74867d3563c7697901fa9c2f16913a756c62b256718b90cedbc"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "a12e2c0cac16c49192fbb28c5adfeceb3a7ed0dbdbce4d488b23b2d4f0e88d38"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "653e98e6534f3e1218a07a657c62879f93ae5fae77f524bf62ae257130237f0e"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "4d90fdbe90fc96de4dec2d852c30bc17f3e4a0380e6677d5f43217b88d9f39a6"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "c406f966ccdf6cbacd3a63402f277e2aed6443e78d2b1203f0860f623a13f861"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "b10e2adf2ee3086f0651449798c240500875dd546cec5fd37ae62831c45fac42"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "96ab5995dcd95406a6db2faa84585d6b6f148ee888e6d7e81cac0f5305eae013"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+FUND+ADVISORS%22",
+            "params": {},
+            "response_hash": "e3b47406e49063e40f2da0aae6353903939768d615f234b8d7d22ca26f0c8269"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Fund+Advisors%22",
+            "params": {},
+            "response_hash": "56d8820b276396995f3c743c1c0336cc5f7c21afb66c64ee5da7e0706103974c"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Fund+Advisors%22",
+            "params": {},
+            "response_hash": "b93cc387d280fdf6c4a0efdd63e7a445da9fe46da385606c8928793685684952"
+          },
+          "date": "2026-03-16"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300YOOGP0Y1M95C20",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Fund+Advisors&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b42957d8944f21c8a9551dd01c2325aceb35ab4c620ff0258b48ec693bb382f0"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "badd1122e4b933d0a7421e1cda78fc31a1559bd0efd0625e9d24b4906d4aacc9"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "ea2a4bd5066e75658d372ab14461148ef6ff2f19908d82bb6e9cd01634985903"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "858c582b749b2cb48079abedd8d5adba704bb43b120b5b8129f8bf518da28649"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "c5db7210e9859f62c87f9c6b0e0a7c0bf5aaea8a7a8142203b049065ac5c86fe"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "b666737fd7716d05f7e4d09a4ef750a0dab02ce04e81ea8c9ea9d0ad94ba73bd"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "139a67a9a8d6e11b256d68482861ea77341d26f681a4d9c96e1cd8477e6d8995"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "f2ca4c472c89cc90d5660d9824010614f152f0af628f8c9d5693920912623e61"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300YOOGP0Y1M95C20",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "c/o TERRI SLANE, 400 HOWARD STREET, San Francisco, US-CA, 94105, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Fund+Advisors&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b42957d8944f21c8a9551dd01c2325aceb35ab4c620ff0258b48ec693bb382f0"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "badd1122e4b933d0a7421e1cda78fc31a1559bd0efd0625e9d24b4906d4aacc9"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "ea2a4bd5066e75658d372ab14461148ef6ff2f19908d82bb6e9cd01634985903"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "858c582b749b2cb48079abedd8d5adba704bb43b120b5b8129f8bf518da28649"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "c5db7210e9859f62c87f9c6b0e0a7c0bf5aaea8a7a8142203b049065ac5c86fe"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "b666737fd7716d05f7e4d09a4ef750a0dab02ce04e81ea8c9ea9d0ad94ba73bd"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "139a67a9a8d6e11b256d68482861ea77341d26f681a4d9c96e1cd8477e6d8995"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "f2ca4c472c89cc90d5660d9824010614f152f0af628f8c9d5693920912623e61"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300YOOGP0Y1M95C20",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "sources": []
+    },
+    "registered_address": {
+      "value": "c/o TERRI SLANE, 400 HOWARD STREET, San Francisco, US-CA, 94105, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Fund+Advisors&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b42957d8944f21c8a9551dd01c2325aceb35ab4c620ff0258b48ec693bb382f0"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "badd1122e4b933d0a7421e1cda78fc31a1559bd0efd0625e9d24b4906d4aacc9"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "ea2a4bd5066e75658d372ab14461148ef6ff2f19908d82bb6e9cd01634985903"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "858c582b749b2cb48079abedd8d5adba704bb43b120b5b8129f8bf518da28649"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "c5db7210e9859f62c87f9c6b0e0a7c0bf5aaea8a7a8142203b049065ac5c86fe"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "b666737fd7716d05f7e4d09a4ef750a0dab02ce04e81ea8c9ea9d0ad94ba73bd"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "139a67a9a8d6e11b256d68482861ea77341d26f681a4d9c96e1cd8477e6d8995"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "f2ca4c472c89cc90d5660d9824010614f152f0af628f8c9d5693920912623e61"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300YOOGP0Y1M95C20",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "BLACKROCK FUND ADVISORS",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Fund+Advisors&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b42957d8944f21c8a9551dd01c2325aceb35ab4c620ff0258b48ec693bb382f0"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "badd1122e4b933d0a7421e1cda78fc31a1559bd0efd0625e9d24b4906d4aacc9"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=6&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "ea2a4bd5066e75658d372ab14461148ef6ff2f19908d82bb6e9cd01634985903"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "858c582b749b2cb48079abedd8d5adba704bb43b120b5b8129f8bf518da28649"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "c5db7210e9859f62c87f9c6b0e0a7c0bf5aaea8a7a8142203b049065ac5c86fe"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "b666737fd7716d05f7e4d09a4ef750a0dab02ce04e81ea8c9ea9d0ad94ba73bd"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "139a67a9a8d6e11b256d68482861ea77341d26f681a4d9c96e1cd8477e6d8995"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20",
+            "params": {},
+            "response_hash": "f2ca4c472c89cc90d5660d9824010614f152f0af628f8c9d5693920912623e61"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300YOOGP0Y1M95C20",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A San Francisco company at 400 Howard Street with 126 employees, operating as a subsidiary of BlackRock, Inc.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 126,
+      "sources": [
+        {
+          "name": "https://aum13f.com/firm/blackrock-fund-advisors",
+          "document": "https://aum13f.com/firm/blackrock-fund-advisors",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "name": {
+      "value": "BLACKROCK FUND ADVISORS",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Fund+Advisors&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b42957d8944f21c8a9551dd01c2325aceb35ab4c620ff0258b48ec693bb382f0"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300YOOGP0Y1M95C20",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1984-09-20",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300YOOGP0Y1M95C20",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "1475d305-8037-4360-8858-1a6c640b8ac0",
+    "properties_count_requested": 11,
+    "numobs_categories_requested": 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+  "name": "BARCLAYS GLOBAL INVESTORS, LTD",
+  "entity_type": "Company",
+  "description": "A company that is a subsidiary of Barclays Bank PLC.",
+  "properties": {
+    "description": {
+      "value": "A company that is a subsidiary of Barclays Bank PLC.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 9000,
+      "sources": [
+        {
+          "name": "https://www.moneymarketing.co.uk/news/barclays-agrees-sale-of-barclays-global-investors-to-blackrock",
+          "document": "https://www.moneymarketing.co.uk/news/barclays-agrees-sale-of-barclays-global-investors-to-blackrock",
+          "date": "2026-03-16"
+        },
+        {
+          "name": "Breaking News, Latest News and Videos | CNN",
+          "document": "http://www.cnn.com/2009/BUSINESS/06/12/blackrock.barclays/index.html",
+          "date": "2026-03-16"
+        }
+      ]
+    },
+    "name": {
+      "value": "BARCLAYS GLOBAL INVESTORS, LTD",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341409003835/pericom123108.txt",
+          "date": "2009-02-05"
+        }
+      ]
+    },
+    "id": {
+      "value": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "sources": []
+    },
+    "aliases": {
+      "value": [
+        "Barclays Global Investors, Ltd (BGI)"
+      ],
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+    "properties_count_requested": 5,
+    "numobs_categories_requested": 0
+  }
+}

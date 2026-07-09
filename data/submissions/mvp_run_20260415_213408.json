@@ -1,0 +1,380 @@
+{
+  "status": 200,
+  "request": {
+    "team_id": "abrollo",
+    "model_agent_name": "terra",
+    "model_agent_version": "0.0.1",
+    "transactions": [
+      {
+        "nasdaq_code": "ADP",
+        "amount": 22988
+      },
+      {
+        "nasdaq_code": "CEG",
+        "amount": 21891
+      },
+      {
+        "nasdaq_code": "CTSH",
+        "amount": 19322
+      },
+      {
+        "nasdaq_code": "AXON",
+        "amount": 19106
+      },
+      {
+        "nasdaq_code": "TRI",
+        "amount": 18787
+      },
+      {
+        "nasdaq_code": "REGN",
+        "amount": 18716
+      },
+      {
+        "nasdaq_code": "MSFT",
+        "amount": 18574
+      },
+      {
+        "nasdaq_code": "EXC",
+        "amount": 18560
+      },
+      {
+        "nasdaq_code": "MNST",
+        "amount": 18078
+      },
+      {
+        "nasdaq_code": "SNPS",
+        "amount": 18060
+      },
+      {
+        "nasdaq_code": "BKNG",
+        "amount": 18036
+      },
+      {
+        "nasdaq_code": "NFLX",
+        "amount": 18017
+      },
+      {
+        "nasdaq_code": "STX",
+        "amount": 17958
+      },
+      {
+        "nasdaq_code": "TMUS",
+        "amount": 17956
+      },
+      {
+        "nasdaq_code": "INTU",
+        "amount": 17910
+      },
+      {
+        "nasdaq_code": "PANW",
+        "amount": 17771
+      },
+      {
+        "nasdaq_code": "EA",
+        "amount": 17547
+      },
+      {
+        "nasdaq_code": "ORLY",
+        "amount": 17448
+      },
+      {
+        "nasdaq_code": "AAPL",
+        "amount": 17398
+      },
+      {
+        "nasdaq_code": "PCAR",
+        "amount": 17185
+      },
+      {
+        "nasdaq_code": "CSX",
+        "amount": 16954
+      },
+      {
+        "nasdaq_code": "FTNT",
+        "amount": 16954
+      },
+      {
+        "nasdaq_code": "COST",
+        "amount": 16787
+      },
+      {
+        "nasdaq_code": "ADBE",
+        "amount": 16769
+      },
+      {
+        "nasdaq_code": "ODFL",
+        "amount": 16728
+      },
+      {
+        "nasdaq_code": "FAST",
+        "amount": 16638
+      },
+      {
+        "nasdaq_code": "PLTR",
+        "amount": 16526
+      },
+      {
+        "nasdaq_code": "SBUX",
+        "amount": 16427
+      },
+      {
+        "nasdaq_code": "PAYX",
+        "amount": 16423
+      },
+      {
+        "nasdaq_code": "WBD",
+        "amount": 16412
+      },
+      {
+        "nasdaq_code": "ABNB",
+        "amount": 16284
+      },
+      {
+        "nasdaq_code": "INTC",
+        "amount": 16246
+      },
+      {
+        "nasdaq_code": "CSCO",
+        "amount": 16219
+      },
+      {
+        "nasdaq_code": "MCHP",
+        "amount": 16214
+      },
+      {
+        "nasdaq_code": "ROST",
+        "amount": 16179
+      },
+      {
+        "nasdaq_code": "CSGP",
+        "amount": 16178
+      },
+      {
+        "nasdaq_code": "PDD",
+        "amount": 16056
+      },
+      {
+        "nasdaq_code": "CDNS",
+        "amount": 16029
+      },
+      {
+        "nasdaq_code": "KHC",
+        "amount": 16002
+      },
+      {
+        "nasdaq_code": "QCOM",
+        "amount": 15885
+      },
+      {
+        "nasdaq_code": "WMT",
+        "amount": 15817
+      },
+      {
+        "nasdaq_code": "AMZN",
+        "amount": 15813
+      },
+      {
+        "nasdaq_code": "AMGN",
+        "amount": 15808
+      },
+      {
+        "nasdaq_code": "CMCSA",
+        "amount": 15710
+      },
+      {
+        "nasdaq_code": "MDLZ",
+        "amount": 15630
+      },
+      {
+        "nasdaq_code": "CRWD",
+        "amount": 15586
+      },
+      {
+        "nasdaq_code": "MU",
+        "amount": 15409
+      },
+      {
+        "nasdaq_code": "TSLA",
+        "amount": 15392
+      },
+      {
+        "nasdaq_code": "HON",
+        "amount": 15144
+      },
+      {
+        "nasdaq_code": "KDP",
+        "amount": 14990
+      },
+      {
+        "nasdaq_code": "APP",
+        "amount": 14830
+      },
+      {
+        "nasdaq_code": "BKR",
+        "amount": 14816
+      },
+      {
+        "nasdaq_code": "MAR",
+        "amount": 14808
+      },
+      {
+        "nasdaq_code": "LIN",
+        "amount": 14790
+      },
+      {
+        "nasdaq_code": "NXPI",
+        "amount": 14764
+      },
+      {
+        "nasdaq_code": "VRTX",
+        "amount": 14636
+      },
+      {
+        "nasdaq_code": "GOOGL",
+        "amount": 14458
+      },
+      {
+        "nasdaq_code": "ASML",
+        "amount": 14419
+      },
+      {
+        "nasdaq_code": "ALNY",
+        "amount": 14213
+      },
+      {
+        "nasdaq_code": "LRCX",
+        "amount": 13749
+      }
+    ]
+  },
+  "response": {
+    "success": true,
+    "submission_id": "jx745vw7epzv6b3kfmnyxe9x9d84x65h",
+    "total_invested": 1000000,
+    "total_value": 1444984.84,
+    "purchase_prices_apr15": {
+      "ADP": 298.05999755859375,
+      "CEG": 208.4199981689453,
+      "CTSH": 71.26000213623047,
+      "AXON": 578.4199829101562,
+      "TRI": 181.6999969482422,
+      "REGN": 557.9099731445312,
+      "MSFT": 385.7300109863281,
+      "EXC": 46.7400016784668,
+      "MNST": 58.63999938964844,
+      "SNPS": 425.6499938964844,
+      "BKNG": 184.4976043701172,
+      "NFLX": 97.62799835205078,
+      "STX": 72,
+      "TMUS": 266.7099914550781,
+      "INTU": 594.0800170898438,
+      "PANW": 173.5500030517578,
+      "EA": 145.61000061035156,
+      "ORLY": 93.1953353881836,
+      "AAPL": 202.13999938964844,
+      "PCAR": 88.81999969482422,
+      "CSX": 27.899999618530273,
+      "FTNT": 99.19999694824219,
+      "COST": 976.9199829101562,
+      "ADBE": 350.3800048828125,
+      "ODFL": 152.85000610351562,
+      "FAST": 40.82500076293945,
+      "PLTR": 98.4000015258789,
+      "SBUX": 83.70999908447266,
+      "PAYX": 147.6199951171875,
+      "WBD": 8.25,
+      "ABNB": 114.63999938964844,
+      "INTC": 19.850000381469727,
+      "CSCO": 57.20000076293945,
+      "MCHP": 38.72999954223633,
+      "ROST": 141.02999877929688,
+      "CSGP": 80.51000213623047,
+      "PDD": 94.06999969482422,
+      "CDNS": 264.30999755859375,
+      "KHC": 29.420000076293945,
+      "QCOM": 138.60000610351562,
+      "WMT": 93.97000122070312,
+      "AMZN": 179.58999633789062,
+      "AMGN": 295.29998779296875,
+      "CMCSA": 32.239925384521484,
+      "MDLZ": 67.02999877929688,
+      "CRWD": 392.79998779296875,
+      "MU": 71.04000091552734,
+      "TSLA": 254.11000061035156,
+      "HON": 187.3798370361328,
+      "KDP": 35.38999938964844,
+      "APP": 245.47000122070312,
+      "BKR": 38.15999984741211,
+      "MAR": 222.5800018310547,
+      "LIN": 450.9700012207031,
+      "NXPI": 171.6300048828125,
+      "VRTX": 500.489990234375,
+      "GOOGL": 156.30999755859375,
+      "ASML": 683.1599731445312,
+      "ALNY": 230.92999267578125,
+      "LRCX": 68.44000244140625
+    },
+    "eval_prices_today": {
+      "ADP": 196.92,
+      "CEG": 294.73,
+      "CTSH": 60.39,
+      "AXON": 402.18,
+      "TRI": 92.43,
+      "REGN": 753.93,
+      "MSFT": 411.22,
+      "EXC": 47.88,
+      "MNST": 74.93,
+      "SNPS": 438.45,
+      "BKNG": 185.69,
+      "NFLX": 107.71,
+      "STX": 519.6,
+      "TMUS": 190.19,
+      "INTU": 389.72,
+      "PANW": 164.11,
+      "EA": 203.24,
+      "ORLY": 93.6,
+      "AAPL": 266.43,
+      "PCAR": 123.48,
+      "CSX": 42.1,
+      "FTNT": 79.64,
+      "COST": 984.75,
+      "ADBE": 244.66,
+      "ODFL": 205.19,
+      "FAST": 44.4,
+      "PLTR": 142.15,
+      "SBUX": 98.34,
+      "PAYX": 90.26,
+      "WBD": 27.2,
+      "ABNB": 137.51,
+      "INTC": 64.94,
+      "CSCO": 82.36,
+      "MCHP": 74.49,
+      "ROST": 224.15,
+      "CSGP": 39.31,
+      "PDD": 101.97,
+      "CDNS": 304.1,
+      "KHC": 22.01,
+      "QCOM": 133.05,
+      "WMT": 124.76,
+      "AMZN": 248.5,
+      "AMGN": 348.22,
+      "CMCSA": 28.3,
+      "MDLZ": 56.58,
+      "CRWD": 411.16,
+      "MU": 456.23,
+      "TSLA": 391.95,
+      "HON": 232.19,
+      "KDP": 26,
+      "APP": 464.63,
+      "BKR": 60.07,
+      "MAR": 363.74,
+      "LIN": 497.94,
+      "NXPI": 209.39,
+      "VRTX": 441.7,
+      "GOOGL": 337.12,
+      "ASML": 1481.77,
+      "ALNY": 333.39,
+      "LRCX": 265.16
+    }
+  }
+}
