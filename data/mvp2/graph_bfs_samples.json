@@ -1,0 +1,48 @@
+{
+  "NASDAQ": {
+    "origin_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+    "n_tickers": 82,
+    "sample": {
+      "AAPL": 0.6,
+      "ABNB": 0.6,
+      "ADBE": 0.6,
+      "ADI": 0.6,
+      "ADSK": 0.6,
+      "ALNY": 0.6,
+      "AMAT": 0.6,
+      "AMD": 0.6,
+      "AMGN": 0.6,
+      "AMZN": 0.6
+    }
+  },
+  "VANGUARD": {
+    "origin_uuid": "0ac9c989-0d22-4455-8bad-12893a78614a",
+    "n_tickers": 8,
+    "sample": {
+      "ABNB": 0.36,
+      "AVGO": 0.36,
+      "DXCM": 0.36,
+      "GOOG": 0.6,
+      "GOOGL": 0.6,
+      "META": 0.36,
+      "TSLA": 0.6,
+      "ZS": 0.36
+    }
+  },
+  "Delaware": {
+    "origin_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+    "n_tickers": 66,
+    "sample": {
+      "ABNB": 0.6,
+      "ADBE": 0.6,
+      "ADP": 0.6,
+      "ADSK": 0.6,
+      "ALNY": 0.6,
+      "AMAT": 0.6,
+      "AMD": 0.6,
+      "AMGN": 0.6,
+      "AMZN": 0.6,
+      "APP": 0.6
+    }
+  }
+}

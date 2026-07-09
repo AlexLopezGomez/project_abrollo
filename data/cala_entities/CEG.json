@@ -1,0 +1,319 @@
+{
+  "id": "5f1cde7f-424f-448e-871a-53004fbe60b6",
+  "name": "Constellation Energy Group, Inc.",
+  "entity_type": "Company",
+  "description": "A Chicago-based company operating in nuclear power generation and renewable energy with 15,339 employees.",
+  "properties": {
+    "esg_policy": {
+      "value": "Constellation Energy Group\u2019s ESG policy commits the company to environmental, social and governance best practices, including signing the Principles for Responsible Investment (PRI), participating in the Global Reporting Initiative (GRI) advisory board, neutralising pollutant gas emissions, integrating ESG factor analysis into its investment process and portfolio risk management, and establishing comprehensive health\u2011and\u2011safety procedures, risk assessments, and governance reporting for its operations.",
+      "sources": [
+        {
+          "name": "constellation.com.br",
+          "document": "https://constellation.com.br/wp-content/uploads/2021/01/Constellation-ESG-Best-Practices-Policy-06.2020.pdf",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "wp-constellation-2021.s3.eu-west-2.amazonaws.com",
+          "document": "https://wp-constellation-2021.s3.eu-west-2.amazonaws.com/media/2023/12/241205-Constellation-ESG-policy-Dec-2024.pdf",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "10 South Dearborn St, 49th Floor, Chicago, US-IL, 60603, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "10 South Dearborn St, 49th Floor, Chicago, US-IL, 60603, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "Constellation Energy Group, Inc.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Constellation Energy Corporation",
+        "Constellation Energy",
+        "CEG",
+        "Constellation Energy Corp"
+      ],
+      "sources": []
+    },
+    "description": {
+      "value": "A Chicago-based company operating in nuclear power generation and renewable energy with 15,339 employees.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "id": {
+      "value": "5f1cde7f-424f-448e-871a-53004fbe60b6",
+      "sources": []
+    },
+    "name": {
+      "value": "Constellation Energy Group, Inc.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "GT6ZNWW1ZDHTC15ORD42",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 15339,
+      "sources": [
+        {
+          "name": "Constellation Energy (CEG) Number of Employees 2021-2025",
+          "document": "https://stockanalysis.com/stocks/ceg/employees/",
+          "date": "2026-03-31"
+        },
+        {
+          "name": "pitchbook.com",
+          "document": "https://pitchbook.com/profiles/company/12646-18",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "en.wikipedia.org",
+          "document": "https://en.wikipedia.org/wiki/Constellation_Energy",
+          "date": "2026-04-15"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "45b8db77-1909-407d-993e-2e8ee335f1a2",
+          "name": "Illinois",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a2fdb09e-3c83-5c78-b388-d1e747097c60"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "45b8db77-1909-407d-993e-2e8ee335f1a2",
+          "name": "Illinois",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/GT6ZNWW1ZDHTC15ORD42",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "20b3e62e-6609-5b27-b8ba-189bb8e815e9"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "2786989b-69ca-41b3-b5c8-37326d9ae601",
+          "name": "renewable energy industry",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/artificial-intelligence-ai-driving-new-wave-infrastructure-spending-stock-key",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d9f38bbe-9c2f-58fa-8c27-b66603dcf642"
+          }
+        },
+        {
+          "id": "6cf34ae0-e81a-4f30-90ba-8e24721c80db",
+          "name": "Nuclear Power Generation",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/artificial-intelligence-ai-driving-new-wave-infrastructure-spending-stock-key",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "0b5fa4ab-5ed0-5f2e-b0f7-0e7634291e59"
+          }
+        },
+        {
+          "id": "9d3fa31b-a4c4-49c9-8991-55a62b403d35",
+          "name": "Utilities",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/these-were-5-top-performing-stocks-nasdaq-100-january-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "3eef727c-aee4-5d33-b459-eb81295d94c2"
+          }
+        },
+        {
+          "id": "b2829756-5315-467e-a4f9-7b267c0bcb28",
+          "name": "Clean Energy Production",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/these-are-6-top-performing-stocks-nasdaq-100-2024-almost-over",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "aa32ece4-0a24-58b3-8de6-739c27463031"
+          }
+        },
+        {
+          "id": "bac6c914-6496-4376-8ed5-2fafa5c99c50",
+          "name": "UTILITIES",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Seeking Alpha | Stock Market Analysis & Tools for Investors",
+                "document": "https://seekingalpha.com/news/4535901-the-top-performing-electric-utilities-companies-by-ytd-gains-in-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "adee0bbf-0796-56f5-8d33-c7de50dc5612"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/these-are-6-top-performing-stocks-nasdaq-100-2024-almost-over",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "01e8945b-da9a-5c6b-a717-17a96b9cd05c"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "WORKS_AT": [
+        {
+          "id": "c72aa57b-e312-4b45-8d3f-da230417538a",
+          "name": "Shane Smith",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Executive Vice President and Chief Financial Officer",
+            "sources": [
+              {
+                "name": "TradingView \u2013 T\u00fcm Piyasalar\u0131 Takip Edin",
+                "document": "https://tr.tradingview.com/news/tradingview%3A32dd60c0822e2%3A0-constellation-energy-announces-senior-leadership-changes",
+                "date": "2025-11-21"
+              },
+              {
+                "name": "https://www.globaldata.com/company-profile/constellation-energy-generation-llc/executives",
+                "document": "https://www.globaldata.com/company-profile/constellation-energy-generation-llc/executives",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Aktien | Aktuelle Nachrichten zu Finanzen",
+                "document": "https://www.finanznachrichten.de/nachrichten-2025-11/67044960-constellation-energy-appoints-shane-smith-as-chief-financial-officer-020.htm",
+                "date": "2025-11-21"
+              },
+              {
+                "name": "https://www.tipranks.com/news/the-fly/constellation-energy-promotes-cfo-dan-eggers-shane-smith-to-succeed-thefly",
+                "document": "https://www.tipranks.com/news/the-fly/constellation-energy-promotes-cfo-dan-eggers-shane-smith-to-succeed-thefly",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Boardroom Alpha",
+                "document": "https://app.boardroomalpha.com/profiles/people/A1407532-SHANE_SMITH",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://profitelligence.com/8k/ceg/0001868275-25-000107/constellation-announces-senior-leadership-changes-ahead-of-calpine-acquisition",
+                "document": "https://profitelligence.com/8k/ceg/0001868275-25-000107/constellation-announces-senior-leadership-changes-ahead-of-calpine-acquisition",
+                "date": "2025-11-21"
+              },
+              {
+                "name": "https://www.nasdaq.com/articles/constellation-energy-appoints-shane-smith-chief-financial-officer",
+                "document": "https://www.nasdaq.com/articles/constellation-energy-appoints-shane-smith-chief-financial-officer",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "5985e754-ee29-484d-b43d-b83e5e85e056"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "CEG",
+    "uuid": "5f1cde7f-424f-448e-871a-53004fbe60b6",
+    "match_name": "Constellation Energy Group, Inc.",
+    "retrieved_at": "2026-04-15T22:26:49Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 10,
+      "relationship_types_outgoing": 4,
+      "relationship_types_incoming": 1,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 10,
+      "relationship_types": 5,
+      "relationship_edges": 9,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

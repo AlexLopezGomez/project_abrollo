@@ -1,0 +1,1680 @@
+{
+  "components": {
+    "schemas": {
+      "Answer": {
+        "description": "The answer to the user's input with the reasoning steps and the context that support the answer.",
+        "example": {
+          "content": "**Altano Energy (Spain)** \u2014 Madrid-based, developing renewable energy projects across Spain. Altano secured \u20ac60M Series C in 2025 from M&G Investments and Pioneer Point Partners.",
+          "context": [
+            {
+              "content": "Altano Energy - \u20ac60m (Series C, Jul 2025). Develops and operates renewable energy projects across Spain...",
+              "id": "732e1954-9538-4fbc-a565-db2f8c07ad4e"
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "Company",
+              "id": "0abe9580-5abb-46df-9506-5dc784520b69",
+              "mentions": [
+                "Altano Energy",
+                "Altano"
+              ],
+              "name": "Altano Energy"
+            }
+          ],
+          "explainability": [
+            {
+              "content": "Altano Energy secured a \u20ac60 million Series C round in July 2025 from Pioneer Point Partners and M&G Investments.",
+              "references": [
+                "f22a1a96-6234-48d7-95c2-8b049f00fdab"
+              ]
+            }
+          ]
+        },
+        "properties": {
+          "content": {
+            "description": "A succinct answer to the user's input in Markdown format.",
+            "examples": [
+              "**Altano Energy (Spain)** \u2014 Madrid-based, developing renewable energy projects across Spain. Altano secured \u20ac60M Series C in 2025 from M&G Investments and Pioneer Point Partners."
+            ],
+            "title": "Content",
+            "type": "string"
+          },
+          "context": {
+            "description": "A list of facts that support the answer.",
+            "items": {
+              "$ref": "#/components/schemas/KnowBit"
+            },
+            "title": "Context",
+            "type": "array"
+          },
+          "entities": {
+            "description": "Entities identified in the answer.",
+            "items": {
+              "$ref": "#/components/schemas/EntityMention"
+            },
+            "title": "Entities",
+            "type": "array"
+          },
+          "explainability": {
+            "description": "A list of reasoning steps to get to that answer.",
+            "items": {
+              "$ref": "#/components/schemas/ReasoningSteps"
+            },
+            "title": "Explainability",
+            "type": "array"
+          }
+        },
+        "required": [
+          "content",
+          "explainability",
+          "context",
+          "entities"
+        ],
+        "title": "Answer",
+        "type": "object"
+      },
+      "Document": {
+        "description": "Specific text, report, article, or file that contains the information.",
+        "properties": {
+          "name": {
+            "description": "The name or title of the document.",
+            "examples": [
+              "Europe's top 25 climate tech funding rounds this year"
+            ],
+            "title": "Name",
+            "type": "string"
+          },
+          "url": {
+            "description": "The URL of the document.",
+            "examples": [
+              "https://www.impactloop.com/artikel/europe-s-25-largest-climate-tech-fundraises-funding-2025-and-the-investors-behind-them"
+            ],
+            "format": "uri",
+            "minLength": 1,
+            "title": "URL",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "url"
+        ],
+        "title": "Document",
+        "type": "object"
+      },
+      "Entity": {
+        "properties": {
+          "description": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "A short description of the entity",
+            "examples": [
+              "An American multinational technology company."
+            ],
+            "title": "Description"
+          },
+          "entity_type": {
+            "description": "The type of the entity",
+            "enum": [
+              "Entity",
+              "Award",
+              "Organization",
+              "Company",
+              "EducationalInstitution",
+              "Person",
+              "Event",
+              "GPE",
+              "Country",
+              "CountryRegion",
+              "Industry",
+              "FinancialMetric",
+              "CorporateEvent",
+              "Facility",
+              "Location",
+              "Product",
+              "WorkOfArt",
+              "Law",
+              "Language"
+            ],
+            "examples": [
+              "Company"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          },
+          "id": {
+            "description": "The ID of the entity",
+            "examples": [
+              "e5bb591a-d308-4aa5-9672-96046d366cde"
+            ],
+            "format": "uuid",
+            "title": "Id",
+            "type": "string"
+          },
+          "name": {
+            "description": "The name of the entity",
+            "examples": [
+              "OpenAI"
+            ],
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "entity_type"
+        ],
+        "title": "Entity",
+        "type": "object"
+      },
+      "EntityMention": {
+        "properties": {
+          "entity_type": {
+            "description": "The type of the entity",
+            "enum": [
+              "Entity",
+              "Award",
+              "Organization",
+              "Company",
+              "EducationalInstitution",
+              "Person",
+              "Event",
+              "GPE",
+              "Country",
+              "CountryRegion",
+              "Industry",
+              "FinancialMetric",
+              "CorporateEvent",
+              "Facility",
+              "Location",
+              "Product",
+              "WorkOfArt",
+              "Law",
+              "Language"
+            ],
+            "examples": [
+              "Company"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          },
+          "id": {
+            "description": "The ID of the entity",
+            "examples": [
+              "0abe9580-5abb-46df-9506-5dc784520b69"
+            ],
+            "format": "uuid",
+            "title": "Id",
+            "type": "string"
+          },
+          "mentions": {
+            "description": "Mentions of this entity in the response.",
+            "examples": [
+              [
+                "Altano Energy",
+                "Altano"
+              ]
+            ],
+            "items": {
+              "type": "string"
+            },
+            "title": "Mentions",
+            "type": "array"
+          },
+          "name": {
+            "description": "The name of the entity",
+            "examples": [
+              "Altano Energy"
+            ],
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "entity_type",
+          "mentions"
+        ],
+        "title": "EntityMention",
+        "type": "object"
+      },
+      "EntityQuery": {
+        "example": {
+          "numerical_observations": {
+            "FinancialMetric": [
+              "a277a751-96fd-5204-b7bc-2238a7cc4188"
+            ]
+          },
+          "properties": [
+            "name",
+            "aliases",
+            "registered_address",
+            "employee_count"
+          ],
+          "relationships": {
+            "incoming": {
+              "IS_BOARD_MEMBER_OF": {
+                "limit": 2,
+                "offset": 2
+              }
+            },
+            "outgoing": {
+              "IS_REGISTERED_IN": {},
+              "IS_ULTIMATE_PARENT": {
+                "limit": 2,
+                "offset": 0
+              }
+            }
+          }
+        },
+        "properties": {
+          "numerical_observations": {
+            "additionalProperties": true,
+            "description": "UUIDs of the numerical observations to query",
+            "examples": [
+              {
+                "FinancialMetric": [
+                  "a277a751-96fd-5204-b7bc-2238a7cc4188"
+                ]
+              }
+            ],
+            "title": "Numerical Observations",
+            "type": "object"
+          },
+          "properties": {
+            "default": [],
+            "description": "List of entity property names to query",
+            "examples": [
+              [
+                "name",
+                "aliases",
+                "registered_address",
+                "employee_count"
+              ]
+            ],
+            "items": {
+              "type": "string"
+            },
+            "title": "Properties",
+            "type": "array"
+          },
+          "relationships": {
+            "$ref": "#/components/schemas/EntityQueryRelationships",
+            "description": "Relationship queries"
+          }
+        },
+        "title": "EntityQuery",
+        "type": "object"
+      },
+      "EntityQueryRelationships": {
+        "properties": {
+          "incoming": {
+            "additionalProperties": true,
+            "default": {},
+            "description": "Incoming relationship",
+            "examples": [
+              {
+                "IS_BOARD_MEMBER_OF": {
+                  "limit": 2,
+                  "offset": 2
+                }
+              }
+            ],
+            "title": "Incoming",
+            "type": "object"
+          },
+          "outgoing": {
+            "additionalProperties": true,
+            "default": {},
+            "description": "Outgoing relationship",
+            "examples": [
+              {
+                "IS_REGISTERED_IN": {},
+                "IS_ULTIMATE_PARENT": {
+                  "limit": 2,
+                  "offset": 0
+                }
+              }
+            ],
+            "title": "Outgoing",
+            "type": "object"
+          }
+        },
+        "title": "EntityQueryRelationships",
+        "type": "object"
+      },
+      "EntityRelationships": {
+        "description": "Outgoing and incoming relationship types for an entity.",
+        "properties": {
+          "incoming": {
+            "additionalProperties": true,
+            "description": "Incoming relationship type names.",
+            "examples": [
+              {
+                "IS_BOARD_MEMBER_OF": [
+                  {
+                    "entity_type": "Person",
+                    "id": "7e01020c-cd58-468c-8b2b-d6d1de1ba7bd",
+                    "name": "Andrea Jung",
+                    "properties": {
+                      "source_id": "7e01020c-cd58-468c-8b2b-d6d1de1ba7bd",
+                      "target_id": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+                      "valid_since": "2008-01-04"
+                    }
+                  },
+                  {
+                    "entity_type": "Person",
+                    "id": "9ca4e4fd-f26b-42f4-b8f8-d1cf2f698c0a",
+                    "name": "Steve Jobs",
+                    "properties": {
+                      "source_id": "9ca4e4fd-f26b-42f4-b8f8-d1cf2f698c0a",
+                      "target_id": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+                      "valid_since": "2011-02-23",
+                      "valid_until": "2012-02-27"
+                    }
+                  }
+                ]
+              }
+            ],
+            "title": "Incoming",
+            "type": "object"
+          },
+          "outgoing": {
+            "additionalProperties": true,
+            "description": "Outgoing relationship type names.",
+            "examples": [
+              {
+                "IS_REGISTERED_IN": [
+                  {
+                    "entity_type": "CountryRegion",
+                    "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+                    "name": "California",
+                    "properties": {
+                      "source_id": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+                      "target_id": "8f206f1e-9e92-47be-ac44-8f446bd50857"
+                    }
+                  }
+                ]
+              }
+            ],
+            "title": "Outgoing",
+            "type": "object"
+          }
+        },
+        "title": "EntityRelationships",
+        "type": "object"
+      },
+      "EntitySearchResponse": {
+        "description": "Response containing a list of entities matching the search query.",
+        "example": {
+          "entities": [
+            {
+              "description": "An American multinational technology company.",
+              "entity_type": "Company",
+              "id": "e5bb591a-d308-4aa5-9672-96046d366cde",
+              "name": "OpenAI"
+            }
+          ]
+        },
+        "properties": {
+          "entities": {
+            "description": "List of entities matching the search query, ordered by relevance (most relevant first).",
+            "items": {
+              "$ref": "#/components/schemas/Entity"
+            },
+            "title": "Entities",
+            "type": "array"
+          }
+        },
+        "required": [
+          "entities"
+        ],
+        "title": "EntitySearchResponse",
+        "type": "object"
+      },
+      "GetEntityResponse": {
+        "description": "Response containing full entity profile",
+        "example": {
+          "description": "Founded in 1976, this Cupertino-based firm with 164,000 employees is the direct parent of Apple Operations India, Apple Canada, and others, and its current CEO is Tim Cook.",
+          "entity_type": "Company",
+          "id": "9af54183-a1c6-468c-b608-e96ddb80366d",
+          "name": "Apple Inc",
+          "numerical_observations": [],
+          "properties": {
+            "aliases": {
+              "sources": [],
+              "value": [
+                "Apple Computer, Inc."
+              ]
+            },
+            "employee_count": {
+              "sources": [
+                {
+                  "date": "2026-03-01",
+                  "document": "https://www.macrotrends.net/stocks/charts/AAPL/apple/number-of-employees",
+                  "name": "Macrotrends | The Long Term Perspective on Markets"
+                }
+              ],
+              "value": 164000
+            },
+            "name": {
+              "sources": [
+                {
+                  "date": "2026-02-26",
+                  "document": {
+                    "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22APPLE+INC%22",
+                    "params": {},
+                    "response_hash": "3f0354a291ad77088d55bd2577294a85d5ba3c1b9ae0aa5a58c53bb24ed49111"
+                  },
+                  "name": "SEC"
+                }
+              ],
+              "value": "APPLE INC"
+            },
+            "registered_address": {
+              "sources": [
+                {
+                  "date": "2026-02-26",
+                  "document": {
+                    "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=APPLE+INC&page%5Bsize%5D=20",
+                    "params": {},
+                    "response_hash": "7089723cc94015908b284e2637d34fca0d700bccca36b0f83e4fb6e93c211437"
+                  },
+                  "name": "GLEIF"
+                }
+              ],
+              "value": "C/O C T Corporation System, 330 N. Brand Blvd, Suite 700, Glendale, US-CA, 91203, US"
+            }
+          },
+          "relationships": {
+            "incoming": {
+              "IS_BOARD_MEMBER_OF": [
+                {
+                  "entity_type": "Person",
+                  "id": "7e01020c-cd58-468c-8b2b-d6d1de1ba7bd",
+                  "name": "Andrea Jung",
+                  "properties": {
+                    "source_id": "7e01020c-cd58-468c-8b2b-d6d1de1ba7bd",
+                    "target_id": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+                    "valid_since": "2008-01-04"
+                  }
+                },
+                {
+                  "entity_type": "Person",
+                  "id": "9ca4e4fd-f26b-42f4-b8f8-d1cf2f698c0a",
+                  "name": "Steve Jobs",
+                  "properties": {
+                    "source_id": "9ca4e4fd-f26b-42f4-b8f8-d1cf2f698c0a",
+                    "target_id": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+                    "valid_since": "2011-02-23",
+                    "valid_until": "2012-02-27"
+                  }
+                }
+              ]
+            },
+            "outgoing": {
+              "IS_REGISTERED_IN": [
+                {
+                  "entity_type": "CountryRegion",
+                  "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+                  "name": "California",
+                  "properties": {
+                    "source_id": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+                    "target_id": "8f206f1e-9e92-47be-ac44-8f446bd50857"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "properties": {
+          "description": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "A short description of the entity",
+            "title": "Description"
+          },
+          "entity_type": {
+            "description": "The type of the entity",
+            "enum": [
+              "Entity",
+              "Award",
+              "Organization",
+              "Company",
+              "EducationalInstitution",
+              "Person",
+              "Event",
+              "GPE",
+              "Country",
+              "CountryRegion",
+              "Industry",
+              "FinancialMetric",
+              "CorporateEvent",
+              "Facility",
+              "Location",
+              "Product",
+              "WorkOfArt",
+              "Law",
+              "Language"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          },
+          "id": {
+            "description": "The ID of the entity",
+            "format": "uuid",
+            "title": "Id",
+            "type": "string"
+          },
+          "name": {
+            "description": "The name of the entity",
+            "title": "Name",
+            "type": "string"
+          },
+          "numerical_observations": {
+            "description": "Numerical observations keyed by observation type.",
+            "examples": [
+              []
+            ],
+            "items": {},
+            "title": "Numerical Observations",
+            "type": "array"
+          },
+          "properties": {
+            "additionalProperties": true,
+            "description": "List of property names available for this entity (e.g. id, name, currency).",
+            "examples": [
+              {
+                "aliases": {
+                  "sources": [],
+                  "value": [
+                    "Apple Computer, Inc."
+                  ]
+                },
+                "employee_count": {
+                  "sources": [
+                    {
+                      "date": "2026-03-01",
+                      "document": "https://www.macrotrends.net/stocks/charts/AAPL/apple/number-of-employees",
+                      "name": "Macrotrends | The Long Term Perspective on Markets"
+                    }
+                  ],
+                  "value": 164000
+                },
+                "name": {
+                  "sources": [
+                    {
+                      "date": "2026-02-26",
+                      "document": {
+                        "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22APPLE+INC%22",
+                        "params": {},
+                        "response_hash": "3f0354a291ad77088d55bd2577294a85d5ba3c1b9ae0aa5a58c53bb24ed49111"
+                      },
+                      "name": "SEC"
+                    }
+                  ],
+                  "value": "APPLE INC"
+                },
+                "registered_address": {
+                  "sources": [
+                    {
+                      "date": "2026-02-26",
+                      "document": {
+                        "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=APPLE+INC&page%5Bsize%5D=20",
+                        "params": {},
+                        "response_hash": "7089723cc94015908b284e2637d34fca0d700bccca36b0f83e4fb6e93c211437"
+                      },
+                      "name": "GLEIF"
+                    }
+                  ],
+                  "value": "C/O C T Corporation System, 330 N. Brand Blvd, Suite 700, Glendale, US-CA, 91203, US"
+                }
+              }
+            ],
+            "title": "Properties",
+            "type": "object"
+          },
+          "relationships": {
+            "$ref": "#/components/schemas/EntityRelationships",
+            "description": "Outgoing and incoming relationship types."
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "entity_type",
+          "properties",
+          "relationships"
+        ],
+        "title": "GetEntityResponse",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "IntrospectionEntityRelationships": {
+        "description": "Outgoing and incoming relationship types for an entity.",
+        "properties": {
+          "incoming": {
+            "description": "Incoming relationship type names.",
+            "examples": [
+              [
+                "IS_CFO_OF",
+                "IS_SUBSIDIARY_OF",
+                "IS_BOARD_MEMBER_OF",
+                "IS_BENEFICIARY_OWNER_OF",
+                "IS_CEO_OF"
+              ]
+            ],
+            "items": {
+              "type": "string"
+            },
+            "title": "Incoming",
+            "type": "array"
+          },
+          "outgoing": {
+            "description": "Outgoing relationship type names.",
+            "examples": [
+              [
+                "IS_ULTIMATE_PARENT_OF",
+                "IS_REGISTERED_IN",
+                "OPERATES_IN_INDUSTRY",
+                "IS_DIRECT_PARENT_OF",
+                "IS_BENEFICIARY_OWNER_OF",
+                "HAS_HEADQUARTERS_IN",
+                "PARTICIPATES_IN_CORPORATE_EVENT"
+              ]
+            ],
+            "items": {
+              "type": "string"
+            },
+            "title": "Outgoing",
+            "type": "array"
+          }
+        },
+        "title": "IntrospectionEntityRelationships",
+        "type": "object"
+      },
+      "IntrospectionResponse": {
+        "description": "Response containing the introspection of an entity.",
+        "example": {
+          "numerical_observations": {
+            "FinancialMetric": [
+              {
+                "cadence": "i",
+                "description": "Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.",
+                "id": "1d3eae40-0ba8-5baf-9907-6a4823b067bb",
+                "name": "Cash and Cash Equivalents, at Carrying Value",
+                "taxonomy": "us-gaap",
+                "unit": "USD"
+              }
+            ]
+          },
+          "properties": [
+            "cik",
+            "headquarters_address",
+            "lei",
+            "registered_address",
+            "founding_date",
+            "esg_policy",
+            "legal_name",
+            "employee_count",
+            "bics",
+            "name",
+            "aliases",
+            "id"
+          ],
+          "relationships": {
+            "incoming": [
+              "IS_CFO_OF",
+              "IS_SUBSIDIARY_OF",
+              "IS_BOARD_MEMBER_OF",
+              "IS_BENEFICIARY_OWNER_OF",
+              "IS_CEO_OF"
+            ],
+            "outgoing": [
+              "IS_ULTIMATE_PARENT_OF",
+              "IS_REGISTERED_IN",
+              "OPERATES_IN_INDUSTRY",
+              "IS_DIRECT_PARENT_OF",
+              "IS_BENEFICIARY_OWNER_OF",
+              "HAS_HEADQUARTERS_IN",
+              "PARTICIPATES_IN_CORPORATE_EVENT"
+            ]
+          }
+        },
+        "properties": {
+          "numerical_observations": {
+            "additionalProperties": true,
+            "description": "List of numerical observation names available for this entity.",
+            "examples": [
+              {
+                "FinancialMetric": [
+                  {
+                    "cadence": "i",
+                    "description": "Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.",
+                    "id": "1d3eae40-0ba8-5baf-9907-6a4823b067bb",
+                    "name": "Cash and Cash Equivalents, at Carrying Value",
+                    "taxonomy": "us-gaap",
+                    "unit": "USD"
+                  }
+                ]
+              }
+            ],
+            "title": "Numerical Observations",
+            "type": "object"
+          },
+          "properties": {
+            "description": "List of property names available for this entity (e.g. id, name, currency).",
+            "examples": [
+              [
+                "cik",
+                "headquarters_address",
+                "lei",
+                "registered_address",
+                "founding_date",
+                "esg_policy",
+                "legal_name",
+                "employee_count",
+                "bics",
+                "name",
+                "aliases",
+                "id"
+              ]
+            ],
+            "items": {
+              "type": "string"
+            },
+            "title": "Properties",
+            "type": "array"
+          },
+          "relationships": {
+            "$ref": "#/components/schemas/IntrospectionEntityRelationships",
+            "description": "Outgoing and incoming relationship types."
+          }
+        },
+        "required": [
+          "properties",
+          "relationships",
+          "numerical_observations"
+        ],
+        "title": "IntrospectionResponse",
+        "type": "object"
+      },
+      "KnowBit": {
+        "description": "A KnowBit is like a fact, a piece of information that supports the answer.",
+        "properties": {
+          "content": {
+            "description": "The information contained in the KnowBit.",
+            "examples": [
+              "Altano Energy - \u20ac60m (Series C, Jul 2025). Develops and operates renewable energy projects across Spain..."
+            ],
+            "title": "Content",
+            "type": "string"
+          },
+          "id": {
+            "description": "The id of the KnowBit.",
+            "examples": [
+              "732e1954-9538-4fbc-a565-db2f8c07ad4e"
+            ],
+            "format": "uuid",
+            "title": "Id",
+            "type": "string"
+          },
+          "origins": {
+            "description": "The origins from which the KnowBit was extracted.",
+            "items": {
+              "$ref": "#/components/schemas/Origin"
+            },
+            "title": "Origins",
+            "type": "array"
+          }
+        },
+        "required": [
+          "id",
+          "content",
+          "origins"
+        ],
+        "title": "KnowBit",
+        "type": "object"
+      },
+      "Origin": {
+        "description": "The sources and documents from which the KnowBit was extracted.",
+        "properties": {
+          "breadcrumb": {
+            "description": "Breadcrumb field (always empty for compatibility)",
+            "examples": [
+              [
+                ""
+              ]
+            ],
+            "items": {
+              "type": "string"
+            },
+            "title": "Breadcrumb",
+            "type": "array"
+          },
+          "document": {
+            "$ref": "#/components/schemas/Document"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "required": [
+          "source",
+          "document",
+          "breadcrumb"
+        ],
+        "title": "Origin",
+        "type": "object"
+      },
+      "QueryRequest": {
+        "example": {
+          "input": "startups.location=Spain.funding>10M.funding<50M"
+        },
+        "properties": {
+          "input": {
+            "examples": [
+              "startups.location=Spain.funding>10M.funding<50M"
+            ],
+            "title": "Input",
+            "type": "string"
+          }
+        },
+        "required": [
+          "input"
+        ],
+        "title": "QueryRequest",
+        "type": "object"
+      },
+      "QueryResponse": {
+        "description": "Response in case of a successful structured query.",
+        "example": {
+          "entities": [
+            {
+              "entity_type": "Company",
+              "id": "e2932ee7-7b57-42b7-8c58-cdfcdf56ceb5",
+              "mentions": [
+                "Amenitiz"
+              ],
+              "name": "Amenitiz"
+            },
+            {
+              "entity_type": "Company",
+              "id": "e843fc48-8339-4c99-a6e2-e7fb1cc738b1",
+              "mentions": [
+                "H2SITE"
+              ],
+              "name": "H2SITE"
+            },
+            {
+              "entity_type": "Company",
+              "id": "af3ff4b5-27a9-45d5-8c67-b656cb38e6b8",
+              "mentions": [
+                "Fracttal"
+              ],
+              "name": "Fracttal"
+            }
+          ],
+          "results": [
+            {
+              "company": "Amenitiz",
+              "funding_amount": "\u20ac38.9M",
+              "round_type": "Series B",
+              "sector": "Hospitality SaaS",
+              "year": 2025
+            },
+            {
+              "company": "H2SITE",
+              "funding_amount": "\u20ac36M ($37.2M)",
+              "round_type": "Series B",
+              "sector": "Hydrogen Energy",
+              "year": 2025
+            },
+            {
+              "company": "Fracttal",
+              "funding_amount": "\u20ac29.8M ($35M)",
+              "round_type": "Series B",
+              "sector": "AI Maintenance",
+              "year": 2026
+            }
+          ]
+        },
+        "properties": {
+          "entities": {
+            "description": "Entities identified in the answer.",
+            "items": {
+              "$ref": "#/components/schemas/EntityMention"
+            },
+            "title": "Entities",
+            "type": "array"
+          },
+          "results": {
+            "description": "A list of structured results for the query. Shape and schema will be determined by the query.",
+            "examples": [
+              [
+                {
+                  "company": "Amenitiz",
+                  "funding_amount": "\u20ac38.9M",
+                  "round_type": "Series B",
+                  "sector": "Hospitality SaaS",
+                  "year": 2025
+                },
+                {
+                  "company": "H2SITE",
+                  "funding_amount": "\u20ac36M ($37.2M)",
+                  "round_type": "Series B",
+                  "sector": "Hydrogen Energy",
+                  "year": 2025
+                },
+                {
+                  "company": "Fracttal",
+                  "funding_amount": "\u20ac29.8M ($35M)",
+                  "round_type": "Series B",
+                  "sector": "AI Maintenance",
+                  "year": 2026
+                }
+              ]
+            ],
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Results",
+            "type": "array"
+          }
+        },
+        "required": [
+          "results",
+          "entities"
+        ],
+        "title": "QueryResponse",
+        "type": "object"
+      },
+      "ReasoningSteps": {
+        "description": "A step in the reasoning process.",
+        "properties": {
+          "content": {
+            "description": "The content of the reasoning step.",
+            "examples": [
+              "Altano Energy secured a \u20ac60 million Series C round in July 2025 from Pioneer Point Partners and M&G Investments."
+            ],
+            "title": "Content",
+            "type": "string"
+          },
+          "references": {
+            "description": "The UUIDs of the KnowBits referenced in the reasoning step. Must match KnowBit 'id' fields.",
+            "examples": [
+              [
+                "f22a1a96-6234-48d7-95c2-8b049f00fdab"
+              ]
+            ],
+            "items": {
+              "format": "uuid",
+              "type": "string"
+            },
+            "title": "References",
+            "type": "array"
+          }
+        },
+        "required": [
+          "content",
+          "references"
+        ],
+        "title": "ReasoningSteps",
+        "type": "object"
+      },
+      "SearchRequest": {
+        "example": {
+          "input": "What are the most promising climate tech startups in Southern Europe?"
+        },
+        "properties": {
+          "input": {
+            "examples": [
+              "What are the most promising climate tech startups in Southern Europe?"
+            ],
+            "title": "Input",
+            "type": "string"
+          }
+        },
+        "required": [
+          "input"
+        ],
+        "title": "SearchRequest",
+        "type": "object"
+      },
+      "Source": {
+        "description": "Organization that provides, creates, or publishes the document, like a web site, a book, a report, etc.",
+        "properties": {
+          "name": {
+            "description": "The name or title of the source.",
+            "examples": [
+              "Impact Loop"
+            ],
+            "title": "Name",
+            "type": "string"
+          },
+          "url": {
+            "description": "The URL of the source.",
+            "examples": [
+              "https://www.impactloop.com/"
+            ],
+            "format": "uri",
+            "minLength": 1,
+            "title": "URL",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "url"
+        ],
+        "title": "Source",
+        "type": "object"
+      },
+      "TriggerNotificationPayload": {
+        "properties": {
+          "answer": {
+            "description": "The answer to the query",
+            "examples": [
+              "There are 8 planets in our solar system. In order from the Sun, they are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. In addition to the 8 planets, the solar system also contains 5 recognized dwarf planets: Pluto, Ceres, Haumea, Makemake, and Eris."
+            ],
+            "title": "Answer",
+            "type": "string"
+          },
+          "query": {
+            "description": "The query to be monitored",
+            "examples": [
+              "How many planets are there in our solar system?"
+            ],
+            "title": "Query",
+            "type": "string"
+          },
+          "trigger_id": {
+            "description": "The ID of the trigger",
+            "examples": [
+              "550e8400-e29b-41d4-a716-446655440000"
+            ],
+            "format": "uuid",
+            "title": "Trigger Id",
+            "type": "string"
+          },
+          "trigger_name": {
+            "description": "The name of the trigger",
+            "examples": [
+              "Planet Count"
+            ],
+            "title": "Trigger Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "trigger_id",
+          "trigger_name",
+          "query",
+          "answer"
+        ],
+        "title": "TriggerNotificationPayload",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      },
+      "WebhookPayload": {
+        "example": {
+          "data": {
+            "answer": "There are 8 planets in our solar system. In order from the Sun, they are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. In addition to the 8 planets, the solar system also contains 5 recognized dwarf planets: Pluto, Ceres, Haumea, Makemake, and Eris.",
+            "query": "How many planets are there in our solar system?",
+            "trigger_id": "550e8400-e29b-41d4-a716-446655440000",
+            "trigger_name": "Planet Count"
+          },
+          "timestamp": "2025-02-13T12:00:00Z",
+          "type": "trigger.fired"
+        },
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/TriggerNotificationPayload",
+            "description": "The payload of the trigger notification"
+          },
+          "timestamp": {
+            "description": "The timestamp of the trigger notification",
+            "examples": [
+              "2025-02-13T12:00:00Z"
+            ],
+            "format": "date-time",
+            "title": "Timestamp",
+            "type": "string"
+          },
+          "type": {
+            "description": "The type of the trigger notification",
+            "examples": [
+              "trigger.fired"
+            ],
+            "title": "Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "timestamp",
+          "data"
+        ],
+        "title": "WebhookPayload",
+        "type": "object"
+      }
+    },
+    "securitySchemes": {
+      "APIKeyHeader": {
+        "in": "header",
+        "name": "X-API-KEY",
+        "type": "apiKey"
+      }
+    }
+  },
+  "info": {
+    "description": "\n### Knowledge Search\n\nLet's you search for verified knowledge to empower your AI Agent with the **right context**.\n\n### Knowledge Entities\n\nGet information about entities, **structured** and reliable.\n",
+    "summary": "Verified, reliable knowledge one API call away",
+    "title": "Cala AI",
+    "version": "Beta 1.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/v1/entities": {
+      "get": {
+        "description": "Find entities by name with fuzzy matching when you know (or partially know) an entity's name.\nOptionally filter by entity type.\n\nReturns an array of matching entities with IDs you can pass to retrieve_entity.\n\n\nExamples:\n\n`{\"name\": \"OpenAI\"}`\n\n`{\"name\": \"Elon Musk\", \"entity_types\": [\"Person\"]}`\n\n`{\"name\": \"Berlin\", \"entity_types\": [\"GPE\", \"Location\"], \"limit\": 5}`\n\n\nUse this when: You know the name and want the entity ID or basic info. Use `retrieve_entity` with the returned ID\nfor full details. Use `knowledge_query` for attribute-based filtering instead.",
+        "operationId": "entity_search",
+        "parameters": [
+          {
+            "description": "Entity name to search for",
+            "example": "<entity-name>",
+            "in": "query",
+            "name": "name",
+            "required": true,
+            "schema": {
+              "description": "Entity name to search for",
+              "minLength": 1,
+              "title": "Name",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Filter by entity types",
+            "in": "query",
+            "name": "entity_types",
+            "required": false,
+            "schema": {
+              "default": [],
+              "description": "Filter by entity types",
+              "items": {
+                "enum": [
+                  "Entity",
+                  "Award",
+                  "Organization",
+                  "Company",
+                  "EducationalInstitution",
+                  "Person",
+                  "Event",
+                  "GPE",
+                  "Country",
+                  "CountryRegion",
+                  "Industry",
+                  "FinancialMetric",
+                  "CorporateEvent",
+                  "Facility",
+                  "Location",
+                  "Product",
+                  "WorkOfArt",
+                  "Law",
+                  "Language"
+                ],
+                "type": "string"
+              },
+              "title": "Entity Types",
+              "type": "array"
+            }
+          },
+          {
+            "description": "Maximum number of results",
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "description": "Maximum number of results",
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EntitySearchResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          },
+          "429": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "rate_limit_exceeded",
+                  "message": "Rate limit per minute exceeded. Too many requests."
+                }
+              }
+            },
+            "description": "Too many requests (rate limit exceeded)"
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "summary": "Search Entities",
+        "tags": [
+          "API v1",
+          "Entities"
+        ]
+      }
+    },
+    "/v1/entities/{entity_id}": {
+      "post": {
+        "description": "Get the full profile of an entity by its numeric UUID. Returns detailed information including legal name, industry,\nfounders, executives, headquarters, employee count, and more.\n\n\nPass the entity UUID in the URL path (e.g. `POST /entities/{entity_id}`). Optionally send a JSON body\nto specify which properties and relationships to return; if omitted, default properties are returned.\nUse the `entity_introspection` endpoint to see which properties and relationships can be queried for an entity.\n\nExamples (path + optional body):\n\n`POST /entities/c6772802-bdbc-4778-91e9-cd3d27d008d5`\n\nOptional body: `{\"properties\": [\"name\", \"aliases\", \"registered_address\", \"employee_count\"], \"relationships\": {\"outgoing\": {\"IS_ULTIMATE_PARENT\": {\"limit\": 5}}, \"incoming\": {\"IS_CEO_OF\": {}}}}`\n\n\nUse this when: You already have an entity UUID (from `entity_search`, `knowledge_search`, or `knowledge_query`\nresults) and need the complete profile. Use `entity_search` first if you only have a name.",
+        "operationId": "retrieve_entity",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entity_id",
+            "required": true,
+            "schema": {
+              "format": "uuid",
+              "title": "Entity Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityQuery",
+                "description": "Optional query to specify which properties and relationships to return for the entity. If it is not provided, default properties will be returned.",
+                "examples": [
+                  {
+                    "numerical_observations": {
+                      "FinancialMetric": [
+                        "a277a751-96fd-5204-b7bc-2238a7cc4188"
+                      ]
+                    },
+                    "properties": [
+                      "name",
+                      "aliases",
+                      "registered_address",
+                      "employee_count"
+                    ],
+                    "relationships": {
+                      "incoming": {
+                        "IS_BOARD_MEMBER_OF": {
+                          "limit": 2,
+                          "offset": 2
+                        }
+                      },
+                      "outgoing": {
+                        "IS_REGISTERED_IN": {},
+                        "IS_ULTIMATE_PARENT": {
+                          "limit": 2,
+                          "offset": 0
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetEntityResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          },
+          "429": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "rate_limit_exceeded",
+                  "message": "Rate limit per minute exceeded. Too many requests."
+                }
+              }
+            },
+            "description": "Too many requests (rate limit exceeded)"
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "summary": "Entities",
+        "tags": [
+          "API v1",
+          "Entities"
+        ]
+      }
+    },
+    "/v1/entities/{entity_id}/introspection": {
+      "get": {
+        "description": "Get the field schema for an entity by its numeric UUID. Returns the available properties, relationships,\nand numerical observations you can use when querying the entity with `retrieve_entity`.\n\n\nExamples:\n\n`GET /entities/c6772802-bdbc-4778-91e9-cd3d27d008d5/introspection`\n\n`GET /entities/e5bb591a-d308-4aa5-9672-96046d366cde/introspection`\n\n\nUse this when: You have an entity UUID and need to discover which attributes and relationships exist before\nquerying. Use `retrieve_entity` for the full profile, or `entity_search` first if you only have a name.",
+        "operationId": "entity_introspection",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entity_id",
+            "required": true,
+            "schema": {
+              "format": "uuid",
+              "title": "Entity Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IntrospectionResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          },
+          "429": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "rate_limit_exceeded",
+                  "message": "Rate limit per minute exceeded. Too many requests."
+                }
+              }
+            },
+            "description": "Too many requests (rate limit exceeded)"
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "summary": "Entity Introspection",
+        "tags": [
+          "API v1",
+          "Entities"
+        ]
+      }
+    },
+    "/v1/knowledge/query": {
+      "post": {
+        "description": "Search verified knowledge using structured dot-notation query syntax for filtering entities by attributes.\n\nReturns a structured array of matching results plus entities. The input field is called \"input\" (not \"query\").\n\n\nExamples:\n\n`{\"input\": \"startups.location=Spain.funding>10M.funding<=50M\"}`\n\n`{\"input\": \"companies.industry=fintech.founded_year>=2020\"}`\n\n`{\"input\": \"people.role=CEO.company.industry=AI\"}`\n\n\nUse this when: You need to filter/search entities by specific attributes (location, funding, industry, year, etc.).\nFor free-text questions use `knowledge_search`. To look up a known entity by name use `entity_search`.",
+        "operationId": "knowledge_query",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QueryRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QueryResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          },
+          "429": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "rate_limit_exceeded",
+                  "message": "Rate limit per minute exceeded. Too many requests."
+                }
+              }
+            },
+            "description": "Too many requests (rate limit exceeded)"
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "summary": "Query",
+        "tags": [
+          "API v1",
+          "Knowledge"
+        ]
+      }
+    },
+    "/v1/knowledge/search": {
+      "post": {
+        "description": "Search verified knowledge using natural language questions. Best for open-ended queries where you need explanations,\ncontext, and sources \u2014 not just entity lists.\n\nReturns markdown content with explainability, source citations, and matching entities.\n\n\nExamples:\n\n`{\"input\": \"What are the biggest AI startups in Europe by funding?\"}`\n\n`{\"input\": \"Who founded Stripe and what is their background?\"}`\n\n`{\"input\": \"What regulations affect fintech companies in the EU?\"}`\n\n\nUse this when: You need a researched, sourced answer to a question. Prefer `knowledge_query` for structured\nfiltering, or `entity_search` if you just need to find an entity by name.",
+        "operationId": "knowledge_search",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Answer"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          },
+          "429": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "rate_limit_exceeded",
+                  "message": "Rate limit per minute exceeded. Too many requests."
+                }
+              }
+            },
+            "description": "Too many requests (rate limit exceeded)"
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "summary": "Search",
+        "tags": [
+          "API v1",
+          "Knowledge"
+        ]
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.cala.ai/"
+    }
+  ],
+  "webhooks": {
+    "trigger-fired": {
+      "post": {
+        "description": "We will send you a POST request with this payload to each endpoint configured in the trigger's notifications\nwhen there is a meaningful change in the answer of a trigger.",
+        "operationId": "trigger_firedtrigger_fired_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebhookPayload"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Trigger Fired",
+        "tags": [
+          "Triggers"
+        ]
+      }
+    }
+  }
+}

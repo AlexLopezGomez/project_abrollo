@@ -1,0 +1,717 @@
+{
+  "count": 101,
+  "hit_count": 99,
+  "miss_count": 2,
+  "resolved_at": "2026-04-15T21:27:44Z",
+  "hits": [
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "uuid": "3fddae2e-1e39-49fe-924a-80113c1bf3ea",
+      "match_name": "ADOBE INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "uuid": "70967fb4-2eb5-4cd9-bf8f-6f46223bd234",
+      "match_name": "ADVANCED MICRO DEVICES INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "uuid": "cc5ea001-00c9-4301-8c9e-5880797ca2bd",
+      "match_name": "AIRBNB, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "uuid": "3171f83e-3c7e-455c-b831-589c844f4ac8",
+      "match_name": "ALNYLAM PHARMACEUTICALS INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.(Class A)",
+      "uuid": "5c907457-69aa-4515-bc23-0c88d50e8dc1",
+      "match_name": "ALPHABET INC.",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.(Class C)",
+      "uuid": "5c907457-69aa-4515-bc23-0c88d50e8dc1",
+      "match_name": "ALPHABET INC.",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "uuid": "d4245a8e-6996-4663-b238-9c3e8d3742d7",
+      "match_name": "AMAZON WEB SERVICES, INC.",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "uuid": "7c9e014f-e93d-4875-98d8-cc4cda890422",
+      "match_name": "AMGEN INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "uuid": "120c7582-092a-45a7-adb9-84ba4a5bcba6",
+      "match_name": "ANALOG DEVICES INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "uuid": "c6772802-bdbc-4778-91e9-cd3d27d008d5",
+      "match_name": "APPLE INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "uuid": "632a489e-96db-47da-b194-7f04661c4183",
+      "match_name": "APPLIED MATERIALS, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "uuid": "42cf50cc-97a3-42e7-a0b4-3cdf76b09808",
+      "match_name": "AppLovin Corp",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "uuid": "6a73a736-4fec-4ed9-b7cc-93780c880fd5",
+      "match_name": "ARM HOLDINGS PLC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "uuid": "2038e635-eb55-4928-9bb8-1f7c0f26f154",
+      "match_name": "ASML Holding N.V.",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian",
+      "uuid": "ed445ca8-f89c-4c84-826e-d8e351f8c7ed",
+      "match_name": "ATLASSIAN CORPORATION",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "uuid": "d9b084d7-59b4-4493-8728-34ccb08ae9e9",
+      "match_name": "AUTODESK INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ADP",
+      "name": "Automatic Data Processing",
+      "uuid": "4166c121-413f-4865-aeee-8d9246909013",
+      "match_name": "Automatic Data Processing, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "uuid": "b934d723-5005-4d11-8f24-49056f598405",
+      "match_name": "AXON ENTERPRISE, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "BKR",
+      "name": "Baker Hughes",
+      "uuid": "27ecbfe2-b088-44b1-860f-93bc40397d63",
+      "match_name": "BAKER HUGHES INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings",
+      "uuid": "046d92f6-d3af-4bff-8d42-4a1490bd3539",
+      "match_name": "BOOKING HOLDINGS INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "uuid": "74932564-e943-44d3-aed8-3fe78f75c1a0",
+      "match_name": "Broadcom Ltd",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems",
+      "uuid": "d70f337e-b411-4739-a973-ab4ab4830b91",
+      "match_name": "Cadence Design Systems, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CTAS",
+      "name": "Cintas",
+      "uuid": "a057ec6c-93e7-4362-b965-3885653ef4b4",
+      "match_name": "CINTAS CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "uuid": "3f3e5f91-1fe7-4094-88ea-4a25b512a75f",
+      "match_name": "CISCO SYSTEMS, INC.",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners",
+      "uuid": "92851e86-e9d3-416f-8d9a-45cc9a41eb13",
+      "match_name": "COCA-COLA EUROPACIFIC PARTNERS BELGIUM",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant",
+      "uuid": "34153f6b-edc3-492e-809d-d00a336e8b13",
+      "match_name": "COGNIZANT HOLDINGS, LTD.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast",
+      "uuid": "c04cf4f1-14e8-4225-9ad6-95350b1897d2",
+      "match_name": "COMCAST CORPORATION",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "uuid": "5f1cde7f-424f-448e-871a-53004fbe60b6",
+      "match_name": "Constellation Energy Group, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CPRT",
+      "name": "Copart",
+      "uuid": "325d9a0e-cfdd-4426-89ff-835507751658",
+      "match_name": "COPART INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "uuid": "f303bff6-67e9-4df7-8353-392b3b547c04",
+      "match_name": "COSTAR GROUP INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "uuid": "46f58a10-998c-4532-b544-45687021db0e",
+      "match_name": "COSTCO FRANCE",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "uuid": "d743b4cb-2179-4332-933f-df987e8e9ae0",
+      "match_name": "CROWDSTRIKE, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX Corporation",
+      "uuid": "0652e6db-b9e2-40de-8c97-4001db0b7de5",
+      "match_name": "CSX CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "uuid": "f3f71be0-3420-42b6-98b3-d5c9a1f4529b",
+      "match_name": "DATADOG, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DexCom",
+      "uuid": "17bee96b-983e-4393-94c9-5411eaa1d265",
+      "match_name": "DEXCOM INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "uuid": "e4a5636c-30a4-45e3-b11b-24e6618ffe18",
+      "match_name": "DIAMONDBACK ENERGY, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "DASH",
+      "name": "DoorDash",
+      "uuid": "0ea158b7-ab05-4d2a-b0af-4970f672ca9e",
+      "match_name": "DoorDash Inc",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts",
+      "uuid": "9a1bdc58-3321-42b3-8473-28484a03ac08",
+      "match_name": "ELECTRONIC ARTS INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "EXC",
+      "name": "Exelon",
+      "uuid": "52ed9df9-328b-4d87-911b-67f2ee4eabcf",
+      "match_name": "EXELON CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal",
+      "uuid": "9a4d4f13-0d2a-49d6-a8e8-6557d637e773",
+      "match_name": "FASTENAL CO",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "FER",
+      "name": "Ferrovial",
+      "uuid": "d1d47663-2297-4cbf-a5cb-bbbc8472d8f2",
+      "match_name": "Ferrovial SE",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "uuid": "fe06318c-3cd5-49ab-accd-f622e6ebc20e",
+      "match_name": "Fortinet, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "uuid": "a9fabde2-9f74-4e89-96e9-e68c9297bcec",
+      "match_name": "GE HEALTHCARE",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "uuid": "81ac9d4e-c1ab-49f4-b3bb-516d791af1da",
+      "match_name": "GILEAD SCIENCES INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell",
+      "uuid": "6317702d-b372-4eda-8395-83d8c5afb332",
+      "match_name": "HONEYWELL HOLDING FRANCE",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "IDXX",
+      "name": "Idexx Laboratories",
+      "uuid": "0d9b50c2-fc31-4f21-b8e1-835cdef9109e",
+      "match_name": "IDEXX LABORATORIES, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "INSM",
+      "name": "Insmed Incorporated",
+      "uuid": "85c9be4f-c09b-4dab-8378-7cff6c63a1b5",
+      "match_name": "INSMED Inc",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "uuid": "04f6504d-7826-4103-ad2c-fd66c324db15",
+      "match_name": "INTEL CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "uuid": "3bea4287-408f-4164-b5f3-b602a4f3e18f",
+      "match_name": "INTUIT INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "uuid": "8e2ac349-d327-403d-80c2-88c3e0f5bba8",
+      "match_name": "INTUITIVE SURGICAL INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper",
+      "uuid": "c3f6c265-f6cc-477d-bc92-ce76889dbc64",
+      "match_name": "KEURIG DR PEPPER INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "uuid": "927810c0-91c7-47c2-9926-4b31926b05ec",
+      "match_name": "KLA CORPORATION",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "KHC",
+      "name": "Kraft Heinz",
+      "uuid": "98b3aa54-cbcd-4f00-bd58-d8b7d99201d7",
+      "match_name": "Kraft Heinz Co",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "uuid": "242ac30b-ea83-49d4-a4b4-f52a37ec17c0",
+      "match_name": "LAM RESEARCH CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "uuid": "bfdf35b9-7990-4d63-ae6a-fb02b1666010",
+      "match_name": "Linde O\u00dc",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "uuid": "918d6cfb-7e66-4f3d-871f-79b70eb3f8e6",
+      "match_name": "MARRIOTT INTERNATIONAL, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "uuid": "2c9c1af3-5cd7-4301-a445-dcc377dc5e68",
+      "match_name": "MARVELL TECHNOLOGY, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MELI",
+      "name": "Mercado Libre",
+      "uuid": "c2917f50-9ba9-4b87-a17d-b83660a272ac",
+      "match_name": "MERCADO",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "uuid": "b505bbc3-a8c3-4176-a28c-8fa1f31a5ed1",
+      "match_name": "META PLATFORMS, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "uuid": "fb45ee84-ab77-4568-b93e-d2610d93083e",
+      "match_name": "MICROCHIP TECHNOLOGY INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "uuid": "cee10857-4c1f-4e02-a39c-775610700cd7",
+      "match_name": "MICRON TECHNOLOGY INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "uuid": "eb3b1e84-1f45-486c-8d10-d2b498992830",
+      "match_name": "MICROSOFT CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "uuid": "e11fd907-b5c8-4f32-aaac-d0bb1234b9b9",
+      "match_name": "MICROSTRATEGY Inc",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MDLZ",
+      "name": "Mondelez International",
+      "uuid": "5906ff33-c0fc-4c25-9fbf-e2d5e07dabe1",
+      "match_name": "MONDELEZ INTERNATIONAL, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems",
+      "uuid": "a919b25e-d83a-4d7c-97c0-0815a90d4c47",
+      "match_name": "Monolithic Power Systems, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage",
+      "uuid": "1d401d0a-a2c2-4452-b2b7-23f379be858a",
+      "match_name": "MONSTER BEVERAGE CORPORATION",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "uuid": "5b473c58-2fb8-4698-ba8d-f317814cf766",
+      "match_name": "NETFLIX INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "uuid": "5f7ca504-01d8-4aa9-b1ac-889202fd17c9",
+      "match_name": "NVIDIA CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors",
+      "uuid": "da664ff1-efb6-485f-b74d-e35ff65f2a87",
+      "match_name": "NXP",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "ORLY",
+      "name": "O'Reilly Automotive",
+      "uuid": "3ffb35bd-96fe-41dd-8fd2-3f16c9f157c2",
+      "match_name": "O REILLY AUTOMOTIVE INC NEW",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "ODFL",
+      "name": "Old Dominion Freight Line",
+      "uuid": "e0cce153-9c15-44c9-8780-f71aca498c08",
+      "match_name": "Old Dominion Freight Line, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PCAR",
+      "name": "Paccar",
+      "uuid": "d5893d14-118c-4602-9933-b45014303738",
+      "match_name": "PACCAR INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "uuid": "bf4e5b99-c93c-418c-93b8-cd9df1cd74e0",
+      "match_name": "Palantir Technologies Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "uuid": "fd9e2967-2c53-4eab-8dc2-74f50332c1dc",
+      "match_name": "PALO ALTO NETWORKS, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PAYX",
+      "name": "Paychex",
+      "uuid": "0b011e21-6dd6-4605-a6ff-f27316bde458",
+      "match_name": "PAYCHEX INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PYPL",
+      "name": "PayPal",
+      "uuid": "f3369617-e4e0-43dd-9aa5-5e3c92d7d822",
+      "match_name": "PAYPAL, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PDD",
+      "name": "PDD Holdings",
+      "uuid": "4cfe9f48-c84f-4dbd-a956-0023a3d6c289",
+      "match_name": "PDD Holdings Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo",
+      "uuid": "28d5ef45-3923-4113-85cc-542007a99065",
+      "match_name": "PEPSICO INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "uuid": "bc36d8a3-339b-4ecd-8760-b621e4ecad8e",
+      "match_name": "QUALCOMM INCORPORATED",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "uuid": "7f14577e-8876-48cd-87d7-24ec18292061",
+      "match_name": "REGENERON PHARMACEUTICALS, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ROP",
+      "name": "Roper Technologies",
+      "uuid": "bd2368ed-f5a9-4104-aec3-9edb20066e7e",
+      "match_name": "ROPER TECHNOLOGIES INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ROST",
+      "name": "Ross Stores",
+      "uuid": "c1785120-220a-4eab-a0a9-1433c28db11f",
+      "match_name": "ROSS STORES INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "uuid": "6407d117-22bc-43eb-8052-a4c00f50f7a7",
+      "match_name": "Seagate Technology LLC",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "uuid": "067b7ddb-d4af-485a-a5b9-3e0fa154af33",
+      "match_name": "SHOPIFY INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks",
+      "uuid": "ad205ebd-b3c5-4bea-a534-5e62258f318b",
+      "match_name": "STARBUCKS CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "uuid": "ce4b247a-abb4-428c-9cfc-4be568ca88ee",
+      "match_name": "SYNOPSYS INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US",
+      "uuid": "a5abaab2-0214-4774-9a23-d4d2c3cbac5b",
+      "match_name": "T-MOBILE US, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "uuid": "2382ad3d-fd78-4a9d-bc28-7eaba5a4df55",
+      "match_name": "Take-Two Interactive Software, Inc.",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "uuid": "1a70407d-2c88-4e63-a163-f6b9074213f5",
+      "match_name": "TESLA MTRS INC",
+      "strategy": "prefix"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "uuid": "6534a6c8-817b-4d72-a778-cc7c3d041c9e",
+      "match_name": "TEXAS INSTRUMENTS INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "TRI",
+      "name": "Thomson Reuters",
+      "uuid": "4e8ab206-76c5-4354-a59b-1a7267e25410",
+      "match_name": "THOMSON REUTERS CORPORATION",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics",
+      "uuid": "106210ac-5ba1-4fd3-ba19-4a0ca9521e1e",
+      "match_name": "Verisk Analytics, Inc.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "uuid": "dcf15ed8-4b72-4716-be4d-7e2292dc0241",
+      "match_name": "VERTEX PHARMACEUTICALS INCORPORATED",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "uuid": "86fc55ab-9d65-47ba-aa5f-893f531e9fe1",
+      "match_name": "WALMART INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "WBD",
+      "name": "Warner Bros. Discovery",
+      "uuid": "d7033e61-12df-4c44-a0b7-2201060fcd91",
+      "match_name": "WARNER BROS. DISCOVERY, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "uuid": "08cbe45a-5d8f-4b28-9b09-39e4d9c10633",
+      "match_name": "WESTERN DIGITAL CORP",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday, Inc.",
+      "uuid": "1e69e1dd-8497-4d49-ac0d-107862eed293",
+      "match_name": "WORKDAY, INC.",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "XEL",
+      "name": "Xcel Energy",
+      "uuid": "2157f372-c775-4cb7-b8e0-ac776626512d",
+      "match_name": "XCEL ENERGY INC",
+      "strategy": "exact"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "uuid": "3700f087-8956-482d-89bf-8dac2c151672",
+      "match_name": "ZSCALER, INC.",
+      "strategy": "exact"
+    }
+  ],
+  "misses": [
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power",
+      "uuid": null,
+      "match_name": null,
+      "strategy": "miss"
+    },
+    {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "uuid": null,
+      "match_name": null,
+      "strategy": "miss"
+    }
+  ]
+}

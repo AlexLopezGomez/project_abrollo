@@ -1,0 +1,1821 @@
+{
+  "id": "1d401d0a-a2c2-4452-b2b7-23f379be858a",
+  "name": "MONSTER BEVERAGE CORPORATION",
+  "entity_type": "Company",
+  "description": "Parent company of Monster Energy brands, headquartered in Corona, California, with over 6,000 employees",
+  "properties": {
+    "description": {
+      "value": "Parent company of Monster Energy brands, headquartered in Corona, California, with over 6,000 employees",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "Monster Beverage Corporation\u2019s ESG policy framework is outlined in its sustainability reports and includes environmental initiatives such as a Water Stewardship Policy (adopted\u202fDecember\u202f26\u202f2023) that monitors and manages water use, targets to reduce greenhouse\u2011gas emissions, increase recycled content in packaging, and broader corporate social responsibility and governance commitments.",
+      "sources": [
+        {
+          "name": "www.monsterbevcorp.com",
+          "document": "https://www.monsterbevcorp.com/media/Monster_Beverage_Corporation-Water_Stewardship_Policy.pdf?v=0.1.0",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "www.monsterbevcorp.com",
+          "document": "https://www.monsterbevcorp.com/sustainability-reports.php",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+            "params": {},
+            "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/52990090AP0E7HCB6F33",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2014-08-12",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/52990090AP0E7HCB6F33",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "MONSTER BEVERAGE CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+            "params": {},
+            "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/52990090AP0E7HCB6F33",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "52990090AP0E7HCB6F33",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+            "params": {},
+            "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/52990090AP0E7HCB6F33",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "1 Monster Way, Corona, US-CA, 92879, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+            "params": {},
+            "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/52990090AP0E7HCB6F33",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "1d401d0a-a2c2-4452-b2b7-23f379be858a",
+      "sources": []
+    },
+    "aliases": {
+      "value": [
+        "Monster Beverage",
+        "MNST",
+        "Monster",
+        "Monster Beverage Corp."
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 6891,
+      "sources": [
+        {
+          "name": "www.bloomberg.com",
+          "document": "https://www.bloomberg.com/profile/company/MOB:GR",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "Monster Beverage (MNST) Current & Historical Employee Count",
+          "document": "https://financhle.com/company/MNST/employees",
+          "date": "2026-02-27"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "MONSTER BEVERAGE CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+            "params": {},
+            "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/52990090AP0E7HCB6F33",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+          "name": "California",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+                  "params": {},
+                  "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "16ce1fa1-f2bb-41b7-94c4-a5664451fc2f"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "e8c04f6b-e417-4092-a86b-b4f580101452",
+          "name": "MONSTER ENERGY COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300OURT0DNCONN173",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "c2e0058a-1462-5810-a964-288f25efecfd",
+            "valid_since": "2017-10-01"
+          }
+        },
+        {
+          "id": "fb4a7f95-5fd8-4d53-862d-4653a9caa3e2",
+          "name": "MONSTER ENERGY INDIA PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800OS7KW1RSBANE51",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "467a9bc4-80c7-54a7-9afd-804eab69fbb9",
+            "valid_since": "2012-08-24"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "d81f6ba1-20ea-4492-991d-1069bbd1ae88",
+          "name": "MONSTER ENERGY US LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300LXCDZ8FFN4BO64",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a1775b6c-826f-594a-b271-746373c1ea92",
+            "valid_since": "2017-11-29"
+          }
+        },
+        {
+          "id": "e8c04f6b-e417-4092-a86b-b4f580101452",
+          "name": "MONSTER ENERGY COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300OURT0DNCONN173",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "0cf579e9-9357-5a8a-9aac-ed138eb9403c",
+            "valid_since": "2017-10-01"
+          }
+        },
+        {
+          "id": "fb4a7f95-5fd8-4d53-862d-4653a9caa3e2",
+          "name": "MONSTER ENERGY INDIA PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/335800OS7KW1RSBANE51",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b4870158-8d62-55d0-855f-597035479c05",
+            "valid_since": "2012-08-24"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/52990090AP0E7HCB6F33",
+                  "params": {},
+                  "response_hash": "1f18aa5feadacc4eb6fe4facb70233ded2e22e69493c300ce4c1cb13bc48c1cc"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "a3d986cf-0767-485c-bbdc-aecb1a68266e"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+          "name": "BlackRock Institutional Trust Company, N.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/913414/000108636417000008/primary_doc.xml",
+                "date": "2017-02-10"
+              }
+            ],
+            "id": "cf04c0b6-aa98-5de2-b980-1d14cc341eb6",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 10759295.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636417000008/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 3522829.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002329/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 3633358.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000103455116000007/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 3774997.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/913414/000108636416002288/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000110465924021493/tv01482-monsterbeveragecorp.htm",
+                "date": "2024-02-13"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 6.12,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924021493/tv01482-monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-02-09T00:00:00Z",
+                "value": 5.98,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465923016503/tv01449-monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2023-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-02-09T00:00:00Z",
+                "value": 5.28,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118003606/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2018-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-10T00:00:00Z",
+                "value": 4.33,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116010879/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-11T00:00:00Z",
+                "value": 6.73,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115004966/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-11T00:00:00Z",
+                "value": 5.85,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114003405/monsterbeverage.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 5.23,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004752/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "206b9629-10e0-5a5e-afc1-bcb56381fe1d",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 67980692.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 67483584.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 65360899.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 64786624.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 63635449.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 63837486.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 65653177.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 64741352.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 63682310.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+          "name": "VANGUARD FIDUCIARY TRUST COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247118003606/monsterbeveragecorp.htm",
+                "date": "2018-02-09"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2018-02-09T00:00:00Z",
+                "value": 0.08,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118003606/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2018-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-10T00:00:00Z",
+                "value": 0.11,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116010879/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-11T00:00:00Z",
+                "value": 0.11,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115004966/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-11T00:00:00Z",
+                "value": 0.1,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114003405/monsterbeverage.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 0.12,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004752/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "ef9160dc-2bb1-5e99-8677-67883f59cadd"
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787126000150/primary_doc.xml",
+                "date": "2026-02-13"
+              }
+            ],
+            "id": "70a454ba-8d7e-51f4-8367-a470fb35636d",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 2693291.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787126000150/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 1341965.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125001016/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 1748676.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125000533/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 1993020.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125000159/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 5926.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123001078/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 53030.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000862/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 32343.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000583/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 13698.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 13698.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000162/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 22298.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122001169/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 24738.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000896/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 20045.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000572/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 959.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000224/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 54251.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121001199/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 22457.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000946/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 22457.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000938/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 17736.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000569/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-17T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 33579.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000199/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 71883.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000497/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 71883.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000474/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 5383179.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000113/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 3060771.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000820/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 108090.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000595/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-03-31T00:00:00Z",
+                "value": 125930.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000373/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-12-31T00:00:00Z",
+                "value": 165560.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787119000113/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 114580.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787118000902/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-03-31T00:00:00Z",
+                "value": 157110.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787118000411/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-05-15T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "4ead622b-e8c8-5766-abe1-894102846b09",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 5673350.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 6850687.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 6850687.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 12085795.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 15665393.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 22617765.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 34410167.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 34410167.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 32069508.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 32069508.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 23499550.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 23499550.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 20449011.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000669/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 20449011.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000190/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 35130984.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000542/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 29760640.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000462/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 24497450.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000378/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 24138924.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000321/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 11303273.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 8495850.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000516/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 6840629.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000424/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 7072032.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 7616494.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000267/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 7616494.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000233/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 9058125.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000478/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 10107934.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000379/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 9064597.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 6938737.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 6938737.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 6721492.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 6721492.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000473/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 6219894.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000375/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 6807678.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000301/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 4883110.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 4729612.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000258/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 2935087.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000129/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-03-31T00:00:00Z",
+                "value": 3344934.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000069/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-05-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-12-31T00:00:00Z",
+                "value": 3236795.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000014/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 3190474.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000208/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 3190474.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000246/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-06-30T00:00:00Z",
+                "value": 3130967.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000153/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-03-31T00:00:00Z",
+                "value": 6792151.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000094/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-12-31T00:00:00Z",
+                "value": 6168815.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000013/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-09-30T00:00:00Z",
+                "value": 6125806.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000554/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-06-30T00:00:00Z",
+                "value": 6894836.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000496/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-03-31T00:00:00Z",
+                "value": 6804690.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000376/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 7990236.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000305/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 2729460.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001154/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-04T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 2822891.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001108/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 3053232.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716000968/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-12-31T00:00:00Z",
+                "value": 3565896.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716000857/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-09-30T00:00:00Z",
+                "value": 2931384.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-06-30T00:00:00Z",
+                "value": 3379005.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000373/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-03-31T00:00:00Z",
+                "value": 3396110.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000327/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-12-31T00:00:00Z",
+                "value": 1345594.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961715000249/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2015-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-12-31T00:00:00Z",
+                "value": 438151.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000292/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-02-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-12-31T00:00:00Z",
+                "value": 438151.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000264/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2014-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-03-31T00:00:00Z",
+                "value": 1518271.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000276/jpmc13f20130331.txt",
+                  "source": "SEC",
+                  "published_time": "2013-04-25T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-12-31T00:00:00Z",
+                "value": 2513470.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961713000198/jpmc13f20121231.TXT",
+                  "source": "SEC",
+                  "published_time": "2013-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-09-30T00:00:00Z",
+                "value": 4533028.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000323/jpmc13f20120928.TXT",
+                  "source": "SEC",
+                  "published_time": "2012-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 4354019.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000292/jpmc13f20120629.TXT",
+                  "source": "SEC",
+                  "published_time": "2012-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-03-31T00:00:00Z",
+                "value": 3868730.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961712000229/jpmc13f20120330.txt",
+                  "source": "SEC",
+                  "published_time": "2012-05-14T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+          "name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247118003606/monsterbeveragecorp.htm",
+                "date": "2018-02-09"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2018-02-09T00:00:00Z",
+                "value": 0.05,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247118003606/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2018-02-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-02-10T00:00:00Z",
+                "value": 0.04,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247116010879/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2016-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-02-11T00:00:00Z",
+                "value": 0.05,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247115004966/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2015-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2014-02-11T00:00:00Z",
+                "value": 0.05,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247114003405/monsterbeverage.htm",
+                  "source": "SEC",
+                  "published_time": "2014-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2013-02-13T00:00:00Z",
+                "value": 0.06,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247113004752/monsterbeveragecorp.htm",
+                  "source": "SEC",
+                  "published_time": "2013-02-13T00:00:00Z"
+                }
+              }
+            ],
+            "id": "ad114770-8ff1-5ae5-be94-d12e10e1a199"
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238324004112/us61174x1090_110824.txt",
+                "date": "2024-11-08"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-11-08T00:00:00Z",
+                "value": 5.2,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238324004112/us61174x1090_110824.txt",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-10-21T00:00:00Z",
+                "value": 5.2,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238324000891/us61174x1090_102124.txt",
+                  "source": "SEC",
+                  "published_time": "2024-10-21T00:00:00Z"
+                }
+              }
+            ],
+            "id": "726250fd-2ef5-5fa1-8e77-80f94d6a17c1",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 61516171.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 59584523.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 57435778.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 51913807.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 51649465.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 50649700.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "eee1c65e-5681-44b5-8309-852d1969f94b",
+          "name": "BLACKROCK ADVISORS LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/1086364/000108636417000003/primary_doc.xml",
+                "date": "2017-02-10"
+              }
+            ],
+            "id": "0916eac1-9cfa-5f38-bf34-2d9369801708",
+            "number_shares": [
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 213179.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636417000003/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 72296.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002324/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 73751.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000103455116000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 101443.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002308/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 101443.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002313/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-12-31T00:00:00Z",
+                "value": 52162.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002272/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 253379.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002882/blkadvisorsllcamend.txt",
+                  "source": "SEC",
+                  "published_time": "2012-09-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 253379.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412003010/blkadvisorsllcamend.txt",
+                  "source": "SEC",
+                  "published_time": "2012-10-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2012-06-30T00:00:00Z",
+                "value": 253379.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636412002826/blkadvisorsllc.txt",
+                  "source": "SEC",
+                  "published_time": "2012-08-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "MNST",
+    "uuid": "1d401d0a-a2c2-4452-b2b7-23f379be858a",
+    "match_name": "MONSTER BEVERAGE CORPORATION",
+    "retrieved_at": "2026-04-15T22:32:35Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 11,
+      "relationship_types_outgoing": 4,
+      "relationship_types_incoming": 1,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 11,
+      "relationship_types": 5,
+      "relationship_edges": 15,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

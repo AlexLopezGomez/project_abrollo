@@ -1,0 +1,2926 @@
+{
+  "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+  "name": "BlackRock, Inc.",
+  "entity_type": "Company",
+  "description": "Global asset management firm led by founder Laurence D. Fink, headquartered at 50 Hudson Yards in New York with 16500 employees.",
+  "properties": {
+    "aliases": {
+      "value": [
+        "BlackRock",
+        "BLK"
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "BlackRock, Inc.",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/529900VBK42Y5HHRMD23",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0002012383",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "2d8ea52e07eed70d810ab4d2710cd8c9f2a997260f95c773d7b84bf1956864b5"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "c327c71d369d8a64490bdc2f2e17f25e3b14cda3e2460874767b7a20bccf079c"
+          },
+          "date": "2026-03-16"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2024-01-08",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/529900VBK42Y5HHRMD23",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "sources": []
+    },
+    "lei": {
+      "value": "529900VBK42Y5HHRMD23",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "9aafb5350443763bec3f59ec4d79336024e435bd31f74ac1862d8e6ff6304d0b"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493001LN9MRM6A35J74/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493001LN9MRM6A35J74/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YRZ2DC387FBW20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YRZ2DC387FBW20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YTZPMRP8RYSY86/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YTZPMRP8RYSY86/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300K1YWSA5XFNI631/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300K1YWSA5XFNI631/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493006MRTEZZ4S4CQ20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493006MRTEZZ4S4CQ20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LM7VWDLE8S3N49/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LM7VWDLE8S3N49/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZSSQNQS45HST19/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZSSQNQS45HST19/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NYKTM6QSCOOL42/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NYKTM6QSCOOL42/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300XGPOF48GVY4D26/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300XGPOF48GVY4D26/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300HQCTVA2RJNC138/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300HQCTVA2RJNC138/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493004330BCAPB3GT42/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493004330BCAPB3GT42/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/54930070BASO617XT291/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/54930070BASO617XT291/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300VS9BEOFOLBNV94/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300VS9BEOFOLBNV94/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300UZGBQ6FHD2X729/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300UZGBQ6FHD2X729/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493005NE8FQ0BP16E53/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493005NE8FQ0BP16E53/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "0a94062d34eaeafe080de4c8eaf140c01b14c2351332f0476f445e6f86101262"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "0a94062d34eaeafe080de4c8eaf140c01b14c2351332f0476f445e6f86101262"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/529900VBK42Y5HHRMD23",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "Global asset management firm led by founder Laurence D. Fink, headquartered at 50 Hudson Yards in New York with 16500 employees.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-27"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "c/o CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "9aafb5350443763bec3f59ec4d79336024e435bd31f74ac1862d8e6ff6304d0b"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493001LN9MRM6A35J74/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493001LN9MRM6A35J74/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YRZ2DC387FBW20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YRZ2DC387FBW20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YTZPMRP8RYSY86/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YTZPMRP8RYSY86/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300K1YWSA5XFNI631/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300K1YWSA5XFNI631/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493006MRTEZZ4S4CQ20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493006MRTEZZ4S4CQ20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LM7VWDLE8S3N49/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LM7VWDLE8S3N49/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZSSQNQS45HST19/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZSSQNQS45HST19/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NYKTM6QSCOOL42/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NYKTM6QSCOOL42/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300XGPOF48GVY4D26/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300XGPOF48GVY4D26/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300HQCTVA2RJNC138/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300HQCTVA2RJNC138/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493004330BCAPB3GT42/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493004330BCAPB3GT42/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/54930070BASO617XT291/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/54930070BASO617XT291/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300VS9BEOFOLBNV94/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300VS9BEOFOLBNV94/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300UZGBQ6FHD2X729/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300UZGBQ6FHD2X729/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493005NE8FQ0BP16E53/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493005NE8FQ0BP16E53/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "0a94062d34eaeafe080de4c8eaf140c01b14c2351332f0476f445e6f86101262"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "0a94062d34eaeafe080de4c8eaf140c01b14c2351332f0476f445e6f86101262"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/529900VBK42Y5HHRMD23",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "50 Hudson Yards, New York, New York, 10001",
+      "sources": [
+        {
+          "name": "https://www.globaldata.com/company-profile/blackrock-inc/locations",
+          "document": "https://www.globaldata.com/company-profile/blackrock-inc/locations",
+          "date": "2026-04-09"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "# Greenhouse gas emissions\n\nIn partnership with Mr. Kapito, continued the \u201cRecognized by Rob2\u201d program to highlight employee accomplishments based on colleague submissions. In partnership with Mr. Small, initiated BlackRock\u2019s Supplier Sustainability Program in 2024 and completed engagements with suppliers representing 58% of BlackRock\u2019s emissions based on spend.\n\n---\n\nIn partnership with Mr. Goldstein, initiated BlackRock\u2019s Supplier Sustainability Program in 2024 and completed engagements with suppliers representing 58% of BlackRock\u2019s emissions based on spend. Led BlackRock\u2019s sustainability reporting which issued BlackRock\u2019s TCFD and SASB aligned reports in a timely manner and in line with disclosure standards.\n\n---\n\nOperating a Sustainable Company In operating its own business, BlackRock pursues a sustainability strategy that is focused on reducing greenhouse gas (\u201cGHG\u201d) emissions associated with its facilities, data centers, and upstream value chain and addressing emissions it otherwise cannot yet reduce through market solutions, such as renewable energy, Sustainable Aviation Fuel (\u201cSAF\u201d) and carbon credits.\n\n---\n\nThe climate and decarbonization stewardship program applies only to certain funds that have climate and decarbonization objectives and that have been explicitly approved for inclusion in the program by the respective governing body of the fund, or at the explicit direction of clients in separately managed accounts.\n\n---\n\nAs part of this commitment, BlackRock\u2019s voluntary reporting framework included its reports aligned with the TCFD framework and the SASB standards, as well as its GHG Emissions Report for its corporate operational emissions. In 2024, BlackRock also provided sustainability-related reporting in line with mandatory reporting requirements in various jurisdictions across the globe for relevant in-scope entities.\n\n---\n\nAlthough the company has previously touted2 its investment in the energy sector, its leadership in climate initiatives designed to reduce carbon emissions has led to criticism from numerous states over its bias against the fossil fuel industry \u2014 more importantly, BlackRock\u2019s participation in ESG initiatives has led states such as West Virginia,3 Oklahoma,4 and Texas5 to restrict the company from doing business with state entities.\n\n---\n\nMaking a Positive Social Impact In 2021, The BlackRock Foundation committed $100 million to Breakthrough Energy\u2019s Catalyst Program (\u201cCatalyst\u201d), which seeks to support clean energy technology innovation, focused on five areas: SAF, long-duration energy storage, green hydrogen, direct air capture and green manufacturing. As of November 2024, Catalyst had announced five projects funded with philanthropic capital.\n\n---\n\nBlackRock's 2023 GHG Emissions Report provides information for the year-ended December 31, 2023, unless otherwise noted. BlackRock periodically publishes Sustainability Disclosure, aligned with the SASB's standard for Asset Management & Custody Activities, which the Company is working to update based on 2024 data.\n\n---\n\nThe range of voting guidelines policies from which clients can choose has also been expanded and includes policies that focus on sustainability and climate risk, among others. BlackRock also introduced a new stewardship option in July 2024 for clients focused on decarbonization investment objectives.\n\n---\n\nThis comprehensive report is aligned with the recommendations provided by the TCFD and represents BlackRock\u2019s commitment to providing meaningful information on BlackRock\u2019s approach to managing climate-related risks and opportunities across its business. 2023 Greenhouse Gas Emissions Report (published in 2024) BlackRock reports its corporate GHG emissions for Scope 1, 2 and certain categories of Scope 3.\n\n# Energy consumption\n\n(1)BlackRock achieved its 100% renewable electricity match goal to match the same amount of renewable electricity as the electricity that BlackRock\u2019s global operations (including facilities, data centers, and upstream leased assets) consume annually. For more information, please see BlackRock\u2019s 2024 Climate Report aligned with the TCFD framework. (2)As of December 31, 2024.\n\n---\n\nIn 2024, BlackRock made progress in its operational sustainability strategy by employing energy efficiency strategies, achieving its 100% renewable electricity match goal,(1) building upon its SAF and carbon credit procurement processes, and driving forward BlackRock\u2019s Supplier Sustainability Program. BlackRock is committed to providing meaningful information regarding sustainability-related matters.\n\n---\n\nCorporate sustainability Achieved the Company\u2019s 100% renewable electricity match goal and enhanced the Company\u2019s approach to procuring market solutions.\n\n---\n\nCorporate sustainability Achieved BlackRock\u2019s 100% renewable electricity match goal and enhanced the Company\u2019s approach to procuring market solutions.\n\n# Waste output\n\nYou will need the control number that appears on your proxy card. During the Meeting This year\u2019s meeting will be virtual. For details on voting your shares during the Annual Meeting, see \u201cQuestions and Answers About the Annual Meeting and Voting.\u201d Please note that we are furnishing proxy materials and access to our Proxy Statement to our shareholders via our website instead of mailing printed copies. This helps us save costs and reduce our impact on the environment.",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": "https://www.sec.gov/Archives/edgar/data/2012383/000130817925000388/ny-20250404.htm",
+          "date": "2025-04-04"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "BlackRock, Inc.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock,+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "9aafb5350443763bec3f59ec4d79336024e435bd31f74ac1862d8e6ff6304d0b"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493001LN9MRM6A35J74/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493001LN9MRM6A35J74/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YRZ2DC387FBW20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YRZ2DC387FBW20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YTZPMRP8RYSY86/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YTZPMRP8RYSY86/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300K1YWSA5XFNI631/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300K1YWSA5XFNI631/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493006MRTEZZ4S4CQ20/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493006MRTEZZ4S4CQ20/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LM7VWDLE8S3N49/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LM7VWDLE8S3N49/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZSSQNQS45HST19/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZSSQNQS45HST19/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NYKTM6QSCOOL42/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NYKTM6QSCOOL42/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300XGPOF48GVY4D26/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300XGPOF48GVY4D26/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300HQCTVA2RJNC138/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300HQCTVA2RJNC138/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493004330BCAPB3GT42/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493004330BCAPB3GT42/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/54930070BASO617XT291/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/54930070BASO617XT291/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300VS9BEOFOLBNV94/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300VS9BEOFOLBNV94/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300UZGBQ6FHD2X729/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300UZGBQ6FHD2X729/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/direct-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/ultimate-parent",
+            "params": {},
+            "response_hash": "6b03e949141fdb66fc24d17b37d16ba11ed74eb6a6b424d897a6fe7c8981f5fa"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300ZISWW0FGTKDU36/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493005NE8FQ0BP16E53/direct-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493005NE8FQ0BP16E53/ultimate-parent",
+            "params": {},
+            "response_hash": "e3958a54d978fe1cbfd8d65ded4124a0e41b5e5cbe08ef1d864fcb14d3258ed7"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "a1856e533f12697e24835885b065d521408da5fb777023e17ee6db50ca796548"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "e8a12febec9f86b1e3011bf32281ff5dcd8870bee84f1198eda65fcec25433ed"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LHJLRTIJ2BCS13/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/direct-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703/ultimate-parent",
+            "params": {},
+            "response_hash": "c9514d4719c61f62bb170366d3381f032a5d681d3b08aa0a5768d2fc1f130d01"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/direct-parent",
+            "params": {},
+            "response_hash": "0a94062d34eaeafe080de4c8eaf140c01b14c2351332f0476f445e6f86101262"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300YOOGP0Y1M95C20/ultimate-parent",
+            "params": {},
+            "response_hash": "0a94062d34eaeafe080de4c8eaf140c01b14c2351332f0476f445e6f86101262"
+          },
+          "date": "2026-03-16"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/529900VBK42Y5HHRMD23",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 16500,
+      "sources": [
+        {
+          "name": "Zippia - Find Jobs, Salaries, Companies, Resume Help, Career Paths and More",
+          "document": "https://www.zippia.com/blackrock-careers-904178",
+          "date": "2026-02-23"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [
+    {
+      "type": "FinancialMetric",
+      "id": "1d3eae40-0ba8-5baf-9907-6a4823b067bb",
+      "name": "Cash and Cash Equivalents, at Carrying Value",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 11468000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 9979000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 9478000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 7747000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 12762000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 12762000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 12762000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 12762000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 12762000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 14037000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 8736000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 8736000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "db56d5ab-c493-5600-b0ec-ef5e4beada6b",
+      "name": "Other Assets",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 5700000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 7776000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 6648000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 7143000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 3596000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 3596000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 3596000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 3596000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 3596000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 4498000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 3848000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 3848000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "0ba06b3d-732f-52e8-b0a3-b7420487ebe6",
+      "name": "Assets",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 169998000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 162682000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 146470000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 141942000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 138615000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 138615000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 138615000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 138615000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 138615000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 132816000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 123211000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 123211000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "44fb5efa-9f9e-5656-aae1-78b7c19cf346",
+      "name": "Debt Securities, Held-to-maturity",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 507000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 532000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 551000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 530000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 547000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 547000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 547000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 547000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 547000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 566000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 617000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 617000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "eb43492e-d056-52f0-8c57-ecf43258f231",
+      "name": "Other Liabilities",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 6823000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 8570000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 6283000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 7198000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 4032000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 4032000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 4032000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 4032000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 4032000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 5061000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 4375000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 4474000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "d7525345-2aa5-5068-bd81-6db4fba93d2c",
+      "name": "Liabilities",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 108456000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 100827000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 94868000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 91752000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 89260000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 89260000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 89260000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 89260000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 89260000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 89192000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 81971000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 81971000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "7ced8c3d-061d-5e19-abc9-d9a7051602ff",
+      "name": "Common Stock, Value, Issued",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 2000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "4b4cb592-00c8-5ba5-851b-f0ea5313a70a",
+      "name": "Stockholders' Equity Attributable to Parent",
+      "properties": {
+        "unit": "USD",
+        "aliases": [],
+        "taxonomy": "us-gaap",
+        "cadence": "i"
+      },
+      "data": [
+        {
+          "time": "2025-12-31T00:00:00Z",
+          "value": 55888000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-09-30T00:00:00Z",
+          "value": 55519000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-06-30T00:00:00Z",
+          "value": 49141000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2025-03-31T00:00:00Z",
+          "value": 48036000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 47495000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 47495000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-26-071966/0001193125-26-071966-index.html",
+            "source": "SEC",
+            "published_time": "2026-02-25T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 47495000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001193125-25-267043/0001193125-25-267043-index.html",
+            "source": "SEC",
+            "published_time": "2025-11-05T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 47495000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-103780/0000950170-25-103780-index.html",
+            "source": "SEC",
+            "published_time": "2025-08-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-12-31T00:00:00Z",
+          "value": 47495000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-065838/0000950170-25-065838-index.html",
+            "source": "SEC",
+            "published_time": "2025-05-07T00:00:00Z"
+          }
+        },
+        {
+          "time": "2024-09-30T00:00:00Z",
+          "value": 41178000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 39347000000.0,
+          "origin": {
+            "name": "10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-24-122256/0000950170-24-122256-index.html",
+            "source": "SEC",
+            "published_time": "2024-11-06T00:00:00Z"
+          }
+        },
+        {
+          "time": "2023-12-31T00:00:00Z",
+          "value": 39347000000.0,
+          "origin": {
+            "name": "10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/0000950170-25-026584/0000950170-25-026584-index.html",
+            "source": "SEC",
+            "published_time": "2025-02-25T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "origin_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+    "properties_count_requested": 12,
+    "numobs_categories_requested": 1
+  }
+}

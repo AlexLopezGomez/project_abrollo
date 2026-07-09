@@ -1,0 +1,42 @@
+{
+  "id": "d094c64b-437e-4826-943a-0f0db9fce15a",
+  "name": "BARCLAYS GLOBAL INVESTORS, NA",
+  "entity_type": "Company",
+  "description": "A company that is a subsidiary of both BlackRock, Inc. and Barclays Bank PLC.",
+  "properties": {
+    "name": {
+      "value": "BARCLAYS GLOBAL INVESTORS, NA",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341409003834/perficient123108.txt",
+          "date": "2009-02-05"
+        }
+      ]
+    },
+    "description": {
+      "value": "A company that is a subsidiary of both BlackRock, Inc. and Barclays Bank PLC.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "id": {
+      "value": "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+    "properties_count_requested": 3,
+    "numobs_categories_requested": 0
+  }
+}

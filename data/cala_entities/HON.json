@@ -1,0 +1,148 @@
+{
+  "id": "6317702d-b372-4eda-8395-83d8c5afb332",
+  "name": "HONEYWELL HOLDING FRANCE",
+  "entity_type": "Company",
+  "description": "A company incorporated in November 2018 with headquarters at 26-28 Avenue de Winchester in Saint-Germain-en-Laye, France",
+  "properties": {
+    "founding_date": {
+      "value": "2018-11-15",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "26-28 AVENUE DE WINCHESTER-IMMEUBLE LE BOSE, SAINT-GERMAIN-EN-LAYE, FR-78, 78100, FR",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "HONEYWELL HOLDING FRANCE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300NUSJAKUN16UV82",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "HONEYWELL HOLDING FRANCE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A company incorporated in November 2018 with headquarters at 26-28 Avenue de Winchester in Saint-Germain-en-Laye, France",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "HONEYWELL HOLDING FRANCE SAS"
+      ],
+      "sources": []
+    },
+    "id": {
+      "value": "6317702d-b372-4eda-8395-83d8c5afb332",
+      "sources": []
+    },
+    "registered_address": {
+      "value": "26-28 AVENUE DE WINCHESTER-IMMEUBLE LE BOSE, SAINT-GERMAIN-EN-LAYE, FR-78, 78100, FR",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "ddda907a-bab7-4b62-9efd-a220ff8d54c9",
+          "name": "Yvelines",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "c59bedc5-4a10-51e6-94a1-ea72b1d7e2a2"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "ddda907a-bab7-4b62-9efd-a220ff8d54c9",
+          "name": "Yvelines",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300NUSJAKUN16UV82",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "0512b331-8eb1-558d-9a1c-4e707cc68bb3"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "HON",
+    "uuid": "6317702d-b372-4eda-8395-83d8c5afb332",
+    "match_name": "HONEYWELL HOLDING FRANCE",
+    "retrieved_at": "2026-04-15T22:30:08Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 9,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 9,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

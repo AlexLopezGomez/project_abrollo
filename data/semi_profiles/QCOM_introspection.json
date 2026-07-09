@@ -1,0 +1,36 @@
+{
+  "properties": [
+    "aliases",
+    "name",
+    "founding_date",
+    "id",
+    "lei",
+    "description",
+    "registered_address",
+    "headquarters_address",
+    "esg_policy",
+    "legal_name",
+    "employee_count"
+  ],
+  "relationships": {
+    "outgoing": [
+      "TRADED_ON",
+      "LISTED_ON",
+      "HAS_HEADQUARTERS_IN",
+      "OPERATES_IN_INDUSTRY",
+      "IS_DIRECT_PARENT_OF",
+      "IS_AFFILIATE_OF",
+      "IS_REGISTERED_IN",
+      "IS_ULTIMATE_PARENT_OF"
+    ],
+    "incoming": [
+      "CREATED_BY",
+      "OPERATED_BY",
+      "IS_DIRECT_OWNER_OF",
+      "MANUFACTURED_BY",
+      "DESIGNED_BY",
+      "IS_BENEFICIARY_OWNER_OF"
+    ]
+  },
+  "numerical_observations": {}
+}

@@ -1,0 +1,1460 @@
+{
+  "id": "bf4e5b99-c93c-418c-93b8-cd9df1cd74e0",
+  "name": "Palantir Technologies Inc.",
+  "entity_type": "Company",
+  "description": "U.S.-based company with headquarters in Denver, registered in Wilmington, employs 4,429 staff and is the direct and ultimate parent of PALANTIR SHAKTI TECHNOLOGIES PRIVATE LIMITED.",
+  "properties": {
+    "registered_address": {
+      "value": "C/O THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209 ORANGE ST, WILMINGTON, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Palantir+Technologies+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "06b3d0012ed8aaee51bbfd05b7bd15c60f0b9f5c98a9d5a77943b98b45d6a432"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300UVN46B3BBDHO85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Palantir",
+        "PLTR",
+        "Palantir Technologies",
+        "Palantir Technologies (PLTR)",
+        "Palantir Technologies Inc"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 4429,
+      "sources": [
+        {
+          "name": "https://www.globaldata.com/company-profile/palantir-technologies-inc/",
+          "document": "https://www.globaldata.com/company-profile/palantir-technologies-inc/",
+          "date": "2026-03-24"
+        },
+        {
+          "name": "https://www.investing.com/equities/palantir-technologies-inc-company-profile",
+          "document": "https://www.investing.com/equities/palantir-technologies-inc-company-profile",
+          "date": "2026-03-24"
+        }
+      ]
+    },
+    "id": {
+      "value": "bf4e5b99-c93c-418c-93b8-cd9df1cd74e0",
+      "sources": []
+    },
+    "cik": {
+      "value": "0001321655",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "Palantir\u2019s ESG policy commits to responsible business and sustainability, including human rights, privacy, anti\u2011modern\u2011slavery, and ethical AI, as well as environmental actions such as greenhouse\u2011gas accounting across Scopes\u202f1\u20113, annual energy\u2011use assessments, and purchasing renewable power to achieve carbon neutrality.",
+      "sources": [
+        {
+          "name": "Responsible Business & Sustainability",
+          "document": "https://www.palantir.com/responsible-business-and-sustainability/",
+          "date": "2024-10-01"
+        },
+        {
+          "name": "www.palantir.com",
+          "document": "https://www.palantir.com/assets/xrfr7uokpv1b/4T3HQtWWPYUCdIcAF9UrDz/b27ba0429838f4bc8e9c362301f75822/Environmental_Policy__2.26.24_updates_.pdf",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "name": {
+      "value": "Palantir Technologies Inc.",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "description": {
+      "value": "U.S.-based company with headquarters in Denver, registered in Wilmington, employs 4,429 staff and is the direct and ultimate parent of PALANTIR SHAKTI TECHNOLOGIES PRIVATE LIMITED.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-24"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300UVN46B3BBDHO85",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Palantir+Technologies+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "06b3d0012ed8aaee51bbfd05b7bd15c60f0b9f5c98a9d5a77943b98b45d6a432"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300UVN46B3BBDHO85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "1200 17th Street, Floor 15, Denver, US-CO, 80202, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Palantir+Technologies+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "06b3d0012ed8aaee51bbfd05b7bd15c60f0b9f5c98a9d5a77943b98b45d6a432"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300UVN46B3BBDHO85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "PALANTIR TECHNOLOGIES INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Palantir+Technologies+Inc.&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "06b3d0012ed8aaee51bbfd05b7bd15c60f0b9f5c98a9d5a77943b98b45d6a432"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300UVN46B3BBDHO85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2003-05-06",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300UVN46B3BBDHO85",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "2be18450-74e6-4120-8db3-170eb5cf2d4d",
+          "name": "Denver",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "1668945c-634e-58d7-bfb3-57308b17a7f4"
+          }
+        },
+        {
+          "id": "3b398974-c0f1-43d6-be6a-28246b1894f2",
+          "name": "Colorado",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Palantir+Technologies+Inc.&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "06b3d0012ed8aaee51bbfd05b7bd15c60f0b9f5c98a9d5a77943b98b45d6a432"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "08c5967e-3926-4916-94ad-2fe3e42b35d7"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "ad06dd0b-7def-42a5-8e5d-393986e74909",
+          "name": "PALANTIR SHAKTI TECHNOLOGIES PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300ULXLFSKYE9I809",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "14d1b981-c42b-528e-b3ca-b3443ec34a33",
+            "valid_since": "2010-08-21"
+          }
+        }
+      ],
+      "IS_RELATED_PERSON_OF": [
+        {
+          "id": "2cb928b2-9140-4b9b-84e1-e6a89e1a3fbe",
+          "name": "ANDURIL INDUSTRIES, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "0742dd9b-75bd-57c1-8ef0-b35dda277819"
+          }
+        },
+        {
+          "id": "2f393a6e-7771-47c5-b114-329e5356102a",
+          "name": "BlackSky Holdings",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "c9929912-2e62-53e2-8f56-f7bff0245bee"
+          }
+        }
+      ],
+      "LISTED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "6a58bcb7-8001-53c4-b339-68614a94abcb"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "17586290-780a-42ae-a80f-8e13b496c64d",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "ad458eb2-9212-5e05-a112-6872c51f6c62"
+          }
+        },
+        {
+          "id": "3aa12711-fd91-4273-9294-8c48e0fa7618",
+          "name": "Data analytics industry",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-stock-drops-9-despite-stellar-earnings-report-featuring-71-us-commercial-revenue",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d53e5aec-12e4-5d3d-87cf-8c7d77c7198a"
+          }
+        },
+        {
+          "id": "3d724f3d-ea04-40b7-8231-4218e1abee8b",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/best-artificial-intelligence-ai-stocks-buy-2000-right-now",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "197da888-828f-571e-911e-01014153c7f6"
+          }
+        },
+        {
+          "id": "5596443c-0b3c-4f22-beb6-9e7ce46f6048",
+          "name": "Machine Learning",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/3-machine-learning-stocks-to-turn-$10000-into-$1-million:-january-2024",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "fa1911c9-1c9b-56b4-b5c0-5e244a614dbb"
+          }
+        },
+        {
+          "id": "642ac086-4afa-41bf-8dec-7d7b3ec99f2d",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/ai-jackpot:-7-machine-learning-stocks-to-double-down-on",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "5f2a2167-decf-5e23-bbe8-2523ae9c3488"
+          }
+        },
+        {
+          "id": "709854be-9a0f-4e5f-b611-56b99fca7e65",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/artificial-intelligence-ai-still-best-growth-theme-long-term-investors",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "2b67679b-cc38-5d73-8f78-fda5d60422b3"
+          }
+        },
+        {
+          "id": "7148b7fa-92ed-4ccc-a834-27914c978741",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "97fcac61-a2d0-5a60-abbb-58353c4d75f1"
+          }
+        },
+        {
+          "id": "882d88c7-7428-41ea-91f1-ce5b9d8308de",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-stock-drops-9-despite-stellar-earnings-report-featuring-71-us-commercial-revenue",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "f2623fb7-d21a-505b-a51c-4b69fe41d0d2"
+          }
+        },
+        {
+          "id": "8c9d303f-a9dd-4002-a464-895e06975658",
+          "name": "Enterprise Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/better-artificial-intelligence-ai-stock-palantir-technologies-vs-microsoft-0",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "e9ebe203-0b25-58ee-ac98-ea95d5b6d12c"
+          }
+        },
+        {
+          "id": "8e159c95-cb4d-4f3d-8967-d3d5f71b48b4",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "TradingView \u2014 Track All Markets",
+                "document": "https://www.tradingview.com/news/invezz:16cb612e7094b:0-here-s-why-software-stocks-like-adobe-salesforce-servicenow-atlassian-are-crashing",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a436a122-5b1e-5bb0-9d35-5ada93658a34"
+          }
+        },
+        {
+          "id": "942a41a8-f42c-4f2e-8aab-3082c5625947",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "c1c86328-5029-5ba4-a93e-1fdfd4de26d1"
+          }
+        },
+        {
+          "id": "ae86964d-97d8-4541-b9f8-fabdb0721833",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "7302d7bf-4c33-527a-b96f-082e183358cd"
+          }
+        },
+        {
+          "id": "ba41d7b8-4720-4955-b1a0-6c73122be555",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "ef4dece1-fd72-59b5-95ef-47bb361d04bc"
+          }
+        },
+        {
+          "id": "c7aed2c9-eb84-47af-88bc-3b6c5117ea76",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/best-artificial-intelligence-ai-stocks-buy-2000-right-now",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "100073dc-9c9c-5317-b34f-0646446e18ee"
+          }
+        },
+        {
+          "id": "c872b479-722b-4f53-89de-e17576a41326",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/artificial-intelligence-ai-still-best-growth-theme-long-term-investors",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "4c3dffb9-4e28-531a-a15e-cd973f3c7d70"
+          }
+        },
+        {
+          "id": "cd6b1d82-4539-4457-971d-877156d40c43",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "38c6315d-4f46-5759-8f7a-72049fe2acfc"
+          }
+        },
+        {
+          "id": "f1dd82f9-5364-4368-8afd-86de688852d9",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "08e2ad77-063d-558a-88fa-a0256a3aa0d5"
+          }
+        },
+        {
+          "id": "ff7bcf51-8bcd-4dc9-a707-eaecca4c0593",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/ultimate-artificial-intelligence-ai-stocks-buy-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "f9d780d4-6e86-58cb-b531-522b0eff5517"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "ad06dd0b-7def-42a5-8e5d-393986e74909",
+          "name": "PALANTIR SHAKTI TECHNOLOGIES PRIVATE LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300ULXLFSKYE9I809",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "2de5d2a3-898c-5b48-acf2-bc481f1b8949",
+            "valid_since": "2010-08-21"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Stock Screener, Interactive Charts, & Up-To-Date Financial Data",
+                "document": "https://wallstreetnumbers.com/watchlists/best-ai-stocks",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b6070308-7d31-593e-95fd-90c17c731253"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+          "name": "United States",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "Stock Screener, Interactive Charts, & Up-To-Date Financial Data",
+                "document": "https://wallstreetnumbers.com/watchlists/best-ai-stocks",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "14b3ba9e-1b15-5a55-8e10-110fdf06db9f"
+          }
+        },
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Palantir+Technologies+Inc.&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "06b3d0012ed8aaee51bbfd05b7bd15c60f0b9f5c98a9d5a77943b98b45d6a432"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "1c0c8726-9e4f-4c72-a04c-d8b45977f835"
+          }
+        },
+        {
+          "id": "aa4baf42-aaee-4ae9-a314-c50f7249942a",
+          "name": "Wilmington",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "03eeb530-1a83-55a0-ba2a-47e02445bb3b"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "DESIGNED_BY": [
+        {
+          "id": "253518f8-1c5d-4c18-a197-c9c8955230f0",
+          "name": "Artificial Intelligence Platform",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Palantir",
+                "document": "https://palantir.com/docs/foundry/aip/overview/",
+                "date": "2021-12-14"
+              },
+              {
+                "name": "Palantir",
+                "document": "https://palantir.com/docs/foundry/platform-overview/aip-capabilities/",
+                "date": "2021-12-14"
+              }
+            ],
+            "id": "7c6c40aa-8155-5606-ada8-a372a564da9c"
+          }
+        }
+      ],
+      "IS_CEO_OF": [
+        {
+          "id": "ca3941d5-6f92-45ec-b612-163e91975bb5",
+          "name": "Alexander Karp",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "dbe6c6a7-5209-5c46-988b-88e47cb920eb"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Co-founder, Chairman",
+            "sources": [
+              {
+                "name": "www.britannica.com",
+                "document": "https://www.britannica.com/money/Peter-Thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "8071e7ca-000d-5c05-935f-13192a0b9556",
+            "valid_since": "2004-01-01"
+          }
+        },
+        {
+          "id": "71c6a0d5-ba58-4f7d-b50e-353af1269a6c",
+          "name": "Stephen Cohen",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/stephen-cohen",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "996c2b4b-7d35-5d83-ac12-aa2e02259c6a"
+          }
+        },
+        {
+          "id": "ca3941d5-6f92-45ec-b612-163e91975bb5",
+          "name": "Alexander Karp",
+          "entity_type": "Person",
+          "properties": {
+            "role": "cofounder and CEO",
+            "sources": [
+              {
+                "name": "Palantir IR",
+                "document": "https://investors.palantir.com/governance/board-of-directors",
+                "date": "2026-04-14"
+              },
+              {
+                "name": "Alexander Karp",
+                "document": "https://www.forbes.com/profile/alexander-karp/",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "5f02ee13-90df-5541-bbd9-8ad07a97f0ba",
+            "valid_since": "2005-01-01"
+          }
+        }
+      ],
+      "FOUNDED": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "ffe208e8-17a9-5967-88fc-6c1c2dc95141"
+          }
+        },
+        {
+          "id": "71c6a0d5-ba58-4f7d-b50e-353af1269a6c",
+          "name": "Stephen Cohen",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/stephen-cohen",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "5c6cff99-bf25-590c-a65f-6de5b723136f"
+          }
+        },
+        {
+          "id": "ca3941d5-6f92-45ec-b612-163e91975bb5",
+          "name": "Alexander Karp",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "0adbb825-8508-540c-92f1-7e1741fe02d2"
+          }
+        }
+      ],
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247124000170/UnitedStates_13G__PalantirTe.txt",
+                "date": "2024-10-04"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-10-04T00:00:00Z",
+                "value": 11.39,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247124000170/UnitedStates_13G__PalantirTe.txt",
+                  "source": "SEC",
+                  "published_time": "2024-10-04T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 9.37,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924021662/tv01648-palantirtechnologies.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-02-09T00:00:00Z",
+                "value": 8.17,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465923016675/tv01619-palantirtechnologies.htm",
+                  "source": "SEC",
+                  "published_time": "2023-02-09T00:00:00Z"
+                }
+              }
+            ],
+            "id": "1abed262-8210-59f3-ae6b-5c996c32e88a",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 215444098.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 213886270.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 205717666.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 198523450.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 221460997.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 244058912.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 201591944.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 196834580.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 193805263.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "bloomberg.com",
+                "document": "https://www.bloomberg.com/billionaires/profiles/peter-a-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "33c02aee-af4c-56f0-a7e0-1cd4d8345956"
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "3b093cb6-eb49-510f-b751-d98a186c5e8f",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 37284632.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 36397718.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 36397718.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 18985641.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 24551116.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 17749200.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 14165470.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 14165470.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 11541263.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 11541263.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 7282688.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 7282688.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 16692341.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 3701886.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 20600003.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 20600003.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238324004169/us69608a1088_110824.txt",
+                "date": "2024-11-08"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-11-08T00:00:00Z",
+                "value": 7.4,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238324004169/us69608a1088_110824.txt",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-10-22T00:00:00Z",
+                "value": 7.4,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238324001291/us69608a1088_102224.txt",
+                  "source": "SEC",
+                  "published_time": "2024-10-22T00:00:00Z"
+                }
+              }
+            ],
+            "id": "14d17816-2b75-5f22-978d-275f416f3333",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 193327487.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 188627957.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 177230734.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 188245362.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 172369075.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 157918310.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "IS_RELATED_PERSON_OF": [
+        {
+          "id": "2f393a6e-7771-47c5-b114-329e5356102a",
+          "name": "BlackSky Holdings",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "08651f96-410a-565e-b3cb-fba95d7107a2"
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "253518f8-1c5d-4c18-a197-c9c8955230f0",
+          "name": "Artificial Intelligence Platform",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "8ac1ab65-4469-5ee9-9a2e-f4b375d1c4ff"
+          }
+        }
+      ],
+      "IS_TRUSTEE_OF": [
+        {
+          "id": "0792cc1c-b53f-4600-9fd1-e84582ff2330",
+          "name": "Wilmington Trust, National Association",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "sec.gov",
+                "document": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522125320/d310828ddef14a.htm",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "7e7fb816-9355-5d6b-a6b1-780cb5d7dc51"
+          }
+        },
+        {
+          "id": "a42ea9d3-3aac-4d86-8ac8-0a5a7d602c63",
+          "name": "Founder Funds Trust",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "sec.gov",
+                "document": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522125320/d310828ddef14a.htm",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "e5314396-9e11-54f1-8976-64cebcafa44b"
+          }
+        }
+      ],
+      "IS_MEMBER_OF": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "role": "chairman of the board",
+            "sources": [
+              {
+                "name": "www.mithril.com",
+                "document": "https://www.mithril.com/our-founders/peter-thiel/",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "6704a4b6-5ff8-5ba1-a1e3-dcecd5133813"
+          }
+        },
+        {
+          "id": "71c6a0d5-ba58-4f7d-b50e-353af1269a6c",
+          "name": "Stephen Cohen",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Board Member (Member of Board of Directors)",
+            "sources": [
+              {
+                "name": "Stephen Cohen - Co-Founder at Palantir | The Org",
+                "document": "https://theorg.com/org/palantir/org-chart/stephen-cohen",
+                "date": "2024-03-04"
+              },
+              {
+                "name": "Palantir IR",
+                "document": "https://investors.palantir.com/governance/board-of-directors",
+                "date": "2026-04-14"
+              },
+              {
+                "name": "www.marketscreener.com",
+                "document": "https://www.marketscreener.com/quote/stock/PALANTIR-TECHNOLOGIES-INC-113108868/company-governance/",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "e668da2b-fe2f-514e-864c-3f0033f0d845",
+            "valid_since": "2005-01-01"
+          }
+        },
+        {
+          "id": "ca3941d5-6f92-45ec-b612-163e91975bb5",
+          "name": "Alexander Karp",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Board member; Chief Executive Officer",
+            "sources": [
+              {
+                "name": "Palantir IR",
+                "document": "https://investors.palantir.com/governance/board-of-directors",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "6ca09697-0fd6-555d-9a6f-7aa559f39e70",
+            "valid_since": "2003-01-01"
+          }
+        }
+      ],
+      "IS_BOARD_MEMBER_OF": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/peter-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "91b70c82-12d1-51bb-b81d-3fd4b54b2014"
+          }
+        },
+        {
+          "id": "71c6a0d5-ba58-4f7d-b50e-353af1269a6c",
+          "name": "Stephen Cohen",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Fintool - AI Agent for Equity Research",
+                "document": "https://fintool.com/app/research/companies/PLTR/people/stephen-cohen",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "64587366-b6b9-50b0-8a79-51de8e06f6b8"
+          }
+        }
+      ],
+      "CREATED_BY": [
+        {
+          "id": "253518f8-1c5d-4c18-a197-c9c8955230f0",
+          "name": "Artificial Intelligence Platform",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/palantir-top-artificial-intelligence-ai-stock-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "2455e6c7-df43-5506-bf58-7ecdeedca9fd"
+          }
+        }
+      ],
+      "IS_DIRECT_OWNER_OF": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Global Companies by Market Capitalization",
+                "document": "https://marketcap.company/stock-exchanges/nasdaq-nasdaq-exchange-market-capitalization/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "1c7aa1e3-b9cc-5519-9ab9-9e49b3ce5e9a"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "253518f8-1c5d-4c18-a197-c9c8955230f0",
+          "name": "Artificial Intelligence Platform",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.britannica.com",
+                "document": "https://www.britannica.com/money/Palantir-Technologies-Inc",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Palantir Announces Live Stream of its First AIPCon, with AI Demos & Announcements from 25+ Customers",
+                "document": "https://www.prnewswire.com/news-releases/palantir-announces-live-stream-of-its-first-aipcon-with-ai-demos--announcements-from-25-customers-301835283.html",
+                "date": "2023-05-26"
+              },
+              {
+                "name": "Palantir",
+                "document": "https://palantir.com/docs/foundry/platform-overview/aip-capabilities/",
+                "date": "2021-12-14"
+              }
+            ],
+            "id": "b539f2bd-b05e-5364-aa00-6c0562e03ec5",
+            "valid_since": "2023-06-01"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "PLTR",
+    "uuid": "bf4e5b99-c93c-418c-93b8-cd9df1cd74e0",
+    "match_name": "Palantir Technologies Inc.",
+    "retrieved_at": "2026-04-15T22:35:22Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 12,
+      "relationship_types_outgoing": 8,
+      "relationship_types_incoming": 13,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 12,
+      "relationship_types": 21,
+      "relationship_edges": 53,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "H_V2_01",
+    "trigger": "BlackRock's continued expansion of AI-driven ETF products boosts AUM inflows, driving a positive return shock for its equity holdings in NASDAQ-100 tech names.",
+    "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+    "probability": 0.68,
+    "magnitude": 0.12,
+    "horizon_days": 90,
+    "sources": [
+      "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "414faf92-4f48-4c41-8f9d-6b5ab7d03538"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-02-10",
+      "2024-10-21"
+    ]
+  },
+  {
+    "id": "H_V2_02",
+    "trigger": "Vanguard Group's systematic rebalancing into large-cap growth amplifies momentum in semiconductor stocks, creating a near-term bullish shock amid rising AI capex cycle.",
+    "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+    "probability": 0.62,
+    "magnitude": 0.15,
+    "horizon_days": 60,
+    "sources": [
+      "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "a6929763-0272-4dde-a8d2-bf1d54ca488c"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-10-01"
+    ]
+  },
+  {
+    "id": "H_V2_03",
+    "trigger": "JPMorgan Chase credit tightening in commercial real estate lending triggers a bearish spillover into REIT-adjacent NASDAQ tech infrastructure plays.",
+    "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+    "probability": 0.55,
+    "magnitude": -0.1,
+    "horizon_days": 120,
+    "sources": [
+      "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "b5c40d18-6910-41ae-a025-4d3962962643",
+      "87028fb6-27e5-4ede-b7fa-39709c9abbb4"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-09-11",
+      "2024-07-28"
+    ]
+  },
+  {
+    "id": "H_V2_04",
+    "trigger": "Berkshire Hathaway's reported reduction in Apple holdings signals institutional rotation away from mega-cap tech, triggering a moderate bearish shock in NASDAQ-100.",
+    "origin_entity_uuid": "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+    "probability": 0.6,
+    "magnitude": -0.13,
+    "horizon_days": 75,
+    "sources": [
+      "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+      "47fa9716-2e8e-4e51-aa41-4ad715633d5d"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2024-10-21"
+    ]
+  },
+  {
+    "id": "H_V2_05",
+    "trigger": "Maverick Capital's concentrated long positions in cloud-computing names face forced unwinding due to liquidity stress, producing a sharp negative return shock.",
+    "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+    "probability": 0.38,
+    "magnitude": -0.22,
+    "horizon_days": 45,
+    "sources": [
+      "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "e575ad90-3b1b-4feb-8226-e1a06ccb1daa"
+    ],
+    "source_dates": [
+      "2024-06-04",
+      "2023-12-04"
+    ]
+  },
+  {
+    "id": "H_V2_06",
+    "trigger": "Barclays Global Investors' strategic pivot toward ESG-screened NASDAQ tech funds drives incremental buying pressure in clean-energy semiconductor names.",
+    "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+    "probability": 0.5,
+    "magnitude": 0.09,
+    "horizon_days": 180,
+    "sources": [
+      "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "115cf37d-164b-425f-80a1-2a62efff1b36"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-01-17",
+      "2023-09-20"
+    ]
+  },
+  {
+    "id": "H_V2_07",
+    "trigger": "Fidelity Institutional Asset Management shifts bond-to-equity allocation following rate cut signals, generating a positive shock in high-growth NASDAQ biotech and software.",
+    "origin_entity_uuid": "1889a140-82b0-42be-bf8d-371683366d8f",
+    "probability": 0.58,
+    "magnitude": 0.11,
+    "horizon_days": 90,
+    "sources": [
+      "1889a140-82b0-42be-bf8d-371683366d8f",
+      "312be161-0ef4-4e2d-a399-f387cf6e8046",
+      "51278620-414d-4c10-aabe-6af7b398d09b"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-02-10",
+      "2024-09-11"
+    ]
+  },
+  {
+    "id": "H_V2_08",
+    "trigger": "Eric Schmidt-backed AI accelerator ventures attract sovereign wealth co-investment, catalyzing a bullish re-rating of AI infrastructure stocks in the NASDAQ-100.",
+    "origin_entity_uuid": "6aef64ba-7f7e-462e-b174-f15a3e6493f6",
+    "probability": 0.45,
+    "magnitude": 0.18,
+    "horizon_days": 150,
+    "sources": [
+      "6aef64ba-7f7e-462e-b174-f15a3e6493f6",
+      "a16a55d9-16a8-42a2-a538-7a140d0ed7b4"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-10-01"
+    ]
+  },
+  {
+    "id": "H_V2_09",
+    "trigger": "Barclays Bank PLC faces regulatory capital surcharge under Basel IV rules, forcing asset sales that create bearish overhang on NASDAQ equity derivatives markets.",
+    "origin_entity_uuid": "1fc151c1-0e16-4939-9a63-868355191bc3",
+    "probability": 0.42,
+    "magnitude": -0.08,
+    "horizon_days": 200,
+    "sources": [
+      "1fc151c1-0e16-4939-9a63-868355191bc3",
+      "b3e3d11b-48f6-4504-952d-315580ff5fbd",
+      "d5f43bbe-2e17-4dea-abe8-69ceae51d83a"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2023-06-07",
+      "2022-09-26"
+    ]
+  },
+  {
+    "id": "H_V2_10",
+    "trigger": "FIL Limited (Fidelity International) increases NASDAQ-100 index exposure via derivatives in Asian markets, driving a near-term positive demand shock in mega-cap tech.",
+    "origin_entity_uuid": "1467ce2e-78bd-4fef-a5b2-508bf2507b8c",
+    "probability": 0.53,
+    "magnitude": 0.1,
+    "horizon_days": 60,
+    "sources": [
+      "1467ce2e-78bd-4fef-a5b2-508bf2507b8c",
+      "0aaa070d-280b-439b-8a1c-faa590807dcb",
+      "330361ad-c62e-4337-a001-c512f833bb1d"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-07-28",
+      "2023-12-01"
+    ]
+  }
+]

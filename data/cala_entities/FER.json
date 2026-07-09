@@ -1,0 +1,1104 @@
+{
+  "id": "d1d47663-2297-4cbf-a5cb-bbbc8472d8f2",
+  "name": "Ferrovial SE",
+  "entity_type": "Company",
+  "description": "Company based in Amsterdam, Netherlands, founded on October 26, 2015",
+  "properties": {
+    "description": {
+      "value": "Company based in Amsterdam, Netherlands, founded on October 26, 2015",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "Ferrovial SE demonstrates sustainability commitments including a 2.1\u00b0C climate alignment target and is covered by multiple ESG rating providers such as MSCI, Sustainalytics, and LSEG. The company participates in global sustainability assessments and reports through disclosures available on its official channels.",
+      "sources": [
+        {
+          "name": "https://knowesg.com/esg-ratings/ferrovial-s-a",
+          "document": "https://knowesg.com/esg-ratings/ferrovial-s-a",
+          "date": "2026-03-06"
+        },
+        {
+          "name": "Tracenable",
+          "document": "https://tracenable.com/company/ferrovial/disclosures",
+          "date": "2026-01-01"
+        },
+        {
+          "name": "https://www.spglobal.com/esg/scores/results?cid=4207829",
+          "document": "https://www.spglobal.com/esg/scores/results?cid=4207829",
+          "date": "2026-03-06"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0001468522",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "1323604582f9f7dcc43909537d22ea1d57d731809c50054cbca71a5b8e8f9b11"
+          },
+          "date": "2026-02-27"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "Gustav Mahlerplein 61, 14e verdieping, Amsterdam, 1082MS, NL",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ferrovial+SE&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "96b2599ae36b95cb7b16141d3d90cfdd0ea7291fbeab6e8ba5461018fc8a68e7"
+          },
+          "date": "2026-02-28"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/72450022R2ZFL41Y6I04",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2018-12-15",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/72450022R2ZFL41Y6I04",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "Ferrovial SE",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "1323604582f9f7dcc43909537d22ea1d57d731809c50054cbca71a5b8e8f9b11"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/72450022R2ZFL41Y6I04",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "72450022R2ZFL41Y6I04",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ferrovial+SE&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "96b2599ae36b95cb7b16141d3d90cfdd0ea7291fbeab6e8ba5461018fc8a68e7"
+          },
+          "date": "2026-02-28"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/72450022R2ZFL41Y6I04",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "Gustav Mahlerplein 61, 14e verdieping, Amsterdam, 1082MS, NL",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ferrovial+SE&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "96b2599ae36b95cb7b16141d3d90cfdd0ea7291fbeab6e8ba5461018fc8a68e7"
+          },
+          "date": "2026-02-28"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/72450022R2ZFL41Y6I04",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "d1d47663-2297-4cbf-a5cb-bbbc8472d8f2",
+      "sources": []
+    },
+    "aliases": {
+      "value": [
+        "Ferrovial",
+        "FER"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 22043,
+      "sources": [
+        {
+          "name": "Stock Analysis - Free Online Stock Information for Investors",
+          "document": "https://stockanalysis.com/quote/ams/FER/employees",
+          "date": "2026-03-06"
+        },
+        {
+          "name": "Stock Analysis - Free Online Stock Information for Investors",
+          "document": "https://stockanalysis.com/quote/bme/FER/employees",
+          "date": "2026-03-06"
+        },
+        {
+          "name": "Stock Analysis - Free Online Stock Information for Investors",
+          "document": "https://stockanalysis.com/stocks/fer/employees/",
+          "date": "2026-03-06"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "Ferrovial SE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ferrovial+SE&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "96b2599ae36b95cb7b16141d3d90cfdd0ea7291fbeab6e8ba5461018fc8a68e7"
+          },
+          "date": "2026-02-28"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/72450022R2ZFL41Y6I04",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "c380ee36-924c-4de9-978f-bb9f13dc926a",
+          "name": "Netherlands",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ferrovial+SE&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "96b2599ae36b95cb7b16141d3d90cfdd0ea7291fbeab6e8ba5461018fc8a68e7"
+                },
+                "date": "2026-02-28"
+              }
+            ],
+            "id": "d5d7e9e3-24e6-4899-8309-1e84e63ced38"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "2ad42964-2305-4666-88d1-c0dcbec639d8",
+          "name": "Cintra Global B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/72450051R4UQN5SY4D81",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "457c508b-b4c6-5523-b5c6-e86955b1abc9",
+            "valid_since": "2019-03-04"
+          }
+        },
+        {
+          "id": "3e86c581-49ff-4a39-9f37-80da5647e780",
+          "name": "Ferrovial EG B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500INO45KKCY99Y48",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "669123c7-5e2f-5cb3-aa86-de87a9cbede0",
+            "valid_since": "2019-05-01"
+          }
+        },
+        {
+          "id": "6885a01f-f1d7-4878-9bc3-ad087ea3124b",
+          "name": "Ferrovial Services Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500MT4ETRLOAK7V77",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ceb5a8a3-435f-52d1-95d4-b042429be1bb",
+            "valid_since": "2018-12-14"
+          }
+        },
+        {
+          "id": "69b54da7-3e86-432a-9883-55b2c144d9ce",
+          "name": "Ferrovial Ventures Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500AJX45MKNX8O765",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "7379e11e-9fd5-57d4-86d1-e20a290ae110",
+            "valid_since": "2020-01-14"
+          }
+        },
+        {
+          "id": "89f0fd83-5f9f-4572-9727-d7d8e15136c9",
+          "name": "BUDIMEX SP\u00d3\u0141KA AKCYJNA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/25940093SDJZW2C1V355",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "248f511b-72f0-52fa-b5d5-1147ba75d899",
+            "valid_since": "2024-11-15"
+          }
+        },
+        {
+          "id": "a46e230c-5fa0-425a-9b69-9975dfeaf4cd",
+          "name": "Ferrovial Construction International B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500U1VPK7XIXFL071",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "be8cf771-eddb-5b05-b873-228ff16b5a63",
+            "valid_since": "2020-01-01"
+          }
+        },
+        {
+          "id": "ab7a664f-77d7-4c71-bbf5-81972a1dc2a0",
+          "name": "CADAGUA SA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/95980020140005219650",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "77371fa8-dba4-5789-94c6-46422695ba57",
+            "valid_since": "2023-01-01"
+          }
+        },
+        {
+          "id": "bffddea7-222e-43e6-ac1b-cac74a1699e4",
+          "name": "Ferrovial Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/72450048UYBX1IY3XM22",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "5a51c511-aac4-57f4-9da5-691fb235f7e8",
+            "valid_since": "2019-01-01"
+          }
+        },
+        {
+          "id": "d418f94a-d059-46c8-9ba9-9537db96a2ce",
+          "name": "AUTOPISTA TERRASSA-MANRESA, AUTEMA, CONCESSIONARIA DE LA GENERALITAT DE CATALUNYA, S.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/95980020140005853642",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "17b6a7f3-78f8-54dc-9581-e2ef02908d76",
+            "valid_since": "2024-10-01"
+          }
+        },
+        {
+          "id": "f4e9627c-fe45-4148-ab59-0a4b39ae5f8a",
+          "name": "AUTOVIA DE ARAGON SOCIEDAD CONCESIONARIA SA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/95980020140005809119",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "4086239e-c3e4-5229-8ce2-751c5d4a6c26",
+            "valid_since": "2025-03-04"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "137350bf-8e4c-4913-a66c-13c431c6017f",
+          "name": "FERROVIAL CONSTRUCTION (UK) LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/213800S97Y8KGA91N820",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "fb624228-2639-5f3e-9912-d368628e75e3",
+            "valid_since": "2018-01-05"
+          }
+        },
+        {
+          "id": "1a3fa918-c1c1-4c04-b74f-85f7f75a86f2",
+          "name": "BUDIMEX BAU GMBH",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400UABX9KWMPMZV95",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "69713375-df08-58b9-8d13-cdc4b41436aa",
+            "valid_since": "2024-11-15"
+          }
+        },
+        {
+          "id": "26aa143f-5d8e-4fcf-96f6-f9822626ec8b",
+          "name": "AZALIA SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2594002J6A701XI2HW42",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "73903f79-b0da-505f-ab1b-e71b524260f9",
+            "valid_since": "2024-04-25"
+          }
+        },
+        {
+          "id": "2ad42964-2305-4666-88d1-c0dcbec639d8",
+          "name": "Cintra Global B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/72450051R4UQN5SY4D81",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a91d546b-8d36-536f-973a-af3a93a2e552",
+            "valid_since": "2019-03-04"
+          }
+        },
+        {
+          "id": "3e86c581-49ff-4a39-9f37-80da5647e780",
+          "name": "Ferrovial EG B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500INO45KKCY99Y48",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d6d5d1aa-e6ba-56b1-88df-f7d622690349",
+            "valid_since": "2019-05-01"
+          }
+        },
+        {
+          "id": "455e2093-739e-4d52-81b8-f2bb5c4c5728",
+          "name": "Cintra InvIT Investments B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500TPW063OM7NOS93",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "955923cd-cc3d-52c9-a4bb-36320e21997e",
+            "valid_since": "2024-01-31"
+          }
+        },
+        {
+          "id": "4835521d-5999-4683-966b-b1d024bdd582",
+          "name": "Cintra INR Investments B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/7245008ZV7NIGDKPXK03",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "2f7a32da-9a18-589c-8b9a-b2fe8b65d9f2",
+            "valid_since": "2023-06-15"
+          }
+        },
+        {
+          "id": "487e6ebc-150d-4e65-8641-da3b8ca81813",
+          "name": "FBSERWIS WROC\u0141AW SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400DGC4O0S0FN2A88",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "13674885-00d4-59d9-9b71-b67ad86310c9",
+            "valid_since": "2024-11-15"
+          }
+        },
+        {
+          "id": "5dd6a1f7-5aeb-4c69-93fd-598ee22ef210",
+          "name": "KONSTALEX SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400C7LDW8J6M1QA79",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "1b428ece-e0de-5e1b-8dc3-361ceae9bda3",
+            "valid_since": "2023-05-15"
+          }
+        },
+        {
+          "id": "67c61fc1-4425-4d05-a570-d3230d674d5a",
+          "name": "FERROVIAL CONSTRUCTION (AUSTRALIA) PTY. LTD.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/8945009MFEMMJQFG4Z65",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "aa5ffb98-6ab7-585d-ad8f-a37aed783bba",
+            "valid_since": "2024-12-31"
+          }
+        },
+        {
+          "id": "6885a01f-f1d7-4878-9bc3-ad087ea3124b",
+          "name": "Ferrovial Services Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500MT4ETRLOAK7V77",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d925c3c3-46b4-5c96-98f0-6a63e3b07321",
+            "valid_since": "2018-12-14"
+          }
+        },
+        {
+          "id": "69b54da7-3e86-432a-9883-55b2c144d9ce",
+          "name": "Ferrovial Ventures Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500AJX45MKNX8O765",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "66b3af17-c455-593b-83fe-0019fb69949c",
+            "valid_since": "2020-01-14"
+          }
+        },
+        {
+          "id": "6a3b0b96-4908-4f33-8d8c-d9daef6e3f18",
+          "name": "Cintra IM Investments B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/7245005IT350Y80JYW52",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "4bfb8aa6-8f3a-5085-a43a-3a69000ff330",
+            "valid_since": "2024-01-31"
+          }
+        },
+        {
+          "id": "89f0fd83-5f9f-4572-9727-d7d8e15136c9",
+          "name": "BUDIMEX SP\u00d3\u0141KA AKCYJNA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/25940093SDJZW2C1V355",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "919888d8-e680-5a0d-9bc0-f8f567c9ccca",
+            "valid_since": "2024-11-15"
+          }
+        },
+        {
+          "id": "9cb71c9d-4bb0-477b-b35f-ae6afee780fe",
+          "name": "MILANO SOLAR, LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/254900IH70YPX7MMJT34",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "144caffa-da47-5d55-b46f-b8d85a901289",
+            "valid_since": "2025-06-30"
+          }
+        },
+        {
+          "id": "a46e230c-5fa0-425a-9b69-9975dfeaf4cd",
+          "name": "Ferrovial Construction International B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500U1VPK7XIXFL071",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d4d07dd8-56f5-5cb9-9aef-1148d193aca2",
+            "valid_since": "2020-01-01"
+          }
+        },
+        {
+          "id": "ab7a664f-77d7-4c71-bbf5-81972a1dc2a0",
+          "name": "CADAGUA SA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/95980020140005219650",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "48e557cd-6068-503a-82b9-7a5d4c419af1",
+            "valid_since": "2023-01-01"
+          }
+        },
+        {
+          "id": "afe5045f-0497-4920-8cb6-7c3ed06ad596",
+          "name": "BUDIMEX PARKING WROC\u0141AW SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400WE3BEPHDXZEU25",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "6d9986e9-c986-5d7e-a49f-bd467846da76",
+            "valid_since": "2024-11-15"
+          }
+        },
+        {
+          "id": "b45105be-8523-4d4d-be05-2f09f6f7fdaa",
+          "name": "Hubco Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/724500UK9R6DEH3OZW27",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b4ed91aa-6983-5648-b2f2-5b061210e027",
+            "valid_since": "2023-06-15"
+          }
+        },
+        {
+          "id": "bffddea7-222e-43e6-ac1b-cac74a1699e4",
+          "name": "Ferrovial Netherlands B.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/72450048UYBX1IY3XM22",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ca76f462-52b7-52bc-8229-ae4c5fb5f283",
+            "valid_since": "2019-01-01"
+          }
+        },
+        {
+          "id": "cbb03c60-67a1-4c78-9e78-dfce69890ad7",
+          "name": "MOSTOSTAL KRAK\u00d3W SP\u00d3\u0141KA AKCYJNA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400WXQ6XH9I3HZH10",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "bbaf2fea-ba7d-5a49-80a6-d9c845011af6",
+            "valid_since": "2023-06-16"
+          }
+        },
+        {
+          "id": "d418f94a-d059-46c8-9ba9-9537db96a2ce",
+          "name": "AUTOPISTA TERRASSA-MANRESA, AUTEMA, CONCESSIONARIA DE LA GENERALITAT DE CATALUNYA, S.A.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/95980020140005853642",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "53477702-f492-5d5d-9634-440b17dc2772",
+            "valid_since": "2024-10-01"
+          }
+        },
+        {
+          "id": "d998fe7b-5424-48fa-991a-3a0257ec5c15",
+          "name": "FOTOWOLTAIKA HIG XIV SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2594002FNXX01CWJI554",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a2a8cd17-5f4b-554d-bbd5-a70a692d4924",
+            "valid_since": "2022-12-16"
+          }
+        },
+        {
+          "id": "dbe16354-af6f-4963-b829-a1d1a2a496a5",
+          "name": "BUDIMEX KOLEJNICTWO SP\u00d3\u0141KA AKCYJNA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400KHZ5YTCB5CND19",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "7f5e239f-2c26-55f5-ad9e-2eb7105defdf",
+            "valid_since": "2024-11-15"
+          }
+        },
+        {
+          "id": "e3096dd2-ed14-4036-af13-16cd3f410be0",
+          "name": "FBSERWIS SP\u00d3\u0141KA AKCYJNA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/259400PU6KB7811UYW77",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "16569718-1cec-500b-8482-f2140145b6d6",
+            "valid_since": "2024-11-15"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "c380ee36-924c-4de9-978f-bb9f13dc926a",
+          "name": "Netherlands",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ferrovial+SE&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "96b2599ae36b95cb7b16141d3d90cfdd0ea7291fbeab6e8ba5461018fc8a68e7"
+                },
+                "date": "2026-02-28"
+              }
+            ],
+            "id": "2d07d8a7-dd86-4d5e-b38e-90739b0f2f0a"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                "date": "2026-01-29"
+              }
+            ],
+            "id": "98b9f402-59a6-5a4a-95c9-90e6e66ed2d1",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 20699246.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 20344716.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 19957338.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 19355835.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 18903624.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 20348451.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 20285827.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "2783a4d0-e4a1-5f2c-b6bb-3b53d7861ffb",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 7167794.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 6188874.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 6188874.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 6492559.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 5417871.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 4681317.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 4573215.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 4573215.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 3247150.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 3247150.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "89e541c0-c61a-470d-8ae7-130cc4b40bae",
+          "name": "Castellana Norte",
+          "entity_type": "Facility",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://finance.yahoo.com/news/ferrovial-led-consortium-transform-paseo-124238906.html",
+                "document": "https://finance.yahoo.com/news/ferrovial-led-consortium-transform-paseo-124238906.html",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://www.agenzianova.com/en/news/spain-acs-acciona-ferrovial-and-fcc-win-contracts-in-madrid-for-4588-million-euros/",
+                "document": "https://www.agenzianova.com/en/news/spain-acs-acciona-ferrovial-and-fcc-win-contracts-in-madrid-for-4588-million-euros/",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://www.agenzianova.com/en/news/spagna-acs-acciona-ferrovial-e-fcc-si-aggiudicano-contratti-a-madrid-per-4588-milioni-euro",
+                "document": "https://www.agenzianova.com/en/news/spagna-acs-acciona-ferrovial-e-fcc-si-aggiudicano-contratti-a-madrid-per-4588-milioni-euro",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "telemadrid",
+                "document": "https://telemadrid.es/noticias/madrid/Cibeles-adjudica-a-Ferrovial-el-tunel-de-Castellana-y-a-FCC-el-cubrimiento-de-la-M-30-en-Ventas-0-2747725228--20250129063537.html",
+                "date": "2025-01-29"
+              },
+              {
+                "name": "https://www.worldconstructionnetwork.com/news/ferrovial-led-consortium-paseo-de-la-castellana-spain",
+                "document": "https://www.worldconstructionnetwork.com/news/ferrovial-led-consortium-paseo-de-la-castellana-spain",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://www.globalconstructionreview.com/ferrovial-team-win-e98m-contract-to-remodel-congested-madrileno-road",
+                "document": "https://www.globalconstructionreview.com/ferrovial-team-win-e98m-contract-to-remodel-congested-madrileno-road",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://static.newsroom.ferrovial.com/wp-content/uploads/2025/02/15133505/250225-f-pr-ferrovial-to-transform-castellana-for-98m.pdf",
+                "document": "https://static.newsroom.ferrovial.com/wp-content/uploads/2025/02/15133505/250225-f-pr-ferrovial-to-transform-castellana-for-98m.pdf",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "telemadrid",
+                "document": "https://www.telemadrid.es/noticias/madrid/Cibeles-adjudica-a-Ferrovial-el-tunel-de-Castellana-y-a-FCC-el-cubrimiento-de-la-M-30-en-Ventas-0-2747725228--20250129063537.html",
+                "date": "2025-01-29"
+              }
+            ],
+            "id": "c2af5377-dfae-4539-a930-470a02909a21"
+          }
+        }
+      ],
+      "IS_MEMBER_OF": [
+        {
+          "id": "0d81a94e-4b23-4290-a389-913f287a5a0c",
+          "name": "Elisenda Bou-Balust",
+          "entity_type": "Person",
+          "properties": {
+            "valid_until": "2029-04-09",
+            "role": "Non-Executive Director",
+            "sources": [
+              {
+                "name": "Ferrovial SE (FER) Shareholder/Analyst Call Prepared Remarks Transcript",
+                "document": "https://www.seekingalpha.com/article/4889518-ferrovial-se-fer-shareholder-analyst-call-prepared-remarks-transcript",
+                "date": "2026-04-09"
+              },
+              {
+                "name": "www.marketscreener.com",
+                "document": "https://www.marketscreener.com/news/ferrovial-se-approves-appointment-of-ms-elisenda-bou-balust-as-non-executive-director-ce7e50d8d880ff2c",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "e21df266-ae8e-5234-8b7b-90aee6bba5b4",
+            "valid_since": "2026-04-09"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "FER",
+    "uuid": "d1d47663-2297-4cbf-a5cb-bbbc8472d8f2",
+    "match_name": "Ferrovial SE",
+    "retrieved_at": "2026-04-15T22:29:09Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 12,
+      "relationship_types_outgoing": 4,
+      "relationship_types_incoming": 3,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 12,
+      "relationship_types": 7,
+      "relationship_edges": 41,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

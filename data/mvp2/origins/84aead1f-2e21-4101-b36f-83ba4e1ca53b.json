@@ -1,0 +1,137 @@
+{
+  "id": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+  "name": "VANGUARD FIDUCIARY TRUST COMPANY",
+  "entity_type": "Company",
+  "description": "A Pennsylvania company with offices in Malvern and Valley Forge, subsidiary of Vanguard Group Inc.",
+  "properties": {
+    "registered_address": {
+      "value": "VANGUARD FINANCIAL CENTER 100, VANGUARD BLVD, MALVERN, US-PA, 19355, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Fiduciary+Trust+Company&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "959883f68531eb4de64e22255d19361b6c092346e8a3ad354627f94ac3c8e7a3"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002IC8N66XNR2841",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "sources": []
+    },
+    "name": {
+      "value": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Fiduciary+Trust+Company&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "959883f68531eb4de64e22255d19361b6c092346e8a3ad354627f94ac3c8e7a3"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002IC8N66XNR2841",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "5493002IC8N66XNR2841",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Fiduciary+Trust+Company&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "959883f68531eb4de64e22255d19361b6c092346e8a3ad354627f94ac3c8e7a3"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002IC8N66XNR2841",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "PO Box 2600, Valley Forge, US-PA, 19482, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Fiduciary+Trust+Company&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "959883f68531eb4de64e22255d19361b6c092346e8a3ad354627f94ac3c8e7a3"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002IC8N66XNR2841",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A Pennsylvania company with offices in Malvern and Valley Forge, subsidiary of Vanguard Group Inc.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Fiduciary+Trust+Company&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "959883f68531eb4de64e22255d19361b6c092346e8a3ad354627f94ac3c8e7a3"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002IC8N66XNR2841",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1981-11-24",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002IC8N66XNR2841",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+    "properties_count_requested": 8,
+    "numobs_categories_requested": 0
+  }
+}

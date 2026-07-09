@@ -1,0 +1,714 @@
+{
+  "cutoff_date": "2025-04-15",
+  "n_hits": 99,
+  "aggregate": {
+    "property_count": 1121,
+    "relationship_types": 966,
+    "relationship_edges": 4680,
+    "numobs_metrics": 88,
+    "numobs_points": 10295
+  },
+  "gates": {
+    "files_saved": 99,
+    "expected_files": 99,
+    "props_gt_0": 99,
+    "rels_gt_0": 99,
+    "numobs_points_ge_100": 11,
+    "date_allowlist_count": 34
+  },
+  "per_ticker": {
+    "AAPL": {
+      "property_count": 15,
+      "relationship_types": 24,
+      "relationship_edges": 260,
+      "numobs_metrics": 8,
+      "numobs_points": 1082
+    },
+    "ABNB": {
+      "property_count": 11,
+      "relationship_types": 8,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ADBE": {
+      "property_count": 11,
+      "relationship_types": 13,
+      "relationship_edges": 106,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ADI": {
+      "property_count": 15,
+      "relationship_types": 8,
+      "relationship_edges": 54,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ADP": {
+      "property_count": 12,
+      "relationship_types": 5,
+      "relationship_edges": 26,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ADSK": {
+      "property_count": 12,
+      "relationship_types": 9,
+      "relationship_edges": 36,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ALNY": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "AMAT": {
+      "property_count": 15,
+      "relationship_types": 6,
+      "relationship_edges": 16,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "AMD": {
+      "property_count": 12,
+      "relationship_types": 14,
+      "relationship_edges": 55,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "AMGN": {
+      "property_count": 13,
+      "relationship_types": 12,
+      "relationship_edges": 60,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "AMZN": {
+      "property_count": 10,
+      "relationship_types": 12,
+      "relationship_edges": 89,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "APP": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ARM": {
+      "property_count": 11,
+      "relationship_types": 14,
+      "relationship_edges": 28,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ASML": {
+      "property_count": 11,
+      "relationship_types": 11,
+      "relationship_edges": 45,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "AVGO": {
+      "property_count": 12,
+      "relationship_types": 22,
+      "relationship_edges": 149,
+      "numobs_metrics": 8,
+      "numobs_points": 420
+    },
+    "AXON": {
+      "property_count": 11,
+      "relationship_types": 5,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "BKNG": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 35,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "BKR": {
+      "property_count": 12,
+      "relationship_types": 6,
+      "relationship_edges": 52,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CCEP": {
+      "property_count": 8,
+      "relationship_types": 4,
+      "relationship_edges": 4,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CDNS": {
+      "property_count": 12,
+      "relationship_types": 9,
+      "relationship_edges": 25,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CEG": {
+      "property_count": 10,
+      "relationship_types": 5,
+      "relationship_edges": 9,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CMCSA": {
+      "property_count": 11,
+      "relationship_types": 8,
+      "relationship_edges": 79,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "COST": {
+      "property_count": 8,
+      "relationship_types": 6,
+      "relationship_edges": 9,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CPRT": {
+      "property_count": 12,
+      "relationship_types": 7,
+      "relationship_edges": 14,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CRWD": {
+      "property_count": 10,
+      "relationship_types": 10,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CSCO": {
+      "property_count": 11,
+      "relationship_types": 7,
+      "relationship_edges": 14,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CSGP": {
+      "property_count": 10,
+      "relationship_types": 7,
+      "relationship_edges": 17,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CSX": {
+      "property_count": 12,
+      "relationship_types": 5,
+      "relationship_edges": 12,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CTAS": {
+      "property_count": 8,
+      "relationship_types": 3,
+      "relationship_edges": 10,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "CTSH": {
+      "property_count": 8,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "DASH": {
+      "property_count": 12,
+      "relationship_types": 9,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "DDOG": {
+      "property_count": 15,
+      "relationship_types": 7,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "DXCM": {
+      "property_count": 10,
+      "relationship_types": 7,
+      "relationship_edges": 22,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "EA": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 33,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "EXC": {
+      "property_count": 12,
+      "relationship_types": 7,
+      "relationship_edges": 30,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "FANG": {
+      "property_count": 9,
+      "relationship_types": 7,
+      "relationship_edges": 23,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "FAST": {
+      "property_count": 12,
+      "relationship_types": 6,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "FER": {
+      "property_count": 12,
+      "relationship_types": 7,
+      "relationship_edges": 41,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "FTNT": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 28,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "GEHC": {
+      "property_count": 10,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "GILD": {
+      "property_count": 15,
+      "relationship_types": 13,
+      "relationship_edges": 51,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "GOOG": {
+      "property_count": 12,
+      "relationship_types": 22,
+      "relationship_edges": 180,
+      "numobs_metrics": 8,
+      "numobs_points": 649
+    },
+    "GOOGL": {
+      "property_count": 12,
+      "relationship_types": 22,
+      "relationship_edges": 180,
+      "numobs_metrics": 8,
+      "numobs_points": 649
+    },
+    "HON": {
+      "property_count": 9,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "IDXX": {
+      "property_count": 9,
+      "relationship_types": 7,
+      "relationship_edges": 21,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "INSM": {
+      "property_count": 12,
+      "relationship_types": 6,
+      "relationship_edges": 11,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "INTC": {
+      "property_count": 12,
+      "relationship_types": 17,
+      "relationship_edges": 114,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "INTU": {
+      "property_count": 12,
+      "relationship_types": 12,
+      "relationship_edges": 49,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ISRG": {
+      "property_count": 13,
+      "relationship_types": 13,
+      "relationship_edges": 38,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "KDP": {
+      "property_count": 11,
+      "relationship_types": 12,
+      "relationship_edges": 57,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "KHC": {
+      "property_count": 12,
+      "relationship_types": 12,
+      "relationship_edges": 63,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "KLAC": {
+      "property_count": 12,
+      "relationship_types": 11,
+      "relationship_edges": 50,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "LIN": {
+      "property_count": 8,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "LRCX": {
+      "property_count": 13,
+      "relationship_types": 9,
+      "relationship_edges": 40,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MAR": {
+      "property_count": 8,
+      "relationship_types": 3,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MCHP": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 23,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MDLZ": {
+      "property_count": 10,
+      "relationship_types": 11,
+      "relationship_edges": 54,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MELI": {
+      "property_count": 7,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "META": {
+      "property_count": 13,
+      "relationship_types": 22,
+      "relationship_edges": 193,
+      "numobs_metrics": 8,
+      "numobs_points": 955
+    },
+    "MNST": {
+      "property_count": 11,
+      "relationship_types": 5,
+      "relationship_edges": 15,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MPWR": {
+      "property_count": 10,
+      "relationship_types": 8,
+      "relationship_edges": 15,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MRVL": {
+      "property_count": 11,
+      "relationship_types": 10,
+      "relationship_edges": 36,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MSFT": {
+      "property_count": 15,
+      "relationship_types": 33,
+      "relationship_edges": 306,
+      "numobs_metrics": 8,
+      "numobs_points": 663
+    },
+    "MSTR": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 19,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "MU": {
+      "property_count": 12,
+      "relationship_types": 18,
+      "relationship_edges": 160,
+      "numobs_metrics": 8,
+      "numobs_points": 1082
+    },
+    "NFLX": {
+      "property_count": 13,
+      "relationship_types": 15,
+      "relationship_edges": 114,
+      "numobs_metrics": 8,
+      "numobs_points": 1232
+    },
+    "NVDA": {
+      "property_count": 15,
+      "relationship_types": 30,
+      "relationship_edges": 216,
+      "numobs_metrics": 8,
+      "numobs_points": 1069
+    },
+    "NXPI": {
+      "property_count": 6,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ODFL": {
+      "property_count": 9,
+      "relationship_types": 6,
+      "relationship_edges": 12,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ORLY": {
+      "property_count": 8,
+      "relationship_types": 2,
+      "relationship_edges": 6,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PANW": {
+      "property_count": 11,
+      "relationship_types": 14,
+      "relationship_edges": 45,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PAYX": {
+      "property_count": 9,
+      "relationship_types": 5,
+      "relationship_edges": 12,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PCAR": {
+      "property_count": 12,
+      "relationship_types": 7,
+      "relationship_edges": 46,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PDD": {
+      "property_count": 11,
+      "relationship_types": 9,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PEP": {
+      "property_count": 12,
+      "relationship_types": 14,
+      "relationship_edges": 78,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PLTR": {
+      "property_count": 12,
+      "relationship_types": 21,
+      "relationship_edges": 53,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "PYPL": {
+      "property_count": 11,
+      "relationship_types": 12,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "QCOM": {
+      "property_count": 11,
+      "relationship_types": 14,
+      "relationship_edges": 42,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "REGN": {
+      "property_count": 11,
+      "relationship_types": 14,
+      "relationship_edges": 53,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ROP": {
+      "property_count": 10,
+      "relationship_types": 7,
+      "relationship_edges": 14,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ROST": {
+      "property_count": 11,
+      "relationship_types": 5,
+      "relationship_edges": 21,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "SBUX": {
+      "property_count": 13,
+      "relationship_types": 8,
+      "relationship_edges": 25,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "SHOP": {
+      "property_count": 10,
+      "relationship_types": 11,
+      "relationship_edges": 21,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "SNPS": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 39,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "STX": {
+      "property_count": 7,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "TEAM": {
+      "property_count": 11,
+      "relationship_types": 11,
+      "relationship_edges": 30,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "TMUS": {
+      "property_count": 12,
+      "relationship_types": 10,
+      "relationship_edges": 22,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "TRI": {
+      "property_count": 9,
+      "relationship_types": 5,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "TSLA": {
+      "property_count": 13,
+      "relationship_types": 14,
+      "relationship_edges": 125,
+      "numobs_metrics": 8,
+      "numobs_points": 1019
+    },
+    "TTWO": {
+      "property_count": 11,
+      "relationship_types": 8,
+      "relationship_edges": 34,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "TXN": {
+      "property_count": 15,
+      "relationship_types": 10,
+      "relationship_edges": 39,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "VRSK": {
+      "property_count": 10,
+      "relationship_types": 5,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "VRTX": {
+      "property_count": 15,
+      "relationship_types": 13,
+      "relationship_edges": 49,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "WBD": {
+      "property_count": 13,
+      "relationship_types": 9,
+      "relationship_edges": 46,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "WDAY": {
+      "property_count": 11,
+      "relationship_types": 12,
+      "relationship_edges": 26,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "WDC": {
+      "property_count": 13,
+      "relationship_types": 7,
+      "relationship_edges": 46,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "WMT": {
+      "property_count": 13,
+      "relationship_types": 17,
+      "relationship_edges": 130,
+      "numobs_metrics": 8,
+      "numobs_points": 1475
+    },
+    "XEL": {
+      "property_count": 12,
+      "relationship_types": 7,
+      "relationship_edges": 32,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    },
+    "ZS": {
+      "property_count": 11,
+      "relationship_types": 10,
+      "relationship_edges": 37,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

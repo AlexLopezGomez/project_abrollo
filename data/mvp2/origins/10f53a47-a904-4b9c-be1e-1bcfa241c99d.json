@@ -1,0 +1,32 @@
+{
+  "id": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+  "name": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "id": {
+      "value": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+      "sources": []
+    },
+    "name": {
+      "value": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": "https://www.sec.gov/Archives/edgar/data/913414/000091341409004332/aeropostale113009.txt",
+          "date": "2009-12-10"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+    "properties_count_requested": 2,
+    "numobs_categories_requested": 0
+  }
+}

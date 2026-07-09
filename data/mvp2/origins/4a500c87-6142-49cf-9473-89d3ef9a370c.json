@@ -1,0 +1,307 @@
+{
+  "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+  "name": "VANGUARD GROUP INC",
+  "entity_type": "Company",
+  "description": "Asset management firm founded in 1974 with headquarters in Malvern, Pennsylvania and about 20,000 employees",
+  "properties": {
+    "founding_date": {
+      "value": "1974-09-24",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002789CX3L0CJP65",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "100 VANGUARD BLVD, MALVERN, US-PA, 19355, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "be23feedae40218e778a744f1c0727b37d294ce9b0ec100e1c72636e7b1c5395"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "cbd54d6aa919ad2ba9f448fd2668242b11defcddd64fb1bc9c6347aa3d32b223"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "fcf766b9267502f691e8072661aa0e72774ef37c50378700b876477b78cf65c1"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "f03f5076f679ef37eefb5c13899c9725a13fbe60f304166b1fc4f72e823c7332"
+          },
+          "date": "2026-03-17"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002789CX3L0CJP65",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "bics": {
+      "value": [
+        "VGRDUS33XXX"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 20000,
+      "sources": [
+        {
+          "name": "en.wikipedia.org",
+          "document": "https://en.wikipedia.org/wiki/The_Vanguard_Group",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "name": {
+      "value": "VANGUARD GROUP INC",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%220000102909%22",
+            "params": {},
+            "response_hash": "13b18ba0063604c652cfec5f1fa1b149f0a516aa077a64f3e83a472dabd27043"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "description": {
+      "value": "Asset management firm founded in 1974 with headquarters in Malvern, Pennsylvania and about 20,000 employees",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "id": {
+      "value": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "sources": []
+    },
+    "esg_policy": {
+      "value": "# Greenhouse gas emissions\n\n # Corporate sustainability ## Pursuing sustainable business operations With more than 20,000 crew members globally, Vanguard is committed to operating in a responsible manner, including seeking to reduce the carbon footprint of our buildings and operations, and managing climate-related risks in our business. ### Our approach Vanguard\u2019s corporate strategy related to sustainable business practices seeks to reduce our firm\u2019s own climate-related impact and engage our crew.\n\n---\n\nAs a result of the adoption of EVs by our crew, Vanguard helped to reduce or offset approximately 991 tCO2e from commuting emissions in 2024 and contributed to saving approximately 164,566 gallons of gasoline, as estimated using data provided by ChargePoint, a third-party EV charging provider. Our U.S. dining services focus on sustainable food purchasing practices and diverting waste from landfills.\n\n# Energy consumption\n\n### Renewable energy sources In 2024, we continued to use 100% renewable electricity globally in owned and leased buildings where Vanguard has operational control, an outcome we first achieved in 2021. Where possible, our buildings are powered by on-site renewable electricity or direct renewable electricity from the utility supplier. ### Sustainable operations Green building criteria and certifications are integral to our corporate building design standards.\n\n---\n\n1 LEED (Leadership in Energy and Environmental Design) is administered by the U.S. Green Building Council; BREEAM (Building Research Establishment Environmental Assessment Methodology) is administered by BRE Global, a subsidiary of the U.K.-based BRE Group; WELL is administered by the International Well Building Institute (IWBI). Of the 23 buildings, two were new certifications for Vanguard in 2024.\n\n# Water consumption\n\nTwenty-three buildings\u2014or 35% of Vanguard\u2019s total square footage across our global locations\u2014were either LEED, BREEAM, or WELL certified by the end of 2024.1 In 2024, Vanguard implemented a comprehensive water reduction project at our Scottsdale, Arizona campus, achieving a 51% decrease in irrigation water usage\u2014or roughly 1.7 million gallons.\n\n# Waste output\n\nAdditionally, Vanguard\u2019s Malvern, Pennsylvania and Scottsdale, Arizona campus community gardens are maintained and harvested by crew volunteers. The community gardens donated over 1,300 pounds of produce to local food banks in 2024. Globally, crew participate in various educational events such as Earth Day activities, e-waste recycling events, and crew-led Green Teams throughout the year. For more information on our approach and methodology, see: Greenhouse Gas Emissions and Goals Methodology.\n\n---\n\nAdditionally, we piloted an innovative paper towel waste diversion program at our Scottsdale, Arizona campus, further expanding our commitment to sustainable waste management practices. ### Crew engagement We offer programs to our crew that enable their use of low-carbon transportation, including 239 free electric vehicle (EV) charging ports adjacent to our U.S. buildings, shuttles between campuses and to and from public transit, and pre-tax deductions for public transit costs.\n\n---\n\nThe approach included optimized watering schedules, the replacement of 4,200 square feet of water-intensive grass with artificial turf, strategic reduction of live landscape features, and deployment of a real-time leak detection system. Vanguard launched a comprehensive organic waste program across all primary U.S. campuses in 2024, successfully diverting over 70 tons of organic waste from landfills through the implementation of composting systems in campus cafeterias.",
+      "sources": [
+        {
+          "name": "VANGUARD",
+          "document": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/why-vanguard/who-we-are/corporate-sustainability.html",
+          "date": "2026-03-03"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0000102909",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%220000102909%22",
+            "params": {},
+            "response_hash": "13b18ba0063604c652cfec5f1fa1b149f0a516aa077a64f3e83a472dabd27043"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%220000102909%22",
+            "params": {},
+            "response_hash": "754aeffe7c0a3e458c14e4519f55d5dbf56e3cabfa806965c58683b7f5b8a52e"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%220000102909%22",
+            "params": {},
+            "response_hash": "df28f9ab62ee2dafb1895029812ce70366ade1df1386046fd4e1a0822cd368de"
+          },
+          "date": "2026-02-27"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "c/o THE VANGUARD GROUP, INC.; PO Box 2600, Valley Forge, US-PA, 19482, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "be23feedae40218e778a744f1c0727b37d294ce9b0ec100e1c72636e7b1c5395"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "cbd54d6aa919ad2ba9f448fd2668242b11defcddd64fb1bc9c6347aa3d32b223"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "fcf766b9267502f691e8072661aa0e72774ef37c50378700b876477b78cf65c1"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "f03f5076f679ef37eefb5c13899c9725a13fbe60f304166b1fc4f72e823c7332"
+          },
+          "date": "2026-03-17"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002789CX3L0CJP65",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "THE VANGUARD GROUP, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "be23feedae40218e778a744f1c0727b37d294ce9b0ec100e1c72636e7b1c5395"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "cbd54d6aa919ad2ba9f448fd2668242b11defcddd64fb1bc9c6347aa3d32b223"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "fcf766b9267502f691e8072661aa0e72774ef37c50378700b876477b78cf65c1"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "f03f5076f679ef37eefb5c13899c9725a13fbe60f304166b1fc4f72e823c7332"
+          },
+          "date": "2026-03-17"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002789CX3L0CJP65",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "5493002789CX3L0CJP65",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "be23feedae40218e778a744f1c0727b37d294ce9b0ec100e1c72636e7b1c5395"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "cbd54d6aa919ad2ba9f448fd2668242b11defcddd64fb1bc9c6347aa3d32b223"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "fcf766b9267502f691e8072661aa0e72774ef37c50378700b876477b78cf65c1"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/5493002789CX3L0CJP65",
+            "params": {},
+            "response_hash": "f03f5076f679ef37eefb5c13899c9725a13fbe60f304166b1fc4f72e823c7332"
+          },
+          "date": "2026-03-17"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493002789CX3L0CJP65",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Vanguard Group",
+        "The Vanguard Group, Inc.",
+        "Vanguard Group Inc.",
+        "Vanguard"
+      ],
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+    "properties_count_requested": 13,
+    "numobs_categories_requested": 0
+  }
+}

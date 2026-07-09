@@ -1,0 +1,380 @@
+{
+  "status": 200,
+  "request": {
+    "team_id": "abrollo",
+    "model_agent_name": "monte-carlo-cathedral-mvp2",
+    "model_agent_version": "0.0.2",
+    "transactions": [
+      {
+        "nasdaq_code": "NVDA",
+        "amount": 24769
+      },
+      {
+        "nasdaq_code": "AAPL",
+        "amount": 22131
+      },
+      {
+        "nasdaq_code": "ADSK",
+        "amount": 21067
+      },
+      {
+        "nasdaq_code": "MSTR",
+        "amount": 20761
+      },
+      {
+        "nasdaq_code": "DXCM",
+        "amount": 20584
+      },
+      {
+        "nasdaq_code": "PLTR",
+        "amount": 20430
+      },
+      {
+        "nasdaq_code": "MNST",
+        "amount": 20083
+      },
+      {
+        "nasdaq_code": "ASML",
+        "amount": 19822
+      },
+      {
+        "nasdaq_code": "TXN",
+        "amount": 19732
+      },
+      {
+        "nasdaq_code": "CTSH",
+        "amount": 19605
+      },
+      {
+        "nasdaq_code": "COST",
+        "amount": 19519
+      },
+      {
+        "nasdaq_code": "AMAT",
+        "amount": 19511
+      },
+      {
+        "nasdaq_code": "NFLX",
+        "amount": 19407
+      },
+      {
+        "nasdaq_code": "PDD",
+        "amount": 19401
+      },
+      {
+        "nasdaq_code": "NXPI",
+        "amount": 19285
+      },
+      {
+        "nasdaq_code": "STX",
+        "amount": 19160
+      },
+      {
+        "nasdaq_code": "CCEP",
+        "amount": 19143
+      },
+      {
+        "nasdaq_code": "PYPL",
+        "amount": 19137
+      },
+      {
+        "nasdaq_code": "CRWD",
+        "amount": 19081
+      },
+      {
+        "nasdaq_code": "CSCO",
+        "amount": 19057
+      },
+      {
+        "nasdaq_code": "ARM",
+        "amount": 19025
+      },
+      {
+        "nasdaq_code": "ADBE",
+        "amount": 18916
+      },
+      {
+        "nasdaq_code": "CEG",
+        "amount": 18867
+      },
+      {
+        "nasdaq_code": "AMZN",
+        "amount": 17950
+      },
+      {
+        "nasdaq_code": "AMGN",
+        "amount": 17354
+      },
+      {
+        "nasdaq_code": "ALNY",
+        "amount": 17264
+      },
+      {
+        "nasdaq_code": "CDNS",
+        "amount": 17150
+      },
+      {
+        "nasdaq_code": "BKNG",
+        "amount": 16994
+      },
+      {
+        "nasdaq_code": "QCOM",
+        "amount": 16837
+      },
+      {
+        "nasdaq_code": "CPRT",
+        "amount": 16675
+      },
+      {
+        "nasdaq_code": "DASH",
+        "amount": 16649
+      },
+      {
+        "nasdaq_code": "WDC",
+        "amount": 16624
+      },
+      {
+        "nasdaq_code": "DDOG",
+        "amount": 16602
+      },
+      {
+        "nasdaq_code": "ROST",
+        "amount": 16528
+      },
+      {
+        "nasdaq_code": "SNPS",
+        "amount": 16363
+      },
+      {
+        "nasdaq_code": "REGN",
+        "amount": 16216
+      },
+      {
+        "nasdaq_code": "VRTX",
+        "amount": 16200
+      },
+      {
+        "nasdaq_code": "SBUX",
+        "amount": 16171
+      },
+      {
+        "nasdaq_code": "PEP",
+        "amount": 16121
+      },
+      {
+        "nasdaq_code": "CSGP",
+        "amount": 16100
+      },
+      {
+        "nasdaq_code": "ABNB",
+        "amount": 15866
+      },
+      {
+        "nasdaq_code": "TRI",
+        "amount": 15583
+      },
+      {
+        "nasdaq_code": "CMCSA",
+        "amount": 15529
+      },
+      {
+        "nasdaq_code": "ORLY",
+        "amount": 15383
+      },
+      {
+        "nasdaq_code": "TSLA",
+        "amount": 14546
+      },
+      {
+        "nasdaq_code": "PANW",
+        "amount": 12829
+      },
+      {
+        "nasdaq_code": "CSX",
+        "amount": 12814
+      },
+      {
+        "nasdaq_code": "TEAM",
+        "amount": 12674
+      },
+      {
+        "nasdaq_code": "XEL",
+        "amount": 12614
+      },
+      {
+        "nasdaq_code": "TMUS",
+        "amount": 12529
+      },
+      {
+        "nasdaq_code": "PAYX",
+        "amount": 12473
+      },
+      {
+        "nasdaq_code": "CTAS",
+        "amount": 12465
+      },
+      {
+        "nasdaq_code": "BKR",
+        "amount": 12446
+      },
+      {
+        "nasdaq_code": "AVGO",
+        "amount": 12384
+      },
+      {
+        "nasdaq_code": "APP",
+        "amount": 12268
+      },
+      {
+        "nasdaq_code": "AXON",
+        "amount": 12142
+      },
+      {
+        "nasdaq_code": "ZS",
+        "amount": 12043
+      },
+      {
+        "nasdaq_code": "AMD",
+        "amount": 11998
+      },
+      {
+        "nasdaq_code": "ADI",
+        "amount": 11303
+      },
+      {
+        "nasdaq_code": "ADP",
+        "amount": 7820
+      }
+    ]
+  },
+  "response": {
+    "success": true,
+    "submission_id": "jx75j0f62x24xx89er5z93b6xh85hj31",
+    "total_invested": 1000000,
+    "total_value": 1554039.86,
+    "purchase_prices_apr15": {
+      "NVDA": 112.19999694824219,
+      "AAPL": 202.13999938964844,
+      "ADSK": 265.3399963378906,
+      "MSTR": 310.7200012207031,
+      "DXCM": 69.2300033569336,
+      "PLTR": 98.4000015258789,
+      "MNST": 58.63999938964844,
+      "ASML": 683.1599731445312,
+      "TXN": 151.17999267578125,
+      "CTSH": 71.26000213623047,
+      "COST": 976.9199829101562,
+      "AMAT": 145.4499969482422,
+      "NFLX": 97.62799835205078,
+      "PDD": 94.06999969482422,
+      "NXPI": 171.6300048828125,
+      "STX": 72,
+      "CCEP": 88.31999969482422,
+      "PYPL": 62,
+      "CRWD": 392.79998779296875,
+      "CSCO": 57.20000076293945,
+      "ARM": 103.80000305175781,
+      "ADBE": 350.3800048828125,
+      "CEG": 208.4199981689453,
+      "AMZN": 179.58999633789062,
+      "AMGN": 295.29998779296875,
+      "ALNY": 230.92999267578125,
+      "CDNS": 264.30999755859375,
+      "BKNG": 184.4976043701172,
+      "QCOM": 138.60000610351562,
+      "CPRT": 60.45000076293945,
+      "DASH": 181.5500030517578,
+      "WDC": 35.93000030517578,
+      "DDOG": 92.55000305175781,
+      "ROST": 141.02999877929688,
+      "SNPS": 425.6499938964844,
+      "REGN": 557.9099731445312,
+      "VRTX": 500.489990234375,
+      "SBUX": 83.70999908447266,
+      "PEP": 142.83999633789062,
+      "CSGP": 80.51000213623047,
+      "ABNB": 114.63999938964844,
+      "TRI": 181.6999969482422,
+      "CMCSA": 32.239925384521484,
+      "ORLY": 93.1953353881836,
+      "TSLA": 254.11000061035156,
+      "PANW": 173.5500030517578,
+      "CSX": 27.899999618530273,
+      "TEAM": 207.25,
+      "XEL": 70.2699966430664,
+      "TMUS": 266.7099914550781,
+      "PAYX": 147.6199951171875,
+      "CTAS": 208.1999969482422,
+      "BKR": 38.15999984741211,
+      "AVGO": 178.9499969482422,
+      "APP": 245.47000122070312,
+      "AXON": 578.4199829101562,
+      "ZS": 204.63999938964844,
+      "AMD": 95.29000091552734,
+      "ADI": 179.5399932861328,
+      "ADP": 298.05999755859375
+    },
+    "eval_prices_today": {
+      "NVDA": 208.27,
+      "AAPL": 271.06,
+      "ADSK": 237.44,
+      "MSTR": 171.02,
+      "DXCM": 61.57,
+      "PLTR": 143.09,
+      "MNST": 78.23,
+      "ASML": 1457.7,
+      "TXN": 277.14,
+      "CTSH": 55.11,
+      "COST": 1011.15,
+      "AMAT": 417.04,
+      "NFLX": 92.44,
+      "PDD": 98.03,
+      "NXPI": 244.04,
+      "STX": 586.25,
+      "CCEP": 98.06,
+      "PYPL": 50.48,
+      "CRWD": 448.13,
+      "CSCO": 89.01,
+      "ARM": 234.81,
+      "ADBE": 245.44,
+      "CEG": 313.53,
+      "AMZN": 263.99,
+      "AMGN": 344.55,
+      "ALNY": 305.54,
+      "CDNS": 332.89,
+      "BKNG": 180.25,
+      "QCOM": 148.85,
+      "CPRT": 33.07,
+      "DASH": 176.78,
+      "WDC": 404,
+      "DDOG": 129.48,
+      "ROST": 226.37,
+      "SNPS": 500.82,
+      "REGN": 751.57,
+      "VRTX": 430.29,
+      "SBUX": 98.67,
+      "PEP": 155.44,
+      "CSGP": 36.44,
+      "ABNB": 142.82,
+      "TRI": 89.75,
+      "CMCSA": 27.56,
+      "ORLY": 93.13,
+      "TSLA": 376.3,
+      "PANW": 178.54,
+      "CSX": 45.41,
+      "TEAM": 71.55,
+      "XEL": 79.15,
+      "TMUS": 189.8,
+      "PAYX": 89.82,
+      "CTAS": 175.9,
+      "BKR": 68.94,
+      "AVGO": 422.76,
+      "APP": 448.29,
+      "AXON": 397.12,
+      "ZS": 135.5,
+      "AMD": 347.81,
+      "ADI": 399.57,
+      "ADP": 196.53
+    }
+  }
+}

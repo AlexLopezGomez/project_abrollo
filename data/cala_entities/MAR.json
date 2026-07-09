@@ -1,0 +1,429 @@
+{
+  "id": "918d6cfb-7e66-4f3d-871f-79b70eb3f8e6",
+  "name": "MARRIOTT INTERNATIONAL, INC.",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "aliases": {
+      "value": [
+        "Marriott International",
+        "MAR"
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "MARRIOTT INTERNATIONAL, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "918d6cfb-7e66-4f3d-871f-79b70eb3f8e6",
+      "sources": []
+    },
+    "founding_date": {
+      "value": "1997-09-19",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "225YDZ14ZO8E1TXUSU86",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "MARRIOTT INTERNATIONAL, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "10745c7b-4989-523c-b6b2-16397722c765"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "00a07fd5-fc9a-47bd-a5d7-82216c593e15",
+          "name": "Starwood Japan Holdings Pte. Ltd.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300UAO6DKOIOBQI97",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "102739cd-faf5-5ac4-94db-6a53ab95d7b3",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "08d52815-0f38-40d4-8396-bbfd2642968c",
+          "name": "Starwood Asia Pacific Hotels & Resorts Pte. Ltd.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300YQ2OW0V05ERC90",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a927e0fb-827a-5d45-b12e-39deff55c966",
+            "valid_since": "2017-07-15"
+          }
+        },
+        {
+          "id": "17aafd82-1faf-4f57-8e27-49604d24d1f4",
+          "name": "INTERNATIONAL HOTEL LICENSING COMPANY S.\u00e0 r.l.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300MOTZZUF5UC1Y10",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "bdbb3055-e823-541d-a191-54ef88524e96",
+            "valid_since": "2018-01-29"
+          }
+        },
+        {
+          "id": "26ae3a3b-2da7-4f0f-9191-c22641d07bcf",
+          "name": "SHERATON HOTELS (U.K.) PLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493003KJRG6F3FU0Z90",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "77cf79ed-5404-5744-868d-d0a81948d037",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "3131c8ed-8a0e-4682-b0ce-4564bb22cb21",
+          "name": "Le Centre Sheraton Limited Partnership",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493006I3UQNA08H7T36",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "1f310d63-4a69-5268-a0e2-daf26b9a183d",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "34e4631f-8e18-4d42-8e2e-9e9073d5e453",
+          "name": "Sheraton Gateway Limited Partnership",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300H5RBRQUGXN5D68",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "df11eb98-a21c-55be-bb27-4eed329070cd",
+            "valid_since": "2017-07-19"
+          }
+        },
+        {
+          "id": "3bbb5389-b34e-4209-a060-57f7fa8d375c",
+          "name": "Starwood International Holding S.\u00e0 r.l.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300N5OSBEW2IV6T17",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a6c98d85-6571-5714-9504-9591d0ac0e9f",
+            "valid_since": "2017-07-17"
+          }
+        },
+        {
+          "id": "4372f74b-ec8c-4762-b6ce-07ee0fd7644c",
+          "name": "Sheraton on the Park Pty Ltd",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300VPZ7SEM652YV58",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a06deed9-a11f-5a21-9cd9-c779b6bc6f0d",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "45484e92-4d9b-495b-9245-164552ec4cf1",
+          "name": "STARWOOD EAME LICENSE AND SERVICES COMPANY BVBA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300TOF38MP55JE148",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "52b4f5a4-e6f3-5a9c-b248-39283325d82f",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "479041ac-29fa-4018-a8e6-e3b342c21844",
+          "name": "Administracion de Empresas Starwood S. de R.L. de C.V.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300HGVPYT74PBAG39",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3d93898d-d53d-591b-a189-d4e87c166100",
+            "valid_since": "2017-07-19"
+          }
+        },
+        {
+          "id": "4f8be074-4f77-4321-aadf-d1483a670748",
+          "name": "Starwood Finance Luxembourg S.\u00e0 r.l.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300TKO2CC164ZDJ43",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "aa394b4c-12c9-5e3b-ae6c-34b72aef4eab",
+            "valid_since": "2017-07-15"
+          }
+        },
+        {
+          "id": "502a699c-530f-4fb0-abcd-16ea85c8d831",
+          "name": "Starwood Mexico Servicios Compartidos, SA de CV",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493001PNUIESPKIB826",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "bb5e69a8-bcd4-5338-bcb8-f6df751ecfb5",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "5966b6c4-faf2-4791-8b22-d141ee0c01b9",
+          "name": "Starwood Hotels & Resorts Worldwide, LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/G9NTPG5SQ5TCKT3TNP18",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "824f77ea-5bd6-5ac4-925e-4a2ba059fb10",
+            "valid_since": "2017-07-19"
+          }
+        },
+        {
+          "id": "80c37b5f-8804-46a4-a053-aa9c6bbd2031",
+          "name": "STARWOOD HONG KONG HOLDINGS",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300R4TXKT4HA8TJ07",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "c8c42715-91c8-5494-a5fa-de21ddc09b50",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "8e613fe3-393c-4af8-b476-65e7e3997781",
+          "name": "Franchise & License (Canadian) Ops Limited Partnership",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300D5XSXWMQ8VFB23",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "779449ed-ff72-50bf-bc06-0555f464ade0",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "dfe6eda6-db76-4462-803c-f407b92d8050",
+          "name": "STARWOOD CHILE HOLDINGS SA",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493004CQZQZJG04ZV53",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "44587a52-e4a5-5f59-a3d0-bb6976ba536b",
+            "valid_since": "2017-07-19"
+          }
+        },
+        {
+          "id": "e0f24cc2-ef34-4be8-8e29-405d21a36811",
+          "name": "Sheraton Centre Toronto Limited Partnership",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/5493004BCK7GRPXGB415",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b4056312-a731-589b-913d-101545ccb5e7",
+            "valid_since": "2017-07-18"
+          }
+        },
+        {
+          "id": "ec768f39-9a59-48f4-9aaa-b5655856086c",
+          "name": "MERIDIEN SAS",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300X4L1E7XBTQFP81",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3f44c9b9-1f60-5e15-9d1f-ddba049d6b3b",
+            "valid_since": "2017-07-18"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/225YDZ14ZO8E1TXUSU86",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8d14cbf5-1b06-5ef9-8b46-529482bff99c"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "MAR",
+    "uuid": "918d6cfb-7e66-4f3d-871f-79b70eb3f8e6",
+    "match_name": "MARRIOTT INTERNATIONAL, INC.",
+    "retrieved_at": "2026-04-15T22:32:00Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 8,
+      "relationship_types_outgoing": 3,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 8,
+      "relationship_types": 3,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

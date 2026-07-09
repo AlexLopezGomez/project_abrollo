@@ -1,0 +1,398 @@
+{
+  "id": "46f58a10-998c-4532-b544-45687021db0e",
+  "name": "COSTCO FRANCE",
+  "entity_type": "Company",
+  "description": "A French subsidiary of COSTCO WHSL CORP NEW located at 1 Avenue de Br\u00e9hat, Villebon-sur-Yvette, employing Emmanuel Macron.",
+  "properties": {
+    "name": {
+      "value": "COSTCO FRANCE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+            "params": {},
+            "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "46f58a10-998c-4532-b544-45687021db0e",
+      "sources": []
+    },
+    "founding_date": {
+      "value": "2009-07-09",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300QGLBWI3DBP0R34",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+            "params": {},
+            "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "1 AVENUE DE BR\u00c9HAT, VILLEBON-SUR-YVETTE, FR-91, 91140, FR",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+            "params": {},
+            "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "1 AVENUE DE BR\u00c9HAT, VILLEBON-SUR-YVETTE, FR-91, 91140, FR",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+            "params": {},
+            "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A French subsidiary of COSTCO WHSL CORP NEW located at 1 Avenue de Br\u00e9hat, Villebon-sur-Yvette, employing Emmanuel Macron.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "COSTCO FRANCE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+            "params": {},
+            "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "7adb1c7f-c659-4bb9-9f81-8b177e8477d6",
+          "name": "Essonne",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+                  "params": {},
+                  "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+                },
+                "date": "2026-03-04"
+              }
+            ],
+            "id": "c201230f-9a90-436c-9464-bc22c088a8f6"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "7adb1c7f-c659-4bb9-9f81-8b177e8477d6",
+          "name": "Essonne",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/29DX7H14B9S6O3FD6V18/ultimate-children",
+                  "params": {},
+                  "response_hash": "4c5bb28a7502aee20496bb4bfc3bc881a9eabffdcdc9f3b7c27141e07ad3bb55"
+                },
+                "date": "2026-03-04"
+              }
+            ],
+            "id": "06de3cf8-c08c-4e55-b877-d9cf5e64d121"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "cfe3b417-eedb-4153-820b-dc349c4e5ce1",
+          "name": "COSTCO WHSL CORP NEW",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "76083479-21a0-51b0-a5fd-1734ab6ecb6d",
+            "valid_since": "2021-12-31"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "6dc6f4a0-2ef3-4691-994b-cc77188f18ff",
+          "name": "Talleyrand",
+          "entity_type": "Person",
+          "properties": {
+            "valid_until": "1815-06-09",
+            "role": "representative at the Congress of Vienna",
+            "sources": [
+              {
+                "name": "AP Study Guides & Practice Questions | Fiveable",
+                "document": "https://fiveable.me/key-terms/ap-euro/talleyrand",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "Library of Congress Blogs | Blogs from the Library of Congress",
+                "document": "https://blogs.loc.gov/international-collections/2019/03/talleyrand-a-diplomat-par-excellence",
+                "date": "2019-03-02"
+              },
+              {
+                "name": "https://www.infoplease.com/encyclopedia/people/history/french/talleyrand-charles-maurice-de",
+                "document": "https://www.infoplease.com/encyclopedia/people/history/french/talleyrand-charles-maurice-de",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://wiki.kidzsearch.com/wiki/Congress_of_Vienna",
+                "document": "https://wiki.kidzsearch.com/wiki/Congress_of_Vienna",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "E Conference Zone",
+                "document": "https://econferencezone.org/index.php/ecz/article/download/2989/2835/3047",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "https://www.archbalt.org/talleyrand-and-the-hope-for-conversion?print=print",
+                "document": "https://www.archbalt.org/talleyrand-and-the-hope-for-conversion?print=print",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Join 303 million academics and researchers",
+                "document": "https://www.academia.edu/25660195/Cutting_the_cake_the_Congress_of_Vienna_in_British_French_and_German_political_caricature",
+                "date": "2016-01-01"
+              }
+            ],
+            "id": "4860a65f-0adf-4478-b4fb-cbf68f7ce5cd",
+            "valid_since": "1814-09-01"
+          }
+        },
+        {
+          "id": "758b6e6e-dde5-44ad-af15-5f5e370b5f50",
+          "name": "Emmanuel Macron",
+          "entity_type": "Person",
+          "properties": {
+            "role": "President of France",
+            "sources": [
+              {
+                "name": "Vietnam Times - Today News, Top Stories, Outlook Insider Vietnam",
+                "document": "https://vietnamtimes.thoidai.com.vn/french-president-emmanuel-macron-biography-personal-profile-career-36080.html",
+                "date": "2021-09-22"
+              },
+              {
+                "name": "https://www.aldianews.com/en/politics/policy/who-emmanuel-macron",
+                "document": "https://www.aldianews.com/en/politics/policy/who-emmanuel-macron",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "The White House",
+                "document": "https://www.whitehouse.gov/gallery/president-trump-hosts-president-of-france-emmanuel-macron/",
+                "date": "2025-05-13"
+              }
+            ],
+            "id": "06d50a55-a309-4901-a1b5-1c91237600bb",
+            "valid_since": "2017-05-14"
+          }
+        },
+        {
+          "id": "82d010ce-12ac-4fe1-9f76-be86e20459e8",
+          "name": "Luis IX",
+          "entity_type": "Person",
+          "properties": {
+            "valid_until": "1270-08-25",
+            "role": "King",
+            "sources": [
+              {
+                "name": "Kids encyclopedia facts from Kiddle",
+                "document": "https://kids.kiddle.co/Louis_IX_of_France",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "https://www.onthisday.com/people/louis-ix",
+                "document": "https://www.onthisday.com/people/louis-ix",
+                "date": "2026-03-15"
+              },
+              {
+                "name": "Encyclopedia.com | Free Online Encyclopedia",
+                "document": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/louis-ix-st-king-france",
+                "date": "2026-02-02"
+              },
+              {
+                "name": "https://www.britannica.com/video/Louis-IX-saint-France-Crusades-role/-184389",
+                "document": "https://www.britannica.com/video/Louis-IX-saint-France-Crusades-role/-184389",
+                "date": "2026-03-15"
+              }
+            ],
+            "id": "a1a92099-5e7b-4d52-ba5c-4181226221a4",
+            "valid_since": "1226-01-01"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "9f311e7c-571f-4432-b944-49d99bb948df",
+          "name": "COSTCO WHOLESALE INTERNATIONAL, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300QGLBWI3DBP0R34",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "8240986f-c92d-5429-886b-ec0d396e09fb",
+            "valid_since": "2021-12-31"
+          }
+        }
+      ],
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "51278620-414d-4c10-aabe-6af7b398d09b",
+          "name": "FIDELITY MANAGEMENT TRUST COMPANY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/909832/000031506697000924/",
+                "date": "1997-02-12"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "1997-02-12T00:00:00Z",
+                "value": 0.06,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/909832/000031506697000924/",
+                  "source": "SEC",
+                  "published_time": "1997-02-12T00:00:00Z"
+                }
+              }
+            ],
+            "id": "99d95b87-a7c4-5dd2-88a9-8c20b347b882"
+          }
+        },
+        {
+          "id": "f56a13d8-4dc8-4e4e-b173-a8ebc48edc72",
+          "name": "FIDELITY MANAGEMENT & RESEARCH COMPANY LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/909832/000031506697000924/",
+                "date": "1997-02-12"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "1997-02-12T00:00:00Z",
+                "value": 5.81,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/909832/000031506697000924/",
+                  "source": "SEC",
+                  "published_time": "1997-02-12T00:00:00Z"
+                }
+              }
+            ],
+            "id": "5ec79630-c909-54eb-8a5a-4aa811a8f410"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "COST",
+    "uuid": "46f58a10-998c-4532-b544-45687021db0e",
+    "match_name": "COSTCO FRANCE",
+    "retrieved_at": "2026-04-15T22:27:05Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 8,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 4,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 8,
+      "relationship_types": 6,
+      "relationship_edges": 9,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

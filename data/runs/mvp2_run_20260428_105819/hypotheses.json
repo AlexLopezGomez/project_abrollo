@@ -1,0 +1,183 @@
+[
+  {
+    "id": "H_V2_01",
+    "trigger": "BlackRock's continued ETF AUM expansion driven by passive investing secular tailwinds pushes fee revenue above consensus, triggering a re-rating of core equity holdings.",
+    "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+    "probability": 0.68,
+    "magnitude": 0.12,
+    "horizon_days": 180,
+    "sources": [
+      "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "414faf92-4f48-4c41-8f9d-6b5ab7d03538"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-10-21"
+    ]
+  },
+  {
+    "id": "H_V2_02",
+    "trigger": "Vanguard Group's massive passive index rebalancing in Q1 2025 creates systematic buying pressure in NASDAQ-100 mega-cap tech names, lifting short-term prices.",
+    "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+    "probability": 0.72,
+    "magnitude": 0.09,
+    "horizon_days": 90,
+    "sources": [
+      "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "a6929763-0272-4dde-a8d2-bf1d54ca488c"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2025-01-01",
+      "2024-09-11"
+    ]
+  },
+  {
+    "id": "H_V2_03",
+    "trigger": "JPMorgan Chase tightening commercial credit standards in early 2025 signals rising default risk, pressuring leveraged NASDAQ-100 growth companies reliant on cheap debt refinancing.",
+    "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+    "probability": 0.61,
+    "magnitude": -0.14,
+    "horizon_days": 120,
+    "sources": [
+      "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "b5c40d18-6910-41ae-a025-4d3962962643",
+      "87028fb6-27e5-4ede-b7fa-39709c9abbb4"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-02-10",
+      "2024-10-01"
+    ]
+  },
+  {
+    "id": "H_V2_04",
+    "trigger": "Berkshire Hathaway's reallocation away from financial equities into cash equivalents signals macro caution, catalyzing broad NASDAQ-100 risk-off sentiment among institutional followers.",
+    "origin_entity_uuid": "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+    "probability": 0.55,
+    "magnitude": -0.18,
+    "horizon_days": 150,
+    "sources": [
+      "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+      "47fa9716-2e8e-4e51-aa41-4ad715633d5d"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-07-28",
+      "2024-06-04"
+    ]
+  },
+  {
+    "id": "H_V2_05",
+    "trigger": "Maverick Capital's concentrated long positions in AI-infrastructure equities unwind due to elevated valuations, causing a sharp correction in semiconductor and cloud-compute names.",
+    "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+    "probability": 0.48,
+    "magnitude": -0.22,
+    "horizon_days": 75,
+    "sources": [
+      "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "e575ad90-3b1b-4feb-8226-e1a06ccb1daa",
+      "a16a55d9-16a8-42a2-a538-7a140d0ed7b4"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2024-10-21",
+      "2024-01-17"
+    ]
+  },
+  {
+    "id": "H_V2_06",
+    "trigger": "Barclays Global Investors reduces equity exposure after rising UK regulatory capital requirements, creating selling pressure on NASDAQ-100 holdings across multiple Barclays entities.",
+    "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+    "probability": 0.52,
+    "magnitude": -0.1,
+    "horizon_days": 130,
+    "sources": [
+      "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "1fc151c1-0e16-4939-9a63-868355191bc3",
+      "b3e3d11b-48f6-4504-952d-315580ff5fbd",
+      "d5f43bbe-2e17-4dea-abe8-69ceae51d83a"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-09-11",
+      "2023-12-04"
+    ]
+  },
+  {
+    "id": "H_V2_07",
+    "trigger": "Fidelity's Strategic Advisers division rotates institutional capital from growth to value as real yields rise, reducing demand for high-multiple NASDAQ-100 technology stocks.",
+    "origin_entity_uuid": "0aaa070d-280b-439b-8a1c-faa590807dcb",
+    "probability": 0.59,
+    "magnitude": -0.11,
+    "horizon_days": 100,
+    "sources": [
+      "0aaa070d-280b-439b-8a1c-faa590807dcb",
+      "312be161-0ef4-4e2d-a399-f387cf6e8046",
+      "51278620-414d-4c10-aabe-6af7b398d09b",
+      "1889a140-82b0-42be-bf8d-371683366d8f"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-10-21",
+      "2023-09-20"
+    ]
+  },
+  {
+    "id": "H_V2_08",
+    "trigger": "Eric Schmidt-backed AI accelerator ventures gain significant traction, boosting sentiment and valuations across NASDAQ-100 AI infrastructure and software enablers.",
+    "origin_entity_uuid": "6aef64ba-7f7e-462e-b174-f15a3e6493f6",
+    "probability": 0.63,
+    "magnitude": 0.17,
+    "horizon_days": 200,
+    "sources": [
+      "6aef64ba-7f7e-462e-b174-f15a3e6493f6",
+      "a16a55d9-16a8-42a2-a538-7a140d0ed7b4"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-06-04"
+    ]
+  },
+  {
+    "id": "H_V2_09",
+    "trigger": "FIL Limited (Fidelity International) increases NASDAQ-100 weighting in its global multi-asset funds following dovish Fed signals, amplifying upside momentum in large-cap tech.",
+    "origin_entity_uuid": "1467ce2e-78bd-4fef-a5b2-508bf2507b8c",
+    "probability": 0.65,
+    "magnitude": 0.1,
+    "horizon_days": 160,
+    "sources": [
+      "1467ce2e-78bd-4fef-a5b2-508bf2507b8c",
+      "330361ad-c62e-4337-a001-c512f833bb1d",
+      "103a3bdc-5b34-4a0f-8c14-991ba67a92ba"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-10-01",
+      "2023-12-01"
+    ]
+  },
+  {
+    "id": "H_V2_10",
+    "trigger": "J.P. Morgan Securities increases NASDAQ-100 underwriting activity in early 2025 as IPO window reopens, generating positive sentiment and liquidity inflows into high-growth tech equities.",
+    "origin_entity_uuid": "443b58c3-26eb-4240-b87c-f17133baa2d6",
+    "probability": 0.66,
+    "magnitude": 0.13,
+    "horizon_days": 210,
+    "sources": [
+      "443b58c3-26eb-4240-b87c-f17133baa2d6",
+      "9ffab7de-9a12-4f85-8181-792ed87aa3c9",
+      "f7a069e0-f3c3-4ec0-8021-5979286816e0",
+      "fb0fd6e4-2b68-4030-a9b7-f464e33fddfb"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-07-28"
+    ]
+  }
+]

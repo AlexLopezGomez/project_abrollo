@@ -1,0 +1,1776 @@
+{
+  "cutoff_date": "2025-04-15",
+  "requested_count": 100,
+  "batch_size": 10,
+  "origin_allowlist_count": 19,
+  "date_allowlist_count": 34,
+  "raw_count": 100,
+  "valid_count": 100,
+  "reject_count": 0,
+  "origin_allowlist": [
+    {
+      "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "name": "NASDAQ",
+      "entity_type": "Organization",
+      "is_ndx": false,
+      "degree": 188,
+      "tickers": []
+    },
+    {
+      "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "name": "Delaware",
+      "entity_type": "CountryRegion",
+      "is_ndx": false,
+      "degree": 85,
+      "tickers": []
+    },
+    {
+      "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "name": "VANGUARD GROUP INC",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 75,
+      "tickers": []
+    },
+    {
+      "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "name": "JPMORGAN CHASE & CO",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 74,
+      "tickers": []
+    },
+    {
+      "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "name": "MAVERICK CAPITAL LTD",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 72,
+      "tickers": []
+    },
+    {
+      "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "name": "BlackRock, Inc.",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 68,
+      "tickers": []
+    },
+    {
+      "id": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+      "name": "BlackRock Institutional Trust Company, N.A.",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 62,
+      "tickers": []
+    },
+    {
+      "id": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "name": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 57,
+      "tickers": []
+    },
+    {
+      "id": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+      "name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 57,
+      "tickers": []
+    },
+    {
+      "id": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "name": "BLACKROCK ADVISORS LLC",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 56,
+      "tickers": []
+    },
+    {
+      "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "name": "United States",
+      "entity_type": "Country",
+      "is_ndx": false,
+      "degree": 41,
+      "tickers": []
+    },
+    {
+      "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "name": "California",
+      "entity_type": "CountryRegion",
+      "is_ndx": false,
+      "degree": 29,
+      "tickers": []
+    },
+    {
+      "id": "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "name": "BARCLAYS GLOBAL INVESTORS, NA",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 24,
+      "tickers": []
+    },
+    {
+      "id": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+      "name": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 21,
+      "tickers": []
+    },
+    {
+      "id": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+      "name": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 19,
+      "tickers": []
+    },
+    {
+      "id": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "name": "BARCLAYS GLOBAL INVESTORS, LTD",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 19,
+      "tickers": []
+    },
+    {
+      "id": "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "name": "BLACKROCK FUND ADVISORS",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 14,
+      "tickers": []
+    },
+    {
+      "id": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+      "name": "BlackRock Asset Management Deutschland AG",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 14,
+      "tickers": []
+    },
+    {
+      "id": "ee606c53-8022-4552-bfd9-c282af710305",
+      "name": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED",
+      "entity_type": "Company",
+      "is_ndx": false,
+      "degree": 13,
+      "tickers": []
+    }
+  ],
+  "date_allowlist": [
+    "1998-09-04",
+    "2000-01-01",
+    "2001-08-28",
+    "2015-02-19",
+    "2015-09-14",
+    "2017-01-01",
+    "2017-02-10",
+    "2018-01-01",
+    "2018-01-26",
+    "2018-06-14",
+    "2019-07-25",
+    "2020-01-01",
+    "2020-05-14",
+    "2020-11-12",
+    "2021-01-01",
+    "2021-03-01",
+    "2021-10-21",
+    "2021-12-31",
+    "2022-09-26",
+    "2023-01-30",
+    "2023-06-07",
+    "2023-07-12",
+    "2023-09-20",
+    "2023-12-01",
+    "2023-12-04",
+    "2024-01-17",
+    "2024-06-04",
+    "2024-07-28",
+    "2024-09-11",
+    "2024-10-01",
+    "2024-10-21",
+    "2025-01-01",
+    "2025-02-10",
+    "2025-03-12"
+  ],
+  "hypotheses": [
+    {
+      "id": "H_V2_001",
+      "trigger": "NASDAQ experiences a sustained correction of >10% driven by renewed fears of Fed rate hikes and tech sector earnings disappointments",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2025-03-12",
+        "2025-02-10",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_002",
+      "trigger": "JPMorgan Chase & Co announces a major strategic acquisition or merger that reshapes its investment banking competitive position",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2025-03-12",
+        "2024-10-21"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": 0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_003",
+      "trigger": "BlackRock, Inc. launches a new suite of AI-driven ETF products capturing significant retail inflows and boosting AUM",
+      "trigger_probability": 0.55,
+      "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "impact_direction": "bullish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2025-02-10",
+        "2024-10-01",
+        "2024-07-28"
+      ],
+      "origin_entity_name": "BlackRock, Inc.",
+      "effect_magnitude": 0.1306374174386592,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_004",
+      "trigger": "Vanguard Group Inc faces regulatory scrutiny over index fund concentration risk, prompting SEC investigation and portfolio rebalancing pressure",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bearish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2025-03-12",
+        "2024-09-11",
+        "2023-12-01"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": -0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_005",
+      "trigger": "Maverick Capital Ltd discloses significant concentrated short positions in US mega-cap technology stocks, signaling bearish conviction among hedge fund community",
+      "trigger_probability": 0.27,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2025-01-01",
+        "2024-10-21",
+        "2024-06-04"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": -0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_006",
+      "trigger": "Delaware enacts new corporate governance legislation tightening fiduciary standards, increasing compliance costs for domiciled public companies",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bearish",
+      "horizon_days": 540,
+      "source_dates": [
+        "2025-03-12",
+        "2025-02-10",
+        "2024-01-17"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": -0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_007",
+      "trigger": "BlackRock Institutional Trust Company, N.A. significantly expands its securities lending program, generating incremental fee revenue and attracting institutional mandates",
+      "trigger_probability": 0.48,
+      "origin_entity_uuid": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+      "impact_direction": "bullish",
+      "horizon_days": 210,
+      "source_dates": [
+        "2024-10-01",
+        "2024-07-28",
+        "2023-09-20"
+      ],
+      "origin_entity_name": "BlackRock Institutional Trust Company, N.A.",
+      "effect_magnitude": 0.35,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_008",
+      "trigger": "NASDAQ implements new listing standards requiring enhanced ESG disclosures, accelerating delistings and index reconstitution flows",
+      "trigger_probability": 0.33,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bullish",
+      "horizon_days": 730,
+      "source_dates": [
+        "2025-03-12",
+        "2023-06-07",
+        "2023-01-30"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": 0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_009",
+      "trigger": "Vanguard Investments Australia Ltd faces domestic regulatory action from ASIC over fee disclosure practices, resulting in financial penalties and AUM outflows",
+      "trigger_probability": 0.21,
+      "origin_entity_uuid": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+      "impact_direction": "bearish",
+      "horizon_days": 300,
+      "source_dates": [
+        "2025-01-01",
+        "2024-06-04",
+        "2023-12-04"
+      ],
+      "origin_entity_name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "effect_magnitude": -0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_010",
+      "trigger": "JPMorgan Chase & Co raises its US recession probability forecast above 50%, triggering broad risk-off positioning across equity and credit markets",
+      "trigger_probability": 0.45,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bearish",
+      "horizon_days": 60,
+      "source_dates": [
+        "2025-03-12",
+        "2025-02-10",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": -0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_011",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, NA unwinds a large legacy passive equity portfolio following a strategic mandate review, creating significant secondary market selling pressure across large-cap US equities",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2015-02-19",
+        "2020-05-14",
+        "2023-09-20"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, NA",
+      "effect_magnitude": -0.096,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_012",
+      "trigger": "California enacts sweeping new climate-risk disclosure mandates for public companies, raising compliance costs and triggering revaluation of carbon-intensive equities listed on US exchanges",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2021-03-01",
+        "2023-06-07",
+        "2024-10-01"
+      ],
+      "origin_entity_name": "California",
+      "effect_magnitude": -0.10350000000000001,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_013",
+      "trigger": "BLACKROCK ADVISORS LLC announces a significant reallocation away from fixed income toward equities in its model portfolio suite, driving coordinated inflows into broad market index funds",
+      "trigger_probability": 0.55,
+      "origin_entity_uuid": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "impact_direction": "bullish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2023-12-04",
+        "2024-06-04",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BLACKROCK ADVISORS LLC",
+      "effect_magnitude": 0.14400000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_014",
+      "trigger": "VANGUARD FIDUCIARY TRUST COMPANY increases defined-benefit plan equity allocations across its managed accounts in response to improved funded-status ratios, channeling substantial capital into US equities",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "impact_direction": "bullish",
+      "horizon_days": 150,
+      "source_dates": [
+        "2021-12-31",
+        "2024-01-17",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "effect_magnitude": 0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_015",
+      "trigger": "United States Congress passes new legislation imposing additional capital gains tax increases on short-term equity trades, prompting pre-emptive institutional repositioning and elevated market volatility",
+      "trigger_probability": 0.29,
+      "origin_entity_uuid": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2020-11-12",
+        "2021-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "United States",
+      "effect_magnitude": -0.1215,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_016",
+      "trigger": "BLACKROCK FUND ADVISORS launches a series of new single-factor smart-beta ETFs targeting momentum and low-volatility factors, attracting significant retail and institutional inflows and compressing factor risk premia",
+      "trigger_probability": 0.61,
+      "origin_entity_uuid": "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "impact_direction": "bullish",
+      "horizon_days": 200,
+      "source_dates": [
+        "2023-01-30",
+        "2024-07-28",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BLACKROCK FUND ADVISORS",
+      "effect_magnitude": 0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_017",
+      "trigger": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED faces a regulatory enforcement action by Japan's FSA over cross-border securities lending disclosures, resulting in operational restrictions and forced asset liquidations",
+      "trigger_probability": 0.14,
+      "origin_entity_uuid": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+      "impact_direction": "bearish",
+      "horizon_days": 60,
+      "source_dates": [
+        "2018-06-14",
+        "2020-01-01",
+        "2023-07-12"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED",
+      "effect_magnitude": -0.0885,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_018",
+      "trigger": "BlackRock Asset Management Deutschland AG expands its European ETF platform with a suite of euro-denominated fixed income products, redirecting European retail savings away from equities and toward bonds",
+      "trigger_probability": 0.47,
+      "origin_entity_uuid": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+      "impact_direction": "bearish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2021-10-21",
+        "2023-12-01",
+        "2024-10-21"
+      ],
+      "origin_entity_name": "BlackRock Asset Management Deutschland AG",
+      "effect_magnitude": -0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_019",
+      "trigger": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED receives approval from Canadian regulators to launch a first-of-its-kind crypto-linked index fund, catalyzing institutional adoption of digital assets in Canadian pension portfolios",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "ee606c53-8022-4552-bfd9-c282af710305",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2022-09-26",
+        "2024-09-11",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED",
+      "effect_magnitude": 0.0795,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_020",
+      "trigger": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED discloses material exposure to distressed Japanese real estate investment trusts, triggering contagion fears across Asia-Pacific equity markets",
+      "trigger_probability": 0.16,
+      "origin_entity_uuid": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+      "impact_direction": "bearish",
+      "horizon_days": 75,
+      "source_dates": [
+        "2019-07-25",
+        "2023-09-20",
+        "2024-10-01"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED",
+      "effect_magnitude": -0.0915,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_021",
+      "trigger": "NASDAQ announces the addition of a new sector index tracking quantum computing and advanced semiconductor companies, drawing significant passive fund inflows and reshaping benchmark weights",
+      "trigger_probability": 0.32,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": 0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_022",
+      "trigger": "JPMORGAN CHASE & CO discloses a material increase in commercial real estate loan loss provisions amid rising office vacancy rates, signaling deterioration in its credit book",
+      "trigger_probability": 0.52,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2024-09-11",
+        "2024-10-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": -0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_023",
+      "trigger": "VANGUARD GROUP INC announces a further round of fee cuts across its core equity index funds, intensifying the fee compression race across the passive asset management industry",
+      "trigger_probability": 0.65,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2023-12-04",
+        "2024-06-04",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": -0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_024",
+      "trigger": "BlackRock, Inc. is named as a co-defendant in a landmark antitrust lawsuit alleging coordinated voting behavior across passive index holdings, creating significant reputational and legal liability",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "impact_direction": "bearish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-07-28",
+        "2024-10-21",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BlackRock, Inc.",
+      "effect_magnitude": -0.1306374174386592,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_025",
+      "trigger": "MAVERICK CAPITAL LTD files a 13-F disclosing a major new long position in energy transition infrastructure stocks, signaling a tactical rotation away from technology into real assets",
+      "trigger_probability": 0.41,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bullish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": 0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_026",
+      "trigger": "Delaware Supreme Court issues a landmark ruling limiting the enforceability of controlling-shareholder voting agreements, materially affecting deal structuring for corporations domiciled in the state",
+      "trigger_probability": 0.28,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bearish",
+      "horizon_days": 200,
+      "source_dates": [
+        "2023-09-20",
+        "2024-01-17",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": -0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_027",
+      "trigger": "VANGUARD FIDUCIARY TRUST COMPANY shifts its defined-contribution plan default option from target-date bond-heavy funds to equity-heavy lifecycle funds, generating large equity market inflows",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "impact_direction": "bullish",
+      "horizon_days": 150,
+      "source_dates": [
+        "2023-12-01",
+        "2024-06-04",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "effect_magnitude": 0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_028",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, LTD completes a wind-down of its remaining legacy active equity strategies, transferring AUM to passive vehicles and compressing active management fee revenues across peers",
+      "trigger_probability": 0.3,
+      "origin_entity_uuid": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "impact_direction": "bearish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2021-10-21",
+        "2023-06-07",
+        "2024-09-11"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, LTD",
+      "effect_magnitude": -0.0885,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_029",
+      "trigger": "United States Treasury Department issues new guidance restricting foreign sovereign wealth fund participation in US critical infrastructure ETFs, reducing inflows into large passive index products",
+      "trigger_probability": 0.35,
+      "origin_entity_uuid": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "impact_direction": "bearish",
+      "horizon_days": 300,
+      "source_dates": [
+        "2024-07-28",
+        "2025-01-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "United States",
+      "effect_magnitude": -0.1215,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_030",
+      "trigger": "California Public Utilities Commission passes regulations mandating pension funds domiciled in the state to divest from fossil fuel holdings within 36 months, triggering large-scale sector rebalancing",
+      "trigger_probability": 0.43,
+      "origin_entity_uuid": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "impact_direction": "bearish",
+      "horizon_days": 540,
+      "source_dates": [
+        "2023-07-12",
+        "2024-01-17",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "California",
+      "effect_magnitude": -0.10350000000000001,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_031",
+      "trigger": "NASDAQ halts trading across its primary equity markets due to a critical technical infrastructure failure, triggering a cascade of failed settlements and forcing a circuit-breaker reset across multiple asset classes",
+      "trigger_probability": 0.08,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 14,
+      "source_dates": [
+        "2021-10-21",
+        "2024-10-01"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_032",
+      "trigger": "VANGUARD GROUP INC announces the launch of a suite of actively managed fixed income ETFs, signaling a strategic pivot away from pure passive management and attracting significant new inflows from yield-seeking institutional investors",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2023-12-01",
+        "2025-02-10",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": 0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_033",
+      "trigger": "JPMORGAN CHASE & CO announces a landmark acquisition of a major regional US bank, materially expanding its deposit base and triggering heightened regulatory scrutiny over systemic concentration risk in the US banking sector",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2024-07-28",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": -0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_034",
+      "trigger": "MAVERICK CAPITAL LTD discloses a concentrated short position in a major large-cap technology company via its quarterly 13-F filing, sparking a wave of copycat short interest and accelerating a sector-wide de-rating of high-multiple growth stocks",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bearish",
+      "horizon_days": 60,
+      "source_dates": [
+        "2024-10-21",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": -0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_035",
+      "trigger": "BlackRock, Inc. reaches a strategic partnership agreement with a sovereign wealth fund to co-develop an infrastructure debt platform targeting emerging market clean energy projects, unlocking a new multi-billion-dollar AUM channel",
+      "trigger_probability": 0.35,
+      "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-06-04",
+        "2024-09-11",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BlackRock, Inc.",
+      "effect_magnitude": 0.1306374174386592,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_036",
+      "trigger": "BlackRock Institutional Trust Company, N.A. announces the termination of several legacy collective investment trust products due to declining AUM, redirecting client assets into lower-cost ETF wrappers and compressing fee revenue",
+      "trigger_probability": 0.28,
+      "origin_entity_uuid": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2023-09-20",
+        "2024-01-17",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BlackRock Institutional Trust Company, N.A.",
+      "effect_magnitude": -0.35,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_037",
+      "trigger": "Delaware Court of Chancery rules that a widely used poison pill structure employed by several S&P 500 companies is unenforceable, materially increasing hostile takeover risk and triggering a surge in M&A speculation across the market",
+      "trigger_probability": 0.15,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bullish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2023-06-07",
+        "2024-10-01",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": 0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_038",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, LTD successfully completes a cross-border merger of its remaining European passive equity mandates into a single UCITS vehicle domiciled in Ireland, creating operational efficiencies but triggering a short-term tax realization event for affected investors",
+      "trigger_probability": 0.31,
+      "origin_entity_uuid": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "impact_direction": "bearish",
+      "horizon_days": 45,
+      "source_dates": [
+        "2021-03-01",
+        "2023-01-30",
+        "2024-07-28"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, LTD",
+      "effect_magnitude": -0.0885,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_039",
+      "trigger": "United States Federal Reserve publishes a financial stability report explicitly flagging concentration risk from large passive index fund managers as a systemic vulnerability, prompting Congressional calls for new position-limit regulations on index fund ownership",
+      "trigger_probability": 0.2,
+      "origin_entity_uuid": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-09-11",
+        "2024-10-21",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "United States",
+      "effect_magnitude": -0.1215,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_040",
+      "trigger": "BLACKROCK ADVISORS LLC files with the SEC to convert a suite of its largest closed-end funds into open-end ETFs, eliminating persistent NAV discounts and triggering a sector-wide re-rating of closed-end fund premiums across the asset management industry",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2023-12-04",
+        "2024-06-04",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "BLACKROCK ADVISORS LLC",
+      "effect_magnitude": 0.14400000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_041",
+      "trigger": "NASDAQ introduces a mandatory circuit-breaker rule tightening intraday volatility thresholds for newly listed SPACs, prompting a wave of SPAC delistings and dampening future SPAC issuance activity",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_042",
+      "trigger": "VANGUARD INVESTMENTS AUSTRALIA LTD receives approval from ASIC to launch a suite of locally domiciled active fixed income ETFs, accelerating AUM growth in the Australian retail market",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+      "impact_direction": "bullish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-07-28",
+        "2025-01-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "effect_magnitude": 0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_043",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, NA discloses a material legacy litigation settlement with the SEC related to historical index-fund securities lending practices, creating a one-time charge that pressures parent-entity earnings",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2023-09-20",
+        "2024-01-17",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, NA",
+      "effect_magnitude": -0.096,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_044",
+      "trigger": "California legislature passes a bill imposing a state-level fiduciary duty requiring public pension funds to incorporate climate-transition risk scoring into all new private equity commitments, reshaping LP capital allocation",
+      "trigger_probability": 0.3,
+      "origin_entity_uuid": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "impact_direction": "bearish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "California",
+      "effect_magnitude": -0.10350000000000001,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_045",
+      "trigger": "BLACKROCK ADVISORS LLC announces a comprehensive restructuring of its model portfolio business, consolidating over 40 sub-advised strategies into unified multi-asset models, reducing fee drag and attracting significant RIA platform flows",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "impact_direction": "bullish",
+      "horizon_days": 210,
+      "source_dates": [
+        "2024-06-04",
+        "2024-10-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "BLACKROCK ADVISORS LLC",
+      "effect_magnitude": 0.14400000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_046",
+      "trigger": "JPMORGAN CHASE & CO faces a consent order from the OCC requiring enhanced stress-testing of its derivatives clearing operations after supervisory findings of internal control deficiencies, increasing compliance costs and constraining trading desk leverage",
+      "trigger_probability": 0.25,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2024-09-11",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": -0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_047",
+      "trigger": "BlackRock Institutional Trust Company, N.A. expands its securities lending program to include tokenized Treasury collateral on a permissioned blockchain, attracting institutional demand and generating incremental fee revenue",
+      "trigger_probability": 0.28,
+      "origin_entity_uuid": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+      "impact_direction": "bullish",
+      "horizon_days": 300,
+      "source_dates": [
+        "2024-07-28",
+        "2024-10-21",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "BlackRock Institutional Trust Company, N.A.",
+      "effect_magnitude": 0.35,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_048",
+      "trigger": "Delaware legislature enacts amendments to the General Corporation Law tightening disclosure requirements for dual-class share structures, prompting several technology unicorns to reconsider Delaware as their domicile of choice ahead of planned IPOs",
+      "trigger_probability": 0.33,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bearish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2024-01-17",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": -0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_049",
+      "trigger": "MAVERICK CAPITAL LTD publicly discloses via an investor letter a significant portfolio reallocation away from US mega-cap growth equities into Asian ex-China emerging market equities, signaling a tactical macro regime shift among long/short equity peers",
+      "trigger_probability": 0.2,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bearish",
+      "horizon_days": 150,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": -0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_050",
+      "trigger": "VANGUARD FIDUCIARY TRUST COMPANY announces a strategic overhaul of its ERISA fiduciary services platform, introducing automated ESG screening tools for plan sponsors, triggering net new plan adoptions from mid-market corporate retirement clients",
+      "trigger_probability": 0.35,
+      "origin_entity_uuid": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-06-04",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "effect_magnitude": 0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_051",
+      "trigger": "NASDAQ announces a new mandatory real-time consolidated audit trail reporting requirement for all member broker-dealers, significantly increasing compliance costs and reducing latency arbitrage opportunities",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_052",
+      "trigger": "VANGUARD GROUP INC discloses plans to reduce expense ratios across its largest index mutual funds to near-zero, triggering an industry-wide fee compression race among passive asset managers",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2025-02-10",
+        "2025-03-12",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": -0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_053",
+      "trigger": "JPMORGAN CHASE & CO announces a strategic exit from its commodities trading desk, liquidating a multi-billion dollar book of energy derivatives and triggering broad commodity market dislocation",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": -0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_054",
+      "trigger": "BlackRock, Inc. launches a tokenized money market fund on a public blockchain, attracting significant institutional inflows and accelerating the mainstream adoption of on-chain financial products",
+      "trigger_probability": 0.55,
+      "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-06-04",
+        "2024-10-01",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BlackRock, Inc.",
+      "effect_magnitude": 0.1306374174386592,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_055",
+      "trigger": "MAVERICK CAPITAL LTD files an activist 13D position in a major US financial exchange operator, publicly calling for a strategic sale or break-up of the company",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bullish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2024-07-28",
+        "2024-10-21",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": 0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_056",
+      "trigger": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED receives regulatory approval from the FSA to re-enter the Japanese domestic ETF market with a new suite of local equity products, intensifying competition with incumbent domestic issuers",
+      "trigger_probability": 0.28,
+      "origin_entity_uuid": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+      "impact_direction": "bearish",
+      "horizon_days": 210,
+      "source_dates": [
+        "2023-12-04",
+        "2024-01-17",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED",
+      "effect_magnitude": -0.0885,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_057",
+      "trigger": "BLACKROCK FUND ADVISORS files with the SEC to launch a suite of actively managed cryptocurrency spot ETFs covering assets beyond Bitcoin and Ethereum, materially broadening retail crypto access",
+      "trigger_probability": 0.47,
+      "origin_entity_uuid": "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "impact_direction": "bullish",
+      "horizon_days": 300,
+      "source_dates": [
+        "2024-09-11",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BLACKROCK FUND ADVISORS",
+      "effect_magnitude": 0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_058",
+      "trigger": "BlackRock Asset Management Deutschland AG faces a formal investigation by BaFin into alleged greenwashing disclosures in its European ESG-labelled fund range, prompting regulatory-driven AUM outflows across the region",
+      "trigger_probability": 0.33,
+      "origin_entity_uuid": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+      "impact_direction": "bearish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2023-09-20",
+        "2024-01-17",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "BlackRock Asset Management Deutschland AG",
+      "effect_magnitude": -0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_059",
+      "trigger": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED discloses a negotiated transfer of its remaining Canadian passive equity mandates to a domestic pension manager, effectively completing its wind-down in the Canadian market",
+      "trigger_probability": 0.25,
+      "origin_entity_uuid": "ee606c53-8022-4552-bfd9-c282af710305",
+      "impact_direction": "bearish",
+      "horizon_days": 150,
+      "source_dates": [
+        "2023-12-01",
+        "2024-06-04",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED",
+      "effect_magnitude": -0.0795,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_060",
+      "trigger": "VANGUARD INVESTMENTS AUSTRALIA LTD discloses the closure of its direct-to-consumer superannuation platform in Australia following sustained net outflows and regulatory cost pressures, ceding market share to local incumbents",
+      "trigger_probability": 0.35,
+      "origin_entity_uuid": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-07-28",
+        "2024-10-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "effect_magnitude": -0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_061",
+      "trigger": "NASDAQ announces a proposed rule change to the SEC requiring all listed companies to adopt minimum free-float thresholds for index inclusion eligibility, raising passive fund rebalancing risk",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_062",
+      "trigger": "VANGUARD GROUP INC discloses a board-level governance restructuring that introduces an independent director majority requirement, signaling a shift in stewardship priorities for its $8+ trillion AUM",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2025-02-10",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": 0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_063",
+      "trigger": "JPMORGAN CHASE & CO announces the acquisition of a mid-sized regional bank following accelerated FDIC receivership proceedings, expanding its deposit base and triggering antitrust review",
+      "trigger_probability": 0.27,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bullish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": 0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_064",
+      "trigger": "MAVERICK CAPITAL LTD discloses a new concentrated long position in a large-cap semiconductor company via 13F filing, coinciding with a broader rotation signal out of US financial sector equities",
+      "trigger_probability": 0.33,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bullish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2025-01-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": 0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_065",
+      "trigger": "BlackRock, Inc. completes a landmark acquisition of a data analytics and climate-risk modeling firm, substantially deepening its Aladdin platform capabilities and raising competitive moat concerns for peers",
+      "trigger_probability": 0.3,
+      "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-07-28",
+        "2024-10-01",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BlackRock, Inc.",
+      "effect_magnitude": 0.1306374174386592,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_066",
+      "trigger": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED receives a directive from Japanese regulators to unwind legacy cross-shareholding positions held in trust accounts, forcing material equity sales",
+      "trigger_probability": 0.14,
+      "origin_entity_uuid": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2023-12-01",
+        "2024-01-17",
+        "2024-06-04"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED",
+      "effect_magnitude": -0.0915,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_067",
+      "trigger": "United States Congress passes legislation mandating money market fund liquidity buffers to be held exclusively in Treasury securities, triggering widespread fund repositioning and short-term rate dislocation",
+      "trigger_probability": 0.2,
+      "origin_entity_uuid": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-09-11",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "United States",
+      "effect_magnitude": -0.1215,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_068",
+      "trigger": "BLACKROCK FUND ADVISORS receives SEC approval for a suite of defined-outcome buffer ETFs with downside protection floors, catalyzing significant inflows from risk-averse retail and retirement channels",
+      "trigger_probability": 0.4,
+      "origin_entity_uuid": "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2025-02-10",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BLACKROCK FUND ADVISORS",
+      "effect_magnitude": 0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_069",
+      "trigger": "California enacts a law requiring all state-registered investment advisers to publicly disclose algorithmic trading model risk metrics, triggering operational compliance costs and potential fund restructurings",
+      "trigger_probability": 0.23,
+      "origin_entity_uuid": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "impact_direction": "bearish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "California",
+      "effect_magnitude": -0.10350000000000001,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_070",
+      "trigger": "BlackRock Asset Management Deutschland AG launches a range of Article-9 SFDR-compliant active fixed income ETFs targeting the European institutional market, capturing ESG mandate inflows ahead of ESMA rulemaking deadlines",
+      "trigger_probability": 0.45,
+      "origin_entity_uuid": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+      "impact_direction": "bullish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2024-06-04",
+        "2024-10-01",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BlackRock Asset Management Deutschland AG",
+      "effect_magnitude": 0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_071",
+      "trigger": "NASDAQ implements a new AI-driven real-time circuit-breaker mechanism that automatically halts trading in individual securities exhibiting anomalous order-flow patterns, increasing market stability scrutiny",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-21",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": 0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_072",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, NA files a regulatory notice with the SEC disclosing material wind-down of its remaining US-domiciled separately managed account operations, transferring assets to successor custodians",
+      "trigger_probability": 0.31,
+      "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2021-10-21",
+        "2024-01-17"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, NA",
+      "effect_magnitude": -0.096,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_073",
+      "trigger": "JPMORGAN CHASE & CO announces a major expansion of its private credit platform by acquiring a leading direct lending manager with over $50 billion in AUM, intensifying competition with traditional asset managers",
+      "trigger_probability": 0.55,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-07-28",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": 0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_074",
+      "trigger": "Delaware Court of Chancery issues a landmark ruling invalidating a major corporation's poison pill defense, reshaping hostile takeover jurisprudence and triggering a wave of M&A speculation across Delaware-incorporated firms",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bullish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2023-09-20",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": 0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_075",
+      "trigger": "BLACKROCK ADVISORS LLC files an amended Form ADV with the SEC disclosing the launch of a new discretionary macro hedge fund strategy targeting sovereign credit risk in emerging markets",
+      "trigger_probability": 0.47,
+      "origin_entity_uuid": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "impact_direction": "bullish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2024-06-04",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BLACKROCK ADVISORS LLC",
+      "effect_magnitude": 0.14400000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_076",
+      "trigger": "VANGUARD INVESTMENTS AUSTRALIA LTD receives a formal enforceable undertaking from ASIC related to product disclosure deficiencies in its managed fund offerings, requiring remediation payments to affected retail investors",
+      "trigger_probability": 0.29,
+      "origin_entity_uuid": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+      "impact_direction": "bearish",
+      "horizon_days": 150,
+      "source_dates": [
+        "2023-12-04",
+        "2024-10-01"
+      ],
+      "origin_entity_name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "effect_magnitude": -0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_077",
+      "trigger": "United States Treasury Department issues a final rule designating a systemically important non-bank financial institution under Dodd-Frank Section 113, reviving macro-prudential oversight concerns across the asset management sector",
+      "trigger_probability": 0.44,
+      "origin_entity_uuid": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "impact_direction": "bearish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2023-06-07",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "United States",
+      "effect_magnitude": -0.1215,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_078",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, LTD discloses via a regulatory filing the transfer of legacy iShares intellectual property licenses to BlackRock affiliates, formally concluding residual contractual obligations from the 2009 acquisition",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2020-11-12",
+        "2023-01-30"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, LTD",
+      "effect_magnitude": -0.0885,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_079",
+      "trigger": "California Department of Financial Protection and Innovation enacts emergency rules imposing fiduciary standards on robo-advisory platforms managing retail retirement assets, prompting significant product restructuring across digital wealth managers",
+      "trigger_probability": 0.51,
+      "origin_entity_uuid": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "impact_direction": "bearish",
+      "horizon_days": 300,
+      "source_dates": [
+        "2024-09-11",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "California",
+      "effect_magnitude": -0.10350000000000001,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_080",
+      "trigger": "BlackRock Institutional Trust Company, N.A. announces it will assume full fiduciary trustee responsibilities for a major US public pension fund's $80 billion fixed income allocation, displacing an incumbent manager following a competitive RFP",
+      "trigger_probability": 0.36,
+      "origin_entity_uuid": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+      "impact_direction": "bullish",
+      "horizon_days": 420,
+      "source_dates": [
+        "2024-10-21",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BlackRock Institutional Trust Company, N.A.",
+      "effect_magnitude": 0.35,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_081",
+      "trigger": "NASDAQ announces a major overhaul of its listing standards for Special Purpose Acquisition Companies (SPACs), introducing stricter minimum cash-in-trust and shareholder approval thresholds",
+      "trigger_probability": 0.32,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-01-17",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_082",
+      "trigger": "VANGUARD FIDUCIARY TRUST COMPANY discloses a strategic transition of its defined-benefit pension trusteeship book to a new internal ESG-aligned investment policy framework, triggering broad asset reallocation",
+      "trigger_probability": 0.28,
+      "origin_entity_uuid": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "impact_direction": "bullish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2023-12-01",
+        "2024-06-04",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "effect_magnitude": 0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_083",
+      "trigger": "JPMORGAN CHASE & CO discloses a significant reduction in its commercial real estate loan portfolio following stress-test results flagging elevated default risk in office-sector exposures",
+      "trigger_probability": 0.45,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2024-09-11",
+        "2024-10-21",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": -0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_084",
+      "trigger": "MAVERICK CAPITAL LTD files a Schedule 13G disclosing a greater-than-5% passive stake in a major biotech firm, signaling renewed hedge-fund conviction in the biopharma sector",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bullish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": 0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_085",
+      "trigger": "BlackRock Institutional Trust Company, N.A. launches a new suite of model portfolios built exclusively on iShares ETFs targeting institutional defined-contribution plan sponsors, displacing competing active mandates",
+      "trigger_probability": 0.55,
+      "origin_entity_uuid": "414faf92-4f48-4c41-8f9d-6b5ab7d03538",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-07-28",
+        "2024-10-21",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BlackRock Institutional Trust Company, N.A.",
+      "effect_magnitude": 0.35,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_086",
+      "trigger": "Delaware General Assembly passes amendments to the Delaware General Corporation Law materially tightening the standards for director exculpation in M&A transactions, increasing litigation risk for acquirers",
+      "trigger_probability": 0.3,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bearish",
+      "horizon_days": 240,
+      "source_dates": [
+        "2023-09-20",
+        "2024-01-17",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": -0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_087",
+      "trigger": "BARCLAYS GLOBAL INVESTORS, NA formally notifies the SEC of the complete cessation of its remaining US-domiciled advisory operations, completing a multi-year wind-down process",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "impact_direction": "bearish",
+      "horizon_days": 60,
+      "source_dates": [
+        "2021-10-21",
+        "2023-01-30",
+        "2024-06-04"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS, NA",
+      "effect_magnitude": -0.096,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_088",
+      "trigger": "BLACKROCK ADVISORS LLC files an updated Form ADV disclosing the integration of a proprietary generative-AI portfolio construction engine across all discretionary multi-asset mandates, representing a significant operational shift",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "eee1c65e-5681-44b5-8309-852d1969f94b",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BLACKROCK ADVISORS LLC",
+      "effect_magnitude": 0.14400000000000002,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_089",
+      "trigger": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED files notice with Japan's FSA disclosing the complete liquidation of its remaining Japan-domiciled trust banking assets and voluntary surrender of its banking license",
+      "trigger_probability": 0.18,
+      "origin_entity_uuid": "6e464d43-0cee-41cf-9a3c-df33c10fae39",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2020-05-14",
+        "2021-03-01",
+        "2023-06-07"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS JAPAN TRUST AND BANKING COMPANY LIMITED",
+      "effect_magnitude": -0.0915,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_090",
+      "trigger": "VANGUARD GROUP INC publicly announces the launch of a first-ever active fixed income ETF product line for US retail investors, directly competing with BlackRock's iShares active bond ETF franchise",
+      "trigger_probability": 0.6,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-06-04",
+        "2024-10-21",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": -0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_091",
+      "trigger": "NASDAQ announces the mandatory adoption of a consolidated audit trail (CAT) reporting upgrade requiring all member firms to submit real-time order lifecycle data, increasing regulatory transparency obligations for high-frequency traders",
+      "trigger_probability": 0.42,
+      "origin_entity_uuid": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+      "impact_direction": "bearish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-01",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "NASDAQ",
+      "effect_magnitude": -0.28,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_092",
+      "trigger": "VANGUARD GROUP INC discloses a strategic decision to cut expense ratios across its entire index mutual fund lineup to near-zero, intensifying the fee compression war among passive asset managers",
+      "trigger_probability": 0.35,
+      "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "impact_direction": "bearish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2025-02-10",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "VANGUARD GROUP INC",
+      "effect_magnitude": -0.1725,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_093",
+      "trigger": "JPMORGAN CHASE & CO announces the launch of a tokenized money market fund on a proprietary blockchain rail, enabling institutional clients to use fund shares as intraday collateral in repo markets",
+      "trigger_probability": 0.48,
+      "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "impact_direction": "bullish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-07-28",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "JPMORGAN CHASE & CO",
+      "effect_magnitude": 0.07180320259921096,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_094",
+      "trigger": "MAVERICK CAPITAL LTD files a Schedule 13D disclosing an activist stake of over 8% in a large-cap semiconductor company, publicly calling for a spin-off of its foundry division to unlock shareholder value",
+      "trigger_probability": 0.28,
+      "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "impact_direction": "bullish",
+      "horizon_days": 180,
+      "source_dates": [
+        "2024-10-21",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "MAVERICK CAPITAL LTD",
+      "effect_magnitude": 0.16799999999999998,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_095",
+      "trigger": "BlackRock, Inc. announces the acquisition of a major private markets data and analytics platform, significantly expanding its Aladdin infrastructure into alternative asset portfolio risk management",
+      "trigger_probability": 0.52,
+      "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "impact_direction": "bullish",
+      "horizon_days": 365,
+      "source_dates": [
+        "2025-01-01",
+        "2025-03-12"
+      ],
+      "origin_entity_name": "BlackRock, Inc.",
+      "effect_magnitude": 0.1306374174386592,
+      "magnitude_source": "cala_numobs"
+    },
+    {
+      "id": "H_V2_096",
+      "trigger": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED files a notice with Canadian securities regulators disclosing the wind-down and deregistration of its remaining Canadian-domiciled pooled fund vehicles",
+      "trigger_probability": 0.38,
+      "origin_entity_uuid": "ee606c53-8022-4552-bfd9-c282af710305",
+      "impact_direction": "bearish",
+      "horizon_days": 90,
+      "source_dates": [
+        "2023-12-04",
+        "2024-01-17"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS CANADA LIMITED",
+      "effect_magnitude": -0.0795,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_097",
+      "trigger": "Delaware Supreme Court issues a ruling affirming that multi-class share structures with super-voting rights are subject to enhanced judicial scrutiny under Revlon duties during change-of-control transactions, materially altering M&A deal dynamics",
+      "trigger_probability": 0.3,
+      "origin_entity_uuid": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+      "impact_direction": "bearish",
+      "horizon_days": 540,
+      "source_dates": [
+        "2024-06-04",
+        "2024-09-11"
+      ],
+      "origin_entity_name": "Delaware",
+      "effect_magnitude": -0.1875,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_098",
+      "trigger": "BLACKROCK FUND ADVISORS files with the SEC for regulatory approval of a series of spot bitcoin and ether combination ETFs structured to dynamically rebalance crypto exposure against traditional equity factors",
+      "trigger_probability": 0.45,
+      "origin_entity_uuid": "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "impact_direction": "bullish",
+      "horizon_days": 210,
+      "source_dates": [
+        "2024-09-11",
+        "2025-01-01"
+      ],
+      "origin_entity_name": "BLACKROCK FUND ADVISORS",
+      "effect_magnitude": 0.081,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_099",
+      "trigger": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED files a final dissolution notice with Japan's Financial Services Agency, confirming the complete legal winding-up of the entity and transfer of residual AUM to BlackRock Japan Co., Ltd.",
+      "trigger_probability": 0.55,
+      "origin_entity_uuid": "10f53a47-a904-4b9c-be1e-1bcfa241c99d",
+      "impact_direction": "bearish",
+      "horizon_days": 120,
+      "source_dates": [
+        "2023-09-20",
+        "2024-01-17"
+      ],
+      "origin_entity_name": "BARCLAYS GLOBAL INVESTORS JAPAN LIMITED",
+      "effect_magnitude": -0.0885,
+      "magnitude_source": "cala_graph_degree"
+    },
+    {
+      "id": "H_V2_100",
+      "trigger": "VANGUARD FIDUCIARY TRUST COMPANY announces a regulatory settlement with the OCC related to deficiencies in its ERISA fiduciary oversight framework, requiring a third-party compliance monitor and remediation plan for all trust accounts under management",
+      "trigger_probability": 0.22,
+      "origin_entity_uuid": "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "impact_direction": "bearish",
+      "horizon_days": 270,
+      "source_dates": [
+        "2024-10-01",
+        "2025-02-10"
+      ],
+      "origin_entity_name": "VANGUARD FIDUCIARY TRUST COMPANY",
+      "effect_magnitude": -0.14550000000000002,
+      "magnitude_source": "cala_graph_degree"
+    }
+  ],
+  "rejects": []
+}

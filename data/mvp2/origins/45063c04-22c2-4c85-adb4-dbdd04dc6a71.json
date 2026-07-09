@@ -1,0 +1,1031 @@
+{
+  "id": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+  "name": "BlackRock Asset Management Deutschland AG",
+  "entity_type": "Company",
+  "description": "A Munich\u2011based investment firm founded in 2007, operating as a subsidiary of BlackRock, Inc.",
+  "properties": {
+    "registered_address": {
+      "value": "Lenbachplatz 1, M\u00fcnchen, DE-BY, 80333, DE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Asset+Management+Deutschland+AG&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b5bfe5c0bbe98b0dabbd14cb3874b6bce5064770e060e54add3eb816d3b70170"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6b79b163e90d929fc955f2c4a264e1b07e590b5a613b237212d66f0ae536059c"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "87f32443220931fcd1024a00f10ccc33cf416ad412265471d44ae4e0ca0c9de6"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "f6ed46c5429a489cd31bca7206dc97474886faaca938668924c6b7a623828254"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "026efce372c0cc6b7a2d81588e92a333f5fc8f6c681ddef4400d31613c4c8ceb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "d404fb521b363706f9d9c64e210b9fb6395fb49d99c74d471b329293d32a8bcb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "edc868d9a7c0efe2055916afd10262e2a674c1f9c03a29a7dfc17e76cf5acc0f"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "63eb2acebaf99c925b36978d4b26bfbdbe4618ef4dc44671993d7b7c9ca766cf"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NFJRUOWRTZM703",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+      "sources": []
+    },
+    "cik": {
+      "value": "0001415064",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BlackRock+Asset+Management+Deutschland+AG%22",
+            "params": {},
+            "response_hash": "befe0628ac6d0fba9d3c3090ba5311c806b40a19b1ded8a249980476ed794717"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BlackRock+Asset+Management+Deutschland+AG%22",
+            "params": {},
+            "response_hash": "c8748bab46be693448901f0ece0e220b7e490a06397bd1d8d92d7e57cc228358"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BlackRock+Asset+Management+Deutschland+AG%22",
+            "params": {},
+            "response_hash": "fdcf3400eb1e0a0dbecb843e07c8c619b13fd1dd9e439adf22c9d9a604f30a15"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "97e005006e783bbcabc6d1250891fec371d8bb2afd6370b63c9dee72a3f9c171"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "5cc4cf4f28ca5583b34291bdb0502fad8b2edcc47fdbdb15052d5a946b55ee77"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "02fde491c8269a0eb3208f44f53da20643c84075a5e82e6d94aa6d58b56012b9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "f53505e1df4b83e9c9f2340a223037148ab5a60d7e38a91adcf9627f7ace6669"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "d01a173e0022c1066791adaebab452de34672b989f3b671af455685eaaed65fb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "607b82ddbff0d4926247946ebadb18ea8a840b04502381adf9a4390704ac1ff5"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "bdb5d48654d3a86f15e77b755cd910c68ab04e7b8c016d00f0c4dae19efad591"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "f7b762f808848aff65e026dc2faf4d79539f1fa4a59f32689e9208c3b7047664"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "d915f7feba35a6b4e6b068cdce4f23d6ca81c52b48c6f6500c1f90e67d2662f9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "4a058e9f93804d97fdd1e4b273b95d15397c167965a3183fa178a12fcaea4663"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "39d59c15891cf9660c561b84dd140a9bde040f4709a144921ce8e6564b7921f6"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "5c28a7eae2b08fbf38247acc602dda244bc89e87f144f8f29c3f1078a10e11b1"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "268a1cbae14b9fdc3038a1c0b1d71c039f4f55d896f6e474ce9b9a98c6592ac4"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "f05c0f4d1b43b155d7f5150f65e95aac14e0ebf6a196da3ee35d9cfc5c518cf9"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "c85ff392551b76e928d5e32a4145be0d767ba127ba4eb5cdc395bda5a085c1d3"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "bd01f36015bbee26db022546a00fa6967e7ef2a1b5950b78d6678de9770f8cfd"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "7ac91d681d67b5fe1ae61b474de08a1d4be288ce54daac98cc7727a529dade6f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "a81078c1c95557f653a54c43406b963f36f00cd493a54ef1bf381cf3fff54d63"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "aaddd0069c86a15c13795ea92b02d83e7610590f30f5581e07716d90b453676b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "fb043eb9eccbb391d3959b7cfa58ea998c4c7513c38e9380cdbafc2b156b009b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "94e7894590f37e2fe06259634bbb08ee27af167eca2b4cf94b8beb926796c0d8"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "1d31446abfbdaafa1bb6d467c70386f37a5265cafe2ad97a2e04b3d46aa81c42"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "ba390a1e764f3ce3f6f3fcf62964e0d2d0e047ab30ce75f3a163d6f128c8267a"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "c1ad78daedc0a838e3b5262d9e6743b25fd9fa25b64adf9462fc00156591a10b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "ca6e85aa09e9709ecc6f6e1df8ef1052562136c14a0236209986b2fcecf932a1"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "b52c5796ca87634f0526d7a9f86a092a022ffb30db2ad9b31c495cee1c8f545c"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "08f3e35215de591ffc8540b9665d20c423893768f4d4a3395fc1ed8e8ce845fd"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "172b5249ba04649b25466f34e9f7ea479a7b2295a93301933ac0adbfc9ff5492"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "f2a0006b340ef47c7d0b8042b2400de60009775d79763532804c9f8320f80edc"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "ac9870d15b13dbefa571def97f5db54715daf9167ba2d3c4d4482e812c587ef8"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "b8c78898315129cc743674784f91b2b5626dbb9d3d11bff283a2af75e30daeff"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "2cbf7c2c6d2aa06504d51e957c1c94afaf4af0e8edde67b5203610cb3b816daf"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "1ad1ea1fecf1f9bb6422b5d365e0c9772f42eff0d92e74564dafdca638c9badb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "971e2836f659ab8984cf33ac56be933472cbb0d3fb3985671c77763a35a97e77"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "b7a7aac81e84ea9b56e7912b429be14dd5fdde93ccab9e8e07099fc2cecfcb63"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "fc9987a3a9fd2254e9ee76fa005ed2a853a516b4f1137dd49c358363b13556fa"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "162e17c553b94bbd634ace8042463757b09ce653d9f19f994b2ccaeb00eb9857"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "b95faefdb483d5757ce66a4ee11b51b0afb6b12336c7f1714bd27da897d9828b"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "f551f60fe4c6a4b6542d7b6c3cdb2526dfd307f53f2c662cc8fc0c028803b63e"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "dc7d3d600391d0c14412d8c161b9520031ae7aabc0dbfbe1ddb3199114a21f5a"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "d61e0a9912baa5ec4b1c381f2bc1b0b6bf969e18dcc0606d66d445481776b716"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BARCLAYS+GLOBAL+INVESTORS+(DEUTSCHLAND)+AG%22",
+            "params": {},
+            "response_hash": "ea3e5690ca8b26103dd60dc518d4ab281c8361eaf8e7430218a0c5e75c15eed7"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "92b4a1f3f1e80e67e3aa888d15532ae758aa394c7f231c120d109f69b5cf97ac"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "c6c8877a5ab24d2299a0d75a618df6f71f745923c36ac735409696bae8a8a38a"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "c8eedfa5910466db7c1b40dddc11cee05ba0c593f266aef917d5b0299f0d9e2f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "e4a2bbea236b95b1deee544d1ae59fbcd95453971034654af77a678aa32a7706"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "c3bded40c449d5f5480dbaec6762f467a6b73d6271d57ad315d87a5ab3493d28"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "aadc564b0bcdfe00e209779c40309144afdbd1e1c1faa1d7444c6a71bf2dae8a"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "9a22a18e75b22f0ceccbf8143824f951184adbd9846d0b8d65078139ac789484"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "9afe6584b91a09f4ce4960f5f733631dd5dba3868c38015b584036defd76ba53"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "d2b9e048c62fce56489dd72786c3d36814b4239dc080992737e1afb88fa3e88f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "21edca5623d14997c75eec6e433c3b173edea18719f124db57ada29a9024da2f"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "5e9bf4513c24f92284d3d0a90d8a0901e82ab5aa8885268cae7a28bdf3f3ddbd"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "ddf3835fccbd2055f404f4868e38026d8874f025929986b0800971dfed3a6d4d"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "3943571f22059870df19cfaafca7bb36a29c5d60b55c704a7d870fbde6e4d1b2"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "d2f1b60ac2fe1fe9bdb700c086bce0ce2958bb333d880da6c09995b94621cc76"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "9b5e8732d921c1af50fc8fd6e7e1ef0e11049c00f397fd64525db2153a226289"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "e9b403617867b2cd1c0d10c2980246d841ba8b596390d67b1c0e9786ca9edd7c"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "c1032ba17005d769fdcd04185a5581da56c9c47f05285314efaa51c2ab9a8905"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "332cd1099ba36cf8eced5be3e97f138d2eddfceb59f9a313f11a240dbf407a4a"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "ec9fec09fea3043eb1ccbe234b2fec4c1a5654384b298b3e49011b94a6953378"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "b60081bcde0e1678de6fb621325bf45d13acd440780943775a22118deaf564f3"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "8cb9602948ce5ca3bdb9b6fe0ba4096836ba85789d1f1207661886ff4c3eba05"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "6bc7c3bcf0c827b49e844fe8f9bb13364df85f22ca1d32cdbad88c36981063ef"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22Barclays+Global+Investors+(Deutschland)+AG%22",
+            "params": {},
+            "response_hash": "c7a5b5fbd35adac67e7fdd8a3cfbfeb16d1fffac763f66491cd0e7a2fe36277c"
+          },
+          "date": "2026-03-04"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "BlackRock Asset Management Deutschland AG integrates ESG considerations into all its active investment processes, focusing on the sustainability of investment performance over the long term. The company engages constructively with the companies it invests in to preserve clients' interests and monitor sustainability factors. It supports the promotion of sustainability in the financial sector and aligns with BlackRock's broader ESG policies, including data-driven sustainability performance metrics and principal adverse impact assessments.",
+      "sources": [
+        {
+          "name": "Swiss Sustainable Finance - The platform promoting Switzerland as a leading centre for sustainable finance.",
+          "document": "https://www.sustainablefinance.ch/en/members-partners/member-profiles/blackrock-asset-management-schweiz-ag.html",
+          "date": "2026-01-01"
+        },
+        {
+          "name": "Financial planning and investment management | BlackRock Sweden",
+          "document": "https://www.blackrock.com/corporate/literature/continuous-disclosure-and-important-information/2023-sfdr-principal-adverse-sustainability-impacts-statement-bnbv-final.pdf",
+          "date": "2026-03-19"
+        },
+        {
+          "name": "onvista B\u00f6rsenportal \u2022 Aktuelle B\u00f6rsenkurse, News, Tools & deine Depots an einem Ort",
+          "document": "https://www.onvista.de/fonds/kvgs/blackrock-asset-management-deutschland-ag-518398",
+          "date": "2025-03-31"
+        },
+        {
+          "name": "Global Website Directory | BlackRock & iShares",
+          "document": "https://www.ishares.com/ch/professionals/en/literature/semi-annual-report/ishares-core-dax-ucits-etf-en-emea-semi-annual-report.pdf",
+          "date": "2024-08-31"
+        }
+      ]
+    },
+    "name": {
+      "value": "BlackRock Asset Management Deutschland AG",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22BlackRock+Asset+Management+Deutschland+AG%22",
+            "params": {},
+            "response_hash": "befe0628ac6d0fba9d3c3090ba5311c806b40a19b1ded8a249980476ed794717"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NFJRUOWRTZM703",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A Munich\u2011based investment firm founded in 2007, operating as a subsidiary of BlackRock, Inc.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "Max-Joseph-Stra\u00dfe 6, M\u00fcnchen, DE-BY, 80333, DE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Asset+Management+Deutschland+AG&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b5bfe5c0bbe98b0dabbd14cb3874b6bce5064770e060e54add3eb816d3b70170"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6b79b163e90d929fc955f2c4a264e1b07e590b5a613b237212d66f0ae536059c"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "87f32443220931fcd1024a00f10ccc33cf416ad412265471d44ae4e0ca0c9de6"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "f6ed46c5429a489cd31bca7206dc97474886faaca938668924c6b7a623828254"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "026efce372c0cc6b7a2d81588e92a333f5fc8f6c681ddef4400d31613c4c8ceb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "d404fb521b363706f9d9c64e210b9fb6395fb49d99c74d471b329293d32a8bcb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "edc868d9a7c0efe2055916afd10262e2a674c1f9c03a29a7dfc17e76cf5acc0f"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "63eb2acebaf99c925b36978d4b26bfbdbe4618ef4dc44671993d7b7c9ca766cf"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NFJRUOWRTZM703",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300NFJRUOWRTZM703",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Asset+Management+Deutschland+AG&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b5bfe5c0bbe98b0dabbd14cb3874b6bce5064770e060e54add3eb816d3b70170"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6b79b163e90d929fc955f2c4a264e1b07e590b5a613b237212d66f0ae536059c"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "87f32443220931fcd1024a00f10ccc33cf416ad412265471d44ae4e0ca0c9de6"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "f6ed46c5429a489cd31bca7206dc97474886faaca938668924c6b7a623828254"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "026efce372c0cc6b7a2d81588e92a333f5fc8f6c681ddef4400d31613c4c8ceb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "d404fb521b363706f9d9c64e210b9fb6395fb49d99c74d471b329293d32a8bcb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "edc868d9a7c0efe2055916afd10262e2a674c1f9c03a29a7dfc17e76cf5acc0f"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "63eb2acebaf99c925b36978d4b26bfbdbe4618ef4dc44671993d7b7c9ca766cf"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NFJRUOWRTZM703",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "BlackRock Asset Management Deutschland AG",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=BlackRock+Asset+Management+Deutschland+AG&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "b5bfe5c0bbe98b0dabbd14cb3874b6bce5064770e060e54add3eb816d3b70170"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/direct-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "6b79b163e90d929fc955f2c4a264e1b07e590b5a613b237212d66f0ae536059c"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "87f32443220931fcd1024a00f10ccc33cf416ad412265471d44ae4e0ca0c9de6"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23/ultimate-children?page%5Bnumber%5D=8&page%5Bsize%5D=15",
+            "params": {},
+            "response_hash": "f6ed46c5429a489cd31bca7206dc97474886faaca938668924c6b7a623828254"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "026efce372c0cc6b7a2d81588e92a333f5fc8f6c681ddef4400d31613c4c8ceb"
+          },
+          "date": "2026-02-27"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "d404fb521b363706f9d9c64e210b9fb6395fb49d99c74d471b329293d32a8bcb"
+          },
+          "date": "2026-03-01"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "edc868d9a7c0efe2055916afd10262e2a674c1f9c03a29a7dfc17e76cf5acc0f"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300NFJRUOWRTZM703",
+            "params": {},
+            "response_hash": "63eb2acebaf99c925b36978d4b26bfbdbe4618ef4dc44671993d7b7c9ca766cf"
+          },
+          "date": "2026-03-04"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NFJRUOWRTZM703",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2000-10-23",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300NFJRUOWRTZM703",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "45063c04-22c2-4c85-adb4-dbdd04dc6a71",
+    "properties_count_requested": 10,
+    "numobs_categories_requested": 0
+  }
+}

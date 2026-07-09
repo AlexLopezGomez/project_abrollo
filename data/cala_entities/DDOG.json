@@ -1,0 +1,1133 @@
+{
+  "id": "f3f71be0-3420-42b6-98b3-d5c9a1f4529b",
+  "name": "DATADOG, INC.",
+  "entity_type": "Company",
+  "description": "A company headquartered on the 45th floor of 620\u202f8th Avenue in New York, with its registered address at 251 Little Falls Drive, Wilmington, Delaware.",
+  "properties": {
+    "founding_date": {
+      "value": "2010-06-04",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300F6JNO0KRPO1K63",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300F6JNO0KRPO1K63",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "bics": {
+      "value": [
+        "<UNKNOWN>"
+      ],
+      "sources": []
+    },
+    "employee_count": {
+      "value": 6500,
+      "sources": [
+        {
+          "name": "Datadog (DDOG) Number of Employees 2018-2025",
+          "document": "https://stockanalysis.com/stocks/ddog/employees/",
+          "date": "2026-03-10"
+        }
+      ]
+    },
+    "name": {
+      "value": "DATADOG, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300F6JNO0KRPO1K63",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A company headquartered on the 45th floor of 620\u202f8th Avenue in New York, with its registered address at 251 Little Falls Drive, Wilmington, Delaware.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "id": {
+      "value": "f3f71be0-3420-42b6-98b3-d5c9a1f4529b",
+      "sources": []
+    },
+    "esg_policy": {
+      "value": "Datadog\u2019s ESG policies are overseen by its Board of Directors and the Nominating and Corporate Governance Committee, include a company\u2011wide ESG program, purchase of carbon removals to offset 100% of Scope\u202f1 and 2 emissions (and part of Scope\u202f3), and a philanthropic initiative called Datadog Cares.",
+      "sources": [
+        {
+          "name": "Environmental, Social, and Governance Report | Datadog",
+          "document": "https://www.datadoghq.com/esg-report/",
+          "date": "2026-01-01"
+        },
+        {
+          "name": "www.responsibilityreports.com",
+          "document": "https://www.responsibilityreports.com/HostedData/ResponsibilityReportArchive/d/NASDAQ_DDOG_2022.pdf",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "rssd_id": {
+      "value": "<UNKNOWN>",
+      "sources": [
+        {
+          "name": "crawler.woehler.de",
+          "document": "https://crawler.woehler.de/",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "stockmetric.net",
+          "document": "https://www.stockmetric.net/",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "cik": {
+      "value": "<UNKNOWN>",
+      "sources": [
+        {
+          "name": "crawler.woehler.de",
+          "document": "https://crawler.woehler.de/",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "stockmetric.net",
+          "document": "https://www.stockmetric.net/",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "620 8th Avenue, 45th Floor, New York, US-NY, 10018, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300F6JNO0KRPO1K63",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "DATADOG, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300F6JNO0KRPO1K63",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "permid": {
+      "value": "<UNKNOWN>",
+      "sources": [
+        {
+          "name": "crawler.woehler.de",
+          "document": "https://crawler.woehler.de/",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "stockmetric.net",
+          "document": "https://www.stockmetric.net/",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300F6JNO0KRPO1K63",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300F6JNO0KRPO1K63",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Datadog",
+        "Datadog Inc.",
+        "DDOG",
+        "Datadog Inc",
+        "Datadog Inc. (DDOG)",
+        "Datadog (DDOG)"
+      ],
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "LISTED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d6227e35-0bd4-523e-a96e-992f7cde9248"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/web-pulse/nasdaq-100-complete-list-of-companies-1767648803",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "5de2a21d-47fa-53a4-9689-0ea3f22fec1e"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "25ba5d08-e777-4d0f-a7c6-3d7ea0454ec8",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/2-artificial-intelligence-ai-growth-stocks-hovering-around-52-week-lows-even-nasdaq-hits",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "bd770586-7815-5276-89ce-e1898531a893"
+          }
+        },
+        {
+          "id": "630e6c01-3077-412e-8ad8-c9e12ae059b6",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "00a869b5-edc0-56b9-99d7-ad41ebf6f229"
+          }
+        },
+        {
+          "id": "821e0f24-1ac6-4a07-95ff-7855b6cc2d82",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "GLEIF",
+                "document": "https://api.gleif.org/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "bcd311c5-f5db-58b2-807a-c5a596b655f1"
+          }
+        },
+        {
+          "id": "99a11b0d-78db-4858-8e95-ea0f46c7f1af",
+          "name": "Cloud Observability",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/news/7-best-growth-stocks-buy-133958381.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "f96760f3-341a-5682-90c2-bc3d8a734c41"
+          }
+        },
+        {
+          "id": "a039dbe1-8edd-4ffb-9d54-decd1dbcddfc",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "e3f5623d-c246-50dc-bfe8-f8462c352c5a"
+          }
+        },
+        {
+          "id": "d099713b-9b2a-4494-bd15-cbab1d37d175",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://api.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "81b65b05-a87f-53ce-a4e4-24632fcbe103"
+          }
+        },
+        {
+          "id": "e779b777-9e5d-4072-aa28-b88c6ec5fc69",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "69555996-6a32-5f54-a6f8-8bf4651a83e4"
+          }
+        },
+        {
+          "id": "eafc5614-8582-46a2-ba18-ff8c2ec124af",
+          "name": "Technology",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/web-pulse/nasdaq-100-complete-list-of-companies-1767648803",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "7128d01b-bc86-503f-97ad-0526bf6e0a24"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "ebb538e8-d985-44cb-9ca9-4bb9b86c37a3"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "12296241-6a94-4d7f-a3ab-7c4c5682275d",
+          "name": "New York City",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d6274e0f-e9a7-5ee5-a0c3-b43d3d03b2b3"
+          }
+        },
+        {
+          "id": "50d1ed13-e577-4232-bb02-d3fa44eec7b4",
+          "name": "New York",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9c97b14a-940c-5015-8a4f-c09bf6df26c4"
+          }
+        },
+        {
+          "id": "764f7796-d256-4f3f-8c97-b02bded13079",
+          "name": "New York",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://api.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "crawler.woehler.de",
+                "document": "https://crawler.woehler.de/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "96d95ca8-55c2-5306-8450-7865dc03d784"
+          }
+        },
+        {
+          "id": "ebacd46e-8975-471d-972f-8d877ea12287",
+          "name": "New York",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=DATADOG+INC&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "c0c7812077fd44e28c055f3d3f285ac4b735c768c2274d33c43712c9ae631962"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "1b4b0cd9-7e15-4bfd-8410-aebdb19afafc"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_DIRECT_OWNER_OF": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "finance.yahoo.com",
+                "document": "https://finance.yahoo.com/news/7-best-growth-stocks-buy-133958381.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "606318cd-c113-5f7e-9999-e71959dc2f47"
+          }
+        }
+      ],
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020733/tv0733-datadogincclassa.htm",
+                "date": "2024-02-13"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 9.02,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020733/tv0733-datadogincclassa.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-02-09T00:00:00Z",
+                "value": 8.41,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465923015758/tv0710-datadogincclassa.htm",
+                  "source": "SEC",
+                  "published_time": "2023-02-09T00:00:00Z"
+                }
+              }
+            ],
+            "id": "f4c23f81-3815-51ab-84cf-78a7785da103",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 41912928.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 41902227.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 32153489.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 31413032.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 30354229.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 30133702.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 28522641.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 27431107.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 27259414.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787126000150/primary_doc.xml",
+                "date": "2026-02-13"
+              }
+            ],
+            "id": "1ed47e21-875f-59e5-a594-6b479a7eb58f",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 386254.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787126000150/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 341412.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125001016/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 516079.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787125000775/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 174110.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000572/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 137940.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000224/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 1406.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000199/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-16T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "ba861fa0-8640-527c-ad42-a639e7e149ff",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 4650093.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 5556488.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 5556488.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 5205700.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 5778123.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 5529253.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 5161989.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 5161989.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 5138851.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 5138851.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 4400021.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 4400021.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 3791711.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000190/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 3791711.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000669/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 2445466.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000542/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 1924403.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000462/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 1701112.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000378/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 1690864.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000321/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 1098246.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 1707082.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000516/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 1493324.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000424/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 1253736.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 638233.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 638233.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 835164.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000473/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 835164.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 604049.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000375/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 1380519.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000301/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-12T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                "date": "2026-02-12"
+              }
+            ],
+            "id": "2a5f1dc8-12f7-5f96-803a-6b8faf218220",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 28329611.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 27230765.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 20727572.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 20067832.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 22347011.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 20555228.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "DDOG",
+    "uuid": "f3f71be0-3420-42b6-98b3-d5c9a1f4529b",
+    "match_name": "DATADOG, INC.",
+    "retrieved_at": "2026-04-15T22:28:16Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 15,
+      "relationship_types_outgoing": 5,
+      "relationship_types_incoming": 2,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 15,
+      "relationship_types": 7,
+      "relationship_edges": 20,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

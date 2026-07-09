@@ -1,0 +1,411 @@
+{
+  "id": "f3369617-e4e0-43dd-9aa5-5e3c92d7d822",
+  "name": "PAYPAL, INC.",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "aliases": {
+      "value": [
+        "PayPal"
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "PAYPAL, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "1999-03-09",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "f3369617-e4e0-43dd-9aa5-5e3c92d7d822",
+      "sources": []
+    },
+    "lei": {
+      "value": "LBQ3CAGQB6M55WHL3G85",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "bics": {
+      "value": [
+        "PPALUS66XXX"
+      ],
+      "sources": []
+    },
+    "registered_address": {
+      "value": "C/O THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209 ORANGE ST, WILMINGTON, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "CORPORATION TRUST CENTER, 1209 ORANGE ST, WILMINGTON, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "PayPal\u2019s ESG policy outlines a comprehensive approach to environmental, social and governance issues. Environmentally, PayPal commits to minimizing its footprint, reducing greenhouse\u2011gas emissions, conserving natural resources, and reporting progress in its annual ESG report. Socially, the company focuses on diversity and inclusion, employee health and safety, financial health and inclusion for customers, community engagement, and responsible product innovation. In governance, PayPal emphasizes business ethics, compliance with laws, risk management, stakeholder engagement, and transparent reporting through its Global Impact Report and ESG disclosures.",
+      "sources": [
+        {
+          "name": "www.paypalobjects.com",
+          "document": "https://www.paypalobjects.com/marketing/web/us/globalimpact/Materiality&ESG_Strategy.pdf",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "www.paypalobjects.com",
+          "document": "https://www.paypalobjects.com/digitalassets/c/website/marketing/global/about/Environmental_Policy_Final_RP.pdf",
+          "date": "2026-04-15"
+        },
+        {
+          "name": "about.pypl.com",
+          "document": "https://about.pypl.com/our-impact/Communities/environmental-sustainability/default.aspx",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "PAYPAL, INC.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 23800,
+      "sources": [
+        {
+          "name": "PayPal Holdings (PYPL) Number of Employees 2015-2025",
+          "document": "https://stockanalysis.com/stocks/pypl/employees/",
+          "date": "2026-04-09"
+        },
+        {
+          "name": "PayPal Holdings Number of Employees 2017-2026 | Bullfincher",
+          "document": "http://bullfincher.io/companies/paypal-holdings/number-of-employees",
+          "date": "2018-01-01"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "048fa47c-8cc7-5cd1-ad19-811efc4dc1bd"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "80114b07-a228-4e6b-ad0c-bcc661219e58",
+          "name": "HYPERWALLET SYSTEMS AUSTRALIA PTY LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930005XCDE0V0KOV19",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "62ba423e-2869-59fa-b736-0c07f13aeccd",
+            "valid_since": "2017-01-20"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "75d280aa-8d4f-588a-b073-edb11ddfdf18"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_MEMBER_OF": [
+        {
+          "id": "c5a023f9-823d-4580-9d61-16ebb0a1fa67",
+          "name": "Sir Michael Moritz",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Board member (representing Sequoia Capital)",
+            "sources": [
+              {
+                "name": "Bio | Michael Moritz",
+                "document": "https://www.instacart.com/company/about-us/michael-moritz",
+                "date": "2013-01-01"
+              },
+              {
+                "name": "Sir Michael Moritz - Bridge Forum",
+                "document": "https://bridgeforum.io/speakers/sir-michael-moritz/",
+                "date": "2023-01-04"
+              }
+            ],
+            "id": "31712244-d98b-58ac-a3b3-d332ebf9636b"
+          }
+        }
+      ],
+      "IS_BOARD_MEMBER_OF": [
+        {
+          "id": "c5a023f9-823d-4580-9d61-16ebb0a1fa67",
+          "name": "Sir Michael Moritz",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "Payments News and Analysis | Payments Dive",
+                "document": "https://www.paymentsdive.com/news/stripe-board-of-directors-payments-luciana-lixandru-sequoia-venture-capital-kevin-kelly-heritage/701836",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "f608355b-1f92-5417-a815-f490a30875af"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "a435dd6f-26b7-441a-a704-1a9e6d71d56b",
+          "name": "PAYPAL HOLDINGS, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a551ca36-74ff-5080-bd8d-aa4f26c49aa1",
+            "valid_since": "2017-08-15"
+          }
+        }
+      ],
+      "FOUNDED": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "bloomberg.com",
+                "document": "https://www.bloomberg.com/billionaires/profiles/peter-a-thiel",
+                "date": "2026-04-14"
+              }
+            ],
+            "id": "18220af9-286f-5bc4-b608-415e258a1788"
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "9161cfa1-79b9-4d46-a90b-4f6723040375",
+          "name": "Venmo",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "EBay's PayPal Acquires Payments Gateway Braintree For $800M In Cash | TechCrunch",
+                "document": "https://techcrunch.com/2013/09/26/paypal-acquires-payments-gateway-braintree-for-800m-in-cash/",
+                "date": "2013-09-26"
+              },
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Braintree_(company)",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "2e417877-e90b-5f18-aea6-6776da797384",
+            "valid_since": "2013-09-26"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "role": "Co-founder, CEO",
+            "sources": [
+              {
+                "name": "www.quora.com",
+                "document": "https://www.quora.com/What-was-Peter-Thiels-role-in-the-early-days-of-PayPal",
+                "date": "2026-04-14"
+              },
+              {
+                "name": "Peter A. Thiel",
+                "document": "https://www.weforum.org/people/peter-a-thiel/",
+                "date": "2026-04-13"
+              }
+            ],
+            "id": "34214903-12c8-530e-b10a-bd7895b18c1b",
+            "valid_since": "1998-12-01"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "9161cfa1-79b9-4d46-a90b-4f6723040375",
+          "name": "Venmo",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Venmo",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "EBay's PayPal Acquires Payments Gateway Braintree For $800M In Cash | TechCrunch",
+                "document": "https://techcrunch.com/2013/09/26/paypal-acquires-payments-gateway-braintree-for-800m-in-cash/",
+                "date": "2013-09-26"
+              }
+            ],
+            "id": "6b2913e7-b39f-52d2-bd61-4ec1e69f801d",
+            "valid_since": "2013-09-26"
+          }
+        },
+        {
+          "id": "a41bc0a6-b017-4155-a004-7bffb8e52826",
+          "name": "Braintree",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Braintree_(company)",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "EBay's PayPal Acquires Payments Gateway Braintree For $800M In Cash | TechCrunch",
+                "document": "https://techcrunch.com/2013/09/26/paypal-acquires-payments-gateway-braintree-for-800m-in-cash/",
+                "date": "2013-09-26"
+              }
+            ],
+            "id": "6d470f07-398d-5d80-aa07-d73bec506672",
+            "valid_since": "2013-09-26"
+          }
+        }
+      ],
+      "IS_CEO_OF": [
+        {
+          "id": "6b2fa4ea-d940-4c6f-a064-c5bde88b3431",
+          "name": "Peter A. Thiel",
+          "entity_type": "Person",
+          "properties": {
+            "valid_until": "2002-10-01",
+            "sources": [
+              {
+                "name": "CrowdforThink : Stories -Peter Thiel: Co-founder & Former CEO of PayPal",
+                "document": "http://crowdforthink.com/stories/peter-thiel-co-founder-former-ceo-of-paypal",
+                "date": "2023-03-19"
+              },
+              {
+                "name": "www.nytimes.com",
+                "document": "https://www.nytimes.com/2002/10/04/business/technology-briefing-internet-ebay-closes-paypal-deal.html",
+                "date": "2026-04-14"
+              },
+              {
+                "name": "Peter A. Thiel",
+                "document": "https://www.weforum.org/people/peter-a-thiel/",
+                "date": "2026-04-13"
+              }
+            ],
+            "id": "fd7d65c5-b156-51bd-98c1-c43f38819302",
+            "valid_since": "1999-01-01"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "a435dd6f-26b7-441a-a704-1a9e6d71d56b",
+          "name": "PAYPAL HOLDINGS, INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/LBQ3CAGQB6M55WHL3G85",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b7a47c7a-d162-5819-bf0a-dad46cfbd709",
+            "valid_since": "2017-08-15"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "PYPL",
+    "uuid": "f3369617-e4e0-43dd-9aa5-5e3c92d7d822",
+    "match_name": "PAYPAL, INC.",
+    "retrieved_at": "2026-04-15T22:35:25Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 11,
+      "relationship_types_outgoing": 3,
+      "relationship_types_incoming": 9,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 11,
+      "relationship_types": 12,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

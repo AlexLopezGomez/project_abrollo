@@ -1,0 +1,177 @@
+{
+  "id": "92851e86-e9d3-416f-8d9a-45cc9a41eb13",
+  "name": "COCA-COLA EUROPACIFIC PARTNERS BELGIUM",
+  "entity_type": "Company",
+  "description": null,
+  "properties": {
+    "aliases": {
+      "value": [
+        "COCA-COLA ENTERPRISES BELGIUM SPRL",
+        "COCA-COLA EUROPEAN PARTNERS BELGIUM",
+        "COCA-COLA EUROPEAN PARTNERS BELGIUM SPRL"
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "COCA-COLA EUROPACIFIC PARTNERS BELGIUM",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "92851e86-e9d3-416f-8d9a-45cc9a41eb13",
+      "sources": []
+    },
+    "founding_date": {
+      "value": "1983-12-29",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "54930062WWP79HVR5174",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "Chauss\u00e9e de Mons 1424, Anderlecht, BE-BRU, 1070, BE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "Chauss\u00e9e de Mons 1424, Anderlecht, BE-BRU, 1070, BE",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "COCA-COLA EUROPACIFIC PARTNERS BELGIUM",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "846e102a-f9d9-4af7-a455-3a12ea215f50",
+          "name": "Bruxelles-Capitale, R\u00e9gion de",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "10d2ffb7-0c6a-55fe-95c2-709748d403ea"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "846e102a-f9d9-4af7-a455-3a12ea215f50",
+          "name": "Bruxelles-Capitale, R\u00e9gion de",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "65a638d3-f2a8-5953-a047-08d1079bd449"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "510ae07c-6a6b-4ab0-a67c-f3ec3693b060",
+          "name": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ae91147a-12de-5afa-8e8e-1e9a6eb75a8d",
+            "valid_since": "2025-11-25"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "510ae07c-6a6b-4ab0-a67c-f3ec3693b060",
+          "name": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/54930062WWP79HVR5174",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "d0735b94-f047-5020-8004-d5048cadf775",
+            "valid_since": "2025-11-25"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "CCEP",
+    "uuid": "92851e86-e9d3-416f-8d9a-45cc9a41eb13",
+    "match_name": "COCA-COLA EUROPACIFIC PARTNERS BELGIUM",
+    "retrieved_at": "2026-04-15T22:26:34Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 8,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 2,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 8,
+      "relationship_types": 4,
+      "relationship_edges": 4,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

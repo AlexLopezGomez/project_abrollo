@@ -1,0 +1,143 @@
+{
+  "id": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+  "name": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+  "entity_type": "Company",
+  "description": "A Melbourne\u2011based investment firm at Level\u202f13,\u202f130 Lonsdale Street, subsidiary of Vanguard Group Inc., parent of the Vanguard Active Global Equity Income Fund.",
+  "properties": {
+    "founding_date": {
+      "value": "1996-02-20",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001J6JRU0G53YG93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "Level 13,130 Lonsdale Street, Melbourne, AU-VIC, 3000, AU",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Investments+Australia+Ltd&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "8512ce24c197f7fccc5b7c19f05088168a8bcbbb72de332c3f83d13b74bdd175"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001J6JRU0G53YG93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Investments+Australia+Ltd&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "8512ce24c197f7fccc5b7c19f05088168a8bcbbb72de332c3f83d13b74bdd175"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001J6JRU0G53YG93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A Melbourne\u2011based investment firm at Level\u202f13,\u202f130 Lonsdale Street, subsidiary of Vanguard Group Inc., parent of the Vanguard Active Global Equity Income Fund.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "id": {
+      "value": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+      "sources": []
+    },
+    "headquarters_address": {
+      "value": "Level 13,130 Lonsdale Street, Melbourne, AU-VIC, 3000, AU",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Investments+Australia+Ltd&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "8512ce24c197f7fccc5b7c19f05088168a8bcbbb72de332c3f83d13b74bdd175"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001J6JRU0G53YG93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "VANGUARD INVESTMENTS AUSTRALIA LTD",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Investments+Australia+Ltd&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "8512ce24c197f7fccc5b7c19f05088168a8bcbbb72de332c3f83d13b74bdd175"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001J6JRU0G53YG93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "5493001J6JRU0G53YG93",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vanguard+Investments+Australia+Ltd&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "8512ce24c197f7fccc5b7c19f05088168a8bcbbb72de332c3f83d13b74bdd175"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/5493001J6JRU0G53YG93",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Vanguard Investments Australia Ltd."
+      ],
+      "sources": []
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "a6929763-0272-4dde-a8d2-bf1d54ca488c",
+    "properties_count_requested": 9,
+    "numobs_categories_requested": 0
+  }
+}

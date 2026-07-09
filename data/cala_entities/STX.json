@@ -1,0 +1,132 @@
+{
+  "id": "6407d117-22bc-43eb-8052-a4c00f50f7a7",
+  "name": "Seagate Technology LLC",
+  "entity_type": "Company",
+  "description": "A company with headquarters at 10200 South De Anza Boulevard in Cupertino, California.",
+  "properties": {
+    "registered_address": {
+      "value": "C/O The Corporation Trust Company, Corporation Trust Center, 1209 Orange Street, Wilmington, US-DE, 19801, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "name": {
+      "value": "Seagate Technology LLC",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "A company with headquarters at 10200 South De Anza Boulevard in Cupertino, California.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "id": {
+      "value": "6407d117-22bc-43eb-8052-a4c00f50f7a7",
+      "sources": []
+    },
+    "headquarters_address": {
+      "value": "10200 South De Anza Boulevard, Cupertino, US-CA, 95014-3029, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "Seagate Technology LLC",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "44WLCTE321JACKS7ED43",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "a428cff4-44c6-56c2-b398-b57bb26bfbcd"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+          "name": "California",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/44WLCTE321JACKS7ED43",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "7d6ce0f7-93e5-56e9-bbe0-076da20c816a"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "STX",
+    "uuid": "6407d117-22bc-43eb-8052-a4c00f50f7a7",
+    "match_name": "Seagate Technology LLC",
+    "retrieved_at": "2026-04-15T22:36:42Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 7,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 7,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

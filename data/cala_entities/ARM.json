@@ -1,0 +1,650 @@
+{
+  "id": "6a73a736-4fec-4ed9-b7cc-93780c880fd5",
+  "name": "ARM HOLDINGS PLC",
+  "entity_type": "Company",
+  "description": "Semiconductor company headquartered at 110 Fulbourn Road in Cambridge, UK",
+  "properties": {
+    "aliases": {
+      "value": [
+        "Arm",
+        "Arm Holdings",
+        "Arm Holdings (ADR)",
+        "Arm Holdings (ARM)"
+      ],
+      "sources": []
+    },
+    "name": {
+      "value": "ARM HOLDINGS PLC",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2018-04-09",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "6a73a736-4fec-4ed9-b7cc-93780c880fd5",
+      "sources": []
+    },
+    "lei": {
+      "value": "2138001E66EELTE7Y904",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "Semiconductor company headquartered at 110 Fulbourn Road in Cambridge, UK",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "110 FULBOURN ROAD, CAMBRIDGE, GB-CAM, CB1 9NJ, GB",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "110 FULBOURN ROAD, CAMBRIDGE, GB-CAM, CB1 9NJ, GB",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "ARM maintains and applies a robust Environmental Social and Governance (ESG) Policy to cover all its activities and operations.",
+      "sources": [
+        {
+          "name": "ESG",
+          "document": "https://www.arm.com.ng/esg/",
+          "date": "2024-07-28"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "ARM HOLDINGS PLC",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 8330,
+      "sources": [
+        {
+          "name": "en.wikipedia.org",
+          "document": "https://en.wikipedia.org/wiki/Arm_Holdings",
+          "date": "2026-04-15"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_SUBSIDIARY_OF": [
+        {
+          "id": "7fc0ea1c-c348-48ce-b60d-a070ab75a695",
+          "name": "\u30bd\u30d5\u30c8\u30d0\u30f3\u30af\u30b0\u30eb\u30fc\u30d7\u682a\u5f0f\u4f1a\u793e",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a3637e31-07fd-563b-a8aa-ae8f78aa5278"
+          }
+        }
+      ],
+      "LISTED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "aol.com",
+                "document": "https://www.aol.com/were-5-top-performing-stocks-144500102.html",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "8349731b-aaf9-50a4-a5dc-c6ece8b393bd"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "3d2e19ec-f61d-4e57-a66a-c8e8a1566e74",
+          "name": "Cambridge",
+          "entity_type": "GPE",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "c04d0119-de83-5e25-9144-8a31ca563c82"
+          }
+        },
+        {
+          "id": "761b1c9e-6fa5-49f9-9e97-bb3c48cb1a98",
+          "name": "Cambridgeshire",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3e0e7230-e31a-5720-b86e-9df40677bc93"
+          }
+        },
+        {
+          "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+          "name": "United Kingdom",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/chinas-chip-crackdown:-2-semiconductor-stocks-to-dump-1-primed-to-pop",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "66f7477a-6a84-5f8d-807b-75dad1aaa857"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#technology",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "3a749164-fd01-5feb-b9f0-db1a818ed248"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "97f97e83-5faf-402b-b874-0e7e56df724f",
+          "name": "ARM LIMITED",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/213800N7TCCA6F7ZTX84",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "74e53f46-aa64-50ec-ab2c-0d358bc9d1a5",
+            "valid_since": "2021-04-20"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "5ae6408f-d0ff-4eb0-9cc7-9912d17fda71",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "0cc8378f-734d-54c2-bfe1-ceaad4828b27"
+          }
+        },
+        {
+          "id": "60eff5f1-e998-468f-864c-598132a81d7c",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#technology",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a3900a25-d82f-579a-b917-665cc558d581"
+          }
+        },
+        {
+          "id": "6d5527d3-6491-4a5a-b002-bd82a7ee3e37",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/real-winners-ai-infrastructure-spending-may-surprise-investors",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "c585c3bf-8587-597f-9ecf-3b72cf9baa55"
+          }
+        },
+        {
+          "id": "89dce24b-55b6-433c-ab16-dc6a94bf9eb8",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9b32f7e8-7a66-59ac-abb9-1e7ae5161372"
+          }
+        },
+        {
+          "id": "9ea7d860-1228-4623-acb1-b5b657a93f6c",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "2fe772e3-5b31-5506-832c-055015f8d264"
+          }
+        },
+        {
+          "id": "c0a55690-cc33-405b-a722-fd40afa7f76a",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "1d9cfdeb-d3ed-53a5-9195-bd9dccce612f"
+          }
+        },
+        {
+          "id": "da474cd6-0e98-4bdf-8c6f-6da94d4b7c08",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/real-winners-ai-infrastructure-spending-may-surprise-investors",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "77329d4c-19fa-5dfc-9327-6d42709ab7dc"
+          }
+        },
+        {
+          "id": "dcaf3d8d-c030-4ece-b187-41e0312c793a",
+          "name": "Semiconductors",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#main-content",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "8cd38cdb-b321-52ba-aeff-ff0cea1a14e9"
+          }
+        },
+        {
+          "id": "f4728a2b-8e50-4012-904f-ce623e9b217b",
+          "name": "Semiconductor Design",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/these-were-5-top-performing-stocks-nasdaq-100-january-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "6270ec77-a239-5a26-8094-4ddba9a85b9b"
+          }
+        },
+        {
+          "id": "fbc06f50-dc01-4871-b64b-c89f2d0d1ba0",
+          "name": "Semiconductor",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/chinas-chip-crackdown:-2-semiconductor-stocks-to-dump-1-primed-to-pop",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "82afdd26-b5ef-5d76-a7d6-dfdeef57d11e"
+          }
+        },
+        {
+          "id": "fd09637d-f687-4c2c-b486-043b04ac7e56",
+          "name": "Artificial Intelligence Infrastructure",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/these-were-5-top-performing-stocks-nasdaq-100-january-2025",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "32f36af5-b50c-59e5-917b-e96ff7587c14"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "53914cb9-a4f7-4ea6-97f2-ec3f1933221d",
+          "name": "England",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "914cf844-519e-5e8c-926f-1dd35c2c176e"
+          }
+        },
+        {
+          "id": "761b1c9e-6fa5-49f9-9e97-bb3c48cb1a98",
+          "name": "Cambridgeshire",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "3db33d11-4477-5849-91d8-b9ffdfedaca2"
+          }
+        },
+        {
+          "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+          "name": "United Kingdom",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/real-winners-ai-infrastructure-spending-may-surprise-investors",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "808cf09d-9e63-50c2-8124-9bcc21b658e2"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "CREATED_BY": [
+        {
+          "id": "5f376353-8df0-448f-af72-b47b8831746e",
+          "name": "V9 architecture",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Arm unveils Armv9 architecture for its next generation of processor chips - SiliconANGLE",
+                "document": "https://siliconangle.com/2021/03/30/arm-unveils-armv9-architecture-next-generation-processor-chips/",
+                "date": "2021-03-30"
+              },
+              {
+                "name": "Armv9: The Future of Specialized Compute",
+                "document": "https://newsroom.arm.com/blog/armv9",
+                "date": "2021-03-30"
+              }
+            ],
+            "id": "7f1b1e5c-158c-5f7a-ab59-48a5b0174bad",
+            "valid_since": "2021-03-30"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "7fc0ea1c-c348-48ce-b60d-a070ab75a695",
+          "name": "\u30bd\u30d5\u30c8\u30d0\u30f3\u30af\u30b0\u30eb\u30fc\u30d7\u682a\u5f0f\u4f1a\u793e",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "77343dae-61db-5ede-8056-c573bd0f6e9f",
+            "valid_since": "2023-08-18"
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "5f376353-8df0-448f-af72-b47b8831746e",
+          "name": "V9 architecture",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/ARM_architecture_family",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "An Introduction To ARMv9 & Its Key Features",
+                "document": "https://www.trustonic.com/technical-articles/an-introduction-to-armv9-and-its-key-features/",
+                "date": "2023-02-22"
+              },
+              {
+                "name": "medium.com",
+                "document": "https://medium.com/macrium-software/armv9-understanding-arm-chips-and-why-they-matter-bd3c758e2cb3",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "dde00d66-9dc6-55fe-ab0b-60375b54a598"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "5f376353-8df0-448f-af72-b47b8831746e",
+          "name": "V9 architecture",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/ARM_architecture_family",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Armv9 Architecture Helps Lift Arm To New Financial Heights",
+                "document": "https://www.nextplatform.com/compute/2025/05/13/armv9-architecture-helps-lift-arm-to-new-financial-heights/1652498",
+                "date": "2025-05-13"
+              }
+            ],
+            "id": "cb82c96b-851d-5163-9a24-719ac55a1f04"
+          }
+        }
+      ],
+      "IS_DIRECT_OWNER_OF": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Latest World & National News & Headlines",
+                "document": "https://www.usatoday.com/story/money/investing/2025/01/10/nasdaq-artificial-intelligence-stocks-2025/77373600007",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "561f040a-9383-5386-93f7-7fa68478e86c"
+          }
+        }
+      ],
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "7fc0ea1c-c348-48ce-b60d-a070ab75a695",
+          "name": "\u30bd\u30d5\u30c8\u30d0\u30f3\u30af\u30b0\u30eb\u30fc\u30d7\u682a\u5f0f\u4f1a\u793e",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/2138001E66EELTE7Y904",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "ee7aabcd-7657-5e09-9d93-bffb25c96168",
+            "valid_since": "2023-08-18"
+          }
+        }
+      ],
+      "DESIGNED_BY": [
+        {
+          "id": "5f376353-8df0-448f-af72-b47b8831746e",
+          "name": "V9 architecture",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Actionable Trading Ideas, Real-Time News, Financial Insight",
+                "document": "https://www.benzinga.com/news/24/03/37542447/nvidia-amd-and-broadcom-poised-for-ai-boom-mizuho-analyst-says",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "fa37ddb2-bbfd-5b6c-ae8c-450132153e94"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "ARM",
+    "uuid": "6a73a736-4fec-4ed9-b7cc-93780c880fd5",
+    "match_name": "ARM HOLDINGS PLC",
+    "retrieved_at": "2026-04-15T22:25:35Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 11,
+      "relationship_types_outgoing": 7,
+      "relationship_types_incoming": 7,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 11,
+      "relationship_types": 14,
+      "relationship_edges": 28,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "H_V2_01",
+    "trigger": "BlackRock's continued ETF inflow dominance drives passive index rebalancing, boosting large-cap NASDAQ-100 constituents as institutional allocations increase heading into mid-2025.",
+    "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+    "probability": 0.72,
+    "magnitude": 0.12,
+    "horizon_days": 120,
+    "sources": [
+      "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "414faf92-4f48-4c41-8f9d-6b5ab7d03538"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-10-21"
+    ]
+  },
+  {
+    "id": "H_V2_02",
+    "trigger": "Vanguard Group's aggressive fee compression strategy forces competing asset managers to cut expense ratios, compressing revenue at active-management-heavy NASDAQ-100 financials.",
+    "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+    "probability": 0.65,
+    "magnitude": -0.08,
+    "horizon_days": 180,
+    "sources": [
+      "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "0aaa070d-280b-439b-8a1c-faa590807dcb"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-07-28",
+      "2023-12-04"
+    ]
+  },
+  {
+    "id": "H_V2_03",
+    "trigger": "JPMorgan Chase credit tightening cycle signals rising default risk in leveraged tech sector loans, pressuring high-multiple NASDAQ-100 software companies via reduced access to cheap capital.",
+    "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+    "probability": 0.58,
+    "magnitude": -0.15,
+    "horizon_days": 90,
+    "sources": [
+      "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "b5c40d18-6910-41ae-a025-4d3962962643",
+      "443b58c3-26eb-4240-b87c-f17133baa2d6"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2024-10-01",
+      "2024-06-04"
+    ]
+  },
+  {
+    "id": "H_V2_04",
+    "trigger": "Berkshire Hathaway signals rotation out of technology equities into value and energy sectors, triggering institutional follow-on selling in NASDAQ-100 mega-cap tech names.",
+    "origin_entity_uuid": "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+    "probability": 0.48,
+    "magnitude": -0.18,
+    "horizon_days": 60,
+    "sources": [
+      "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+      "47fa9716-2e8e-4e51-aa41-4ad715633d5d"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-09-11"
+    ]
+  },
+  {
+    "id": "H_V2_05",
+    "trigger": "Maverick Capital's concentrated long positions in AI semiconductor names unwind following margin pressure, causing short-term volatility in NASDAQ-100 chip stocks.",
+    "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+    "probability": 0.42,
+    "magnitude": -0.22,
+    "horizon_days": 45,
+    "sources": [
+      "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "e575ad90-3b1b-4feb-8226-e1a06ccb1daa"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2024-10-21"
+    ]
+  },
+  {
+    "id": "H_V2_06",
+    "trigger": "Barclays Global Investors' systematic quant rebalancing model triggers coordinated buying of underweight NASDAQ-100 healthcare and biotech names, lifting the sector in Q2 2025.",
+    "origin_entity_uuid": "d094c64b-437e-4826-943a-0f0db9fce15a",
+    "probability": 0.55,
+    "magnitude": 0.1,
+    "horizon_days": 75,
+    "sources": [
+      "d094c64b-437e-4826-943a-0f0db9fce15a",
+      "e0f3ca28-4215-4188-9a08-6cd6fa23eee9",
+      "115cf37d-164b-425f-80a1-2a62efff1b36"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-07-28",
+      "2023-09-20"
+    ]
+  },
+  {
+    "id": "H_V2_07",
+    "trigger": "Fidelity's managed trust and institutional arms collectively increase NASDAQ-100 growth stock allocations following dovish Fed pivot signals, driving momentum in large-cap tech.",
+    "origin_entity_uuid": "51278620-414d-4c10-aabe-6af7b398d09b",
+    "probability": 0.67,
+    "magnitude": 0.14,
+    "horizon_days": 100,
+    "sources": [
+      "51278620-414d-4c10-aabe-6af7b398d09b",
+      "1889a140-82b0-42be-bf8d-371683366d8f",
+      "312be161-0ef4-4e2d-a399-f387cf6e8046"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-01-17"
+    ]
+  },
+  {
+    "id": "H_V2_08",
+    "trigger": "Barclays Capital Securities marks down leveraged loan portfolios tied to NASDAQ-100 consumer tech companies amid slowing discretionary spending, increasing credit spread widening risk.",
+    "origin_entity_uuid": "b3e3d11b-48f6-4504-952d-315580ff5fbd",
+    "probability": 0.5,
+    "magnitude": -0.11,
+    "horizon_days": 80,
+    "sources": [
+      "b3e3d11b-48f6-4504-952d-315580ff5fbd",
+      "d5f43bbe-2e17-4dea-abe8-69ceae51d83a",
+      "1fc151c1-0e16-4939-9a63-868355191bc3"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-10-01",
+      "2023-12-01"
+    ]
+  },
+  {
+    "id": "H_V2_09",
+    "trigger": "AI accelerator adoption surge among NASDAQ-100 hyperscalers drives capital expenditure cycle upgrade, boosting semiconductor and cloud infrastructure equity valuations through mid-2025.",
+    "origin_entity_uuid": "a16a55d9-16a8-42a2-a538-7a140d0ed7b4",
+    "probability": 0.75,
+    "magnitude": 0.25,
+    "horizon_days": 130,
+    "sources": [
+      "a16a55d9-16a8-42a2-a538-7a140d0ed7b4",
+      "6aef64ba-7f7e-462e-b174-f15a3e6493f6"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2024-09-11",
+      "2023-06-07"
+    ]
+  },
+  {
+    "id": "H_V2_10",
+    "trigger": "J.P. Morgan Asset Management UK shifts global equity model portfolios toward NASDAQ-100 quality factor tilt, increasing systematic demand for high-ROIC technology names over a 3-month window.",
+    "origin_entity_uuid": "9ffab7de-9a12-4f85-8181-792ed87aa3c9",
+    "probability": 0.6,
+    "magnitude": 0.09,
+    "horizon_days": 90,
+    "sources": [
+      "9ffab7de-9a12-4f85-8181-792ed87aa3c9",
+      "87028fb6-27e5-4ede-b7fa-39709c9abbb4",
+      "30521457-9b21-4ae7-9bfa-a5566ebdb24a"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-06-04",
+      "2023-07-12"
+    ]
+  }
+]

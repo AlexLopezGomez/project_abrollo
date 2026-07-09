@@ -1,0 +1,142 @@
+{
+  "id": "34153f6b-edc3-492e-809d-d00a336e8b13",
+  "name": "COGNIZANT HOLDINGS, LTD.",
+  "entity_type": "Company",
+  "description": "Incorporated in 2017, registered in Grand Cayman and based in New York.",
+  "properties": {
+    "founding_date": {
+      "value": "2017-12-21",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300B0UI41Y56MP043",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "C/O Millennium International Management LP, 399 Park Avenue, New York, US-NY, 10022, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "34153f6b-edc3-492e-809d-d00a336e8b13",
+      "sources": []
+    },
+    "name": {
+      "value": "COGNIZANT HOLDINGS, LTD.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "COGNIZANT HOLDINGS, LTD.",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "Incorporated in 2017, registered in Grand Cayman and based in New York.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-11"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O Walkers Corporate Limited, 190 Elgin Avenue, Grand Cayman, George Town, KY1-9008, KY",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a45ec0a9-e244-499f-94c7-e11f45e013e1",
+          "name": "Cayman Islands",
+          "entity_type": "Country",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "07ffbfb7-e526-5de6-87a6-81cde54b2810"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "ebacd46e-8975-471d-972f-8d877ea12287",
+          "name": "New York",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300B0UI41Y56MP043",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b271b679-2223-5f16-b8af-b47a9f8835a4"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "CTSH",
+    "uuid": "34153f6b-edc3-492e-809d-d00a336e8b13",
+    "match_name": "COGNIZANT HOLDINGS, LTD.",
+    "retrieved_at": "2026-04-15T22:28:03Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 8,
+      "relationship_types_outgoing": 2,
+      "relationship_types_incoming": 0,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 8,
+      "relationship_types": 2,
+      "relationship_edges": 2,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

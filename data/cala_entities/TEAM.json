@@ -1,0 +1,1533 @@
+{
+  "id": "ed445ca8-f89c-4c84-826e-d8e351f8c7ed",
+  "name": "ATLASSIAN CORPORATION",
+  "entity_type": "Company",
+  "description": "Software collaboration company registered and headquartered at 251 Little Falls Drive, Wilmington, Delaware, employing Tom Hombergs.",
+  "properties": {
+    "esg_policy": {
+      "value": "Atlassian\u2019s ESG policy is detailed in its Sustainability Report and Corporate Social Responsibility page, committing to net\u2011zero carbon emissions (Science\u2011Based Targets), a Human Rights Statement, inclusive people initiatives, and governance through a Code of Business Conduct, ethics and compliance programs, supplier code of conduct, and privacy/security policies.",
+      "sources": [
+        {
+          "name": "Corporate Social Responsibility | Atlassian",
+          "document": "https://www.atlassian.com/company/corporate-social-responsibility",
+          "date": "2025-01-01"
+        },
+        {
+          "name": "s206.q4cdn.com",
+          "document": "https://s206.q4cdn.com/270053503/files/doc_downloads/2024/Atlassian-Sustainability-Report-FY24-1.pdf",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300V7ZY5P02D2MY38",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300V7ZY5P02D2MY38",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "ATLASSIAN CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300V7ZY5P02D2MY38",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Atlassian",
+        "Atlassian Corp.",
+        "Atlassian Corp",
+        "TEAM"
+      ],
+      "sources": []
+    },
+    "description": {
+      "value": "Software collaboration company registered and headquartered at 251 Little Falls Drive, Wilmington, Delaware, employing Tom Hombergs.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2022-07-01",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300V7ZY5P02D2MY38",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "id": {
+      "value": "ed445ca8-f89c-4c84-826e-d8e351f8c7ed",
+      "sources": []
+    },
+    "name": {
+      "value": "ATLASSIAN CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300V7ZY5P02D2MY38",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300V7ZY5P02D2MY38",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+            "params": {},
+            "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300V7ZY5P02D2MY38",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "employee_count": {
+      "value": 13813,
+      "sources": [
+        {
+          "name": "en.wikipedia.org",
+          "document": "https://en.wikipedia.org/wiki/Atlassian",
+          "date": "2026-04-15"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "ee2690bb-7cf6-464d-bb3d-746452e1408a",
+          "name": "ATLASSIAN INDIA LLP",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/549300R62HBFDVTIDN55",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "88e1becc-6993-5064-b732-6c10f99853aa",
+            "valid_since": "2023-06-26"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#technology",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "76e6c7ef-3702-55ce-92cd-b19203ab608f"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "c71368e0-1f52-46ea-9f05-af0bf33b6105"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=ATLASSIAN+CORPORATION&page%5Bsize%5D=20",
+                  "params": {},
+                  "response_hash": "22eb5bc64472f28d2f061acbb0fd2dd4bf843e6852f71f08de9b65bc295c547d"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "0e568103-e530-497b-90b2-dbb4c74bf112"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "71f1ebe1-fe3d-4092-8415-c3c2c2e9a0b1",
+          "name": "SaaS",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Technology News for IT Channel Partners and Solution Providers | CRN",
+                "document": "https://www.crn.com/news/cloud/microsoft-leads-101b-saas-market-followed-by-salesforce-adobe",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "42faff32-9c88-59b0-a058-71b17cefc2a7"
+          }
+        },
+        {
+          "id": "8f241c4b-6c11-4994-bceb-6d8149dab792",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cryptocurrency prices, Token rates and Altcoin charts ranked by Market Capitalization and Volume | CryptoRank.io",
+                "document": "https://cryptorank.io/news/feed/89570-heres-why-software-stocks-like-adobe-salesforce-servicenow-atlassian-are-crashing",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9906c83d-7b53-5459-9325-f69db0b17658"
+          }
+        },
+        {
+          "id": "973e5e8a-b0d9-4193-8323-faab39f6e427",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/my-top-etf-buy-dip-slumping-software-stocks-salesforce",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "b05a9f8b-6bee-50a2-89c5-8fdb828ebc93"
+          }
+        },
+        {
+          "id": "9ef6f813-ac99-4575-a1af-5d6b07fe54f6",
+          "name": "Computer Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9e47319e-5e87-5d70-be3a-15f707e47e16"
+          }
+        },
+        {
+          "id": "c93e57fa-0926-43c6-8238-2f067f25d320",
+          "name": "Project Management Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "datasensinglab.com",
+                "document": "https://datasensinglab.com/saas/top-saas-companies/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "ca6d6f2f-e78a-595f-b2ee-6ba6d9cd78d7"
+          }
+        },
+        {
+          "id": "cda2903a-69b3-4d24-aedf-143fd880b087",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/zacks-analyst-blog-servicenow-microsoft-atlassian-and-salesforce",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9a24e3fa-3177-55a9-8bda-9cffeac750a4"
+          }
+        },
+        {
+          "id": "e539d501-404f-4b84-99a3-9136570cb567",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "Cryptocurrency prices, Token rates and Altcoin charts ranked by Market Capitalization and Volume | CryptoRank.io",
+                "document": "https://cryptorank.io/ru/news/feed/89570-heres-why-software-stocks-like-adobe-salesforce-servicenow-atlassian-are-crashing",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "cbd065b5-f7cb-5172-b778-71de33130dff"
+          }
+        },
+        {
+          "id": "e5733b2e-154b-45cb-85bb-9e3967097fd1",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "TradingView \u2014 Track All Markets",
+                "document": "https://www.tradingview.com/news/invezz:16cb612e7094b:0-here-s-why-software-stocks-like-adobe-salesforce-servicenow-atlassian-are-crashing",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "ad61d67c-3123-53d2-9ab1-0ae2e7c01bd6"
+          }
+        },
+        {
+          "id": "e9d7c2aa-c31d-4302-8362-c3c15d29dce0",
+          "name": "Computer Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "stockmetric.net",
+                "document": "https://www.stockmetric.net/nasdaq-listed-companies",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "1b50cfe2-fc07-5a9f-9644-3e29253f7fac"
+          }
+        },
+        {
+          "id": "f520f850-0dac-4ff8-87b7-c1ed4507b0e1",
+          "name": "Computer Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "invezz.com",
+                "document": "https://invezz.com/news/2026/02/04/heres-why-software-stocks-like-adobe-salesforce-servicenow-atlassian-are-crashing",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "94a25658-e056-52ce-9634-458f63513758"
+          }
+        },
+        {
+          "id": "f5f2633e-0eef-4e18-9700-22c32df9644d",
+          "name": "Collaboration Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "datasensinglab.com",
+                "document": "https://datasensinglab.com/saas/top-saas-companies/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "11b5672d-70ee-53d0-8ae6-040ab043cefd"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000110465924078883/tv0023-atlassiancorpclassa.htm",
+                "date": "2024-07-10"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-07-10T00:00:00Z",
+                "value": 10.03,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924078883/tv0023-atlassiancorpclassa.htm",
+                  "source": "SEC",
+                  "published_time": "2024-07-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 9.91,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020356/tv0359-atlassiancorpclassa.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-02-09T00:00:00Z",
+                "value": 9.13,
+                "origin": {
+                  "name": "SC 13G",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465923015382/tv0337-atlassiancorporationc.htm",
+                  "source": "SEC",
+                  "published_time": "2023-02-09T00:00:00Z"
+                }
+              }
+            ],
+            "id": "0c441d98-4e10-5acd-904f-1906311cc6b3",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 18541267.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 18479561.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 17430078.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 16993537.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 16412954.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 16398256.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 15969616.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 15577302.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 15355652.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000690/primary_doc.xml",
+                "date": "2024-08-14"
+              }
+            ],
+            "id": "1270b91a-b2fb-5ca7-82b8-646c650d7c9c",
+            "number_shares": [
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 5823.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000690/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 1657.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787124000481/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 193.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787122000224/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 2449.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121001199/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 1657.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000938/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-06-30T00:00:00Z",
+                "value": 1657.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000946/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-08-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 1301.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000569/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-17T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 3322.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787121000199/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 4321.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000870/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-16T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 8870.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000683/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 7722.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000474/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-15T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 7722.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787120000497/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-19T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "9bdae983-d403-5103-9944-f0344f6a4a69",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 500265.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 2398853.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 2398853.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 3913714.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 4609988.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 4284400.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 2478358.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 2478241.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 2346737.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 2342324.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 2596938.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000671/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 2596938.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000369/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 2246213.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000669/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 2246213.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000190/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-09-30T00:00:00Z",
+                "value": 1149434.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000542/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 1166127.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000462/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 1371092.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000378/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-18T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 1364899.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000321/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-12-31T00:00:00Z",
+                "value": 1063241.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000198/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-09-30T00:00:00Z",
+                "value": 1835659.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000516/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-11-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-06-30T00:00:00Z",
+                "value": 721628.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000424/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2022-03-31T00:00:00Z",
+                "value": 582961.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-05-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 524742.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000233/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-12-31T00:00:00Z",
+                "value": 524742.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961722000267/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2022-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-09-30T00:00:00Z",
+                "value": 279672.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000478/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2021-03-31T00:00:00Z",
+                "value": 309800.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000302/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 686250.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000192/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-12-31T00:00:00Z",
+                "value": 686250.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961721000235/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2021-02-19T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 1954870.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000473/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-09-30T00:00:00Z",
+                "value": 1954870.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000513/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-06-30T00:00:00Z",
+                "value": 1861392.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000375/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2020-03-31T00:00:00Z",
+                "value": 2097555.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000301/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-12-31T00:00:00Z",
+                "value": 2599706.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961720000205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2020-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-09-30T00:00:00Z",
+                "value": 3554256.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000258/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-06-30T00:00:00Z",
+                "value": 3144350.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000129/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-08-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2019-03-31T00:00:00Z",
+                "value": 2030860.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000069/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-05-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-12-31T00:00:00Z",
+                "value": 1973084.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961719000014/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2019-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 1433429.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000246/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-09-30T00:00:00Z",
+                "value": 1433429.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000208/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2018-06-30T00:00:00Z",
+                "value": 1649698.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000153/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-12-31T00:00:00Z",
+                "value": 1476757.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961718000013/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2018-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-09-30T00:00:00Z",
+                "value": 1872278.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000554/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-11-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-06-30T00:00:00Z",
+                "value": 1862816.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000496/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-08-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2017-03-31T00:00:00Z",
+                "value": 2176071.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000376/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-12-31T00:00:00Z",
+                "value": 2513557.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961717000305/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2017-02-06T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-09-30T00:00:00Z",
+                "value": 2847556.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001154/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-11-04T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-06-30T00:00:00Z",
+                "value": 2728661.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716001108/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-08-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2016-03-31T00:00:00Z",
+                "value": 2382816.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716000968/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2015-12-31T00:00:00Z",
+                "value": 2298533.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961716000857/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-02-12T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                "date": "2026-02-12"
+              }
+            ],
+            "id": "3dd17614-5d40-5299-8058-9a6a00fd5371",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 11201158.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 10592468.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 10746433.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 11128952.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 10493157.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 9651812.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "eee1c65e-5681-44b5-8309-852d1969f94b",
+          "name": "BLACKROCK ADVISORS LLC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002272/primary_doc.xml",
+                "date": "2016-02-11"
+              }
+            ],
+            "id": "f8572a91-7669-53fa-a752-a9d29a5fbbaf",
+            "number_shares": [
+              {
+                "time": "2015-12-31T00:00:00Z",
+                "value": 419715.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1086364/000108636416002272/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2016-02-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "CREATED_BY": [
+        {
+          "id": "4ed3865d-973d-4453-9790-85a0eefd15bd",
+          "name": "Confluence",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Atlassian",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "51fe621c-939d-532f-a768-fc882f8d4c32"
+          }
+        },
+        {
+          "id": "57a8ad50-3efe-4412-ab93-c788cea814ec",
+          "name": "Jira",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.productplan.com",
+                "document": "https://www.productplan.com/glossary/jira/",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Focus on outcomes, not admin",
+                "document": "https://www.atlassian.com/software/jira",
+                "date": "2025-09-19"
+              }
+            ],
+            "id": "a1574d0c-29f0-568a-b566-4945b370c101"
+          }
+        }
+      ],
+      "OPERATED_BY": [
+        {
+          "id": "30027086-0f6b-48f2-8c67-cede94b81e9a",
+          "name": "Trello",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "datasensinglab.com",
+                "document": "https://datasensinglab.com/saas/top-saas-companies/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "a2ad514a-843c-50b5-8792-ab5383768a83"
+          }
+        },
+        {
+          "id": "4ed3865d-973d-4453-9790-85a0eefd15bd",
+          "name": "Confluence",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "datasensinglab.com",
+                "document": "https://datasensinglab.com/saas/top-saas-companies/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "9e06f6b7-c92d-5ca3-b70a-6fecc7f14905"
+          }
+        },
+        {
+          "id": "57a8ad50-3efe-4412-ab93-c788cea814ec",
+          "name": "Jira",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "SlashGear | Tech, Cars, Gaming, Science, & Reviews",
+                "document": "https://www.slashgear.com/1555061/jira-features-who-makes-software-atlassian",
+                "date": "2024-04-09"
+              }
+            ],
+            "id": "78232231-1e06-42ae-b41c-1dfd62356f32"
+          }
+        }
+      ],
+      "DESIGNED_BY": [
+        {
+          "id": "4ed3865d-973d-4453-9790-85a0eefd15bd",
+          "name": "Confluence",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Confluence_(software)",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Meet your new AI-powered workspace",
+                "document": "https://www.atlassian.com/software/confluence",
+                "date": "2024-03-22"
+              }
+            ],
+            "id": "f28af698-12c0-59a9-b6c8-0842c689afd4"
+          }
+        },
+        {
+          "id": "57a8ad50-3efe-4412-ab93-c788cea814ec",
+          "name": "Jira",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "https://sourceforge.net/software/agile-project-management-tools/integrates-with-glean-work-ai/",
+                "document": "https://sourceforge.net/software/agile-project-management-tools/integrates-with-glean-work-ai/",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "https://sourceforge.net/software/digital-asset-management/integrates-with-glean-work-ai/",
+                "document": "https://sourceforge.net/software/digital-asset-management/integrates-with-glean-work-ai/",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "Home - Glean Help Center",
+                "document": "https://docs.glean.com/actions/datasource/jira/create-issue",
+                "date": "2026-02-26"
+              },
+              {
+                "name": "https://sourceforge.net/software/resource-management/integrates-with-glean-work-ai/",
+                "document": "https://sourceforge.net/software/resource-management/integrates-with-glean-work-ai/",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "https://sourceforge.net/software/remote-work/integrates-with-glean-work-ai/",
+                "document": "https://sourceforge.net/software/remote-work/integrates-with-glean-work-ai/",
+                "date": "2026-01-01"
+              },
+              {
+                "name": "PM Hub Home | Project Templates",
+                "document": "https://www.projectmanagertemplate.com/post/jira-vs-asana-complete-project-management-software-comparison",
+                "date": "2026-02-26"
+              },
+              {
+                "name": "Home - Glean Help Center",
+                "document": "https://docs.glean.com/agents/actions/datasource/jira/create-issue",
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "60e2d06f-e802-48bc-836f-acd74aa57bc9"
+          }
+        }
+      ],
+      "MANUFACTURED_BY": [
+        {
+          "id": "4ed3865d-973d-4453-9790-85a0eefd15bd",
+          "name": "Confluence",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.wikipedia.org",
+                "document": "https://en.wikipedia.org/wiki/Atlassian",
+                "date": "2026-04-15"
+              },
+              {
+                "name": "Confluence Release Summary",
+                "document": "https://confluence.atlassian.com/doc/confluence-release-summary-160006346.html",
+                "date": "2026-01-22"
+              }
+            ],
+            "id": "48aa8a2a-056b-5085-a6ed-156402291be5",
+            "valid_since": "2004-11-30"
+          }
+        },
+        {
+          "id": "57a8ad50-3efe-4412-ab93-c788cea814ec",
+          "name": "Jira",
+          "entity_type": "Product",
+          "properties": {
+            "sources": [
+              {
+                "name": "Meet your AI ENTOURAGE",
+                "document": "https://www.jira.com/software/jira",
+                "date": "2025-09-19"
+              },
+              {
+                "name": "SlashGear | Tech, Cars, Gaming, Science, & Reviews",
+                "document": "https://www.slashgear.com/1555061/jira-features-who-makes-software-atlassian",
+                "date": "2024-04-09"
+              }
+            ],
+            "id": "cbbd819b-9980-4313-aac3-942d623b3bb0"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "017d81d2-8bf7-4e03-9822-15882781a09e",
+          "name": "Tom Hombergs",
+          "entity_type": "Person",
+          "properties": {
+            "role": "software developer",
+            "sources": [
+              {
+                "name": "Spring I/O \u2022 26-27 May 2022, Barcelona",
+                "document": "https://2020.springio.net/speakers/tom-hombergs",
+                "date": "2022-05-27"
+              }
+            ],
+            "id": "dfdf529c-f86b-400d-be09-7b7169c57b37"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "TEAM",
+    "uuid": "ed445ca8-f89c-4c84-826e-d8e351f8c7ed",
+    "match_name": "ATLASSIAN CORPORATION",
+    "retrieved_at": "2026-04-15T22:36:47Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 11,
+      "relationship_types_outgoing": 5,
+      "relationship_types_incoming": 6,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 11,
+      "relationship_types": 11,
+      "relationship_edges": 30,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}

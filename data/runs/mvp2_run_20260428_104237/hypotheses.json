@@ -1,0 +1,172 @@
+[
+  {
+    "id": "H_V2_01",
+    "trigger": "BlackRock's continued ETF inflow dominance accelerates passive equity AUM growth, compressing active manager fee revenues and lifting BlackRock's own earnings per share.",
+    "origin_entity_uuid": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+    "probability": 0.72,
+    "magnitude": 0.18,
+    "horizon_days": 180,
+    "sources": [
+      "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+      "1475d305-8037-4360-8858-1a6c640b8ac0",
+      "414faf92-4f48-4c41-8f9d-6b5ab7d03538"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-10-21"
+    ]
+  },
+  {
+    "id": "H_V2_02",
+    "trigger": "Vanguard Group's fee-reduction campaign forces industry-wide ETF expense ratio cuts, pressuring revenue margins at competing asset managers across NASDAQ-100 financials.",
+    "origin_entity_uuid": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+    "probability": 0.65,
+    "magnitude": -0.12,
+    "horizon_days": 270,
+    "sources": [
+      "4a500c87-6142-49cf-9473-89d3ef9a370c",
+      "84aead1f-2e21-4101-b36f-83ba4e1ca53b",
+      "a6929763-0272-4dde-a8d2-bf1d54ca488c"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-09-11",
+      "2024-07-28"
+    ]
+  },
+  {
+    "id": "H_V2_03",
+    "trigger": "JPMorgan Chase's expansion of AI-driven trading infrastructure raises operational efficiency, boosting net interest income and triggering a re-rating of its NASDAQ-listed equity.",
+    "origin_entity_uuid": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+    "probability": 0.6,
+    "magnitude": 0.2,
+    "horizon_days": 180,
+    "sources": [
+      "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+      "b5c40d18-6910-41ae-a025-4d3962962643",
+      "87028fb6-27e5-4ede-b7fa-39709c9abbb4"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2025-01-01",
+      "2024-10-01"
+    ]
+  },
+  {
+    "id": "H_V2_04",
+    "trigger": "Berkshire Hathaway's rotation out of technology holdings signals sector-wide de-risking, creating near-term selling pressure on NASDAQ-100 mega-cap tech names.",
+    "origin_entity_uuid": "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+    "probability": 0.5,
+    "magnitude": -0.22,
+    "horizon_days": 120,
+    "sources": [
+      "9e97e8d3-c607-403d-8805-9ad7c10f88fd",
+      "47fa9716-2e8e-4e51-aa41-4ad715633d5d"
+    ],
+    "source_dates": [
+      "2025-02-10",
+      "2024-06-04"
+    ]
+  },
+  {
+    "id": "H_V2_05",
+    "trigger": "Barclays Capital's underwriting of a major NASDAQ tech IPO wave drives fee revenue surge, lifting Barclays-related entity valuations as deal flow rebounds from 2023 lows.",
+    "origin_entity_uuid": "d5f43bbe-2e17-4dea-abe8-69ceae51d83a",
+    "probability": 0.55,
+    "magnitude": 0.15,
+    "horizon_days": 150,
+    "sources": [
+      "d5f43bbe-2e17-4dea-abe8-69ceae51d83a",
+      "1fc151c1-0e16-4939-9a63-868355191bc3",
+      "b3e3d11b-48f6-4504-952d-315580ff5fbd"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-10-21",
+      "2023-12-04"
+    ]
+  },
+  {
+    "id": "H_V2_06",
+    "trigger": "Maverick Capital's concentrated long positions in AI semiconductor names face forced unwind risk if liquidity conditions tighten, amplifying downside volatility in NVIDIA and AMD.",
+    "origin_entity_uuid": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+    "probability": 0.42,
+    "magnitude": -0.3,
+    "horizon_days": 90,
+    "sources": [
+      "8ed58020-3dac-4797-9669-ecf547e73cf6",
+      "e575ad90-3b1b-4feb-8226-e1a06ccb1daa"
+    ],
+    "source_dates": [
+      "2024-09-11",
+      "2024-01-17"
+    ]
+  },
+  {
+    "id": "H_V2_07",
+    "trigger": "Fidelity's institutional trust arms accelerate inflows into NASDAQ-100 index products following pension de-risking mandates, providing a structural bid under large-cap tech equities.",
+    "origin_entity_uuid": "1889a140-82b0-42be-bf8d-371683366d8f",
+    "probability": 0.68,
+    "magnitude": 0.13,
+    "horizon_days": 200,
+    "sources": [
+      "1889a140-82b0-42be-bf8d-371683366d8f",
+      "51278620-414d-4c10-aabe-6af7b398d09b",
+      "312be161-0ef4-4e2d-a399-f387cf6e8046"
+    ],
+    "source_dates": [
+      "2025-03-12",
+      "2024-10-01",
+      "2023-12-01"
+    ]
+  },
+  {
+    "id": "H_V2_08",
+    "trigger": "AI accelerator chip demand surge, driven by hyperscaler capex commitments, creates supply constraints that disproportionately benefit fabless semiconductor firms in the NASDAQ-100.",
+    "origin_entity_uuid": "a16a55d9-16a8-42a2-a538-7a140d0ed7b4",
+    "probability": 0.74,
+    "magnitude": 0.35,
+    "horizon_days": 120,
+    "sources": [
+      "a16a55d9-16a8-42a2-a538-7a140d0ed7b4",
+      "6aef64ba-7f7e-462e-b174-f15a3e6493f6"
+    ],
+    "source_dates": [
+      "2025-01-01",
+      "2024-07-28"
+    ]
+  },
+  {
+    "id": "H_V2_09",
+    "trigger": "FIL Limited rebalances global equity mandates away from US large-cap tech amid currency hedging costs, reducing flows to NASDAQ-100 constituents and softening valuations.",
+    "origin_entity_uuid": "1467ce2e-78bd-4fef-a5b2-508bf2507b8c",
+    "probability": 0.47,
+    "magnitude": -0.14,
+    "horizon_days": 150,
+    "sources": [
+      "1467ce2e-78bd-4fef-a5b2-508bf2507b8c",
+      "0aaa070d-280b-439b-8a1c-faa590807dcb"
+    ],
+    "source_dates": [
+      "2024-10-21",
+      "2023-09-20"
+    ]
+  },
+  {
+    "id": "H_V2_10",
+    "trigger": "AXA Financial's shift toward private credit and away from public equities reduces institutional sponsorship for NASDAQ mid-cap growth stocks, widening their risk premium.",
+    "origin_entity_uuid": "103a3bdc-5b34-4a0f-8c14-991ba67a92ba",
+    "probability": 0.44,
+    "magnitude": -0.16,
+    "horizon_days": 240,
+    "sources": [
+      "103a3bdc-5b34-4a0f-8c14-991ba67a92ba",
+      "34c638fb-a6e8-44a9-b40b-ddc99f579f4a"
+    ],
+    "source_dates": [
+      "2023-07-12",
+      "2023-01-30"
+    ]
+  }
+]

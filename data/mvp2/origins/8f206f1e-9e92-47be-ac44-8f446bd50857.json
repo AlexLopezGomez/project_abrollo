@@ -1,0 +1,103 @@
+{
+  "id": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+  "name": "California",
+  "entity_type": "CountryRegion",
+  "description": "A US region that contains the San Andr\u00e9s Fault and Vandenberg Air Force Base.",
+  "properties": {
+    "id": {
+      "value": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+      "sources": []
+    },
+    "description": {
+      "value": "A US region that contains the San Andr\u00e9s Fault and Vandenberg Air Force Base.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    "population": {
+      "value": 38900000,
+      "sources": [
+        {
+          "name": "www.capradio.org",
+          "document": "https://www.capradio.org/articles/2024/04/30/californias-population-grew-in-2023-halting-3-years-of-decline/",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "Californie",
+        "Kalifornien",
+        "California",
+        "State of California",
+        "CA",
+        "California, USA"
+      ],
+      "sources": []
+    },
+    "iso_3166_2_code": {
+      "value": "US-CA",
+      "sources": [
+        {
+          "name": "pycountry",
+          "document": "",
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "gdp": {
+      "value": 4048000000000.0,
+      "sources": [
+        {
+          "name": "Macrotrends | The Long Term Perspective on Markets",
+          "document": "https://www.macrotrends.net/3774/california-gdp",
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "sources": [
+        {
+          "name": "https://law.justia.com/codes/california/code-bpc/division-8/chapter-21-5/section-22515",
+          "document": "https://law.justia.com/codes/california/code-bpc/division-8/chapter-21-5/section-22515",
+          "date": "2026-03-15"
+        },
+        {
+          "name": "https://law.justia.com/codes/california/code-pen/part-4/title-11/section-14161",
+          "document": "https://law.justia.com/codes/california/code-pen/part-4/title-11/section-14161",
+          "date": "2026-03-15"
+        },
+        {
+          "name": "Welcome to LII",
+          "document": "https://www.law.cornell.edu/regulations/california/10-CCR-70.129",
+          "date": "2026-03-15"
+        }
+      ]
+    },
+    "name": {
+      "value": "California",
+      "sources": [
+        {
+          "name": "pycountry",
+          "document": "",
+          "date": "2026-02-26"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {}
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "origin_uuid": "8f206f1e-9e92-47be-ac44-8f446bd50857",
+    "properties_count_requested": 8,
+    "numobs_categories_requested": 0
+  }
+}

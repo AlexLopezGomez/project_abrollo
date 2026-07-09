@@ -1,0 +1,739 @@
+{
+  "id": "42cf50cc-97a3-42e7-a0b4-3cdf76b09808",
+  "name": "AppLovin Corp",
+  "entity_type": "Company",
+  "description": "AppLovin Corp is an AI company founded in 2011 and parent of Geewa a.s., based in Wilmington, Delaware.",
+  "properties": {
+    "founding_date": {
+      "value": "2011-07-18",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300LLVXMUAOL3SQ07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "lei": {
+      "value": "549300LLVXMUAOL3SQ07",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LLVXMUAOL3SQ07",
+            "params": {},
+            "response_hash": "a208d836a7ae1ca0b83f91b528426a516fb98bec4c867cc912f07f626b5ff5c4"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300LLVXMUAOL3SQ07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "cik": {
+      "value": "0001751008",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "esg_policy": {
+      "value": "AppLovin has dedicated a leader for ESG who also oversees Diversity, Equity & Inclusion (DEI) and philanthropy as part of its ESG portfolio (2022).",
+      "sources": [
+        {
+          "name": "1792exchange.com",
+          "document": "https://1792exchange.com/pdf/?c_id=35252",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "headquarters_address": {
+      "value": "1521 CONCORD PIKE SUITE 201, WILMINGTON, US-DE, 19803, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LLVXMUAOL3SQ07",
+            "params": {},
+            "response_hash": "a208d836a7ae1ca0b83f91b528426a516fb98bec4c867cc912f07f626b5ff5c4"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300LLVXMUAOL3SQ07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "aliases": {
+      "value": [
+        "AppLovin",
+        "AppLovin Corp.",
+        "AppLovin Corporation",
+        "AppLovin (APP)",
+        "APP"
+      ],
+      "sources": []
+    },
+    "id": {
+      "value": "42cf50cc-97a3-42e7-a0b4-3cdf76b09808",
+      "sources": []
+    },
+    "employee_count": {
+      "value": 898,
+      "sources": [
+        {
+          "name": "AppLovin Corporation Number of Employees 2021-2026 | Bullfincher",
+          "document": "http://bullfincher.io/companies/applovin-corporation/number-of-employees",
+          "date": "2021-01-01"
+        },
+        {
+          "name": "AppLovin (APP) Number of Employees 2020-2025",
+          "document": "https://stockanalysis.com/stocks/app/employees/",
+          "date": "2026-03-11"
+        }
+      ]
+    },
+    "name": {
+      "value": "AppLovin Corp",
+      "sources": [
+        {
+          "name": "SEC",
+          "document": {
+            "endpoint": "https://www.sec.gov/files/company_tickers.json",
+            "params": {},
+            "response_hash": "36043c4bf3ef5743f66e30ed32d167fca4f9b26f5508a2ceecd12e6e20b18162"
+          },
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    "legal_name": {
+      "value": "APPLOVIN CORPORATION",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LLVXMUAOL3SQ07",
+            "params": {},
+            "response_hash": "a208d836a7ae1ca0b83f91b528426a516fb98bec4c867cc912f07f626b5ff5c4"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300LLVXMUAOL3SQ07",
+          "date": "2026-04-08"
+        }
+      ]
+    },
+    "description": {
+      "value": "AppLovin Corp is an AI company founded in 2011 and parent of Geewa a.s., based in Wilmington, Delaware.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-04-15"
+        }
+      ]
+    },
+    "registered_address": {
+      "value": "1521 CONCORD PIKE SUITE 201, WILMINGTON, US-DE, 19803, US",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": {
+            "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LLVXMUAOL3SQ07",
+            "params": {},
+            "response_hash": "a208d836a7ae1ca0b83f91b528426a516fb98bec4c867cc912f07f626b5ff5c4"
+          },
+          "date": "2026-02-26"
+        },
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/549300LLVXMUAOL3SQ07",
+          "date": "2026-04-08"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "IS_ULTIMATE_PARENT_OF": [
+        {
+          "id": "d60c60b7-d44d-429f-bb8b-46ea3b9efe67",
+          "name": "Geewa a.s.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/315700M6DVHYERUQIN18",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "b8dd9570-17fd-5ad2-9269-5d75cf5244e1",
+            "valid_since": "2020-01-31"
+          }
+        }
+      ],
+      "LISTED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Nasdaq",
+                "document": "https://www.nasdaq.com/",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "94ae86a3-496c-5a93-b736-d5520c10b69d"
+          }
+        }
+      ],
+      "TRADED_ON": [
+        {
+          "id": "dbf2488c-3fff-5462-b712-8a65e2b54696",
+          "name": "NASDAQ",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100/companies#technology",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "45a8679a-e48b-58d0-93d5-621eb1136fef"
+          }
+        }
+      ],
+      "IS_REGISTERED_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LLVXMUAOL3SQ07",
+                  "params": {},
+                  "response_hash": "a208d836a7ae1ca0b83f91b528426a516fb98bec4c867cc912f07f626b5ff5c4"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "3a4acacc-86ae-4881-8e14-9db4cb17e931"
+          }
+        }
+      ],
+      "IS_DIRECT_PARENT_OF": [
+        {
+          "id": "d60c60b7-d44d-429f-bb8b-46ea3b9efe67",
+          "name": "Geewa a.s.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": "https://search.gleif.org/#/record/315700M6DVHYERUQIN18",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "25544fff-399a-5bf6-9f76-80c9d360c0a1",
+            "valid_since": "2020-01-31"
+          }
+        }
+      ],
+      "OPERATES_IN_INDUSTRY": [
+        {
+          "id": "2857e3a9-042d-4e99-a72e-befc72056ed3",
+          "name": "Advertising Agencies",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "finrange.com",
+                "document": "https://finrange.com/en/company/NASDAQ?amp%3Bas=asc",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "d106af47-30c4-5625-9481-594f8c64c555"
+          }
+        },
+        {
+          "id": "560811a4-c63f-47bf-a0f1-9918cd807c31",
+          "name": "Software",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "TradingView \u2014 Track All Markets",
+                "document": "https://www.tradingview.com/news/invezz:16cb612e7094b:0-here-s-why-software-stocks-like-adobe-salesforce-servicenow-atlassian-are-crashing",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "be29cdd5-503e-5323-964c-fe068f150a21"
+          }
+        },
+        {
+          "id": "6c84348e-c815-4078-a359-5862b5e18bde",
+          "name": "Artificial Intelligence",
+          "entity_type": "Industry",
+          "properties": {
+            "sources": [
+              {
+                "name": "nasdaq.com",
+                "document": "https://www.nasdaq.com/articles/top-nasdaq-100-stock-2025-has-nothing-do-artificial-intelligence-ai",
+                "date": "2026-04-15"
+              }
+            ],
+            "id": "cfad70c1-1f49-598a-b359-1bdad4bc59fb"
+          }
+        }
+      ],
+      "HAS_HEADQUARTERS_IN": [
+        {
+          "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+          "name": "Delaware",
+          "entity_type": "CountryRegion",
+          "properties": {
+            "sources": [
+              {
+                "name": "GLEIF",
+                "document": {
+                  "endpoint": "https://api.gleif.org/api/v1/lei-records/549300LLVXMUAOL3SQ07",
+                  "params": {},
+                  "response_hash": "a208d836a7ae1ca0b83f91b528426a516fb98bec4c867cc912f07f626b5ff5c4"
+                },
+                "date": "2026-02-26"
+              }
+            ],
+            "id": "ea4b7011-04f5-438e-92c7-d025371f5bc0"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "IS_BENEFICIARY_OWNER_OF": [
+        {
+          "id": "4a500c87-6142-49cf-9473-89d3ef9a370c",
+          "name": "VANGUARD GROUP INC",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/102909/000093247124000873/UnitedStates_13G__AppLovinCo.txt",
+                "date": "2024-11-12"
+              }
+            ],
+            "percent_shares": [
+              {
+                "time": "2024-11-12T00:00:00Z",
+                "value": 7.83,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247124000873/UnitedStates_13G__AppLovinCo.txt",
+                  "source": "SEC",
+                  "published_time": "2024-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-11-04T00:00:00Z",
+                "value": 7.83,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000093247124000332/UnitedStates_13G__AppLovinCo.txt",
+                  "source": "SEC",
+                  "published_time": "2024-11-04T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-02-13T00:00:00Z",
+                "value": 5.83,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924020311/tv0314-applovincorpclassa.htm",
+                  "source": "SEC",
+                  "published_time": "2024-02-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-02-09T00:00:00Z",
+                "value": 5.4,
+                "origin": {
+                  "name": "SC 13G/A",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465923015334/tv0289-applovincorpclassa.htm",
+                  "source": "SEC",
+                  "published_time": "2023-02-09T00:00:00Z"
+                }
+              }
+            ],
+            "id": "81513c7d-59f3-5283-91d9-4ae4cf04d5a5",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 25120575.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290926000031/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-01-29T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 24954458.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000010290925000353/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 17902795.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425185843/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 17830675.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425099331/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-09T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 16617139.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272425022205/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 23259800.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000175272424248565/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 19103230.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924088892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-13T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-03-31T00:00:00Z",
+                "value": 14709407.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924059892/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-05-10T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-12-31T00:00:00Z",
+                "value": 15438728.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/102909/000110465924032991/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-03-11T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "8ed58020-3dac-4797-9669-ecf547e73cf6",
+          "name": "MAVERICK CAPITAL LTD",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000862/primary_doc.xml",
+                "date": "2023-08-14"
+              }
+            ],
+            "id": "5e43c930-85bf-56ac-bdf6-3ce071bdeff3",
+            "number_shares": [
+              {
+                "time": "2023-06-30T00:00:00Z",
+                "value": 42194.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000862/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-08-14T00:00:00Z"
+                }
+              },
+              {
+                "time": "2023-03-31T00:00:00Z",
+                "value": 28149.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/934639/000094787123000583/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2023-05-15T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9d7f9bac-0c61-482e-bf27-0f032efb0532",
+          "name": "JPMORGAN CHASE & CO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                "date": "2026-02-11"
+              }
+            ],
+            "id": "bbeff915-3038-5349-b1a2-6a8b46b118c1",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 7896411.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000083/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-11T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 8311676.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001081/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 8311676.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001093/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 4859143.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000091918525000009/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 9513474.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000443/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 6699144.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000217/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 3139024.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000652/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-08T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 3139024.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000675/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 1642285.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000673/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-12-26T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-06-30T00:00:00Z",
+                "value": 1642285.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000501/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-08-12T00:00:00Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e54f3f3b-1c7b-47b0-9915-a5730f7be7c5",
+          "name": "BlackRock, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "SEC",
+                "document": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                "date": "2026-02-12"
+              }
+            ],
+            "id": "f7b8ec25-d340-5af6-b312-3cb451b8f957",
+            "number_shares": [
+              {
+                "time": "2025-12-31T00:00:00Z",
+                "value": 24171697.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326000920/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2026-02-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-09-30T00:00:00Z",
+                "value": 24929835.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002949/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-11-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-06-30T00:00:00Z",
+                "value": 18940754.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000120/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-08-12T00:00:00Z"
+                }
+              },
+              {
+                "time": "2025-03-31T00:00:00Z",
+                "value": 21096639.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000157641925000869/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-05-02T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-12-31T00:00:00Z",
+                "value": 20283183.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000106002125000002/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2025-02-07T00:00:00Z"
+                }
+              },
+              {
+                "time": "2024-09-30T00:00:00Z",
+                "value": 14414203.0,
+                "origin": {
+                  "name": "13F-HR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/2012383/000142645924000006/primary_doc.xml",
+                  "source": "SEC",
+                  "published_time": "2024-11-13T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": [],
+  "_meta": {
+    "ticker": "APP",
+    "uuid": "42cf50cc-97a3-42e7-a0b4-3cdf76b09808",
+    "match_name": "AppLovin Corp",
+    "retrieved_at": "2026-04-15T22:25:32Z",
+    "retrieve_mode": "full",
+    "query": {
+      "properties_count": 12,
+      "relationship_types_outgoing": 7,
+      "relationship_types_incoming": 1,
+      "numobs_categories": 0
+    },
+    "stats": {
+      "property_count": 12,
+      "relationship_types": 8,
+      "relationship_edges": 13,
+      "numobs_metrics": 0,
+      "numobs_points": 0
+    }
+  }
+}
