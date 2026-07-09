@@ -1,108 +1,109 @@
 # Abrollo — Monte Carlo Cathedral
 
-Agente de construcción de carteras para el **Cala AI Challenge** (Project Barcelona, abril 2026).
-Equipo Abrollo: Alex, Nico, Carlos.
+Portfolio-construction agent for the **Cala AI Challenge** (Project Barcelona, April 2026).
+Team Abrollo: Alex, Nico, Carlos.
 
-> **No elegimos acciones. Elegimos una forma de incertidumbre con la que estar cómodos 12 meses.**
+> **We don't pick stocks. We pick a shape of uncertainty we're comfortable living with for 12 months.**
 
-## Resultados
+## Results
 
-$1M de capital virtual, compra a cierre del 15-abr-2025, evaluado a precios del 15-abr-2026. Benchmark a batir: SPY buy-and-hold.
+$1M of virtual capital, bought at the 2025-04-15 close, evaluated at 2026-04-15 prices. Benchmark to beat: SPY buy-and-hold.
 
-| Versión | Valor final | Retorno | Cartera | Submission ID |
-|--------|-------------|---------|---------|---------------|
+| Version | Final value | Return | Portfolio | Submission ID |
+|--------|-------------|--------|-----------|---------------|
 | **MVP-2** | **$1,551,515.14** | **+55.2%** | 60 tickers | `jx704evqag7xry244jxqwcg5qh84x0p4` |
 | MVP-1 | $1,473,435.33 | +47.3% | 60 tickers | `jx7czbecp7106ezabxq50f79b984w0kb` |
 
-Ambos envíos aceptados por el endpoint (HTTP 200). Números verificados en `docs/architecture/02-mvp-retro.md` y `04-mvp-2-retro.md`.
+Both submissions accepted by the endpoint (HTTP 200). Figures verified in `docs/architecture/02-mvp-retro.md` and `04-mvp-2-retro.md`.
 
-## La idea en 60 segundos
+## The idea in 60 seconds
 
-El enfoque naíf (que hará ~80% de los equipos): un enjambre de LLMs debate cada acción y un LLM "juez" reparte capital. Eso colapsa en scoring por intuición. Los LLMs son malos jueces de mercado, no modelan correlaciones y no producen distribuciones de incertidumbre.
+The naive approach (what ~80% of teams will do): a swarm of LLMs debates each stock and a "judge" LLM allocates capital. That collapses into scoring by intuition. LLMs are poor market judges, don't model correlations, and don't produce uncertainty distributions.
 
-**Nuestra inversión:** que cada herramienta haga lo que sabe hacer.
+**Our bet:** let each tool do what it's good at.
 
-- **Los LLMs** leen texto de Cala y emiten **hipótesis causales estructuradas con citas** (nada de opiniones, solo afirmaciones con fuente).
-- **Las matemáticas** propagan probabilidades por un grafo causal, simulan miles de futuros y optimizan la cartera bajo incertidumbre.
-- Las **correlaciones** son explícitas en el grafo, no implícitas en la "cabeza" del modelo.
-- La salida es una **distribución de resultados**, no una predicción puntual.
+- **The LLMs** read Cala text and emit **structured causal hypotheses with citations** (no opinions, only sourced claims).
+- **The math** propagates probabilities through a causal graph, simulates thousands of futures, and optimizes the portfolio under uncertainty.
+- **Correlations** are explicit in the graph, not implicit in the model's "head".
+- The output is a **distribution of outcomes**, not a point prediction.
 
-No predecimos qué acciones ganarán: enumeramos futuros a 12 meses plausibles y elegimos la cartera que sobrevive bien en toda la distribución, sobre todo en la cola (war-gaming estilo RAND aplicado a asignación de capital).
+We don't predict which stocks will win: we enumerate plausible 12-month futures and choose the portfolio that survives well across the whole distribution, especially in the tail (RAND-style war-gaming applied to capital allocation).
 
-### El pipeline (4 etapas)
+### The pipeline (4 stages)
 
 ```
   ┌─────────────────────┐   ┌──────────────────┐   ┌──────────────────┐   ┌────────────────────┐
-  │ 1. Agentes (Claude) │──▶│ 2. Grafo causal  │──▶│ 3. Monte Carlo   │──▶│ 4. Optimización    │
+  │ 1. Agents (Claude)  │──▶│ 2. Causal graph  │──▶│ 3. Monte Carlo   │──▶│ 4. Optimization    │
   │                     │   │    (DAG)         │   │                  │   │    CVaR (cvxpy)    │
-  │ Leen Cala y emiten  │   │ Hipótesis → nodos│   │ N escenarios ×   │   │                    │
-  │ hipótesis con citas │   │ y aristas con    │   │ M tickers.       │   │ max E[r] − λ·CVaR  │
-  │ (UUID + fecha).     │   │ probabilidades.  │   │ Cada fila = un   │   │ → 50+ pesos = la   │
-  │ Firewall: toda      │   │ Propagación      │   │ año simulado del │   │ cartera final.    │
-  │ fuente ≤ 2025-04-15 │   │ causal.          │   │ mundo entero.    │   │                    │
+  │ Read Cala and emit  │   │ Hypotheses →     │   │ N scenarios ×    │   │                    │
+  │ hypotheses with     │   │ nodes and edges  │   │ M tickers.       │   │ max E[r] − λ·CVaR  │
+  │ citations           │   │ with             │   │ Each row = one   │   │ → 50+ weights =   │
+  │ (UUID + date).      │   │ probabilities.   │   │ simulated year   │   │ the final         │
+  │ Firewall: every     │   │ Causal           │   │ of the whole     │   │ portfolio.        │
+  │ source ≤ 2025-04-15 │   │ propagation.     │   │ world.           │   │                    │
   └─────────────────────┘   └──────────────────┘   └──────────────────┘   └────────────────────┘
-        sin lookahead              networkx / pgmpy        numpy                  cvxpy / SCS
+        no lookahead               networkx / pgmpy        numpy                  cvxpy / SCS
 ```
 
-**Cala** es un grafo de entidades verificadas (empresas, personas, leyes, papers…), cada hecho con UUID y timestamp. No es un buscador ni un proveedor de datos de bolsa: es un sustrato de hechos citables que el agente consulta como herramienta. El *firewall anti-lookahead* es mecánico: toda hipótesis debe citar fuentes con fecha ≤ 15-abr-2025.
+**Cala** is a graph of verified entities (companies, people, laws, papers…), each fact carrying a UUID and timestamp. It's not a search engine or a stock-data provider: it's a substrate of citable facts the agent queries as a tool. The *anti-lookahead firewall* is mechanical: every hypothesis must cite sources dated ≤ 2025-04-15.
 
-El brief completo del concepto está en **[`IDEA.md`](IDEA.md)**.
+The full concept brief lives in **[`IDEA.md`](IDEA.md)**.
 
-## Ver la data — Dashboard Streamlit
+## See the data — Streamlit dashboard
 
-La forma más rápida de entender qué hicimos es **levantar el dashboard**. Los artefactos reales del pipeline (submissions, grafos, hipótesis, carteras) están versionados en `data/`, así que funciona sin ejecutar el pipeline.
+The fastest way to understand what we did is to **spin up the dashboard**. The real pipeline artifacts (submissions, graphs, hypotheses, portfolios) are versioned in `data/`, so it works without running the pipeline.
 
 ```bash
 python -m venv .venv
-.venv/bin/pip install -e .                       # en Windows: .venv\Scripts\pip
+.venv/bin/pip install -e .                       # on Windows: .venv\Scripts\pip
 .venv/bin/pip install -r dashboard/requirements.txt
 
 .venv/bin/streamlit run dashboard/app.py --server.port 8501
 ```
 
-Abre http://localhost:8501. Selecciona cualquier run histórico en la barra lateral y explora las pestañas:
+Open http://localhost:8501. Pick any historical run in the sidebar and explore the tabs:
 
-- **Returns** — cartera final, valor y retorno del run seleccionado.
-- **Historial** — todos los envíos y su evolución.
-- **Knowledge Graph** — el DAG causal navegable (nodos evento → mecanismos → tickers).
-- **Hipótesis de Claude** — las hipótesis generadas con sus citas a Cala (UUID + fecha).
+- **Returns** — final portfolio, value, and return for the selected run.
+- **History** — all submissions and their evolution.
+- **Knowledge Graph** — the navigable causal DAG (event nodes → mechanisms → tickers).
+- **Claude's Hypotheses** — the generated hypotheses with their Cala citations (UUID + date).
 
-![Dashboard Abrollo](dashboard_home.png)
+![Abrollo dashboard](dashboard_home.png)
 
-## Mapa del repo
+## Repo map
 
 ```
-abrollo/            Código del pipeline (paquete instalable)
-├── cala/           Cliente Cala, resolución del NASDAQ-100, cutoff temporal
-├── agents/         Generación y validación de hipótesis (Claude)
-├── dag/            Construcción del grafo causal y propagación
-├── mc/             Covarianza y simulación Monte Carlo
-├── opt/            Optimización CVaR
-└── submit/         Validación y envío al endpoint Convex
+abrollo/            Pipeline code (installable package)
+├── cala/           Cala client, NASDAQ-100 resolution, temporal cutoff
+├── agents/         Hypothesis generation and validation (Claude)
+├── dag/            Causal graph construction and propagation
+├── mc/             Covariance and Monte Carlo simulation
+├── opt/            CVaR optimization
+└── submit/         Validation and submission to the Convex endpoint
 
-scripts/            Pipelines ejecutables paso a paso
-├── step1..step11             MVP-1 (flujo inicial end-to-end)
-└── mvp2_step1..mvp2_step10   MVP-2 (grafo de entidades + MC correlacionado)
-    + mvp2_run_all.py         corre MVP-2 completo de una vez
+scripts/            Executable step-by-step pipelines
+├── step1..step11             MVP-1 (initial end-to-end flow)
+└── mvp2_step1..mvp2_step10   MVP-2 (entity graph + correlated MC)
+    + mvp2_run_all.py         runs the full MVP-2 in one go
 
-dashboard/          App Streamlit para visualizar los artefactos
-data/               Artefactos versionados (submissions, grafos, hipótesis…)
-docs/architecture/  Diseño, planes y retros (ver "Por dónde seguir")
-IDEA.md             Brief completo del concepto
+dashboard/          Streamlit app to visualize the artifacts
+data/               Versioned artifacts (submissions, graphs, hypotheses…)
+docs/architecture/  Design, plans, and retros (see "Where to go next")
+IDEA.md             Full concept brief
 ```
 
-## Ejecutar el pipeline (opcional)
+## Run the pipeline (optional)
 
-El dashboard ya trae la data. Solo necesitas esto si quieres **regenerar** los artefactos.
+The dashboard already ships with the data. You only need this if you want to **regenerate** the artifacts.
 
-Requisitos: Python `>=3.11` y un `.env` en la raíz:
+Requirements: Python `>=3.11` and a `.env` at the root:
 
 ```env
-CALA_API_KEY=tu_api_key
-ANTHROPIC_API_KEY=tu_api_key
+CALA_API_KEY=your_api_key
+ANTHROPIC_API_KEY=your_api_key
 ```
 
-**MVP-1** (primera ejecución, en orden):
+**MVP-1** (first run, in order):
 
 ```bash
 python -m scripts.step1_smoke_test
@@ -118,20 +119,20 @@ python -m scripts.step10_validate
 python -m scripts.step11_submit --dry-run
 ```
 
-Modos de envío (`step11_submit.py`): `--dry-run` (imprime, no hace POST) · `--safe` (POST equal-weight 50×$20k) · `--real` (POST con `data/portfolios/mvp.json`).
+Submission modes (`step11_submit.py`): `--dry-run` (prints, no POST) · `--safe` (POST equal-weight 50×$20k) · `--real` (POST with `data/portfolios/mvp.json`).
 
-**MVP-2** (necesita `data/nasdaq100_uuids.json` con 99 hits del `step2` previo):
+**MVP-2** (requires `data/nasdaq100_uuids.json` with 99 hits from the prior `step2`):
 
 ```bash
-python scripts/mvp2_run_all.py          # todo de una vez
-# o paso a paso: mvp2_step1_preflight.py … mvp2_step10_submit.py
+python scripts/mvp2_run_all.py          # everything at once
+# or step by step: mvp2_step1_preflight.py … mvp2_step10_submit.py
 ```
 
-## Por dónde seguir leyendo
+## Where to go next
 
-En orden, para entender el proyecto en profundidad:
+In order, to understand the project in depth:
 
-1. **[`IDEA.md`](IDEA.md)** — el brief y la tesis contraria.
-2. **[`docs/architecture/00-cto-design.md`](docs/architecture/00-cto-design.md)** — diseño técnico.
-3. **[`docs/architecture/01-mvp-plan.md`](docs/architecture/01-mvp-plan.md)** y **[`02-mvp-retro.md`](docs/architecture/02-mvp-retro.md)** — plan y retro de MVP-1.
-4. **[`docs/architecture/03-mvp-2-plan.md`](docs/architecture/03-mvp-2-plan.md)** y **[`04-mvp-2-retro.md`](docs/architecture/04-mvp-2-retro.md)** — plan y retro de MVP-2 (incluye limitaciones conocidas y próximos pasos).
+1. **[`IDEA.md`](IDEA.md)** — the brief and the contrarian thesis.
+2. **[`docs/architecture/00-cto-design.md`](docs/architecture/00-cto-design.md)** — technical design.
+3. **[`docs/architecture/01-mvp-plan.md`](docs/architecture/01-mvp-plan.md)** and **[`02-mvp-retro.md`](docs/architecture/02-mvp-retro.md)** — MVP-1 plan and retro.
+4. **[`docs/architecture/03-mvp-2-plan.md`](docs/architecture/03-mvp-2-plan.md)** and **[`04-mvp-2-retro.md`](docs/architecture/04-mvp-2-retro.md)** — MVP-2 plan and retro (includes known limitations and next steps).
