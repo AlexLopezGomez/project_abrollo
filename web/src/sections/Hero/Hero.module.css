@@ -103,3 +103,15 @@
   font-family: var(--font-mono);
   color: var(--muted-2);
 }
+
+@media (max-width: 1439px) {
+  .title {
+    font-size: 72px;
+  }
+  .ret {
+    font-size: 56px;
+  }
+  .thesis {
+    font-size: 28px;
+  }
+}

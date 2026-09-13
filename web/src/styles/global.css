@@ -226,3 +226,14 @@ html.presenting ::-webkit-scrollbar {
 html.presenting .section-head {
   margin-bottom: 40px;
 }
+
+/* 1280–1439: the page must not break; 1920 remains the design target */
+@media (max-width: 1439px) {
+  :root {
+    --gutter: 40px;
+    --col-gap: 24px;
+    --fs-3xl: 52px;
+    --fs-display: 112px;
+    --section-pad: 100px;
+  }
+}

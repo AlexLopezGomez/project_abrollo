@@ -183,3 +183,13 @@
   min-width: 0;
   min-height: 0;
 }
+
+@media (max-width: 1439px) {
+  .bench {
+    grid-template-columns: minmax(0, 1fr) 400px;
+    height: 720px;
+  }
+  .search input {
+    width: 180px;
+  }
+}

@@ -288,3 +288,15 @@
 .stageSection .sketchNote {
   margin-bottom: 12px;
 }
+
+@media (max-width: 1439px) {
+  .kpiValue {
+    font-size: 40px;
+  }
+  .kpi {
+    padding: 20px 20px;
+  }
+  .lower {
+    grid-template-columns: 1fr;
+  }
+}

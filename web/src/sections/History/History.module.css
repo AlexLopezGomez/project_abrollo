@@ -78,3 +78,9 @@
   font-size: var(--fs-xs);
   line-height: 1.5;
 }
+
+@media (max-width: 1439px) {
+  .runs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

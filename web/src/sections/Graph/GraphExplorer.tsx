@@ -131,7 +131,8 @@ export function GraphExplorer({ mode = 'scroll', playToken = 0, featuredId }: Pr
           built.tl.eventCallback('onUpdate', () => {
             if (progressRef.current) progressRef.current.value = String(built.tl.progress())
           })
-          built.tl.play(0)
+          if (reduced) built.tl.progress(1)
+          else built.tl.play(0)
         },
       })
       return () => {

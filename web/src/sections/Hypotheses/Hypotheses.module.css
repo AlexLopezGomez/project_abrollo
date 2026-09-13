@@ -264,3 +264,26 @@
   font-family: var(--font-mono);
   font-size: var(--fs-xs);
 }
+
+@media (max-width: 1439px) {
+  .toolbar {
+    flex-wrap: wrap;
+    gap: 16px 28px;
+  }
+  .toolbar .count {
+    margin-left: 0;
+  }
+  .firewall {
+    white-space: normal;
+  }
+  .blockLabel {
+    flex-wrap: wrap;
+    white-space: normal;
+  }
+  .chartLegend {
+    white-space: normal;
+  }
+  .trigger {
+    font-size: 21px;
+  }
+}

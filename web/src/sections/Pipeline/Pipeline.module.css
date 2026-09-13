@@ -111,3 +111,26 @@
   color: var(--text);
   font-weight: 500;
 }
+
+@media (max-width: 1439px) {
+  .row,
+  .gateRow {
+    grid-template-columns: 1fr 88px 1fr 88px 1fr 88px 1fr;
+  }
+  .conn svg {
+    width: 88px;
+  }
+  .stage_ {
+    padding: 24px 22px 22px;
+    min-height: 340px;
+  }
+  .stageTitle {
+    font-size: 26px;
+  }
+  .stageDesc {
+    font-size: var(--fs-sm);
+  }
+  .big {
+    font-size: 48px;
+  }
+}
