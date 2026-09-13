@@ -221,3 +221,8 @@ html.presenting ::-webkit-scrollbar {
 [data-reveal] {
   visibility: hidden;
 }
+
+/* presentation stage: sections lose their scroll padding */
+html.presenting .section-head {
+  margin-bottom: 40px;
+}

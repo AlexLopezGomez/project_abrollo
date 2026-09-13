@@ -1,5 +1,6 @@
 import { RunProvider } from './data/RunContext'
-import { PresentationProvider } from './presentation/PresentationContext'
+import { PresentationProvider, usePresentation } from './presentation/PresentationContext'
+import { PresentationStage } from './presentation/PresentationStage'
 import { Nav } from './components/Nav'
 import { Hero } from './sections/Hero/Hero'
 import { Portfolio } from './sections/Portfolio/Portfolio'
@@ -17,20 +18,30 @@ function Loading() {
   )
 }
 
+function Page() {
+  const { active } = usePresentation()
+  if (active) return <PresentationStage />
+  return (
+    <>
+      <Nav />
+      <main>
+        <Hero />
+        <Pipeline />
+        <GraphExplorer />
+        <Hypotheses />
+        <Portfolio />
+        <History />
+      </main>
+    </>
+  )
+}
+
 export default function App() {
   return (
     <RunProvider fallback={<Loading />}>
       <PresentationProvider>
         <GraphSelectionProvider>
-          <Nav />
-          <main>
-            <Hero />
-            <Pipeline />
-            <GraphExplorer />
-            <Hypotheses />
-            <Portfolio />
-            <History />
-          </main>
+          <Page />
         </GraphSelectionProvider>
         <div className="vignette" />
         <div className="grain" />

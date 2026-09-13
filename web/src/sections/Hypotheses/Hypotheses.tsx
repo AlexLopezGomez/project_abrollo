@@ -47,7 +47,7 @@ export function Hypotheses({ mode = 'scroll', playToken = 0, featuredId }: Secti
   useSectionTimeline(
     (tl) => {
       tl.from('[data-head]', { autoAlpha: 0, y: 12, duration: 0.6 }, 0)
-      tl.from('[data-toolbar]', { autoAlpha: 0, y: 8, duration: 0.5 }, 0.15)
+      if (mode !== 'stage') tl.from('[data-toolbar]', { autoAlpha: 0, y: 8, duration: 0.5 }, 0.15)
       tl.from('[data-card]', { autoAlpha: 0, y: 24, duration: 0.8, stagger: 0.12 }, 0.25)
       tl.from('[data-cite]', { autoAlpha: 0, x: -8, duration: 0.4, stagger: 0.05 }, 0.6)
       tl.from('[data-cite-check]', { scale: 0.6, autoAlpha: 0, duration: 0.35, ease: 'back.out(2)', stagger: 0.05 }, 0.9)
@@ -56,7 +56,7 @@ export function Hypotheses({ mode = 'scroll', playToken = 0, featuredId }: Secti
   )
 
   return (
-    <section id="hypotheses" ref={scope} className="section">
+    <section id="hypotheses" ref={scope} className={mode === 'stage' ? undefined : 'section'}>
       <div className="container">
         <div className="section-head" data-head data-reveal>
           <h2 className="section-title">

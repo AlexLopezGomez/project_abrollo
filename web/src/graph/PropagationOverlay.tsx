@@ -19,7 +19,7 @@ export function PropagationOverlay({ graph, propagation, shifts, t }: Props) {
   const sx = (x: number) => x * t.k + t.x
   const sy = (y: number) => y * t.k + t.y
   // label only held targets, greedily skipping labels that would overlap an already placed one
-  const placed: [number, number, number, number][] = [[sx(o.x) + 18, sy(o.y) - 26, sx(o.x) + 18 + o.name.length * 9, sy(o.y) - 6]]
+  const placed: [number, number, number, number][] = [[sx(o.x) + 16, sy(o.y) - 36, sx(o.x) + 16 + o.name.length * 9.6, sy(o.y) - 14]]
   const ordered = [...propagation.paths].sort((a, b) => {
     const wa = shifts.get(a.target)
     const wb = shifts.get(b.target)
@@ -65,7 +65,7 @@ export function PropagationOverlay({ graph, propagation, shifts, t }: Props) {
         <circle data-prop-origin-pulse r={14} fill="none" stroke={COLORS.origin} strokeWidth={2} />
         <circle data-prop-origin-pulse r={14} fill="none" stroke={COLORS.origin} strokeWidth={2} />
         <circle data-prop-origin-ring r={12} fill={COLORS.origin} fillOpacity={0.25} stroke={COLORS.origin} strokeWidth={2} />
-        <text data-prop-origin-label x={18} y={-14} fill={COLORS.origin} fontFamily="var(--font-mono)" fontSize={16} fontWeight={500} paintOrder="stroke" stroke={COLORS.bg} strokeWidth={5} strokeLinejoin="round">
+        <text data-prop-origin-label x={16} y={-22} fill={COLORS.origin} fontFamily="var(--font-mono)" fontSize={16} fontWeight={500} paintOrder="stroke" stroke={COLORS.bg} strokeWidth={5} strokeLinejoin="round">
           {o.name}
         </text>
       </g>

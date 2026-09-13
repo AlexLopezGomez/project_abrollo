@@ -89,7 +89,7 @@ export function GraphExplorer({ mode = 'scroll', playToken = 0, featuredId }: Pr
   // section reveal
   useSectionTimeline(
     (tl) => {
-      tl.from('[data-head]', { autoAlpha: 0, y: 12, duration: 0.6 }, 0)
+      if (!stage) tl.from('[data-head]', { autoAlpha: 0, y: 12, duration: 0.6 }, 0)
       tl.from('[data-bench]', { autoAlpha: 0, y: 16, duration: 0.8 }, 0.15)
     },
     { scope, mode, playToken, deps: [run.id] },

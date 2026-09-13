@@ -16,8 +16,10 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
 
   const maxSqrt = Math.sqrt(Math.max(1, ...run.tickers.map((t) => Math.abs(t.returnPct ?? 0))))
   const winners = run.tickers.filter((t) => (t.returnPct ?? 0) > 0).length
-  const half = Math.ceil(run.tickers.length / 2)
-  const columns = [run.tickers.slice(0, half), run.tickers.slice(half)]
+  const stage = mode === 'stage'
+  const nCols = stage ? 3 : 2
+  const per = Math.ceil(run.tickers.length / nCols)
+  const columns = Array.from({ length: nCols }, (_, c) => run.tickers.slice(c * per, (c + 1) * per))
 
   useSectionTimeline(
     (tl) => {
@@ -30,7 +32,7 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
       tl.from('[data-bars-head]', { autoAlpha: 0, duration: 0.5 }, 0.5)
       tl.set('[data-bar-row]', { autoAlpha: 1 }, 0.5)
       tl.from('[data-bar]', { scaleX: 0, duration: 0.7, ease: 'power2.out', stagger: { each: 0.012, from: 'start' } }, 0.6)
-      tl.from('[data-table]', { autoAlpha: 0, y: 16, duration: 0.7 }, 1.2)
+      if (!stage) tl.from('[data-table]', { autoAlpha: 0, y: 16, duration: 0.7 }, 1.2)
       tl.from('[data-cvar]', { autoAlpha: 0, y: 16, duration: 0.7 }, 1.3)
       tl.from('[data-dist-curve]', { drawSVG: '0%', duration: 1.4, ease: 'power2.inOut' }, 1.6)
       tl.from('[data-dist-area]', { autoAlpha: 0, duration: 0.8 }, 2.2)
@@ -40,8 +42,46 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
     { scope, mode, playToken, deps: [run.id] },
   )
 
+  const barsHead = (
+    <div className={styles.barsHead} data-bars-head data-reveal>
+      <h3 className={styles.barsTitle}>Return per ticker, Apr 2025 → Apr 2026</h3>
+      <div className={styles.legend}>
+        <span>
+          <i style={{ background: 'var(--green)' }} />
+          gain
+        </span>
+        <span>
+          <i style={{ background: 'var(--red)' }} />
+          loss
+        </span>
+        <span>sorted by return · bar length on a √ scale</span>
+      </div>
+    </div>
+  )
+  const bars = (
+    <div className={`${styles.bars} ${stage ? styles.barsStage : ''}`}>
+      {columns.map((col, ci) => (
+        <div key={ci}>
+          {col.map((t) => {
+            const r = t.returnPct ?? 0
+            const neg = r < 0
+            return (
+              <div key={t.ticker} className={`${styles.barRow} ${neg ? styles.neg : ''}`} data-bar-row data-reveal>
+                <span className={styles.barTicker}>{t.ticker}</span>
+                <div className={styles.barTrack}>
+                  <div className={`${styles.barFill} ${neg ? styles.down : styles.up}`} data-bar style={{ left: 0, width: `${(Math.sqrt(Math.abs(r)) / maxSqrt) * 100}%` }} />
+                </div>
+                <span className={styles.barVal}>{fmtPct(r)}</span>
+              </div>
+            )
+          })}
+        </div>
+      ))}
+    </div>
+  )
+
   return (
-    <section id="portfolio" ref={scope} className="section">
+    <section id="portfolio" ref={scope} className={stage ? styles.stageSection : 'section'}>
       <div className="container">
         <div className="section-head" data-head data-reveal>
           <h2 className="section-title">
@@ -75,46 +115,18 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
           ))}
         </div>
 
-        <div className={styles.barsHead} data-bars-head data-reveal>
-          <h3 className={styles.barsTitle}>Return per ticker, Apr 2025 → Apr 2026</h3>
-          <div className={styles.legend}>
-            <span>
-              <i style={{ background: 'var(--green)' }} />
-              gain
-            </span>
-            <span>
-              <i style={{ background: 'var(--red)' }} />
-              loss
-            </span>
-            <span>sorted by return · bar length on a √ scale</span>
-          </div>
-        </div>
-        <div className={styles.bars}>
-          {columns.map((col, ci) => (
-            <div key={ci}>
-              {col.map((t) => {
-                const r = t.returnPct ?? 0
-                const neg = r < 0
-                return (
-                  <div key={t.ticker} className={`${styles.barRow} ${neg ? styles.neg : ''}`} data-bar-row data-reveal>
-                    <span className={styles.barTicker}>{t.ticker}</span>
-                    <div className={styles.barTrack}>
-                      <div
-                        className={`${styles.barFill} ${neg ? styles.down : styles.up}`}
-                        data-bar
-                        style={{ left: 0, width: `${(Math.sqrt(Math.abs(r)) / maxSqrt) * 100}%` }}
-                      />
-                    </div>
-                    <span className={styles.barVal}>{fmtPct(r)}</span>
-                  </div>
-                )
-              })}
-            </div>
-          ))}
-        </div>
+        {!stage && barsHead}
+        {!stage && bars}
 
-        <div className={styles.lower}>
-          <HoldingsTable rows={run.tickers} />
+        <div className={`${styles.lower} ${stage ? styles.lowerStage : ''}`}>
+          {stage ? (
+            <div>
+              {barsHead}
+              {bars}
+            </div>
+          ) : (
+            <HoldingsTable rows={run.tickers} />
+          )}
           <div className={`card ${styles.cvar}`} data-cvar data-reveal>
             <h3 className={styles.cvarTitle}>Optimized for the tail, not the mean</h3>
             <div className={styles.objective}>maximize E[r] − λ · CVaR₅%</div>

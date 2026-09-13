@@ -28,6 +28,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  gap: 32px;
   margin-bottom: 24px;
 }
 .barsTitle {
@@ -215,4 +216,75 @@
 .caption strong {
   color: var(--text);
   font-weight: 500;
+}
+
+/* presentation stage variant */
+.stageSection {
+  padding-block: 0;
+}
+.stageSection .kpis {
+  margin-bottom: 28px;
+}
+.stageSection .kpi {
+  padding: 12px 24px;
+}
+.stageSection .kpiValue {
+  font-size: 44px;
+}
+.stageSection :global(.section-head) {
+  margin-bottom: 24px;
+}
+.stageSection :global(.section-title) {
+  font-size: 48px;
+}
+.stageSection :global(.section-lede) {
+  font-size: var(--fs-md);
+  max-width: 52ch;
+}
+.stageSection .barsHead {
+  margin-bottom: 14px;
+}
+.stageSection .barsTitle {
+  font-size: 22px;
+  white-space: nowrap;
+}
+.stageSection .legend {
+  white-space: nowrap;
+}
+.stageSection .kpiLabel {
+  margin-bottom: 8px;
+}
+.lowerStage {
+  grid-template-columns: 7fr 5fr;
+}
+.barsStage {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 36px;
+  row-gap: 2px;
+  margin-bottom: 0;
+}
+.barsStage .barRow {
+  grid-template-columns: 56px 1fr 72px;
+  height: 21px;
+}
+.stageSection .cvar {
+  padding: 26px 30px;
+}
+.stageSection .cvarTitle {
+  font-size: 26px;
+}
+.stageSection .objective {
+  margin-bottom: 18px;
+}
+.stageSection .stats {
+  margin-bottom: 16px;
+}
+.stageSection .stat .v {
+  font-size: 24px;
+}
+.stageSection .caption {
+  font-size: var(--fs-sm);
+}
+.stageSection .sketchNote {
+  margin-bottom: 12px;
 }

@@ -62,7 +62,9 @@ export const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCa
     r.setData(graph, roles)
     r.labelMode = labelMode
     const measure = () => {
-      const { width, height } = wrap.getBoundingClientRect()
+      // offset* = layout size; getBoundingClientRect would include the presentation stage's CSS scale
+      const width = wrap.offsetWidth
+      const height = wrap.offsetHeight
       r.setSize(width, height, Math.min(2, window.devicePixelRatio || 1))
       setSize({ width, height })
     }
@@ -129,7 +131,8 @@ export const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCa
   const fitTo = (indices?: Iterable<number>, opts: { duration?: number; padding?: number; onComplete?: () => void } = {}) => {
     const wrap = wrapRef.current
     if (!wrap) return
-    const { width, height } = wrap.getBoundingClientRect()
+    const width = wrap.offsetWidth
+    const height = wrap.offsetHeight
     const list = [...(indices ?? (visibleRef.current ? visibleRef.current : graph.nodes.map((_, i) => i)))]
     if (!list.length) return
     // ignore far outliers (small disconnected components) when there are many nodes
@@ -158,7 +161,8 @@ export const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCa
       zoomTo: (index, scale = 2.2, duration = 0.8) => {
         const wrap = wrapRef.current
         if (!wrap) return
-        const { width, height } = wrap.getBoundingClientRect()
+        const width = wrap.offsetWidth
+        const height = wrap.offsetHeight
         const n = graph.nodes[index]!
         animateTo({ k: scale, x: width / 2 - n.x * scale, y: height / 2 - n.y * scale }, duration)
       },
@@ -166,7 +170,8 @@ export const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCa
         const wrap = wrapRef.current
         const t = rendererRef.current?.getTransform()
         if (!wrap || !t) return
-        const { width, height } = wrap.getBoundingClientRect()
+        const width = wrap.offsetWidth
+        const height = wrap.offsetHeight
         const k = Math.min(10, Math.max(0.12, t.k * factor))
         // zoom around the centre
         const cx = width / 2

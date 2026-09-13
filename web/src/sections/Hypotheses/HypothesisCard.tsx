@@ -123,7 +123,7 @@ export function HypothesisCard({ h, dag, cutoff, size = 'normal', onShowInGraph 
         </div>
         <div className={styles.chart}>
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={data} margin={{ top: 4, right: 0, left: 0, bottom: 0 }} barCategoryGap={data.length > 30 ? 1 : 3}>
+            <BarChart data={data} margin={{ top: 4, right: 8, left: 12, bottom: 0 }} barCategoryGap={data.length > 30 ? 1 : 3}>
               <XAxis
                 dataKey="ticker"
                 tick={{ fill: 'var(--muted)', fontFamily: 'var(--font-mono)', fontSize: 14 }}
