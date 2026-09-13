@@ -24,42 +24,42 @@ def render_graph_tab(dag: list[dict], portfolio: dict, artifact_key: str = "mvp2
     origin_uuids = frozenset(e.get("origin_uuid") for e in dag if e.get("origin_uuid"))
     portfolio_tickers = frozenset((portfolio.get("weights") or {}).keys())
 
-    section_header("Knowledge Graph", "Grafo Cala con origins, NDX y cartera seleccionada")
+    section_header("Knowledge Graph", "Cala graph with origins, NDX and the selected portfolio")
     kpi_grid([
-        ("KG nodes", str(summary.get("nodes", "—")), f"Fuente: {artifact_key}"),
-        ("KG edges", str(summary.get("edges", "—")), "Relaciones Cala"),
-        ("NDX nodes", str(summary.get("ndx_nodes", "—")), "Universo Nasdaq"),
-        ("Origins", str(len(origin_uuids)), "Hipótesis Claude"),
+        ("KG nodes", str(summary.get("nodes", "—")), f"Source: {artifact_key}"),
+        ("KG edges", str(summary.get("edges", "—")), "Cala relationships"),
+        ("NDX nodes", str(summary.get("ndx_nodes", "—")), "Nasdaq universe"),
+        ("Origins", str(len(origin_uuids)), "Claude hypotheses"),
     ])
 
     col_graph, col_legend = st.columns([3, 1])
 
     with col_legend:
-        st.markdown("### Leyenda KG")
-        st.caption(f"Fuente: `{artifact_key}`")
+        st.markdown("### KG legend")
+        st.caption(f"Source: `{artifact_key}`")
         st.markdown(
             """
             <div class="ab-card" style="padding: 14px; display: grid; gap: 9px;">
-              <span style="color:#ff6b5f;">● Origin hipótesis</span>
-              <span style="color:#69d4df;">● NDX en portfolio</span>
-              <span style="color:#9da79d;">● NDX no en portfolio</span>
-              <span style="color:#29322d;">● Entidad no-NDX</span>
+              <span style="color:#ff6b5f;">● Hypothesis origin</span>
+              <span style="color:#69d4df;">● NDX in portfolio</span>
+              <span style="color:#9da79d;">● NDX not in portfolio</span>
+              <span style="color:#29322d;">● Non-NDX entity</span>
             </div>
             """,
             unsafe_allow_html=True,
         )
         st.divider()
-        st.markdown("**Top hubs por grado:**")
+        st.markdown("**Top hubs by degree:**")
         for name, degree in (summary.get("top_hubs_by_degree") or [])[:8]:
             st.markdown(f"- {name[:30]} ({degree})")
 
-        depth = st.slider("BFS depth desde origins", min_value=1, max_value=2, value=1)
+        depth = st.slider("BFS depth from origins", min_value=1, max_value=2, value=1)
 
     with col_graph:
         if G is None:
             st.warning(
-                f"No hay Knowledge Graph disponible para `{artifact_key}`. "
-                "Si es un run legacy, no existe snapshot histórico de KG."
+                f"No Knowledge Graph available for `{artifact_key}`. "
+                "Legacy runs have no historical KG snapshot."
             )
             if summary:
                 st.json(summary)
@@ -73,8 +73,8 @@ def render_graph_tab(dag: list[dict], portfolio: dict, artifact_key: str = "mvp2
             depth,
         )
         st.caption(
-            f"Mostrando {len(subgraph_nodes)} nodos · BFS depth={depth} desde "
-            f"{len(origin_uuids)} origins + NDX en portfolio"
+            f"Showing {len(subgraph_nodes)} nodes · BFS depth={depth} from "
+            f"{len(origin_uuids)} origins + NDX in portfolio"
         )
 
         html_content = _build_pyvis_html(G, subgraph_nodes, origin_uuids, portfolio_tickers)
@@ -143,9 +143,9 @@ def _build_pyvis_html(G, subgraph_nodes, origin_uuids, portfolio_tickers) -> str
             color, size = "#29322d", 10
 
         label = ticker if ticker else name[:18]
-        title = f"{name}<br>{'NDX: ' + ticker if ticker else 'Entidad'}"
+        title = f"{name}<br>{'NDX: ' + ticker if ticker else 'Entity'}"
         if node in origin_uuids:
-            title += "<br><b>⭐ Origin hipótesis</b>"
+            title += "<br><b>⭐ Hypothesis origin</b>"
 
         net.add_node(node, label=label, title=title, color=color, size=size)
 

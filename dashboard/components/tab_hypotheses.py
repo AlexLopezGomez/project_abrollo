@@ -15,28 +15,28 @@ def render_hypotheses_tab(
     portfolio_tickers = set((portfolio.get("weights") or {}).keys())
     dag_index = {e.get("hypothesis_id"): e for e in dag if e.get("hypothesis_id")}
 
-    # --- Métricas resumen ---
+    # --- Summary metrics ---
     bullish = sum(1 for h in hypotheses if h.get("magnitude", 0) > 0)
     bearish = sum(1 for h in hypotheses if h.get("magnitude", 0) < 0)
     avg_prob = sum(h.get("probability", 0) for h in hypotheses) / max(len(hypotheses), 1)
 
-    section_header("Claude evidence", "Hipótesis, fuentes y propagación a tickers")
+    section_header("Claude evidence", "Hypotheses, sources and propagation to tickers")
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total hipótesis", len(hypotheses))
+    c1.metric("Total hypotheses", len(hypotheses))
     c2.metric("Bullish", bullish)
     c3.metric("Bearish", bearish)
-    c4.metric("Prob. media", f"{avg_prob:.0%}")
+    c4.metric("Avg. probability", f"{avg_prob:.0%}")
 
     st.divider()
 
-    # --- Filtros ---
+    # --- Filters ---
     fc1, fc2, fc3 = st.columns(3)
     with fc1:
-        min_prob = st.slider("Probabilidad mínima", 0.0, 1.0, 0.0, 0.05)
+        min_prob = st.slider("Minimum probability", 0.0, 1.0, 0.0, 0.05)
     with fc2:
-        direction = st.selectbox("Dirección", ["Todas", "Bullish (+)", "Bearish (-)"])
+        direction = st.selectbox("Direction", ["All", "Bullish (+)", "Bearish (-)"])
     with fc3:
-        sort_by = st.selectbox("Ordenar por", ["Probabilidad", "Magnitud (abs)", "ID"])
+        sort_by = st.selectbox("Sort by", ["Probability", "Magnitude (abs)", "ID"])
 
     filtered = [h for h in hypotheses if h.get("probability", 0) >= min_prob]
     if direction == "Bullish (+)":
@@ -44,16 +44,16 @@ def render_hypotheses_tab(
     elif direction == "Bearish (-)":
         filtered = [h for h in filtered if h.get("magnitude", 0) < 0]
 
-    if sort_by == "Probabilidad":
+    if sort_by == "Probability":
         filtered.sort(key=lambda h: -h.get("probability", 0))
-    elif sort_by == "Magnitud (abs)":
+    elif sort_by == "Magnitude (abs)":
         filtered.sort(key=lambda h: -abs(h.get("magnitude", 0)))
     else:
         filtered.sort(key=lambda h: h.get("id", ""))
 
-    st.caption(f"Mostrando {len(filtered)} de {len(hypotheses)} hipótesis")
+    st.caption(f"Showing {len(filtered)} of {len(hypotheses)} hypotheses")
 
-    # --- Cards expandibles ---
+    # --- Expandable cards ---
     for h in filtered:
         h_id = h.get("id", "—")
         dag_entry = dag_index.get(h_id, {})
@@ -74,12 +74,12 @@ def render_hypotheses_tab(
                 st.markdown(f"**Trigger:** {h.get('trigger', '—')}")
                 st.markdown(f"**Origin:** {origin_name}")
                 st.caption(f"Origin UUID: `{h.get('origin_entity_uuid', '—')}`")
-                st.markdown(f"**Probabilidad:** {h.get('probability', 0):.0%}")
-                st.markdown(f"**Magnitud:** {mag:+.0%}")
-                st.markdown(f"**Horizonte:** {h.get('horizon_days', '—')} días")
-                st.markdown(f"**Tickers afectados:** {dag_entry.get('n_affected', len(affected))}")
+                st.markdown(f"**Probability:** {h.get('probability', 0):.0%}")
+                st.markdown(f"**Magnitude:** {mag:+.0%}")
+                st.markdown(f"**Horizon:** {h.get('horizon_days', '—')} days")
+                st.markdown(f"**Affected tickers:** {dag_entry.get('n_affected', len(affected))}")
                 if h.get("source_dates"):
-                    st.markdown(f"**Fechas fuente:** {', '.join(h['source_dates'][:3])}")
+                    st.markdown(f"**Source dates:** {', '.join(h['source_dates'][:3])}")
                 if h.get("sources"):
                     st.markdown("**Source UUIDs:**")
                     st.code("\n".join(str(source) for source in h["sources"]), language="text")
@@ -88,18 +88,18 @@ def render_hypotheses_tab(
                 if affected:
                     df_t = pd.DataFrame(affected[:20])[["ticker", "shift"] +
                            (["name"] if "name" in affected[0] else [])]
-                    df_t["en_portfolio"] = df_t["ticker"].isin(portfolio_tickers)
+                    df_t["in_portfolio"] = df_t["ticker"].isin(portfolio_tickers)
                     df_t = df_t.sort_values("shift", ascending=False)
 
                     fig = px.bar(
                         df_t,
                         x="ticker",
                         y="shift",
-                        color="en_portfolio",
+                        color="in_portfolio",
                         color_discrete_map={True: GREEN, False: CYAN},
-                        labels={"shift": "Shift esperado", "en_portfolio": "En portfolio"},
+                        labels={"shift": "Expected shift", "in_portfolio": "In portfolio"},
                         hover_data=["name"] if "name" in df_t.columns else None,
-                        title=f"Tickers afectados — {h_id}",
+                        title=f"Affected tickers — {h_id}",
                     )
                     fig.update_layout(
                         margin=dict(t=35, b=10, l=10, r=10),
@@ -109,4 +109,4 @@ def render_hypotheses_tab(
                     apply_plotly_theme(fig, height=280)
                     st.plotly_chart(fig, use_container_width=True, key=f"hyp_{h_id}")
                 else:
-                    st.info("Sin tickers afectados en el DAG para esta hipótesis.")
+                    st.info("No affected tickers in the DAG for this hypothesis.")

@@ -10,7 +10,7 @@ from .ui import AMBER, GREEN, apply_plotly_theme, section_header
 
 def render_history_tab(history: list[dict], selected_filename: str) -> None:
     if not history:
-        st.info("No hay lanzamientos en data/submissions/.")
+        st.info("No runs in data/submissions/.")
         return
 
     df = pd.DataFrame(history)
@@ -30,12 +30,12 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
     best_return = df["return_pct"].max()
     best_value = df["total_value"].max()
 
-    section_header("Run history", "Comparativa de submissions y snapshots")
+    section_header("Run history", "Comparison of submissions and snapshots")
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Lanzamientos", str(len(df)))
-    c2.metric("Mejor retorno", _format_pct(best_return))
-    c3.metric("Último retorno", _format_pct(latest["return_pct"]))
-    c4.metric("Mejor valor final", _format_money(best_value))
+    c1.metric("Runs", str(len(df)))
+    c2.metric("Best return", _format_pct(best_return))
+    c3.metric("Latest return", _format_pct(latest["return_pct"]))
+    c4.metric("Best final value", _format_money(best_value))
 
     st.divider()
 
@@ -51,7 +51,7 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
         go.Scatter(
             x=df_chart["run_label"],
             y=df_chart["total_value"],
-            name="Valor final",
+            name="Final value",
             mode="lines+markers",
             line=dict(color=GREEN, width=3),
         ),
@@ -61,28 +61,28 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
         go.Scatter(
             x=df_chart["run_label"],
             y=df_chart["return_pct"],
-            name="Retorno %",
+            name="Return %",
             mode="lines+markers",
             line=dict(color=AMBER, width=3),
         ),
         secondary_y=True,
     )
-    fig.update_layout(title="Evolución por lanzamiento")
-    fig.update_yaxes(title_text="Valor final ($)", secondary_y=False)
-    fig.update_yaxes(title_text="Retorno (%)", secondary_y=True)
+    fig.update_layout(title="Evolution per run")
+    fig.update_yaxes(title_text="Final value ($)", secondary_y=False)
+    fig.update_yaxes(title_text="Return (%)", secondary_y=True)
     apply_plotly_theme(fig, height=410)
     st.plotly_chart(fig, use_container_width=True)
 
-    section_header("Detected runs", "Lanzamientos detectados")
+    section_header("Detected runs", "Runs found in data/submissions/")
     df_table = df.sort_values("timestamp", ascending=False).copy()
-    df_table["Activo"] = df_table["filename"] == selected_filename
+    df_table["Active"] = df_table["filename"] == selected_filename
     df_table["Snapshot"] = df_table["snapshot_status"].map({
-        "snapshotted": "Sí",
+        "snapshotted": "Yes",
         "legacy": "Legacy",
     }).fillna("Legacy")
     df_table = df_table[
         [
-            "Activo",
+            "Active",
             "timestamp",
             "pipeline",
             "status",
@@ -101,20 +101,20 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
         ]
     ].rename(
         columns={
-            "timestamp": "Fecha",
+            "timestamp": "Date",
             "pipeline": "Pipeline",
             "status": "Status",
-            "hypotheses_count": "Hipótesis",
+            "hypotheses_count": "Hypotheses",
             "graph_nodes": "KG nodes",
             "graph_edges": "KG edges",
             "submission_id": "Submission ID",
-            "agent": "Agente",
-            "version": "Versión",
-            "total_invested": "Capital invertido",
-            "total_value": "Valor final",
-            "return_pct": "Retorno %",
-            "n_transactions": "Transacciones",
-            "filename": "Archivo",
+            "agent": "Agent",
+            "version": "Version",
+            "total_invested": "Capital invested",
+            "total_value": "Final value",
+            "return_pct": "Return %",
+            "n_transactions": "Transactions",
+            "filename": "File",
         }
     )
     st.dataframe(
@@ -123,12 +123,12 @@ def render_history_tab(history: list[dict], selected_filename: str) -> None:
         hide_index=True,
         height=360,
         column_config={
-            "Fecha": st.column_config.DatetimeColumn(format="YYYY-MM-DD HH:mm:ss"),
-            "Capital invertido": st.column_config.NumberColumn(format="$%.0f"),
-            "Valor final": st.column_config.NumberColumn(format="$%.2f"),
-            "Retorno %": st.column_config.NumberColumn(format="%.2f%%"),
-            "Transacciones": st.column_config.NumberColumn(format="%d"),
-            "Hipótesis": st.column_config.NumberColumn(format="%d"),
+            "Date": st.column_config.DatetimeColumn(format="YYYY-MM-DD HH:mm:ss"),
+            "Capital invested": st.column_config.NumberColumn(format="$%.0f"),
+            "Final value": st.column_config.NumberColumn(format="$%.2f"),
+            "Return %": st.column_config.NumberColumn(format="%.2f%%"),
+            "Transactions": st.column_config.NumberColumn(format="%d"),
+            "Hypotheses": st.column_config.NumberColumn(format="%d"),
             "KG nodes": st.column_config.NumberColumn(format="%d"),
             "KG edges": st.column_config.NumberColumn(format="%d"),
         },

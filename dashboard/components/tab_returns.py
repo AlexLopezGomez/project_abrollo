@@ -10,7 +10,7 @@ from .ui import GREEN, RED, apply_plotly_theme, kpi_grid, section_header
 def render_returns_tab(submission: dict, portfolio: dict) -> None:
     resp = submission.get("response") or {}
     if not resp:
-        st.warning("La submission seleccionada no trae bloque response.")
+        st.warning("The selected submission has no response block.")
         return
 
     weights = _submission_weights(submission) or portfolio.get("weights", {})
@@ -31,14 +31,14 @@ def render_returns_tab(submission: dict, portfolio: dict) -> None:
     section_header("Portfolio performance", "Returns and position-level P&L")
     kpi_grid([
         ("Total Return", f"{pct_return:+.2f}%", f"P&L ${pnl_total:,.0f}"),
-        ("Valor de cartera", f"${total_value / 1_000_000:.2f}M", f"${total_value:,.2f} exacto"),
-        ("Capital invertido", f"${total_invested:,.0f}", "Submission rule"),
-        ("Tickers en portfolio", str(n_tickers), "Posiciones no-cero"),
+        ("Portfolio value", f"${total_value / 1_000_000:.2f}M", f"${total_value:,.2f} exact"),
+        ("Capital invested", f"${total_invested:,.0f}", "Submission rule"),
+        ("Tickers in portfolio", str(n_tickers), "Non-zero positions"),
     ])
 
     st.divider()
 
-    # --- Tabla de posiciones ---
+    # --- Positions table ---
     rows = []
     for ticker, amount in weights.items():
         p_buy = purchase_prices.get(ticker)
@@ -53,64 +53,64 @@ def render_returns_tab(submission: dict, portfolio: dict) -> None:
             pnl = 0.0
         rows.append({
             "Ticker": ticker,
-            "Invertido ($)": amount,
-            "Precio Apr15": p_buy,
-            "Precio Hoy": p_now,
-            "Retorno %": ret_pct,
+            "Invested ($)": amount,
+            "Price Apr15": p_buy,
+            "Price Today": p_now,
+            "Return %": ret_pct,
             "P&L ($)": round(pnl, 2),
-            "Peso %": round(amount / total_invested * 100, 2) if total_invested else None,
+            "Weight %": round(amount / total_invested * 100, 2) if total_invested else None,
         })
 
     if not rows:
-        st.info("La submission seleccionada no trae transacciones para mostrar posiciones.")
+        st.info("The selected submission has no transactions to show positions.")
         return
 
     df = pd.DataFrame(rows).sort_values("P&L ($)", ascending=False)
 
-    # --- Bar chart por ticker ---
-    df_chart = df.dropna(subset=["Retorno %"]).sort_values("Retorno %", ascending=False)
+    # --- Bar chart per ticker ---
+    df_chart = df.dropna(subset=["Return %"]).sort_values("Return %", ascending=False)
     if df_chart.empty:
-        st.info("No hay precios suficientes para calcular retorno por ticker.")
+        st.info("Not enough prices to compute per-ticker return.")
     else:
-        colors = [GREEN if r >= 0 else RED for r in df_chart["Retorno %"]]
+        colors = [GREEN if r >= 0 else RED for r in df_chart["Return %"]]
         fig = go.Figure(go.Bar(
             x=df_chart["Ticker"],
-            y=df_chart["Retorno %"],
+            y=df_chart["Return %"],
             marker_color=colors,
-            customdata=df_chart[["Invertido ($)", "Precio Apr15", "Precio Hoy", "P&L ($)"]].values,
+            customdata=df_chart[["Invested ($)", "Price Apr15", "Price Today", "P&L ($)"]].values,
             hovertemplate=(
                 "<b>%{x}</b><br>"
-                "Retorno: %{y:.2f}%<br>"
-                "Invertido: $%{customdata[0]:,.0f}<br>"
+                "Return: %{y:.2f}%<br>"
+                "Invested: $%{customdata[0]:,.0f}<br>"
                 "Apr15: $%{customdata[1]:.2f}<br>"
-                "Hoy: $%{customdata[2]:.2f}<br>"
+                "Today: $%{customdata[2]:.2f}<br>"
                 "P&L: $%{customdata[3]:,.2f}"
                 "<extra></extra>"
             ),
         ))
         fig.update_layout(
-            title="Retorno por ticker (precio hoy vs precio Apr15)",
+            title="Return per ticker (price today vs price Apr15)",
             xaxis_title="Ticker",
-            yaxis_title="Retorno %",
+            yaxis_title="Return %",
             xaxis=dict(tickangle=-45),
         )
         fig.add_hline(y=0, line_color="rgba(244, 241, 232, 0.55)", line_width=0.7, opacity=0.7)
         apply_plotly_theme(fig, height=430)
         st.plotly_chart(fig, use_container_width=True)
 
-    # --- Tabla detallada ---
-    section_header("Holdings", "Posiciones detalladas")
+    # --- Detailed table ---
+    section_header("Holdings", "Detailed positions")
     df_display = df.copy()
-    df_display["Invertido ($)"] = df_display["Invertido ($)"].map("${:,.0f}".format)
-    df_display["Precio Apr15"] = df_display["Precio Apr15"].map(lambda v: f"${v:.2f}" if v else "—")
-    df_display["Precio Hoy"] = df_display["Precio Hoy"].map(lambda v: f"${v:.2f}" if v else "—")
-    df_display["Retorno %"] = df_display["Retorno %"].map(lambda v: f"{v:+.2f}%" if pd.notna(v) else "—")
+    df_display["Invested ($)"] = df_display["Invested ($)"].map("${:,.0f}".format)
+    df_display["Price Apr15"] = df_display["Price Apr15"].map(lambda v: f"${v:.2f}" if v else "—")
+    df_display["Price Today"] = df_display["Price Today"].map(lambda v: f"${v:.2f}" if v else "—")
+    df_display["Return %"] = df_display["Return %"].map(lambda v: f"{v:+.2f}%" if pd.notna(v) else "—")
     df_display["P&L ($)"] = df_display["P&L ($)"].map("${:,.2f}".format)
-    df_display["Peso %"] = df_display["Peso %"].map(lambda v: f"{v:.2f}%" if pd.notna(v) else "—")
+    df_display["Weight %"] = df_display["Weight %"].map(lambda v: f"{v:.2f}%" if pd.notna(v) else "—")
     st.dataframe(df_display, use_container_width=True, height=400)
 
-    # --- Detalles del optimizador ---
-    with st.expander("Detalles del optimizador CVaR"):
+    # --- Optimizer details ---
+    with st.expander("CVaR optimizer details"):
         oc1, oc2, oc3 = st.columns(3)
         oc1.metric("Solver", portfolio.get("solver", "—"))
         oc2.metric("CVaR 5%", f"{portfolio.get('cvar_5_pct', 0):.4f}")

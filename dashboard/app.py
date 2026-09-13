@@ -46,7 +46,7 @@ def _format_pct(value: object) -> str:
 
 def _format_run_option(row: dict) -> str:
     timestamp = row.get("timestamp")
-    date_text = timestamp.strftime("%Y-%m-%d %H:%M") if hasattr(timestamp, "strftime") else "sin fecha"
+    date_text = timestamp.strftime("%Y-%m-%d %H:%M") if hasattr(timestamp, "strftime") else "no date"
     return_pct = _format_pct(row.get("return_pct"))
     return f"{date_text} · {row.get('pipeline', '—')} · {return_pct}"
 
@@ -61,7 +61,7 @@ install_theme()
 
 history = get_submission_history()
 if not history:
-    st.error("No se encontraron submissions en data/submissions/.")
+    st.error("No submissions found in data/submissions/.")
     st.stop()
 
 history_by_filename = {row["filename"]: row for row in history}
@@ -76,7 +76,7 @@ filename_by_run_label = {
 
 st.sidebar.markdown('<div class="ab-sidebar-title">Run selector</div>', unsafe_allow_html=True)
 selected_option = st.sidebar.radio(
-    "Lanzamiento",
+    "Run",
     [row["filename"] for row in history],
     index=0,
     format_func=lambda filename: run_labels_by_filename.get(filename, filename),
@@ -97,24 +97,24 @@ run_label = _format_run_option(selected_run)
 
 st.sidebar.divider()
 st.sidebar.markdown('<div class="ab-sidebar-title">Selected run</div>', unsafe_allow_html=True)
-st.sidebar.caption(f"Archivo: `{submission_file}`")
+st.sidebar.caption(f"File: `{submission_file}`")
 st.sidebar.caption(f"Submission ID: `{sid}`")
-st.sidebar.caption(f"Artefactos: `{artifact_label}`")
+st.sidebar.caption(f"Artifacts: `{artifact_label}`")
 st.sidebar.caption(f"Snapshot: `{snapshot_status}`")
-st.sidebar.metric("Valor final", _format_money_compact(selected_run.get("total_value")))
-st.sidebar.metric("Retorno", _format_pct(selected_run.get("return_pct")))
-st.sidebar.metric("Transacciones", str(selected_run.get("n_transactions", "—")))
+st.sidebar.metric("Final value", _format_money_compact(selected_run.get("total_value")))
+st.sidebar.metric("Return", _format_pct(selected_run.get("return_pct")))
+st.sidebar.metric("Transactions", str(selected_run.get("n_transactions", "—")))
 st.sidebar.divider()
 st.sidebar.markdown('<div class="ab-sidebar-title">Artifact health</div>', unsafe_allow_html=True)
-st.sidebar.caption(f"Hipótesis: `{len(hypotheses)}`")
+st.sidebar.caption(f"Hypotheses: `{len(hypotheses)}`")
 st.sidebar.caption(f"Solver: `{portfolio.get('solver', '—')}`")
 st.sidebar.caption(f"Tickers: `{portfolio.get('n_nonzero_tickers', '—')}`")
 
 render_hero(
     title="Monte Carlo Cathedral",
     subtitle=(
-        "Selector histórico, submissions, hipótesis Claude, Knowledge Graph y cartera final "
-        "sobre los artefactos reales del pipeline Abrollo."
+        "Run selector, submissions, Claude hypotheses, Knowledge Graph and final portfolio "
+        "built on the real artifacts of the Abrollo pipeline."
     ),
     run_label=run_label,
     total_value=_format_money(selected_run.get("total_value")),
@@ -122,14 +122,14 @@ render_hero(
     chips=[
         chip(str(pipeline)),
         chip(str(snapshot_status), "good" if snapshot_status == "snapshotted" else "warn"),
-        chip(f"submission {sid[:12]}…" if sid and sid != "—" else "sin submission id"),
-        chip(f"{len(hypotheses)} hipótesis"),
+        chip(f"submission {sid[:12]}…" if sid and sid != "—" else "no submission id"),
+        chip(f"{len(hypotheses)} hypotheses"),
         chip(f"{portfolio.get('n_nonzero_tickers', '—')} tickers"),
         chip(f"solver {portfolio.get('solver', '—')}"),
     ],
 )
 
-tab1, tab2, tab3, tab4 = st.tabs(["Returns", "Historial", "Knowledge Graph", "Hipótesis de Claude"])
+tab1, tab2, tab3, tab4 = st.tabs(["Returns", "History", "Knowledge Graph", "Claude's Hypotheses"])
 
 with tab1:
     render_returns_tab(submission_data, portfolio)

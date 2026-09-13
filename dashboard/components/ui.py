@@ -387,9 +387,9 @@ def render_hero(
       <div class="ab-eyebrow">{escape(run_label)}</div>
     </div>
     <div class="ab-panel-value">
-      <span>Valor final de cartera</span>
+      <span>Final portfolio value</span>
       <strong>{escape(total_value)}</strong>
-      <em>{escape(return_pct)} retorno</em>
+      <em>{escape(return_pct)} return</em>
     </div>
     <div class="ab-chip-row">{chip_html}</div>
   </div>
