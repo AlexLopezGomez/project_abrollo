@@ -49,9 +49,39 @@ We don't predict which stocks will win: we enumerate plausible 12-month futures 
 
 The full concept brief lives in **[`IDEA.md`](IDEA.md)**.
 
-## See the data — Streamlit dashboard
+## See the data — web app
 
-The fastest way to understand what we did is to **spin up the dashboard**. The real pipeline artifacts (submissions, graphs, hypotheses, portfolios) are versioned in `data/`, so it works without running the pipeline.
+The fastest way to understand what we did is to **open the web app** in `web/`. It is a static React + TypeScript + GSAP
+site that reads the real pipeline artifacts versioned in `data/` (submissions, hypotheses, DAG propagation, portfolios,
+the Cala entity graph), so it works without running the pipeline. Requires Node ≥ 20 and pnpm.
+
+```bash
+cd web
+pnpm install
+pnpm prepare-data      # derives web/public/data/ from ../data (runs, graph layout, propagation paths)
+pnpm dev               # http://localhost:5173
+```
+
+Sections: **Result** (headline value and return), **Pipeline** (the 4 stages with live numbers and the anti-lookahead
+firewall), **Knowledge graph** (the Cala entity graph on canvas; pick a hypothesis to watch it propagate to the tickers it
+touches), **Hypotheses** (every claim with its Cala UUIDs and dates), **Portfolio** (per-ticker returns, holdings, CVaR
+framing) and **History** (all submissions; switching a run re-renders everything).
+
+**Presentation Mode** — press `P` (or *Present* in the nav) for a locked 1920×1080 stage with the five-step story:
+`←` / `→` to step, `R` to replay the current step, `Esc` to exit. The featured hypothesis and hero run are set in
+`web/src/presentation.config.ts`.
+
+Other scripts: `pnpm build && pnpm preview` (static bundle in `web/dist/`), `pnpm typecheck`, `pnpm lint`,
+`pnpm screenshots` (captures every section and presentation step into `web/screenshots/`; needs
+`pnpm exec playwright install chromium` once). Design notes and data caveats are in [`web/PLAN.md`](web/PLAN.md).
+
+> Note on the headline: `data/submissions/` holds 8 accepted runs. The app opens on the best one in the repo
+> (`mvp2_run_20260425_174212`, $1,554,040 / +55.4%). The $1,551,515 submission quoted above was made on hackathon day
+> and its JSON was never committed, so it cannot be shown.
+
+### Legacy — Streamlit dashboard
+
+The original Streamlit dashboard in `dashboard/` still works:
 
 ```bash
 python -m venv .venv
@@ -61,12 +91,8 @@ python -m venv .venv
 .venv/bin/streamlit run dashboard/app.py --server.port 8501
 ```
 
-Open http://localhost:8501. Pick any historical run in the sidebar and explore the tabs:
-
-- **Returns** — final portfolio, value, and return for the selected run.
-- **History** — all submissions and their evolution.
-- **Knowledge Graph** — the navigable causal DAG (event nodes → mechanisms → tickers).
-- **Claude's Hypotheses** — the generated hypotheses with their Cala citations (UUID + date).
+Open http://localhost:8501. Pick any historical run in the sidebar and explore the tabs (Returns, History, Knowledge
+Graph, Claude's Hypotheses).
 
 ![Abrollo dashboard](dashboard_home.png)
 
@@ -86,7 +112,8 @@ scripts/            Executable step-by-step pipelines
 └── mvp2_step1..mvp2_step10   MVP-2 (entity graph + correlated MC)
     + mvp2_run_all.py         runs the full MVP-2 in one go
 
-dashboard/          Streamlit app to visualize the artifacts
+web/                React + GSAP web app (and Presentation Mode) over the artifacts
+dashboard/          Legacy Streamlit app
 data/               Versioned artifacts (submissions, graphs, hypotheses…)
 docs/architecture/  Design, plans, and retros (see "Where to go next")
 IDEA.md             Full concept brief
@@ -94,7 +121,7 @@ IDEA.md             Full concept brief
 
 ## Run the pipeline (optional)
 
-The dashboard already ships with the data. You only need this if you want to **regenerate** the artifacts.
+The web app already ships with the data. You only need this if you want to **regenerate** the artifacts.
 
 Requirements: Python `>=3.11` and a `.env` at the root:
 
