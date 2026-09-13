@@ -1,0 +1,113 @@
+.wrap.stage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 132px 1fr 132px 1fr 132px 1fr;
+  align-items: stretch;
+}
+.stage_ {
+  padding: 32px 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-height: 380px;
+}
+.stageTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.num {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.tech {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--surface-3);
+  color: var(--text);
+}
+.stageTitle {
+  font-family: var(--font-display);
+  font-size: 34px;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  min-height: 2.1em;
+}
+.stageDesc {
+  color: var(--muted);
+  font-size: var(--fs-md);
+  line-height: 1.45;
+  min-height: 3lh;
+}
+.big {
+  margin-top: auto;
+  font-family: var(--font-mono);
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+.big small {
+  font-size: var(--fs-md);
+  color: var(--muted);
+  margin-left: 10px;
+  letter-spacing: 0;
+}
+.bigSub {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  line-height: 1.5;
+  min-height: 3lh;
+}
+.conn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conn svg {
+  width: 132px;
+  height: 100%;
+  overflow: visible;
+}
+.gateRow {
+  display: grid;
+  grid-template-columns: 1fr 132px 1fr 132px 1fr 132px 1fr;
+  margin-top: 16px;
+}
+.gateLabel {
+  grid-column: 1 / 4;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+.gateLabel b {
+  display: block;
+  color: var(--green);
+  font-weight: 500;
+  font-size: var(--fs-xs);
+}
+.foot {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+.foot b {
+  color: var(--text);
+  font-weight: 500;
+}
