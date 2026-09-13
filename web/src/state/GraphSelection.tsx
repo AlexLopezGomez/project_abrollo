@@ -21,7 +21,7 @@ export function useGraphSelection(): GraphSelection {
 }
 
 export function GraphSelectionProvider({ children }: { children: ReactNode }) {
-  const [hypothesisId, setHypothesisId] = useState<string | null>(null)
+  const [hypothesisId, setHypothesisId] = useState<string | null>(() => new URLSearchParams(window.location.search).get('hyp'))
   const [playToken, setPlayToken] = useState(0)
   const [nodeIndex, setNodeIndex] = useState<number | null>(null)
 

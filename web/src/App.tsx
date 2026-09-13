@@ -4,6 +4,7 @@ import { Nav } from './components/Nav'
 import { Hero } from './sections/Hero/Hero'
 import { Portfolio } from './sections/Portfolio/Portfolio'
 import { Hypotheses } from './sections/Hypotheses/Hypotheses'
+import { GraphExplorer } from './sections/Graph/GraphExplorer'
 import { GraphSelectionProvider } from './state/GraphSelection'
 
 function Loading() {
@@ -22,6 +23,7 @@ export default function App() {
           <Nav />
           <main>
             <Hero />
+            <GraphExplorer />
             <Hypotheses />
             <Portfolio />
           </main>

@@ -1,0 +1,185 @@
+.bench {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 500px;
+  gap: 24px;
+  height: 820px;
+}
+.bench.stage {
+  height: 100%;
+  gap: 20px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+.controls > * {
+  flex-shrink: 0;
+}
+.controls .select {
+  flex: 1;
+  min-width: 0;
+}
+.floating {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+}
+.floating .seg {
+  background: rgba(5, 7, 6, 0.75);
+  height: 36px;
+}
+.floating .seg button {
+  padding: 0 12px;
+}
+.controls .spacer {
+  flex: 1;
+}
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 40px;
+}
+.seg button {
+  padding: 0 14px;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  border-right: 1px solid var(--line);
+  white-space: nowrap;
+}
+.seg button:last-child {
+  border-right: 0;
+}
+.seg button.on {
+  background: var(--surface-3);
+  color: var(--text);
+}
+.select {
+  appearance: none;
+  height: 40px;
+  max-width: 640px;
+  padding: 0 40px 0 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  background: var(--surface-1)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239da79d' stroke-width='1.5' fill='none'/%3E%3C/svg%3E")
+    no-repeat right 14px center;
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.search {
+  position: relative;
+}
+.search input {
+  height: 40px;
+  width: 240px;
+  padding: 0 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  background: var(--surface-1);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--fs-sm);
+}
+.search input:focus {
+  outline: none;
+  border-color: var(--cyan);
+}
+.results {
+  position: absolute;
+  z-index: 10;
+  top: 44px;
+  left: 0;
+  width: 360px;
+  background: var(--surface-2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.results button {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 14px;
+  text-align: left;
+  font-size: var(--fs-sm);
+}
+.results button:hover {
+  background: var(--surface-3);
+}
+.results button span {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+.canvasCard {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.legend {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  display: flex;
+  gap: 18px;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  background: rgba(5, 7, 6, 0.7);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  pointer-events: none;
+}
+.legend i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.counts {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  background: rgba(5, 7, 6, 0.7);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  pointer-events: none;
+}
+.stageTitle {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  z-index: 2;
+  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+.right {
+  min-width: 0;
+  min-height: 0;
+}

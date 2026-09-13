@@ -1,0 +1,48 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 45%, #0b0e0d 0%, var(--bg) 70%);
+  border-radius: var(--radius-lg);
+}
+.canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  cursor: grab;
+}
+.canvas:active {
+  cursor: grabbing;
+}
+.static .canvas {
+  cursor: default;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+.tooltip {
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  min-width: 220px;
+  max-width: 300px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: rgba(20, 24, 21, 0.96);
+  border: 1px solid var(--line-strong);
+  font-size: var(--fs-xs);
+  line-height: 1.4;
+}
+.tooltip b {
+  display: block;
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.tooltip .mono {
+  color: var(--muted);
+}

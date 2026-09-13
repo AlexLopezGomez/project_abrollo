@@ -177,7 +177,27 @@ function buildGraph(): Graph {
   // --- deterministic force layout ------------------------------------------
   type N = SimulationNodeDatum & { i: number }
   const rand = seeded(20260415)
-  const R = 900
+  // component ids, so small disconnected pieces can be pulled toward the centre instead of drifting away
+  const comp = new Array<number>(raw.nodes.length).fill(-1)
+  let nComp = 0
+  for (let s = 0; s < raw.nodes.length; s++) {
+    if (comp[s] !== -1) continue
+    const stack = [s]
+    comp[s] = nComp
+    while (stack.length) {
+      const u = stack.pop()!
+      for (const v of adj[u]!) if (comp[v] === -1) {
+        comp[v] = nComp
+        stack.push(v)
+      }
+    }
+    nComp++
+  }
+  const compSize = new Array<number>(nComp).fill(0)
+  for (const c of comp) compSize[c]!++
+  const giant = compSize.indexOf(Math.max(...compSize))
+
+  const R = 1400
   const simNodes: N[] = raw.nodes.map((_, i) => {
     const a = rand() * Math.PI * 2
     const rr = Math.sqrt(rand()) * R
@@ -186,6 +206,8 @@ function buildGraph(): Graph {
   const links: SimulationLinkDatum<N>[] = edges.map(([s, d]) => ({ source: s, target: d }))
   const sim = forceSimulation<N>(simNodes)
     .randomSource(rand)
+    .alphaDecay(0.012)
+    .velocityDecay(0.35)
     .force(
       'link',
       forceLink<N, SimulationLinkDatum<N>>(links)
@@ -194,17 +216,22 @@ function buildGraph(): Graph {
           const s = l.source as N
           const t = l.target as N
           const hub = Math.max(deg[s.i]!, deg[t.i]!)
-          return hub > 60 ? 70 : 34
+          const both = Math.min(deg[s.i]!, deg[t.i]!)
+          return 40 + Math.min(120, hub) * 0.9 + (both > 20 ? 110 : 0)
         })
-        .strength(0.35),
+        .strength((l) => {
+          const s = l.source as N
+          const t = l.target as N
+          return 1 / Math.min(deg[s.i]!, deg[t.i]!)
+        }),
     )
-    .force('charge', forceManyBody<N>().strength((n) => -14 - Math.min(deg[n.i]!, 120) * 1.4).theta(0.9))
+    .force('charge', forceManyBody<N>().strength((n) => -60 - Math.min(deg[n.i]!, 150) * 7).theta(0.9).distanceMax(1100))
     .force('center', forceCenter(0, 0))
-    .force('x', forceX<N>(0).strength(0.035))
-    .force('y', forceY<N>(0).strength(0.035))
-    .force('collide', forceCollide<N>().radius((n) => 3 + Math.sqrt(deg[n.i]!) * 1.2).iterations(1))
+    .force('x', forceX<N>(0).strength((n) => (comp[n.i] === giant ? 0.02 : 0.08)))
+    .force('y', forceY<N>(0).strength((n) => (comp[n.i] === giant ? 0.02 : 0.08)))
+    .force('collide', forceCollide<N>().radius((n) => 6 + Math.sqrt(deg[n.i]!) * 1.6).strength(0.8).iterations(2))
     .stop()
-  const ticks = 420
+  const ticks = 500
   for (let t = 0; t < ticks; t++) sim.tick()
 
   let minX = Infinity,
