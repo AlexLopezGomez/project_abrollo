@@ -1,0 +1,218 @@
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--col-gap);
+  margin-bottom: 72px;
+}
+.kpi {
+  padding: 28px 32px;
+  border-left: 1px solid var(--line-strong);
+}
+.kpiLabel {
+  margin-bottom: 14px;
+}
+.kpiValue {
+  font-family: var(--font-mono);
+  font-size: 56px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.kpiSub {
+  margin-top: 12px;
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+
+.barsHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+}
+.barsTitle {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+}
+.legend {
+  display: flex;
+  gap: 24px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+.legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+.bars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 72px;
+  row-gap: 4px;
+  margin-bottom: 96px;
+}
+.barRow {
+  display: grid;
+  grid-template-columns: 64px 1fr 84px;
+  align-items: center;
+  gap: 14px;
+  height: 22px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+}
+.barTicker {
+  color: var(--text);
+}
+.barRow.neg .barTicker,
+.barRow.neg .barVal {
+  color: var(--muted);
+}
+.barTrack {
+  position: relative;
+  height: 12px;
+  background: var(--surface-2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.barFill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 2px;
+  transform-origin: left center;
+}
+.barFill.up {
+  background: var(--green);
+}
+.barFill.down {
+  background: var(--red);
+}
+.barVal {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.lower {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: var(--col-gap);
+  align-items: start;
+}
+.tableWrap {
+  max-height: 640px;
+  overflow: auto;
+  border-radius: var(--radius-lg);
+}
+  .table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-xs);
+  table-layout: auto;
+}
+.table th {
+  padding: 14px 14px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--surface-2);
+  text-align: right;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+.table th:first-child,
+.table th:nth-child(2),
+.table td:first-child,
+.table td:nth-child(2) {
+  text-align: left;
+}
+.table th.sorted {
+  color: var(--text);
+}
+.table td {
+  padding: 10px 14px;
+  border-top: 1px solid var(--line);
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.table td.name {
+  font-family: var(--font-body);
+  color: var(--muted);
+  max-width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table tr:hover td {
+  background: var(--surface-1);
+}
+
+.cvar {
+  padding: 36px 40px;
+}
+.cvarTitle {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  margin-bottom: 8px;
+}
+.objective {
+  font-family: var(--font-mono);
+  font-size: var(--fs-lg);
+  color: var(--cyan);
+  margin-bottom: 28px;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 32px;
+  margin-bottom: 28px;
+}
+.stat .k {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+}
+.stat .v {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xl);
+  font-variant-numeric: tabular-nums;
+}
+.stat .v small {
+  font-size: var(--fs-sm);
+  color: var(--muted);
+  margin-left: 8px;
+}
+.sketch {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+.sketchNote {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted-2);
+  margin-bottom: 24px;
+}
+.caption {
+  color: var(--muted);
+  font-size: var(--fs-md);
+  line-height: 1.5;
+}
+.caption strong {
+  color: var(--text);
+  font-weight: 500;
+}

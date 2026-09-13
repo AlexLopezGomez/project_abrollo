@@ -2,6 +2,7 @@ import { RunProvider } from './data/RunContext'
 import { PresentationProvider } from './presentation/PresentationContext'
 import { Nav } from './components/Nav'
 import { Hero } from './sections/Hero/Hero'
+import { Portfolio } from './sections/Portfolio/Portfolio'
 
 function Loading() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Nav />
         <main>
           <Hero />
+          <Portfolio />
         </main>
         <div className="vignette" />
         <div className="grain" />
