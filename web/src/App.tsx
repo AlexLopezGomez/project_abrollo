@@ -6,6 +6,7 @@ import { Portfolio } from './sections/Portfolio/Portfolio'
 import { Hypotheses } from './sections/Hypotheses/Hypotheses'
 import { GraphExplorer } from './sections/Graph/GraphExplorer'
 import { Pipeline } from './sections/Pipeline/Pipeline'
+import { History } from './sections/History/History'
 import { GraphSelectionProvider } from './state/GraphSelection'
 
 function Loading() {
@@ -28,6 +29,7 @@ export default function App() {
             <GraphExplorer />
             <Hypotheses />
             <Portfolio />
+            <History />
           </main>
         </GraphSelectionProvider>
         <div className="vignette" />
