@@ -121,7 +121,7 @@ export function Pipeline({ mode = 'scroll', playToken = 0 }: SectionProps) {
             Pipeline <em>— let each tool do what it is good at</em>
           </h2>
           <p className="section-lede">
-            Language models read and cite. Graphs carry structure. Simulation enumerates futures. A convex solver chooses. No
+            LLMs read and cite. Graphs carry structure. Simulation enumerates futures. A convex solver chooses. No
             LLM ever picks a stock.
           </p>
         </div>
