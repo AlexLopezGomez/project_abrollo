@@ -1,0 +1,42 @@
+:root {
+  /* palette */
+  --bg: #050706;
+  --surface-1: #0d100f;
+  --surface-2: #141815;
+  --surface-3: #1b201c;
+  --line: rgba(244, 241, 232, 0.1);
+  --line-strong: rgba(244, 241, 232, 0.22);
+  --text: #f4f1e8;
+  --muted: #9da79d;
+  --muted-2: #6c756c;
+  --green: #67e8a5;
+  --cyan: #69d4df;
+  --amber: #f4b860;
+  --red: #ff6b5f;
+  --green-dim: rgba(103, 232, 165, 0.16);
+  --cyan-dim: rgba(105, 212, 223, 0.16);
+  --amber-dim: rgba(244, 184, 96, 0.16);
+  --red-dim: rgba(255, 107, 95, 0.16);
+
+  /* type */
+  --font-display: 'Fraunces', 'Iowan Old Style', 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+  --fs-xs: 14px;
+  --fs-sm: 15px;
+  --fs-md: 18px;
+  --fs-lg: 22px;
+  --fs-xl: 30px;
+  --fs-2xl: 44px;
+  --fs-3xl: 64px;
+  --fs-display: 148px;
+
+  /* layout */
+  --container: 1760px;
+  --gutter: 80px;
+  --col-gap: 32px;
+  --radius: 6px;
+  --radius-lg: 12px;
+  --section-pad: 140px;
+  --nav-h: 64px;
+}
