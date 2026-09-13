@@ -3,7 +3,12 @@
 Target: a React + TypeScript + GSAP single-page app in `web/`, optimized for a 1920×1080 screen
 recording of the story *knowledge graph → hypotheses → causal DAG → simulated futures → portfolio*.
 
-**Read "Open questions" first — Q1 changes what number goes on camera.**
+**Status: built.** Decisions taken on the open questions below (2026-09-13): Q1 → (A) hero = `mvp2_run_20260425_174212`
+($1,554,040 / +55.4%) with a provenance line; Q2 → Focus / Neighborhood / Full views; Q3 → stage numbers from `dag.json`
+and the real 500 × 98; Q4 → schematic CVaR sketch, labeled; Q5 → Playwright screenshots (`pnpm screenshots`);
+Q6 → Fraunces + IBM Plex Mono + Inter, bundled. Two implementation notes worth knowing: GSAP's `useGSAP` is a *layout*
+effect, so anything it needs from child components (canvas renderer, d3-zoom) must also be created in `useLayoutEffect`;
+and the presentation stage is CSS-scaled, so the canvas measures `offsetWidth/Height`, never `getBoundingClientRect`.
 
 ---
 
