@@ -3,6 +3,8 @@ import { PresentationProvider } from './presentation/PresentationContext'
 import { Nav } from './components/Nav'
 import { Hero } from './sections/Hero/Hero'
 import { Portfolio } from './sections/Portfolio/Portfolio'
+import { Hypotheses } from './sections/Hypotheses/Hypotheses'
+import { GraphSelectionProvider } from './state/GraphSelection'
 
 function Loading() {
   return (
@@ -16,11 +18,14 @@ export default function App() {
   return (
     <RunProvider fallback={<Loading />}>
       <PresentationProvider>
-        <Nav />
-        <main>
-          <Hero />
-          <Portfolio />
-        </main>
+        <GraphSelectionProvider>
+          <Nav />
+          <main>
+            <Hero />
+            <Hypotheses />
+            <Portfolio />
+          </main>
+        </GraphSelectionProvider>
         <div className="vignette" />
         <div className="grain" />
       </PresentationProvider>
