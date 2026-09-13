@@ -67,9 +67,11 @@ firewall), **Knowledge graph** (the Cala entity graph on canvas; pick a hypothes
 touches), **Hypotheses** (every claim with its Cala UUIDs and dates), **Portfolio** (per-ticker returns, holdings, CVaR
 framing) and **History** (all submissions; switching a run re-renders everything).
 
-**Presentation Mode** — press `P` (or *Present* in the nav) for a locked 1920×1080 stage with the five-step story:
-`←` / `→` to step, `R` to replay the current step, `Esc` to exit. The featured hypothesis and hero run are set in
-`web/src/presentation.config.ts`.
+**Presentation Mode** — press `P` (or *Present* in the nav) for a locked stage with the five-step story:
+`←` / `→` to step, `R` to replay the current step, `F` to switch format, `Esc` to exit. Two stage formats:
+**square** (1080×1064, the default — sized to fill the black band under a webcam clip in a 9:16 vertical video) and
+**wide** (1920×1080, for a talk). Both are also addressable by URL: `/?present=1&step=3&stage=square`. The featured
+hypothesis, hero run and default format are set in `web/src/presentation.config.ts`.
 
 Other scripts: `pnpm build && pnpm preview` (static bundle in `web/dist/`), `pnpm typecheck`, `pnpm lint`,
 `pnpm screenshots` (captures every section and presentation step into `web/screenshots/`; needs

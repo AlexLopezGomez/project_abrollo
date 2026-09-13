@@ -300,3 +300,84 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* square stage variant: 4 compact KPIs, then bars (2 columns) beside the CVaR card */
+.squareSection :global(.section-lede) {
+  display: none;
+}
+.squareSection .kpis {
+  margin-bottom: 20px;
+}
+.squareSection .kpi {
+  padding: 8px 16px;
+}
+.squareSection .kpiValue {
+  font-size: 32px;
+}
+.squareSection .kpiSub {
+  margin-top: 6px;
+  font-size: 12px;
+}
+.squareSection .kpiLabel {
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.squareSection .lowerStage {
+  grid-template-columns: 11fr 9fr;
+  gap: 20px;
+}
+.squareSection .barsHead {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+.squareSection .barsTitle {
+  font-size: 18px;
+}
+.squareSection .legend {
+  font-size: 12px;
+  gap: 14px;
+}
+.squareSection .barsStage {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 1px;
+}
+.squareSection .barsStage .barRow {
+  grid-template-columns: 48px 1fr 60px;
+  gap: 8px;
+  height: 19px;
+  font-size: 12px;
+}
+.squareSection .barTrack {
+  height: 9px;
+}
+.squareSection .cvar {
+  padding: 20px 22px;
+}
+.squareSection .cvarTitle {
+  font-size: 21px;
+}
+.squareSection .objective {
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+.squareSection .stats {
+  gap: 10px 16px;
+  margin-bottom: 12px;
+}
+.squareSection .stat .k {
+  font-size: 12px;
+}
+.squareSection .stat .v {
+  font-size: 20px;
+}
+.squareSection .sketchNote {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.squareSection .caption {
+  font-size: 13px;
+  line-height: 1.45;
+}

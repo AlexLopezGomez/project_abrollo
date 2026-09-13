@@ -4,9 +4,30 @@ import { useAppData } from '../../data/RunContext'
 import { useSectionTimeline } from '../../lib/useSectionTimeline'
 import { addCountUp } from '../../lib/useCountUp'
 import { fmtInt, fmtMoney, fmtPct, fmtRatio } from '../../lib/format'
+import { usePresentation } from '../../presentation/PresentationContext'
 import type { SectionProps } from '../Hero/Hero'
 
-function Connector({ gate, index }: { gate?: boolean; index: number }) {
+function Connector({ gate, index, vertical, children }: { gate?: boolean; index: number; vertical?: boolean; children?: React.ReactNode }) {
+  if (vertical) {
+    // 200 × 56 box; path runs top→bottom through the middle (square stage)
+    return (
+      <div className={`${styles.conn} ${styles.connV}`}>
+        <svg viewBox="0 0 200 56" preserveAspectRatio="xMidYMid meet" data-conn={index} aria-hidden="true">
+          <path d="M100 0 L100 56" stroke="var(--line-strong)" strokeWidth="1.5" fill="none" data-conn-path />
+          {gate && (
+            <g data-gate>
+              <line x1="62" y1="28" x2="86" y2="28" stroke="var(--green)" strokeWidth="3" strokeLinecap="round" data-gate-bar />
+              <line x1="138" y1="28" x2="114" y2="28" stroke="var(--green)" strokeWidth="3" strokeLinecap="round" data-gate-bar />
+              <circle cx="100" cy="28" r="13" fill="var(--bg)" stroke="var(--green)" strokeWidth="2" data-gate-ring />
+              <path d="M93 28 L98 33 L108 23" stroke="var(--green)" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" data-gate-check />
+            </g>
+          )}
+          <circle r="5" fill="var(--cyan)" data-conn-dot cx="100" cy="0" />
+        </svg>
+        {children}
+      </div>
+    )
+  }
   // 132 × 200 box; path runs left→right through the middle
   return (
     <div className={styles.conn}>
@@ -28,6 +49,8 @@ function Connector({ gate, index }: { gate?: boolean; index: number }) {
 
 export function Pipeline({ mode = 'scroll', playToken = 0 }: SectionProps) {
   const { run, meta, graph } = useAppData()
+  const { format } = usePresentation()
+  const square = mode === 'stage' && format === 'square'
   const scope = useRef<HTMLElement>(null)
   const nums = useRef<(HTMLSpanElement | null)[]>([])
 
@@ -110,12 +133,20 @@ export function Pipeline({ mode = 'scroll', playToken = 0 }: SectionProps) {
       })
       tl.from('[data-foot]', { autoAlpha: 0, duration: 0.5 }, 0.2 + stageEls.length * step)
     },
-    { scope, mode, playToken, deps: [run.id] },
+    { scope, mode, playToken, deps: [run.id, square] },
+  )
+
+  const gateLabel = (
+    <div className={styles.gateLabel} data-gate-label data-reveal>
+      <b>anti-lookahead firewall</b>
+      every source dated ≤ {meta.cutoffDate} · {meta.allowlistDates.length} allowed dates
+      {!square && <> · latest used {run.counts.maxSourceDate ?? '—'}</>}
+    </div>
   )
 
   return (
     <section id="pipeline" ref={scope} className={mode === 'stage' ? undefined : 'section'} style={mode === 'stage' ? { height: '100%' } : undefined}>
-      <div className={`container ${styles.wrap} ${mode === 'stage' ? styles.stage : ''}`}>
+      <div className={`container ${styles.wrap} ${mode === 'stage' ? styles.stage : ''} ${square ? styles.square : ''}`}>
         <div className="section-head" data-head data-reveal>
           <h2 className="section-title">
             Pipeline <em>— let each tool do what it is good at</em>
@@ -147,16 +178,15 @@ export function Pipeline({ mode = 'scroll', playToken = 0 }: SectionProps) {
                 </div>
                 <div className={styles.bigSub}>{s.sub}</div>
               </div>
-              {i < stages.length - 1 && <Connector index={i} gate={i === 0} />}
+              {i < stages.length - 1 && (
+                <Connector index={i} gate={i === 0} vertical={square}>
+                  {square && i === 0 && gateLabel}
+                </Connector>
+              )}
             </div>
           ))}
         </div>
-        <div className={styles.gateRow}>
-          <div className={styles.gateLabel} data-gate-label data-reveal>
-            <b>anti-lookahead firewall</b>
-            every source dated ≤ {meta.cutoffDate} · {meta.allowlistDates.length} allowed dates · latest used {run.counts.maxSourceDate ?? '—'}
-          </div>
-        </div>
+        {!square && <div className={styles.gateRow}>{gateLabel}</div>}
         <div className={styles.foot} data-foot data-reveal>
           <span>
             Submission rules: <b>≥ 50 tickers</b> · <b>exactly {fmtMoney(1_000_000)}</b> · <b>≥ $5,000 per ticker</b> · long only

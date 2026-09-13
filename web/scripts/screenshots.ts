@@ -1,5 +1,6 @@
 /**
- * screenshots — captures every page section and every presentation step at 1920×1080 into web/screenshots/.
+ * screenshots — captures every page section at 1920×1080 and every presentation step in both stage formats
+ * (wide 1920×1080, square 1080×1064) into web/screenshots/.
  *
  * Usage: pnpm build && pnpm screenshots        (serves dist/ with vite preview on a free port)
  *        BASE_URL=http://localhost:5173 pnpm screenshots   (use an already running server, e.g. pnpm dev)
@@ -11,6 +12,7 @@ import { existsSync, mkdirSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { chromium, type Page } from 'playwright'
+import { STAGE_SIZES, type StageFormat } from '../src/presentation.config'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const WEB = resolve(HERE, '..')
@@ -87,12 +89,16 @@ async function main() {
   await page.screenshot({ path: join(OUT, 'section-graph-propagation.png') })
   console.log('section-graph-propagation.png')
 
-  // --- presentation steps ---------------------------------------------------
-  for (let i = 0; i < STEP_NAMES.length; i++) {
-    await page.goto(`${base}/?present=1&step=${i + 1}`, { waitUntil: 'networkidle' })
-    await settle(page, i === 2 ? 7500 : 5500)
-    await page.screenshot({ path: join(OUT, `presentation-${STEP_NAMES[i]}.png`) })
-    console.log(`presentation-${STEP_NAMES[i]}.png`)
+  // --- presentation steps, one viewport per stage format ------------------
+  for (const format of Object.keys(STAGE_SIZES) as StageFormat[]) {
+    await page.setViewportSize(STAGE_SIZES[format])
+    const prefix = format === 'wide' ? 'presentation' : `presentation-${format}`
+    for (let i = 0; i < STEP_NAMES.length; i++) {
+      await page.goto(`${base}/?present=1&step=${i + 1}&stage=${format}`, { waitUntil: 'networkidle' })
+      await settle(page, i === 2 ? 7500 : 5500)
+      await page.screenshot({ path: join(OUT, `${prefix}-${STEP_NAMES[i]}.png`) })
+      console.log(`${prefix}-${STEP_NAMES[i]}.png`)
+    }
   }
 
   await browser.close()

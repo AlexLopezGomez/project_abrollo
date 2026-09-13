@@ -134,3 +134,84 @@
     font-size: 48px;
   }
 }
+
+/* square stage: stages stack vertically, connectors run top→bottom, cards go landscape */
+.square .row {
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+}
+.square .stage_ {
+  min-height: 0;
+  padding: 14px 22px 14px;
+  display: grid;
+  grid-template-columns: 200px 1fr 210px;
+  grid-template-areas:
+    'top desc big'
+    'title desc sub';
+  column-gap: 24px;
+  row-gap: 6px;
+  align-items: start;
+}
+.square .stageTop {
+  grid-area: top;
+  justify-content: flex-start;
+  gap: 10px;
+  white-space: nowrap;
+}
+.square .stageTitle {
+  grid-area: title;
+  font-size: 23px;
+  min-height: 0;
+  align-self: start;
+  margin-top: 2px;
+}
+.square .stageDesc {
+  grid-area: desc;
+  font-size: 15px;
+  min-height: 0;
+  align-self: center;
+}
+.square .big {
+  grid-area: big;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: right;
+}
+.square .big small {
+  display: block;
+  margin-left: 0;
+  margin-top: 4px;
+  font-size: var(--fs-xs);
+}
+.square .bigSub {
+  grid-area: sub;
+  min-height: 0;
+  font-size: 12px;
+  text-align: right;
+  align-self: end;
+}
+.connV {
+  position: relative;
+  height: 48px;
+}
+.connV svg {
+  width: 200px;
+  height: 48px;
+}
+.connV .gateLabel {
+  position: absolute;
+  left: calc(50% + 52px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 420px;
+  text-align: left;
+  font-size: 12px;
+  white-space: nowrap;
+  line-height: 1.35;
+}
+.square .foot {
+  margin-top: 18px;
+  gap: 4px 28px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}

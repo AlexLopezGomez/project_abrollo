@@ -6,6 +6,7 @@ import { addCountUp } from '../../lib/useCountUp'
 import { fmtInt, fmtMoney, fmtPct, fmtRatio } from '../../lib/format'
 import { HoldingsTable } from './HoldingsTable'
 import { DistributionSketch } from './DistributionSketch'
+import { usePresentation } from '../../presentation/PresentationContext'
 import type { SectionProps } from '../Hero/Hero'
 
 export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
@@ -17,7 +18,9 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
   const maxSqrt = Math.sqrt(Math.max(1, ...run.tickers.map((t) => Math.abs(t.returnPct ?? 0))))
   const winners = run.tickers.filter((t) => (t.returnPct ?? 0) > 0).length
   const stage = mode === 'stage'
-  const nCols = stage ? 3 : 2
+  const { format } = usePresentation()
+  const square = stage && format === 'square'
+  const nCols = square ? 2 : stage ? 3 : 2
   const per = Math.ceil(run.tickers.length / nCols)
   const columns = Array.from({ length: nCols }, (_, c) => run.tickers.slice(c * per, (c + 1) * per))
 
@@ -39,7 +42,7 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
       tl.from('[data-dist-tail]', { autoAlpha: 0, scaleY: 0, transformOrigin: 'bottom', duration: 0.6 }, 2.9)
       tl.from('[data-dist-marker]', { autoAlpha: 0, duration: 0.5 }, 3.2)
     },
-    { scope, mode, playToken, deps: [run.id] },
+    { scope, mode, playToken, deps: [run.id, nCols] },
   )
 
   const barsHead = (
@@ -81,7 +84,7 @@ export function Portfolio({ mode = 'scroll', playToken = 0 }: SectionProps) {
   )
 
   return (
-    <section id="portfolio" ref={scope} className={stage ? styles.stageSection : 'section'}>
+    <section id="portfolio" ref={scope} className={stage ? `${styles.stageSection} ${square ? styles.squareSection : ''}` : 'section'}>
       <div className="container">
         <div className="section-head" data-head data-reveal>
           <h2 className="section-title">

@@ -193,3 +193,18 @@
     width: 180px;
   }
 }
+
+/* square stage: canvas on top, inspector as a landscape panel below */
+:global([data-format='square']) .bench.stage {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) 360px;
+  gap: 16px;
+}
+:global([data-format='square']) .stageTitle {
+  font-size: 13px;
+}
+:global([data-format='square']) .legend,
+:global([data-format='square']) .counts {
+  font-size: 12px;
+  gap: 12px;
+}

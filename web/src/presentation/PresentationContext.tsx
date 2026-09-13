@@ -1,4 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { presentationConfig, type StageFormat } from '../presentation.config'
 
 export const STEP_COUNT = 5
 export const STEP_NAMES = ['Hero', 'Pipeline', 'Knowledge graph', 'Hypothesis', 'Portfolio'] as const
@@ -7,6 +8,9 @@ export interface PresentationState {
   active: boolean
   step: number
   playToken: number
+  format: StageFormat
+  setFormat: (f: StageFormat) => void
+  toggleFormat: () => void
   enter: (step?: number) => void
   exit: () => void
   next: () => void
@@ -23,29 +27,35 @@ export function usePresentation(): PresentationState {
   return v
 }
 
-function readUrl(): { active: boolean; step: number } {
+function readUrl(): { active: boolean; step: number; format: StageFormat } {
   const p = new URLSearchParams(window.location.search)
   const step = Math.min(STEP_COUNT - 1, Math.max(0, Number(p.get('step') ?? 1) - 1 || 0))
-  return { active: p.get('present') === '1', step }
+  const f = p.get('stage')
+  const format: StageFormat = f === 'wide' || f === 'square' ? f : presentationConfig.stageFormat
+  return { active: p.get('present') === '1', step, format }
 }
 
-function writeUrl(active: boolean, step: number) {
+function writeUrl(active: boolean, step: number, format: StageFormat) {
   const url = new URL(window.location.href)
   if (active) {
     url.searchParams.set('present', '1')
     url.searchParams.set('step', String(step + 1))
+    url.searchParams.set('stage', format)
   } else {
     url.searchParams.delete('present')
     url.searchParams.delete('step')
+    url.searchParams.delete('stage')
   }
   window.history.replaceState(null, '', url)
 }
 
 export function PresentationProvider({ children }: { children: ReactNode }) {
-  const [{ active, step }, setState] = useState(readUrl)
+  const [{ active, step, format }, setState] = useState(readUrl)
   const [playToken, setPlayToken] = useState(0)
+  const setFormat = useCallback((f: StageFormat) => setState((st) => ({ ...st, format: f })), [])
+  const toggleFormat = useCallback(() => setState((st) => ({ ...st, format: st.format === 'wide' ? 'square' : 'wide' })), [])
 
-  const enter = useCallback((s = 0) => setState({ active: true, step: s }), [])
+  const enter = useCallback((s = 0) => setState((st) => ({ ...st, active: true, step: s })), [])
   const exit = useCallback(() => setState((st) => ({ ...st, active: false })), [])
   const goTo = useCallback((s: number) => setState((st) => ({ ...st, step: Math.min(STEP_COUNT - 1, Math.max(0, s)) })), [])
   const next = useCallback(() => setState((st) => ({ ...st, step: Math.min(STEP_COUNT - 1, st.step + 1) })), [])
@@ -53,9 +63,9 @@ export function PresentationProvider({ children }: { children: ReactNode }) {
   const replay = useCallback(() => setPlayToken((t) => t + 1), [])
 
   useEffect(() => {
-    writeUrl(active, step)
+    writeUrl(active, step, format)
     document.documentElement.classList.toggle('presenting', active)
-  }, [active, step])
+  }, [active, step, format])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -84,6 +94,11 @@ export function PresentationProvider({ children }: { children: ReactNode }) {
           e.preventDefault()
           replay()
           break
+        case 'f':
+        case 'F':
+          e.preventDefault()
+          toggleFormat()
+          break
         case 'Escape':
           exit()
           break
@@ -101,11 +116,11 @@ export function PresentationProvider({ children }: { children: ReactNode }) {
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [active, next, prev, replay, exit, goTo])
+  }, [active, next, prev, replay, exit, goTo, toggleFormat])
 
   const value = useMemo<PresentationState>(
-    () => ({ active, step, playToken, enter, exit, next, prev, goTo, replay }),
-    [active, step, playToken, enter, exit, next, prev, goTo, replay],
+    () => ({ active, step, playToken, format, setFormat, toggleFormat, enter, exit, next, prev, goTo, replay }),
+    [active, step, playToken, format, setFormat, toggleFormat, enter, exit, next, prev, goTo, replay],
   )
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>
 }

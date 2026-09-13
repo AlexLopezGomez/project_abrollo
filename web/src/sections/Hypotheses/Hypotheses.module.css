@@ -287,3 +287,30 @@
     font-size: 21px;
   }
 }
+
+/* square stage */
+:global([data-format='square']) .grid.single {
+  grid-template-columns: minmax(0, 1fr);
+}
+:global([data-format='square']) .card.stage {
+  padding: 28px 32px;
+  gap: 20px;
+}
+:global([data-format='square']) .stage .trigger {
+  font-size: 25px;
+}
+:global([data-format='square']) .stage .cite {
+  font-size: var(--fs-sm);
+}
+:global([data-format='square']) .stage .citeRow {
+  padding: 8px 14px;
+}
+:global([data-format='square']) .stage .chart {
+  height: 160px;
+}
+:global([data-format='square']) .metrics {
+  gap: 18px;
+}
+:global([data-format='square']) .metric .v {
+  font-size: 24px;
+}

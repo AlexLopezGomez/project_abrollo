@@ -277,3 +277,83 @@
   text-align: right;
   color: var(--text);
 }
+
+/* square stage: hypothesis panel goes landscape — claim on the left, weight chips on the right */
+:global([data-format='square']) .panel {
+  padding: 18px 22px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    'head group'
+    'trigger scroll'
+    'facts total';
+  column-gap: 28px;
+  row-gap: 0;
+}
+:global([data-format='square']) .head {
+  grid-area: head;
+  margin-bottom: 8px;
+}
+:global([data-format='square']) .name {
+  font-size: 24px;
+}
+:global([data-format='square']) .trigger {
+  grid-area: trigger;
+  font-size: 16px;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+:global([data-format='square']) .facts {
+  grid-area: facts;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 0;
+  padding: 10px 0 0;
+  border-bottom: 0;
+  white-space: nowrap;
+}
+:global([data-format='square']) .fact .k {
+  font-size: 12px;
+}
+:global([data-format='square']) .fact .v {
+  font-size: 18px;
+}
+:global([data-format='square']) .progressRow {
+  display: none;
+}
+:global([data-format='square']) .panel > .groupTitle {
+  grid-area: group;
+  margin: 0 0 8px;
+}
+:global([data-format='square']) .scroll {
+  grid-area: scroll;
+}
+:global([data-format='square']) .scroll .groupTitle {
+  margin: 12px 0 6px;
+}
+:global([data-format='square']) .chips {
+  gap: 6px;
+}
+:global([data-format='square']) .chip {
+  height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  gap: 6px;
+}
+:global([data-format='square']) .total {
+  grid-area: total;
+  margin-top: 8px;
+  padding-top: 8px;
+  font-size: 12px;
+  align-self: end;
+}
+/* overview / node panels (no propagation): plain column, just tighter */
+:global([data-format='square']) .stats {
+  margin-bottom: 10px;
+}
+:global([data-format='square']) .legend {
+  margin: 4px 0 10px;
+  gap: 6px;
+}

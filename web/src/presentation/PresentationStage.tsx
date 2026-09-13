@@ -2,40 +2,43 @@ import { useEffect, useMemo, useState } from 'react'
 import styles from './PresentationStage.module.css'
 import { usePresentation } from './PresentationContext'
 import { useAppData } from '../data/RunContext'
-import { presentationConfig } from '../presentation.config'
+import { presentationConfig, STAGE_SIZES, type StageFormat } from '../presentation.config'
 import { Hero } from '../sections/Hero/Hero'
 import { Pipeline } from '../sections/Pipeline/Pipeline'
 import { GraphExplorer } from '../sections/Graph/GraphExplorer'
 import { Hypotheses } from '../sections/Hypotheses/Hypotheses'
 import { Portfolio } from '../sections/Portfolio/Portfolio'
 
-const W = 1920
-const H = 1080
-
-function useStageScale(): number {
-  const [scale, setScale] = useState(() => Math.min(window.innerWidth / W, window.innerHeight / H))
+function useStageScale(format: StageFormat): number {
+  const { width: W, height: H } = STAGE_SIZES[format]
+  const fit = () => Math.min(window.innerWidth / W, window.innerHeight / H)
+  const [scale, setScale] = useState(fit)
   useEffect(() => {
-    const onResize = () => setScale(Math.min(window.innerWidth / W, window.innerHeight / H))
+    const onResize = () => setScale(fit())
+    onResize()
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
-  }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [W, H])
   return scale
 }
 
 /**
- * Locked 1920×1080 stage. Each step is a fresh mount (keyed by step + playToken), so its GSAP
- * timeline plays from zero on entry and on `R`. Nothing here reflows with the window.
+ * Locked stage (1920×1080 `wide` or 1080×1064 `square`, see STAGE_SIZES). Each step is a fresh mount
+ * (keyed by step + playToken + format), so its GSAP timeline plays from zero on entry, on `R` and on `F`.
+ * Nothing here reflows with the window; sections adapt to the format through `[data-format]`.
  */
 export function PresentationStage() {
-  const { step, playToken } = usePresentation()
+  const { step, playToken, format } = usePresentation()
   const { run } = useAppData()
-  const scale = useStageScale()
+  const scale = useStageScale(format)
+  const { width, height } = STAGE_SIZES[format]
   const featured = useMemo(() => {
     const id = presentationConfig.featuredHypothesisId
     return id && run.hypotheses.some((h) => h.id === id) ? id : run.featuredHypothesisId
   }, [run])
 
-  const key = `${run.id}-${step}-${playToken}`
+  const key = `${run.id}-${step}-${playToken}-${format}`
   let content: React.ReactNode
   switch (step) {
     case 0:
@@ -77,8 +80,8 @@ export function PresentationStage() {
   }
 
   return (
-    <div className={styles.root} aria-label="Presentation">
-      <div className={styles.stage} style={{ transform: `translate(-50%, -50%) scale(${scale})` }}>
+    <div className={styles.root} aria-label="Presentation" data-format={format}>
+      <div className={styles.stage} style={{ width, height, transform: `translate(-50%, -50%) scale(${scale})` }}>
         {content}
       </div>
     </div>

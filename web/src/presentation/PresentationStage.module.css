@@ -9,8 +9,6 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 1920px;
-  height: 1080px;
   transform-origin: center center;
   overflow: hidden;
   background: var(--bg);
@@ -24,6 +22,9 @@
 }
 .step.padded {
   padding-block: 44px;
+}
+:global([data-format='square']) .step.padded {
+  padding-block: 40px;
 }
 .stepFill {
   height: 100%;

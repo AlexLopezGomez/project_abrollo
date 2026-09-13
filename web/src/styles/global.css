@@ -237,3 +237,22 @@ html.presenting .section-head {
     --section-pad: 100px;
   }
 }
+
+/* square stage (1080×1064): tighter gutter, stacked section heads */
+[data-format='square'] {
+  --gutter: 56px;
+  --col-gap: 24px;
+}
+[data-format='square'] .section-head {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+[data-format='square'] .section-title {
+  font-size: 44px;
+}
+[data-format='square'] .section-lede {
+  font-size: 17px;
+  max-width: 62ch;
+}
