@@ -32,7 +32,11 @@ export function GraphExplorer({ mode = 'scroll', playToken = 0, featuredId }: Pr
   const [labelMode, setLabelMode] = useState<'auto' | 'all' | 'none'>('auto')
 
   // In stage mode the selection is local (featured hypothesis); on the page it is shared.
-  const hypothesisId = stage ? (featuredId ?? run.featuredHypothesisId) : sel.hypothesisId
+  const featuredDefault = useMemo(() => {
+    const id = presentationConfig.featuredHypothesisId
+    return id && run.hypotheses.some((h) => h.id === id) ? id : run.featuredHypothesisId
+  }, [run])
+  const hypothesisId = stage ? (featuredId ?? featuredDefault) : sel.hypothesisId === 'featured' ? featuredDefault : sel.hypothesisId
   const hypothesis = useMemo(() => run.hypotheses.find((h) => h.id === hypothesisId) ?? null, [run, hypothesisId])
   const dag = useMemo(() => run.dag.find((d) => d.hypothesisId === hypothesisId) ?? null, [run, hypothesisId])
   const propagation = hypothesisId ? (run.propagation[hypothesisId] ?? null) : null

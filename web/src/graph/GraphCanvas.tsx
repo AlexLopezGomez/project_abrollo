@@ -86,8 +86,8 @@ export const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCa
     rendererRef.current?.setSelected(selected ?? -1)
   }, [selected])
 
-  // zoom / pan
-  useEffect(() => {
+  // zoom / pan (layout effect: must exist before parents' useGSAP layout effects call fit())
+  useLayoutEffect(() => {
     const canvas = canvasRef.current
     if (!canvas) return
     const z = zoom<HTMLCanvasElement, unknown>()
